@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/star-border",
+  "slug": "star-border",
+  "name": "STAR BORDER",
+  "titleZh": "星光绕边",
+  "description": "一颗带着短拖尾的小星光沿深色按钮的圆角轮廓循环巡游，悬停时按钮轻轻抬升。",
+  "tags": [
+    "button",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--star-border",
+  "detailUrl": "/open-libraries/motion-vault/entries/star-border.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=star-border",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/star-border.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/star-border.md",
+    "sha256": "0c92850a7135bde21152b788a2f568b190428c7e6ddfe18df8350d221efc25cf",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/star-border.json",
+    "sha256": "3ed4044b5d953661298f1deb04966666833009ddbb398c6061cd39259c6e050a"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

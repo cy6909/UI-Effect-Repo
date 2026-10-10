@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/metalab-lp-rebuild",
+  "name": "Merle Photo-Studio Hover Index",
+  "slug": "metalab-lp-rebuild",
+  "titleZh": "Merle Photo-Studio 悬停索引",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A dark full-screen index for a photography & art-direction studio where hovering a series in the left list crossfades a full-bleed background image and reveals a positioned project preview (image, title, tags, description). GSAP tweens a clip-path wipe on the preview image plus staggered x/y + opacity transforms driven by per-item layout variants, all triggered on mouseenter/mouseleave.",
+  "tags": [
+    "hover",
+    "gsap",
+    "clip-path",
+    "image-reveal",
+    "crossfade",
+    "portfolio",
+    "dark",
+    "minimal",
+    "interactive",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/metalab-lp-rebuild",
+  "docsUrl": "https://motionprompts.dev/component/metalab-lp-rebuild/",
+  "demoUrl": "https://motionprompts.dev/components/metalab-lp-rebuild/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/metalab-lp-rebuild.webp",
+  "videoUrl": "https://motionprompts.dev/previews/metalab-lp-rebuild.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/metalab-lp-rebuild.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/metalab-lp-rebuild.md",
+    "sha256": "d7e8c39320c6e2fecbe4554b5b53ac77244f599e8e841dc9110ecbf0da3ed9d0",
+    "upstreamUrl": "https://motionprompts.dev/prompts/metalab-lp-rebuild.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/metalab-lp-rebuild/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.1,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 21,
+      "bytes": 2071353,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "gsap",
+    "motion_signature": "hover-swapped clip-path preview with directional text slides",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/metalab-lp-rebuild/"
+}

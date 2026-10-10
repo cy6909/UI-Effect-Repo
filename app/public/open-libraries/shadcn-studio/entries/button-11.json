@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-11",
+  "slug": "button-11",
+  "name": "Button 11",
+  "titleZh": "按钮 button-11",
+  "description": "A Primary Button with gradient background effect for primary action",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-11.json",
+    "sha256": "a29b5c25cec5064c4a586785c10c1b46aa7808b029689b97737444d79d0c7c59"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": []
+}

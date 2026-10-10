@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/dotted-map",
+  "slug": "dotted-map",
+  "name": "DOTTED MAP",
+  "titleZh": "点阵地图",
+  "description": "网格圆点拼出抽象大陆轮廓，陆地密、海洋疏；三条弧线虚线在四个城市点之间流动，城市点带着柔和的脉冲圈。",
+  "tags": [
+    "svg",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--dotted-map",
+  "detailUrl": "/open-libraries/motion-vault/entries/dotted-map.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=dotted-map",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/dotted-map.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/dotted-map.md",
+    "sha256": "c3017c59a76e67b744af2e8d9c528c2309eb0e2c82962c69644e95c3d6bf8560",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/dotted-map.json",
+    "sha256": "622b4a3449e393d0722120fd8adf9574b0093bd637d88a919080a47212a4b8f5"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

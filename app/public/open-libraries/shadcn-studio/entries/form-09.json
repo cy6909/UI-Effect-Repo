@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-09",
+  "slug": "form-09",
+  "name": "Form 9",
+  "titleZh": "表单 form-09",
+  "description": "Form with date picker in popover for date selection",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-09.json",
+    "sha256": "cf75b1fbbf2b4b78c1b8d42c854df7c354cc6293ec48b7e0be2a8d8bb05a317b"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "calendar",
+    "form",
+    "popover",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

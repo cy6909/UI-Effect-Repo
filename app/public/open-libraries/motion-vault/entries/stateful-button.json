@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/stateful-button",
+  "slug": "stateful-button",
+  "name": "STATEFUL BUTTON",
+  "titleZh": "状态变迁按钮",
+  "description": "点击后 '部署' 变为旋转 loading 环，再变为打勾 '完成'，按钮宽度随内容弹性伸缩，随后自动复位。",
+  "tags": [
+    "button",
+    "svg",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--stateful-button",
+  "detailUrl": "/open-libraries/motion-vault/entries/stateful-button.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=stateful-button",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/stateful-button.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/stateful-button.md",
+    "sha256": "c9a3b5cd41beb361ebf98822049935f296f488f6b4a40912c9577b450a184265",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/stateful-button.json",
+    "sha256": "115541901472e33f45c198812945ff00dd5f525b36e03162b41aadc3a3ce8737"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/physics-anim",
+  "name": "Interactive Divs with Physics",
+  "slug": "physics-anim",
+  "titleZh": "物理交互元素",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "Twelve grayscale polaroid-style image cards float over a full-screen p5.js canvas inside a zero-gravity Matter.js world, each DOM div repositioned every frame from its physics body. Moving the mouse near a card fires a random Matter.js Body.applyForce, so nearby cards scatter, drift with air friction and restitution, and bounce off the invisible viewport walls.",
+  "tags": [
+    "physics",
+    "matter-js",
+    "p5js",
+    "mouse-interaction",
+    "floating-cards",
+    "image-scatter",
+    "interactive",
+    "cinematic",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/physics-anim",
+  "docsUrl": "https://motionprompts.dev/component/physics-anim/",
+  "demoUrl": "https://motionprompts.dev/components/physics-anim/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/physics-anim.webp",
+  "videoUrl": "https://motionprompts.dev/previews/physics-anim.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/physics-anim.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/physics-anim.md",
+    "sha256": "3ed77a7e1f8893658fd4f385e1b8056278d25aba4579d7b7ea354f4b11943da7",
+    "upstreamUrl": "https://motionprompts.dev/prompts/physics-anim.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/physics-anim/prompt.md"
+  },
+  "motion": {
+    "trigger": null,
+    "libs": [
+      "p5",
+      "matter-js"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 12,
+      "bytes": 1744163,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "INTEGRATOR",
+    "engine": "physics",
+    "motion_signature": "zero-gravity Matter.js cards scattered by cursor",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "matter-js"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/physics-anim/"
+}

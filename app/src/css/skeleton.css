@@ -1,0 +1,40 @@
+.skeleton-pulse {
+  background: linear-gradient(110deg, var(--skeleton-base) 8%, var(--skeleton-shine) 18%, var(--skeleton-base) 33%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.4s linear infinite;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-pulse {
+    animation: none;
+    background: var(--skeleton-base);
+  }
+}
+
+.skeleton-loader {
+  user-select: none;
+  pointer-events: none;
+  border-radius: 4px;
+}
+
+.skeleton-content {
+  width: 100%;
+}
+
+.skeleton-loader--docs {
+  max-width: var(--docs-content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}

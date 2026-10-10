@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/curve-carousel",
+  "slug": "curve-carousel",
+  "name": "CURVE CAROUSEL",
+  "titleZh": "环线飞行轮播",
+  "description": "七张卡片沿着一条闭合的 3D 环形跑道滑行巡播，转向时像过山车一样侧倾压弯；点击左右两侧切换。",
+  "tags": [
+    "3d",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--curve-carousel",
+  "detailUrl": "/open-libraries/motion-vault/entries/curve-carousel.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=curve-carousel",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/curve-carousel.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/curve-carousel.md",
+    "sha256": "be6acb77d66e2b6193d55fdb87ce2cfd1b292e080f78b63469962424b766b659",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/curve-carousel.json",
+    "sha256": "5dc8fb76ca88a8b44232ce486e64785f663c56421af0c30762cfc55727737a92"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

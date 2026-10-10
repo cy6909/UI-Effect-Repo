@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/autoplay-hero-progress",
+  "name": "Autoplay Hero with Progress",
+  "slug": "autoplay-hero-progress",
+  "titleZh": "Autoplay Hero with Progress · 轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A full-bleed hero carousel driven by a CLOCK rather than by the scroll, with one progress tick per slide filling over exactly that slide's duration. Deliberately built with no GSAP, no ScrollTrigger and no Lenis: wiring a time-driven hero to a scroll library would be pretending. A single rAF loop drives both the advance and the bar fill — a CSS transition on the bar plus a `setInterval` for the slide drift apart the first time the tab is backgrounded or the user pauses, and then the bar lies about when the next slide lands. The loop stops when the hero leaves the viewport (IntersectionObserver) and when the tab is hidden (`visibilitychange`), resuming without a jump because the epoch is rebased rather than the elapsed time preserved. Manual advance restarts the clock. Crossfade is opacity-only: with full-bleed photography a translate reads as a jolt because the eye tracks the image edge. Reduced motion stops the autoplay but keeps the controls working. Dressed as a repertory cinema season: Unbounded + Rethink Sans, near-black, cream and red.",
+  "tags": [
+    "carousel",
+    "hero",
+    "autoplay",
+    "progress",
+    "timer",
+    "raf",
+    "crossfade",
+    "intersection-observer",
+    "accessible",
+    "no-gsap",
+    "cinematic",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/autoplay-hero-progress",
+  "docsUrl": "https://motionprompts.dev/component/autoplay-hero-progress/",
+  "demoUrl": "https://motionprompts.dev/components/autoplay-hero-progress/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/autoplay-hero-progress.webp",
+  "videoUrl": "https://motionprompts.dev/previews/autoplay-hero-progress.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/autoplay-hero-progress.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/autoplay-hero-progress.md",
+    "sha256": "99b1d93471626df44b1c7507f9aa4273afef1e6ee1a4b78d7191596be326e28b",
+    "upstreamUrl": "https://motionprompts.dev/prompts/autoplay-hero-progress.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/autoplay-hero-progress/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.7,
+      5.2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 474173,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "STEP-MACHINE",
+    "engine": "raf",
+    "motion_signature": "time-driven hero: a single requestAnimationFrame loop advances a four-slide opacity crossfade every 5.2s and writes the active progress tick width from the same clock; paused by IntersectionObserver when off-screen and by visibilitychange when the tab is hidden, resuming by rebasing the epoch so it never jumps; manual advance restarts the clock. No GSAP, no ScrollTrigger, no Lenis",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/autoplay-hero-progress/"
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/radial-rotating-texts",
+  "name": "Radial Rotating Text Layout",
+  "slug": "radial-rotating-texts",
+  "titleZh": "放射旋转文字布局",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "Sixty uppercase text labels are laid out in a huge ring using gsap.set with cosine/sine positioning and a per-item rotation. Scrolling the very tall page feeds window.scrollY into an angle offset so gsap.to spins the whole ring with an elastic.out ease, while a gsap-driven custom cursor trails the mouse (power3.out) and hovering any label reveals a preview image inside the cursor via an animated clip-path polygon wipe.",
+  "tags": [
+    "radial",
+    "circular",
+    "rotating-text",
+    "scroll",
+    "hover",
+    "custom-cursor",
+    "clip-path",
+    "image-reveal",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/radial-rotating-texts",
+  "docsUrl": "https://motionprompts.dev/component/radial-rotating-texts/",
+  "demoUrl": "https://motionprompts.dev/components/radial-rotating-texts/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/radial-rotating-texts.webp",
+  "videoUrl": "https://motionprompts.dev/previews/radial-rotating-texts.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/radial-rotating-texts.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/radial-rotating-texts.md",
+    "sha256": "c679f4ce67e165e360c8e8c5449dea33efc2f71c6cb49115476b1b1b34cece6a",
+    "upstreamUrl": "https://motionprompts.dev/prompts/radial-rotating-texts.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/radial-rotating-texts/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 3000,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.05,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 60,
+      "bytes": 12698956,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "scroll-mapped ring rotation with cursor image reveal",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/radial-rotating-texts/"
+}

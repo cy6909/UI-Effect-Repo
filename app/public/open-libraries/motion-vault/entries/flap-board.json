@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/flap-board",
+  "slug": "flap-board",
+  "name": "FLAP BOARD",
+  "titleZh": "机场翻牌板",
+  "description": "Vestaboard 式机场信息牌：8 列深色翻牌逐格上下翻动换词，翻动中段闪过一次随机字符，列间 60ms 错峰，每 4 秒换一词。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--flap-board",
+  "detailUrl": "/open-libraries/motion-vault/entries/flap-board.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=flap-board",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/flap-board.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/flap-board.md",
+    "sha256": "44981040449c85b62700f6b64635a2aab235e49844754703ee78a7a31c8d5d4a",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/flap-board.json",
+    "sha256": "c6e031cdb067f33477ec07d7682d030243d8b7a3f4929007724aed2ca35d26e3"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

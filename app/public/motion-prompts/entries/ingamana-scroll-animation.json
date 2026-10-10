@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/ingamana-scroll-animation",
+  "name": "Ingamana Scroll Animation",
+  "slug": "ingamana-scroll-animation",
+  "titleZh": "Ingamana 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A 10-row project grid whose rows expand from 125% to 500% width (250% to 750% on mobile) based on each row's individual scroll progress through the viewport, producing a continuous zoom-in on the images as you scroll. Driven by a gsap.ticker callback reading window.scrollY (no ScrollTrigger) with Lenis smooth scroll; the section height is pre-computed for the fully expanded state.",
+  "tags": [
+    "scroll",
+    "grid",
+    "zoom",
+    "expand",
+    "gallery",
+    "lenis",
+    "ticker",
+    "images",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/ingamana-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/ingamana-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/ingamana-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/ingamana-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/ingamana-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/ingamana-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/ingamana-scroll-animation.md",
+    "sha256": "64cb232cbbe3eb812fca7b12363ba7a67e3e6f20ae13bcc89a4cc5b3c6c1fb9a",
+    "upstreamUrl": "https://motionprompts.dev/prompts/ingamana-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/ingamana-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      0.25
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 16,
+      "bytes": 2240078,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap+raf",
+    "motion_signature": "linear per-row width expansion (125%→500%; 250%→750% below 1000px viewport) mapped straight from document scrollY with no easing or inertia of its own, recomputed for all 10 rows on every gsap.ticker frame; Lenis supplies the only smoothing",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/ingamana-scroll-animation/"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-12",
+  "slug": "alert-12",
+  "name": "Alert 12",
+  "titleZh": "提示条 alert-12",
+  "description": "Information/error indicator alert with destructive background styling and informational content.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-12",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-12.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-12.json",
+    "sha256": "ba232445a6cf3c99d79ed88c97ca7994e449ff467115f59166d90b4f9d8b101b"
+  },
+  "registryDependencies": [
+    "alert"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/distorted-sphere",
+  "slug": "distorted-sphere",
+  "name": "DISTORTED SPHERE",
+  "titleZh": "噪声扭曲球体",
+  "description": "球体表面被 Simplex 噪声持续扭曲，像一团有生命的流体。",
+  "tags": [
+    "3d",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--distorted-sphere",
+  "detailUrl": "/open-libraries/motion-vault/entries/distorted-sphere.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=distorted-sphere",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/distorted-sphere.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/distorted-sphere.md",
+    "sha256": "5aa3a8cc42799db1c9b54c58391670e00eea21c0480108e940a12409b1d66cfe",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/distorted-sphere.json",
+    "sha256": "23b2b42385d6bf461a5ed470af88ef685ff29a53bbbb88e6b04f19686b48fa87"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

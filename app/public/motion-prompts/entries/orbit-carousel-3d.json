@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/orbit-carousel-3d",
+  "name": "3D Orbit Carousel",
+  "slug": "orbit-carousel-3d",
+  "titleZh": "3D 轨道轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "Ten photo panels placed with rotateY and translateZ around a pivot: the wheel (or a touch drag) turns the orbit through a lerped rAF loop while a glass preview at the centre counter-rotates to keep facing the camera and crossfades to the active photo. The pointer tilts the whole stage on both axes, panels fade and darken with their angle to the camera (depth fog), and a title chip updates with the active slide.",
+  "tags": [
+    "slider",
+    "carousel",
+    "3d",
+    "orbit",
+    "wheel",
+    "lerp",
+    "glass",
+    "depth",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/orbit-carousel-3d",
+  "docsUrl": "https://motionprompts.dev/component/orbit-carousel-3d/",
+  "demoUrl": "https://motionprompts.dev/components/orbit-carousel-3d/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/orbit-carousel-3d.webp",
+  "videoUrl": "https://motionprompts.dev/previews/orbit-carousel-3d.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/orbit-carousel-3d.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/orbit-carousel-3d.md",
+    "sha256": "3fd2f1395bc3ec6c3f51ce3cff2c049d7b9cfe1f70cef6342440602bef266344",
+    "upstreamUrl": "https://motionprompts.dev/prompts/orbit-carousel-3d.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/orbit-carousel-3d/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.18,
+      0.35
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 442659,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "touch-branch",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "raf-lerp",
+    "motion_signature": "lerped orbit rotation from wheel delta, counter-rotated centre preview with crossfade, two-axis pointer tilt, per-frame depth fog",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/orbit-carousel-3d/"
+}

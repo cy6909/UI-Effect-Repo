@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/combination-lock",
+  "slug": "combination-lock",
+  "name": "COMBINATION LOCK",
+  "titleZh": "滚动密码锁",
+  "description": "滚动驱动保险箱刻度盘：先转一圈半到 7，反向回转到 2，再回落到 5，三位密码逐格点亮，最后箱门带着 3D 透视摆开，露出机密卷宗。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--combination-lock",
+  "detailUrl": "/open-libraries/motion-vault/entries/combination-lock.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=combination-lock",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/combination-lock.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/combination-lock.md",
+    "sha256": "78245611905a1d25b2574b6ebe383b32e1e55eef7bb4e11f2f0684b15ed79507",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/combination-lock.json",
+    "sha256": "4b9b66e986e8116e56190ae312b7bb54099a6f74c8ececc0c83e411d6a0a5fb3"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

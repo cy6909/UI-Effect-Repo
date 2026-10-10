@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/glow-border-card",
+  "slug": "glow-border-card",
+  "name": "GLOW BORDER",
+  "titleZh": "发光边框卡",
+  "description": "一圈渐变光沿卡片边框缓缓流动，像被点亮的轮廓。",
+  "tags": [
+    "card",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--glow-border-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/glow-border-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=glow-border-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/glow-border-card.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/glow-border-card.md",
+    "sha256": "14b7c61a8726d2081b432ba2821d1c030eb635c50180c0fbf8a01fe7178e2350",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/glow-border-card.json",
+    "sha256": "d5d5d40716d371f9405acb8bdd3f8cbf813cfa74ac66a2fa1895eb90beb442f2"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

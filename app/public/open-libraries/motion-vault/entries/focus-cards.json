@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/focus-cards",
+  "slug": "focus-cards",
+  "name": "FOCUS CARDS",
+  "titleZh": "聚焦卡组",
+  "description": "横排三张小卡：悬停某张时它微微放大并清晰突出，其余两张模糊、缩小、变暗退后，弹簧过渡干脆利落。",
+  "tags": [
+    "card",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--focus-cards",
+  "detailUrl": "/open-libraries/motion-vault/entries/focus-cards.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=focus-cards",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/focus-cards.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/focus-cards.md",
+    "sha256": "c29e3a91a0e02864497ee4bd26ae6f71ef00a2e46da8e9f5aafb6dc0bee5f187",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/focus-cards.json",
+    "sha256": "edba539bbe27c98e088cb6853790a1a8aa4dc3bb58f92d7784df3ee983b8e043"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

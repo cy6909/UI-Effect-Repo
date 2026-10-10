@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/webgpu-ascii-hero",
+  "name": "WebGPU ASCII Hero",
+  "slug": "webgpu-ascii-hero",
+  "titleZh": "WebGPU 字符首屏",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "Full-bleed hero whose subject is a raymarched twisted torus quantised to monospaced characters entirely on the GPU — the first WebGPU component in the catalogue. Two passes and no mesh: an SDF scene shader raymarches the solid with tetrahedral normals and a Fresnel rim, then an ASCII pass reads it and picks one of ten 5x6 glyphs bit-packed into a u32 each, so there is no font, no atlas and no asset to load. The scene is drawn at the resolution of the character grid — one texel per glyph — which is why a 1600x1000 hero only raymarches ~13.000 pixels, under 1% of the canvas, and holds 60fps on integrated graphics. The key light hangs off the pointer with an exponentially damped follow, a click sends a rim pulse that decays on its own, and the whole ramp from sparse dots to dense asterisks IS the shading: at ten levels the tonal range is the modelling. A static poster is the LCP and never leaves the DOM, a real capability gate (it requests the adapter, it does not sniff navigator.gpu) decides whether the canvas is ever created, and an IntersectionObserver stops the loop the moment the hero leaves the screen.",
+  "tags": [
+    "webgpu",
+    "wgsl",
+    "ascii",
+    "raymarching",
+    "sdf",
+    "shader",
+    "hero",
+    "poster",
+    "monospace",
+    "vgpu",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/webgpu-ascii-hero",
+  "docsUrl": "https://motionprompts.dev/component/webgpu-ascii-hero/",
+  "demoUrl": "https://motionprompts.dev/components/webgpu-ascii-hero/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/_placeholder.svg",
+  "videoUrl": null,
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/webgpu-ascii-hero.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/webgpu-ascii-hero.md",
+    "sha256": "10021bd8e456c877ab1ccb347c787392c22153ca8008b0fff88c6f6bca0303da",
+    "upstreamUrl": "https://motionprompts.dev/prompts/webgpu-ascii-hero.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/webgpu-ascii-hero/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "vgpu"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      0.09,
+      0.6
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 73296,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "touch-branch",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "webgpu-raf",
+    "motion_signature": "rAF loop with exponentially damped pointer follow driving a WGSL uniform; two-pass raymarch to a grid-sized target, then GPU glyph quantisation",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "vgpu"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/webgpu-ascii-hero/"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-10",
+  "slug": "input-10",
+  "name": "Input 10",
+  "titleZh": "输入框 input-10",
+  "description": "An email input field with right-aligned helper text for privacy assurance",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-10.json",
+    "sha256": "f33e07a6db8cd7a00fe5fa44e68c24de15109116f4200b471aa80662db295ddf"
+  },
+  "registryDependencies": [
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

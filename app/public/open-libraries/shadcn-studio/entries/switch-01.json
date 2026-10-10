@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/switch-01",
+  "slug": "switch-01",
+  "name": "Switch 1",
+  "titleZh": "开关 switch-01",
+  "description": "A basic switch component with label for simple on/off controls",
+  "tags": [
+    "switch",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--switch-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/switch-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/switch",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/switch-01.json",
+    "sha256": "212d7f455532b20c9c893ab175a54fd910be60f569bf105f8ec9425eb4340cd3"
+  },
+  "registryDependencies": [
+    "label",
+    "switch"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/sticky-cards-ashfall-rebuild-js",
+  "name": "Ashfall Sticky Cards Scroll",
+  "slug": "sticky-cards-ashfall-rebuild-js",
+  "titleZh": "Ashfall 吸附卡片滚动",
+  "category": "Components",
+  "source": "motion-prompts",
+  "sourceCategory": "cards",
+  "description": "Five image cards stacked in a centered container are revealed one at a time while a Lenis-driven, ScrollTrigger-pinned section (4 viewport heights) is scrubbed: each front card scales down to 0.5 and rotates 10deg while its image zooms to 1.5, and the next card slides up from y:100% to y:0% to take its place.",
+  "tags": [
+    "sticky",
+    "stacked-cards",
+    "scroll",
+    "pin",
+    "scrub",
+    "scale",
+    "rotate",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/sticky-cards-ashfall-rebuild-js",
+  "docsUrl": "https://motionprompts.dev/component/sticky-cards-ashfall-rebuild-js/",
+  "demoUrl": "https://motionprompts.dev/components/sticky-cards-ashfall-rebuild-js/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/sticky-cards-ashfall-rebuild-js.webp",
+  "videoUrl": "https://motionprompts.dev/previews/sticky-cards-ashfall-rebuild-js.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/sticky-cards-ashfall-rebuild-js.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/sticky-cards-ashfall-rebuild-js.md",
+    "sha256": "0d41152b93fb6c883c08b41ecf25842186f674c7be8dde2907b3886a73bfb77f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/sticky-cards-ashfall-rebuild-js.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/sticky-cards-ashfall-rebuild-js/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 400,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": [
+      1,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 1649534,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scrubbed pinned stack, cards shrink-rotate as next rises",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/sticky-cards-ashfall-rebuild-js/"
+}

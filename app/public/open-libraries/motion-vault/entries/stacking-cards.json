@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/stacking-cards",
+  "slug": "stacking-cards",
+  "name": "SCROLL STACK",
+  "titleZh": "滚动堆叠卡",
+  "description": "向下滚动时卡片一张张堆叠压上，前一张微微缩小压暗——经典的滚动叙事。",
+  "tags": [
+    "card",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--stacking-cards",
+  "detailUrl": "/open-libraries/motion-vault/entries/stacking-cards.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=stacking-cards",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/stacking-cards.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/stacking-cards.md",
+    "sha256": "567a46ca8fc704a0374327d9c50d18993552ff4b1386f7face59a7535ed02a4c",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/stacking-cards.json",
+    "sha256": "b0214c7326b8f077e44db8d0f39033793ba15bac1deabab7ee36c089efbfed65"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-17",
+  "slug": "calendar-17",
+  "name": "Calendar 17",
+  "titleZh": "日历 calendar-17",
+  "description": "Calendar with week numbers displayed for week-based scheduling",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-17",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-17.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-17.json",
+    "sha256": "d02839f3acd22749fd4adb02486d0a06d7de9ba162738d92cb312f4c62c52186"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": []
+}

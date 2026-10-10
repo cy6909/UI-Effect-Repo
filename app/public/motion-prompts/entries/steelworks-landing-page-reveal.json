@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/steelworks-landing-page-reveal",
+  "name": "Steelworks Landing Page Reveal",
+  "slug": "steelworks-landing-page-reveal",
+  "titleZh": "Steelworks 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "On-load preloader and hero reveal: a white progress bar scales across a dark overlay that wipes away via clip-path, five small rotated images glide in as a centered row with CustomEase, then the side images fly off-screen while the center one expands to a fullscreen hero as nav, headline and social links reveal line by line with SplitText masks.",
+  "tags": [
+    "preloader",
+    "reveal",
+    "hero",
+    "intro",
+    "images",
+    "split-text",
+    "custom-ease",
+    "clip-path",
+    "on-load",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/steelworks-landing-page-reveal",
+  "docsUrl": "https://motionprompts.dev/component/steelworks-landing-page-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/steelworks-landing-page-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/steelworks-landing-page-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/steelworks-landing-page-reveal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/steelworks-landing-page-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/steelworks-landing-page-reveal.md",
+    "sha256": "9e73f10fe1f2366a261690ec3b43e6345444028c9dae243f3a33319da2cb66ba",
+    "upstreamUrl": "https://motionprompts.dev/prompts/steelworks-landing-page-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/steelworks-landing-page-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "SplitText",
+      "CustomEase"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      1,
+      1.5
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 5,
+      "bytes": 861073,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "single on-load GSAP timeline (~7.4s wall incl. 1s delay), zero scroll input: brass bar scales in on left origin then retracts from right, black full-viewport overlay clip-path wipes up overlapping it, five 0.2-scaled rotated cards slide from off-screen-left into a centered row on a 0.025s cascade, the outer four fly off ±100vw while the middle card scales to fullscreen, then masked SplitText lines rise y 125%->0 at 0.1 stagger",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/steelworks-landing-page-reveal/"
+}

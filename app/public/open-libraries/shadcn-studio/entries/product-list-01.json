@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/product-list-01",
+  "slug": "product-list-01",
+  "name": "Product List 1",
+  "titleZh": "界面组件 product-list-01",
+  "description": "Three-column grid layout with product cards featuring centered images, product names with badges, separator lines, pricing with sale discounts, wishlist checkboxes and shopping cart icons",
+  "tags": [
+    "product-list",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--product-list-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/product-list-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/product-list-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/product-list-01.json",
+    "sha256": "640b90e9264e8798b0afc106862c67ea95894d13570b3601041895b146e8f5b8"
+  },
+  "registryDependencies": [
+    "badge",
+    "button",
+    "card",
+    "separator",
+    "utils"
+  ],
+  "dependencies": [
+    "@radix-ui/react-checkbox",
+    "lucide-react"
+  ]
+}

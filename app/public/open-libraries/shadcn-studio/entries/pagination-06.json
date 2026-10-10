@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pagination-06",
+  "slug": "pagination-06",
+  "name": "Pagination 6",
+  "titleZh": "分页 pagination-06",
+  "description": "A pagination component with fully rounded button styling for modern appearance",
+  "tags": [
+    "pagination",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--pagination-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pagination-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/pagination",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pagination-06.json",
+    "sha256": "636bb7a8e0626c8d9f73a03efeaf4147fef95d28d2583bdf98a7b409d31ef009"
+  },
+  "registryDependencies": [
+    "pagination"
+  ],
+  "dependencies": []
+}

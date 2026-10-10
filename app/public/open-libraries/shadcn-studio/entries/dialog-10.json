@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-10",
+  "slug": "dialog-10",
+  "name": "Dialog 10",
+  "titleZh": "对话框 dialog-10",
+  "description": "Referral program dialog with avatar display and email sharing functionality",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-10.json",
+    "sha256": "69a1a2036aad42442bcc9d66abade418a30da781d3f7033d7c30e56a9bebc2e9"
+  },
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "dialog",
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

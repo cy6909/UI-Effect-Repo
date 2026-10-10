@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/features-section-01",
+  "slug": "features-section-01",
+  "name": "Features 1",
+  "titleZh": "界面组件 features-section-01",
+  "description": "Three-column grid features section with header, description, \"See all features\" button, and feature cards containing avatar icons, titles, and descriptions",
+  "tags": [
+    "features-section",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--features-section-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/features-section-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/features-section-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/features-section-01.json",
+    "sha256": "d8eeff35f051e30b6ecb82fb3388ed5ca04772f9857fae6039a752f6ea08c01f"
+  },
+  "registryDependencies": [
+    "avatar",
+    "card",
+    "button",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

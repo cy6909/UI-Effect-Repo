@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-37",
+  "slug": "select-37",
+  "name": "Select 37",
+  "titleZh": "选择器 select-37",
+  "description": "An animated select dropdown with slide-in from bottom transition effect",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-37",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-37.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-37.json",
+    "sha256": "cb3fae7071e4d35ba4e7e5134ff5fd0012fc7f75c9d2b24e7da32479a2502f06"
+  },
+  "registryDependencies": [
+    "label",
+    "select"
+  ],
+  "dependencies": []
+}

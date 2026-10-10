@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/particle-network",
+  "slug": "particle-network",
+  "name": "PARTICLE NETWORK",
+  "titleZh": "星座网络",
+  "description": "Canvas 粒子如星座般漂移，距离相近的节点自动连线；移动鼠标会轻轻吸引附近粒子。",
+  "tags": [
+    "particle",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--particle-network",
+  "detailUrl": "/open-libraries/motion-vault/entries/particle-network.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=particle-network",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/particle-network.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/particle-network.md",
+    "sha256": "ff52d27e6225f3ff13f0bd64599afa1dab1ede7d98ad302798b383a53c2eb0be",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/particle-network.json",
+    "sha256": "156116ede3e1c65c71e6b9dcd174b700f10c5d1d54e08fe3f72a01a2eee424c6"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

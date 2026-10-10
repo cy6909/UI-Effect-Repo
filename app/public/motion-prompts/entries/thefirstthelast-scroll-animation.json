@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/thefirstthelast-scroll-animation",
+  "name": "TheFirstTheLast Scroll Animation",
+  "slug": "thefirstthelast-scroll-animation",
+  "titleZh": "TheFirstTheLast 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned section where six rotated product cards stack up one after another from the bottom of the viewport as you scroll, then fly off toward the top-left corner. A single ScrollTrigger (pin + scrub over 8x viewport height, Lenis-smoothed) drives an onUpdate handler that maps scroll progress to each card's y-entry and staggered x/y exit offset.",
+  "tags": [
+    "scroll",
+    "sticky-cards",
+    "pin",
+    "scrub",
+    "stacking",
+    "gsap",
+    "lenis",
+    "editorial",
+    "product-cards",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/thefirstthelast-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/thefirstthelast-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/thefirstthelast-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/thefirstthelast-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/thefirstthelast-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/thefirstthelast-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/thefirstthelast-scroll-animation.md",
+    "sha256": "413ac1f520e969cd894ccfd6b4d9b541da60b836143916b43e69d071508a54fa",
+    "upstreamUrl": "https://motionprompts.dev/prompts/thefirstthelast-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/thefirstthelast-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 800,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 703746,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "pinned scrubbed card stack, index-staggered sequential fly-off",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/thefirstthelast-scroll-animation/"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-08",
+  "slug": "input-08",
+  "name": "Input 8",
+  "titleZh": "输入框 input-08",
+  "description": "An input field with fully rounded borders for a modern appearance",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-08.json",
+    "sha256": "c0423a78fa315918f6e77309594ff3f0da944caeb4a95428e4eb9bad4278ef76"
+  },
+  "registryDependencies": [
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

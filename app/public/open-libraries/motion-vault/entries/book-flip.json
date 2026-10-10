@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/book-flip",
+  "slug": "book-flip",
+  "name": "BOOK FLIP",
+  "titleZh": "桌上翻书",
+  "description": "一本摊开在桌面上的书：点击或静置片刻，一页纸带着自然的卷曲弧度翻过去，翻到底再往回翻。",
+  "tags": [
+    "3d",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--book-flip",
+  "detailUrl": "/open-libraries/motion-vault/entries/book-flip.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=book-flip",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/book-flip.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/book-flip.md",
+    "sha256": "04a12cea674475f39a30d25256945ec455dea3d5cb4b6f390f58096fc876bf2d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/book-flip.json",
+    "sha256": "0cb196d9d86a2a3c657600062b5006a730652d93de28458d19ddd93294920896"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/confetti-button",
+  "slug": "confetti-button",
+  "name": "CONFETTI BURST",
+  "titleZh": "彩带庆祝",
+  "description": "点击瞬间 30 片五彩纸屑从按钮中心炸开——向上喷射、翻滚、受重力下落再淡出，按钮同时俏皮地挤压回弹。",
+  "tags": [
+    "button",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--confetti-button",
+  "detailUrl": "/open-libraries/motion-vault/entries/confetti-button.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=confetti-button",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/confetti-button.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/confetti-button.md",
+    "sha256": "a562616b1b9d40797daab502fe5afc98b32ff3eb84df8f08ff2871029a19c3ec",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/confetti-button.json",
+    "sha256": "9d4e5fa40fa15ff7d35765e4a6f03c06c6a7eebb9aae219368abb0cb77f9a628"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

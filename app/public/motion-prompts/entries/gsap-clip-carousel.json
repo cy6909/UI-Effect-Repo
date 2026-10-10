@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/gsap-clip-carousel",
+  "name": "GSAP Clip Carousel",
+  "slug": "gsap-clip-carousel",
+  "titleZh": "GSAP Clip Carousel · 轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A click-to-advance fullscreen product carousel: each click reveals the next image from a center clip-path box that scales to fill the viewport while the active image zooms (scale 2), and the product name transitions via per-character span staggers sliding up and out as the next name rises in. Driven entirely by gsap.to with power3.out eases and animated clipPath polygons.",
+  "tags": [
+    "gsap",
+    "carousel",
+    "clip-path",
+    "click",
+    "image-reveal",
+    "product-showcase",
+    "stagger",
+    "editorial",
+    "fullscreen",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/gsap-clip-carousel",
+  "docsUrl": "https://motionprompts.dev/component/gsap-clip-carousel/",
+  "demoUrl": "https://motionprompts.dev/components/gsap-clip-carousel/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/gsap-clip-carousel.webp",
+  "videoUrl": "https://motionprompts.dev/previews/gsap-clip-carousel.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/gsap-clip-carousel.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/gsap-clip-carousel.md",
+    "sha256": "37984ae0a8900f8c08bf401f014070f09108c199baa9702eb269aa5cabf9d540",
+    "upstreamUrl": "https://motionprompts.dev/prompts/gsap-clip-carousel.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/gsap-clip-carousel/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 10,
+      "bytes": 2174734,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "click-advanced clip-path slide reveal with char stagger",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/gsap-clip-carousel/"
+}

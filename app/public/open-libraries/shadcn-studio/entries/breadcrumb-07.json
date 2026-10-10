@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/breadcrumb-07",
+  "slug": "breadcrumb-07",
+  "name": "Breadcrumb 7",
+  "titleZh": "面包屑 breadcrumb-07",
+  "description": "Interactive breadcrumb with folder state icons and dropdown functionality",
+  "tags": [
+    "breadcrumb",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--breadcrumb-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/breadcrumb-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/breadcrumb",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/breadcrumb-07.json",
+    "sha256": "dc1142db36c357ca3d11ba6bef58b5532a4711fc5c2d4c7ab603a06a0c3eb1c1"
+  },
+  "registryDependencies": [
+    "breadcrumb",
+    "dropdown-menu"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

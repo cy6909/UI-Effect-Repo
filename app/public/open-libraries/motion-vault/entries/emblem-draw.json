@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/emblem-draw",
+  "slug": "emblem-draw",
+  "name": "EMBLEM DRAW",
+  "titleZh": "徽章描绘",
+  "description": "外圆环、山峰、太阳、底部波浪四段路径依次错峰描绘出一枚小徽章，完成后整体轻轻呼吸，点击任意处重播。",
+  "tags": [
+    "svg",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--emblem-draw",
+  "detailUrl": "/open-libraries/motion-vault/entries/emblem-draw.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=emblem-draw",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/emblem-draw.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/emblem-draw.md",
+    "sha256": "68b58819dafcacc719f3aaa8ab01480e5efdc8a6f8c9d233fa65105e61c4e66e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/emblem-draw.json",
+    "sha256": "433ef6064c7cfd584fa4fe19bf7ca399c7d8da9266a772da755d57f2f9ca82df"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

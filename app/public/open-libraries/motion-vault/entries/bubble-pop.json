@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/bubble-pop",
+  "slug": "bubble-pop",
+  "name": "BUBBLE POP",
+  "titleZh": "戳泡泡",
+  "description": "彩虹光泽的泡泡从底部晃晃悠悠上升，点击戳破——水滴四溅加一圈扩散涟漪，解压神器。",
+  "tags": [
+    "particle",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--bubble-pop",
+  "detailUrl": "/open-libraries/motion-vault/entries/bubble-pop.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=bubble-pop",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/bubble-pop.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/bubble-pop.md",
+    "sha256": "ae1afce23fd5d0f9da4b6fa2ba9b249017a2ba16b70847bd17279c1a666aebf5",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/bubble-pop.json",
+    "sha256": "13264107b7fb5ddd3a00d4105d47d3b47de6d341bcc170a6c48d1957783cb221"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

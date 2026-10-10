@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/textarea-17",
+  "slug": "textarea-17",
+  "name": "Textarea 17",
+  "titleZh": "多行输入 textarea-17",
+  "description": "An auto-growing textarea with field-sizing-content that expands with text content",
+  "tags": [
+    "textarea",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--textarea-17",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/textarea-17.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/textarea",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/textarea-17.json",
+    "sha256": "ea2a79642079538ded6f02ce577cc3a36e2172b93451ecedec9a0d8e92da5c71"
+  },
+  "registryDependencies": [
+    "label",
+    "textarea"
+  ],
+  "dependencies": []
+}

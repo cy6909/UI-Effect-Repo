@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-42",
+  "slug": "input-42",
+  "name": "Input 42",
+  "titleZh": "输入框 input-42",
+  "description": "Number field with vertically stacked increment/decrement buttons using React Aria",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-42",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-42.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-42.json",
+    "sha256": "366fc95d7ec76eed7c4cc5237f8a31536a8d3b8974156c2ef37dd7277d8c6dc0"
+  },
+  "registryDependencies": [],
+  "dependencies": [
+    "lucide-react",
+    "react-aria-components"
+  ]
+}

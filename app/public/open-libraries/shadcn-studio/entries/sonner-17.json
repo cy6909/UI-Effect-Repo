@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sonner-17",
+  "slug": "sonner-17",
+  "name": "Sonner 17",
+  "titleZh": "通知 sonner-17",
+  "description": "A solid-styled info toast notification with blue background and white text for prominent messaging",
+  "tags": [
+    "sonner",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sonner-17",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sonner-17.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sonner",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sonner-17.json",
+    "sha256": "4ce2a25abb0dc051f0d18bfe7b8619588e1df13dcade177ac8dd87af8848e577"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "sonner"
+  ]
+}

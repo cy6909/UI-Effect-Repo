@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/bounce-cards",
+  "slug": "bounce-cards",
+  "name": "BOUNCE CARDS",
+  "titleZh": "弹性让位",
+  "description": "五张卡微扇形叠放，悬停某张它抬升转正，相邻卡按距离向两侧倾斜让位，回弹感十足。",
+  "tags": [
+    "card",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--bounce-cards",
+  "detailUrl": "/open-libraries/motion-vault/entries/bounce-cards.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=bounce-cards",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/bounce-cards.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/bounce-cards.md",
+    "sha256": "51664eb31783726716ffe65cdc682ac0faccbcf4614c5f55a918ee6905ba2e17",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/bounce-cards.json",
+    "sha256": "c24d26b590abc7e533c469e9eeaa6f0153b1540b61d5112bf439d39debfd07fe"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

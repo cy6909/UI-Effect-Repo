@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/textarea-04",
+  "slug": "textarea-04",
+  "name": "Textarea 4",
+  "titleZh": "多行输入 textarea-04",
+  "description": "A textarea with right-aligned helper text for guidance",
+  "tags": [
+    "textarea",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--textarea-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/textarea-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/textarea",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/textarea-04.json",
+    "sha256": "d2c3cfe93275e76ff5ddbf4069ffd94f4140d66eccf44dc4ad8d32b1b1643b20"
+  },
+  "registryDependencies": [
+    "label",
+    "textarea"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-08",
+  "slug": "alert-08",
+  "name": "Alert 8",
+  "titleZh": "提示条 alert-08",
+  "description": "Multi-action alert with primary background, multiple buttons, and dismissible interface.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-08.json",
+    "sha256": "b0506de40ceae638ba512355bf16b7f663e6f6c8d6911a0e54e1e63f6d700ba0"
+  },
+  "registryDependencies": [
+    "alert",
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

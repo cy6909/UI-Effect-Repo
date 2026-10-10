@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/mosaic-flip-hover-effect",
+  "name": "Mosaic Flip Hover Effect",
+  "slug": "mosaic-flip-hover-effect",
+  "titleZh": "马赛克翻转悬停",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A 12x9 grid of 3D cube tiles displays an image sliced via per-tile background-position, each tile gently floating on the z-axis in an endless 'breathe' loop. Hovering a project link flips every tile 180deg on rotateY with a center-out grid stagger (power3.inOut), revealing the hovered project's image on the cubes' hidden faces; leaving the list flips back to the default image.",
+  "tags": [
+    "mosaic",
+    "3d",
+    "flip",
+    "hover",
+    "grid",
+    "stagger",
+    "cube",
+    "image-reveal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/mosaic-flip-hover-effect",
+  "docsUrl": "https://motionprompts.dev/component/mosaic-flip-hover-effect/",
+  "demoUrl": "https://motionprompts.dev/components/mosaic-flip-hover-effect/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/mosaic-flip-hover-effect.webp",
+  "videoUrl": "https://motionprompts.dev/previews/mosaic-flip-hover-effect.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/mosaic-flip-hover-effect.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/mosaic-flip-hover-effect.md",
+    "sha256": "9a0827528434afe43cafee172e4d7c7b29cd3865de0ea743970df5eb09d8aede",
+    "upstreamUrl": "https://motionprompts.dev/prompts/mosaic-flip-hover-effect.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/mosaic-flip-hover-effect/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "sine",
+    "duration_range": [
+      0.3,
+      0.5
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 7,
+      "bytes": 1599087,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "gsap",
+    "motion_signature": "center-out 3D cube-grid flip on hover (108 tiles, 0.5s power3.inOut, grid-staggered 0.05 each from center), over a perpetual randomized z-drift breathe (0.6-1.4s sine.inOut, self-recursive)",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/mosaic-flip-hover-effect/"
+}

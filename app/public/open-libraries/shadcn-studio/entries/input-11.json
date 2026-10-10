@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-11",
+  "slug": "input-11",
+  "name": "Input 11",
+  "titleZh": "输入框 input-11",
+  "description": "An email input field with hint text indicating the field is optional",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-11.json",
+    "sha256": "7529798100d6fb01681358ab169d0b6d74632753b54d9890d1c350fdbf7bdba2"
+  },
+  "registryDependencies": [
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

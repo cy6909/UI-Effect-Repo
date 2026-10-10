@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/textarea-08",
+  "slug": "textarea-08",
+  "name": "Textarea 8",
+  "titleZh": "多行输入 textarea-08",
+  "description": "A textarea with colored border (indigo) styling and focus ring effects",
+  "tags": [
+    "textarea",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--textarea-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/textarea-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/textarea",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/textarea-08.json",
+    "sha256": "91d7382f1ab055ec1ebc27a949e0f54d80cfe4b7a0971d1faf955e33bf31a8aa"
+  },
+  "registryDependencies": [
+    "label",
+    "textarea"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/hover-expand-cards",
+  "slug": "hover-expand-cards",
+  "name": "HOVER EXPAND",
+  "titleZh": "悬停扩展卡片组",
+  "description": "一排低饱和渐变色板，悬停某一块时它舒展至约六成宽，其余 siblings 安静让位。",
+  "tags": [
+    "card",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--hover-expand-cards",
+  "detailUrl": "/open-libraries/motion-vault/entries/hover-expand-cards.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=hover-expand-cards",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/hover-expand-cards.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/hover-expand-cards.md",
+    "sha256": "05ef813a272a4ea66f540907069e4cc8c99b0d20959efc5ab6e69151ebc3046b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/hover-expand-cards.json",
+    "sha256": "ff5d54adcae462a5b67161016073d33d23d85fbc84a6729fd10a1cacb9548830"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

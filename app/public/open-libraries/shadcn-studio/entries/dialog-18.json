@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-18",
+  "slug": "dialog-18",
+  "name": "Dialog 18",
+  "titleZh": "对话框 dialog-18",
+  "description": "Profile edit dialog positioned at top-right-aligned of screen",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-18",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-18.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-18.json",
+    "sha256": "49a1cd8f841f5c77066ce98703906fb3c7d8edbb803aa51f5088824a653da3b1"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog",
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/react-pan-canvas",
+  "name": "Pan-Canvas Video Gallery",
+  "slug": "react-pan-canvas",
+  "titleZh": "平移画布视频画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A full-viewport canvas holds an oversized 200vw x 200vh grid of film tiles centered with translate(-50%, -50%); on mousemove the gallery is translated the opposite way of the cursor relative to the container center, eased by a 2000ms cubic-bezier CSS transition, so moving the mouse smoothly pans across the grid. Each tile hover-fades its preview still out and a second frame plus a lower-third film credit in; fixed studio chrome (wordmark, nav, viewfinder corner brackets, pan hint) frames the canvas, and on touch devices the reel auto-drifts via a CSS keyframe animation with credits always visible.",
+  "tags": [
+    "gallery",
+    "mousemove",
+    "pan",
+    "parallax",
+    "interactive",
+    "hover",
+    "video",
+    "cinematic",
+    "cursor",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/react-pan-canvas",
+  "docsUrl": "https://motionprompts.dev/component/react-pan-canvas/",
+  "demoUrl": "https://motionprompts.dev/components/react-pan-canvas/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/react-pan-canvas.webp",
+  "videoUrl": "https://motionprompts.dev/previews/react-pan-canvas.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/react-pan-canvas.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/react-pan-canvas.md",
+    "sha256": "f380c0d9b3ea09722ca1c82e41cce9a5890f97090b8faf8394589d3cb6d938ee",
+    "upstreamUrl": "https://motionprompts.dev/prompts/react-pan-canvas.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/react-pan-canvas/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": 200,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      2.4,
+      52
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 23,
+      "bytes": 2495787,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "css-transition",
+    "motion_signature": "cursor-inverse pan: mousemove writes an absolute translate() on an oversized canvas and a single 2000ms cubic-bezier(0.075,0.82,0.165,1) transition supplies all the inertia — no rAF loop, no lerp, no easing library",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/react-pan-canvas/"
+}

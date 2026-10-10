@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/gta-vi-landing-page-scroll-final",
+  "name": "GTA VI Landing Page Scroll",
+  "slug": "gta-vi-landing-page-scroll-final",
+  "titleZh": "GTA VI 页面滚动",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A GTA-VI-style pinned hero reveal driven by scroll, art-directed as 'Casa Vicente', a Lisbon tailoring house AW26 campaign. A single ScrollTrigger (pin + scrub over 5x viewport height, Lenis-smoothed) fades out the intro wordmark/copy, scales down the hero portrait, and shrinks a giant SVG-masked overlay (500x) so the dark screen retracts into the CASA / VICENTE lockup revealing the scene, then an ivory fade-overlay blooms and a Space Grotesk headline is unveiled with an animated bottom-up gradient wipe.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "logo-reveal",
+    "svg-mask",
+    "layered-parallax",
+    "lenis",
+    "gsap",
+    "cinematic",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/gta-vi-landing-page-scroll-final",
+  "docsUrl": "https://motionprompts.dev/component/gta-vi-landing-page-scroll-final/",
+  "demoUrl": "https://motionprompts.dev/components/gta-vi-landing-page-scroll-final/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/gta-vi-landing-page-scroll-final.webp",
+  "videoUrl": "https://motionprompts.dev/previews/gta-vi-landing-page-scroll-final.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/gta-vi-landing-page-scroll-final.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/gta-vi-landing-page-scroll-final.md",
+    "sha256": "e8309b9f6c8e2849cb3f648fdd1925157be78a758ad76e0e3aba48898a43d195",
+    "upstreamUrl": "https://motionprompts.dev/prompts/gta-vi-landing-page-scroll-final.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/gta-vi-landing-page-scroll-final/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 500,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 2,
+      "bytes": 305016,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scrubbed pinned hero with shrinking SVG-mask logo reveal — zero tweens, every property is a direct function of ScrollTrigger progress under scrub:1 (overlay scale 500→1 exponentially over progress 0→0.85, hero image 1.5→1, headline gradient wipe 0.7→0.85)",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/gta-vi-landing-page-scroll-final/"
+}

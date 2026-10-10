@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dashboard-shell-01",
+  "slug": "dashboard-shell-01",
+  "name": "Dashboard Shell 1",
+  "titleZh": "界面组件 dashboard-shell-01",
+  "description": "Comprehensive dashboard layout with sidebar navigation, breadcrumb header, sales metrics charts, statistics cards, transaction tables, and widget components for business analytics and reporting",
+  "tags": [
+    "dashboard-shell",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dashboard-shell-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dashboard-shell-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/dashboard-shell-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dashboard-shell-01.json",
+    "sha256": "37360e5a013916681833b7688a26553465119b1580e69be4631e1c01f90f4114"
+  },
+  "registryDependencies": [
+    "avatar",
+    "badge",
+    "breadcrumb",
+    "button",
+    "card",
+    "chart",
+    "dropdown-menu",
+    "pagination",
+    "progress",
+    "separator",
+    "sidebar",
+    "table",
+    "utils"
+  ],
+  "dependencies": [
+    "@tanstack/react-table",
+    "lucide-react"
+  ]
+}

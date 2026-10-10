@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/date-picker-07",
+  "slug": "date-picker-07",
+  "name": "Date Picker 7",
+  "titleZh": "日期选择 date-picker-07",
+  "description": "Single date picker with disabled outside days for cleaner calendar view",
+  "tags": [
+    "date-picker",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--date-picker-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/date-picker-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/date-picker",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/date-picker-07.json",
+    "sha256": "08e919d61335e20a954b5643beb7d7c6324ef4e7340c21b45a2d4f6ef39db735"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "label",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

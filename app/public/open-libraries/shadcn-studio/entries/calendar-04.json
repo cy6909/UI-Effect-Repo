@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-04",
+  "slug": "calendar-04",
+  "name": "Calendar 4",
+  "titleZh": "日历 calendar-04",
+  "description": "Multi-month calendar with date range selection across multiple months",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-04.json",
+    "sha256": "384cedb6290352eb2c004a5be0aa0daaeb7ae89d0caf66ec4ff6775c248dc48d"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": [
+    "react-day-picker"
+  ]
+}

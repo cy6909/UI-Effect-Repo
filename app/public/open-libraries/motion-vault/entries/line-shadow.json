@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/line-shadow",
+  "slug": "line-shadow",
+  "name": "LINE SHADOW",
+  "titleZh": "线影文字",
+  "description": "72px 粗体 SHADOW 的“投影”由一片向下生长的 1px 细竖线构成，长度与透明度随时间正弦错落呼吸，像印刷版的错觉阴影。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--line-shadow",
+  "detailUrl": "/open-libraries/motion-vault/entries/line-shadow.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=line-shadow",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/line-shadow.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/line-shadow.md",
+    "sha256": "c35299d130a6167282c8ab13a8866743b742c40a9c70b369214e2034de7f332e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/line-shadow.json",
+    "sha256": "0b158872e206a5ee416a9914ea2cb1cf7fa5c9810912e8b9d982b934bcb93039"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

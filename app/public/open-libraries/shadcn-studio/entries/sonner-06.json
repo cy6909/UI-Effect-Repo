@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sonner-06",
+  "slug": "sonner-06",
+  "name": "Sonner 6",
+  "titleZh": "通知 sonner-06",
+  "description": "A toast notification with action button for interactive user responses",
+  "tags": [
+    "sonner",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sonner-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sonner-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sonner",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sonner-06.json",
+    "sha256": "cc6434457f23ddfe3be0451e73109c8f87eaa38c1b5456623380defa9a070140"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "sonner"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/avatar-10",
+  "slug": "avatar-10",
+  "name": "Avatar 10",
+  "titleZh": "头像 avatar-10",
+  "description": "Avatar with plus icon overlay for adding or editing profile functionality.",
+  "tags": [
+    "avatar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--avatar-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/avatar-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/avatar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/avatar-10.json",
+    "sha256": "fd49829e43053ba82657f4d38c5747314c300ff8f9daff66cf946982d7d01889"
+  },
+  "registryDependencies": [
+    "avatar"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

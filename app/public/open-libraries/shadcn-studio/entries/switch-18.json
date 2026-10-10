@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/switch-18",
+  "slug": "switch-18",
+  "name": "Switch 18",
+  "titleZh": "开关 switch-18",
+  "description": "A list group of switches with icons for skill preference selection across multiple categories",
+  "tags": [
+    "switch",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--switch-18",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/switch-18.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/switch",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/switch-18.json",
+    "sha256": "f58a988cc247fa013dcb208cd39eed4b47e4ffb6123da76190fc12d3d2d8b350"
+  },
+  "registryDependencies": [
+    "label",
+    "switch"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

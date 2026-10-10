@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/fanned-steps-scrub",
+  "name": "Fanned Steps on an Arc",
+  "slug": "fanned-steps-scrub",
+  "titleZh": "弧形扇状步骤卡",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A sticky-pinned scene where ticket-shaped step cards rest on the rim of a giant wheel below the viewport and roll through it as you scroll: each card swings up from the right, passes upright through the centre and swings off to the left, staying tangent to the arc. One ScrollTrigger writes every position with `gsap.set` from trigonometry — no tween, no timeline on the cards, so the smoothing comes entirely from Lenis. The radius is derived from viewport width (never a constant) and the opacity falloff is deliberately gentle, because both are the parameters that empty the stage when set wrong. Cards are masked into tickets with two radial-gradient notches. A thin progress bar is the only cue of position inside a pinned section. Reduced motion drops the arc and stacks the steps.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "sticky",
+    "arc",
+    "circular",
+    "steps",
+    "process",
+    "cards",
+    "ticket",
+    "trigonometry",
+    "lenis",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/fanned-steps-scrub",
+  "docsUrl": "https://motionprompts.dev/component/fanned-steps-scrub/",
+  "demoUrl": "https://motionprompts.dev/components/fanned-steps-scrub/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/fanned-steps-scrub.webp",
+  "videoUrl": "https://motionprompts.dev/previews/fanned-steps-scrub.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/fanned-steps-scrub.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/fanned-steps-scrub.md",
+    "sha256": "1088b05c931e95636a59e50136da36caeae316dd52c2db507765b89c23fa286c",
+    "upstreamUrl": "https://motionprompts.dev/prompts/fanned-steps-scrub.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/fanned-steps-scrub/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 229592,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 0,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "sticky-pinned scene over a 300svh track where N ticket cards sit on a wheel of radius max(560, innerWidth*0.7) across a 0.9pi arc; a single ScrollTrigger onUpdate remaps progress and writes x/y/rotation/opacity/scale with gsap.set — no tween, no scrub, smoothing comes only from Lenis; the vertical component of the arc is squashed to 0.55",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/fanned-steps-scrub/"
+}

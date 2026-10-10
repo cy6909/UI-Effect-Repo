@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-10",
+  "slug": "form-10",
+  "name": "Form 10",
+  "titleZh": "表单 form-10",
+  "description": "Comprehensive form with multiple input types in card layout for complex data entry",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-10.json",
+    "sha256": "5f883ab80e090226f0917532aa26f88d87e8fb5afddff5fe4319920449ad42b6"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "card",
+    "form",
+    "input",
+    "radio-group",
+    "select",
+    "textarea"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

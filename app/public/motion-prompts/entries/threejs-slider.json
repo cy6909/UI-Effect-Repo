@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/threejs-slider",
+  "name": "ThreeJS Infinite Slider",
+  "slug": "threejs-slider",
+  "titleZh": "ThreeJS 无限轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "Infinite vertical slider built entirely in Three.js (no GSAP): ten textured planes loop endlessly inside a WebGL scene, driven by mouse wheel, drag and touch with lerped smoothing and momentum friction. Scroll velocity bends each plane's vertices along Z with a sine falloff, creating a directional curvature distortion, while an HTML title and counter track the slide closest to center.",
+  "tags": [
+    "three.js",
+    "webgl",
+    "slider",
+    "infinite-loop",
+    "vertical",
+    "wheel",
+    "drag",
+    "touch",
+    "vertex-distortion",
+    "momentum",
+    "lerp",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/threejs-slider",
+  "docsUrl": "https://motionprompts.dev/component/threejs-slider/",
+  "demoUrl": "https://motionprompts.dev/components/threejs-slider/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/threejs-slider.webp",
+  "videoUrl": "https://motionprompts.dev/previews/threejs-slider.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/threejs-slider.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/threejs-slider.md",
+    "sha256": "4374da74db1fb835e8d085387c195c3314d5526ae06917e1a0138c58fad1fc27",
+    "upstreamUrl": "https://motionprompts.dev/prompts/threejs-slider.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/threejs-slider/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "three"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 681616,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel",
+      "reclama el primer canvas del documento"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "webgl-raf",
+    "motion_signature": "wheel/drag-driven infinite WebGL plane stack, vertex bend",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "first-canvas"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/threejs-slider/"
+}

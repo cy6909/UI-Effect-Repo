@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pagination-10",
+  "slug": "pagination-10",
+  "name": "Pagination 10",
+  "titleZh": "分页 pagination-10",
+  "description": "A card-style pagination component with border, shadow, and contained layout",
+  "tags": [
+    "pagination",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--pagination-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pagination-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/pagination",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pagination-10.json",
+    "sha256": "011777e8d372d8cce78414769dc26765a1d44969716d495aedf87020bd5bdad7"
+  },
+  "registryDependencies": [
+    "pagination"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/liquid-fill",
+  "slug": "liquid-fill",
+  "name": "LIQUID FILL",
+  "titleZh": "液体填充",
+  "description": "悬停时深色液体从底部涌起填满按钮，文字反白——饱满的转场感。",
+  "tags": [
+    "button",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--liquid-fill",
+  "detailUrl": "/open-libraries/motion-vault/entries/liquid-fill.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=liquid-fill",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/liquid-fill.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/liquid-fill.md",
+    "sha256": "d2d46e335db252df21efc4fbc757966d06d03608ece98a422baa068848e4232b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/liquid-fill.json",
+    "sha256": "83d2b9f93a4a6ac6465fcb94f6378efc596e9105c5c34232ef2017ef4c601222"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

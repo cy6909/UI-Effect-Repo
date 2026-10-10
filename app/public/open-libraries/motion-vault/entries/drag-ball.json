@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/drag-ball",
+  "slug": "drag-ball",
+  "name": "DRAG BALL",
+  "titleZh": "弹簧归位球",
+  "description": "把 36px 的小黑球拖向任意角落——拖动中它沿速度方向拉成椭圆并拖着 3 层残影，松手后带着过冲弹簧飞回原点。",
+  "tags": [
+    "spring",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--drag-ball",
+  "detailUrl": "/open-libraries/motion-vault/entries/drag-ball.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=drag-ball",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/drag-ball.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/drag-ball.md",
+    "sha256": "87bcc59b2b121fed4cbadbf7d7d25eae9403f8d1f3813fe599d5a262c5971e7f",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/drag-ball.json",
+    "sha256": "0cce778229984636f287bad120fc7d3efc728ae77c721e42d7fd8e646d171712"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

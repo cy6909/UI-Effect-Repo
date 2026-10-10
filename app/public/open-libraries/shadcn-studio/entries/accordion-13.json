@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/accordion-13",
+  "slug": "accordion-13",
+  "name": "Accordion 13",
+  "titleZh": "折叠面板 accordion-13",
+  "description": "Media content accordion with category icons and embedded images in accordion content.",
+  "tags": [
+    "accordion",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--accordion-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/accordion-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/accordion",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/accordion-13.json",
+    "sha256": "37f3fce038485cf7e4d946adef13fb8c9aaf5041937b4e0e71be00506099a784"
+  },
+  "registryDependencies": [
+    "accordion"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-11",
+  "slug": "alert-11",
+  "name": "Alert 11",
+  "titleZh": "提示条 alert-11",
+  "description": "Success indicator alert with left border highlight and green success styling.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-11.json",
+    "sha256": "f41d56f54dce8620a379f70aefa030302dbb3a2b3ad7b1604c8b6b5b0eb7c298"
+  },
+  "registryDependencies": [
+    "alert"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/textarea-03",
+  "slug": "textarea-03",
+  "name": "Textarea 3",
+  "titleZh": "多行输入 textarea-03",
+  "description": "A textarea with helper text below for additional context",
+  "tags": [
+    "textarea",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--textarea-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/textarea-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/textarea",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/textarea-03.json",
+    "sha256": "09fbb260c4b2963ceb75223eddc6217a752dc7a9e11d91c4ddc80b3c481b960b"
+  },
+  "registryDependencies": [
+    "label",
+    "textarea"
+  ],
+  "dependencies": []
+}

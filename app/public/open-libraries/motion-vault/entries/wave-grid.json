@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/wave-grid",
+  "slug": "wave-grid",
+  "name": "WAVE GRID",
+  "titleZh": "波浪方块阵",
+  "description": "22×22 的哑光方块矩阵随径向正弦波起伏，涟漪中心跟随鼠标移动，安静而催眠。",
+  "tags": [
+    "3d",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--wave-grid",
+  "detailUrl": "/open-libraries/motion-vault/entries/wave-grid.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=wave-grid",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/wave-grid.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/wave-grid.md",
+    "sha256": "9aa91f7769a3118cd8db599c52c6bca7ef3e0f8d0b126b0e547a7e8abd2ecd04",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/wave-grid.json",
+    "sha256": "8a3df92fb4391af78aae5dce43474f00a71b64523d47082b55ca7753f16b3132"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

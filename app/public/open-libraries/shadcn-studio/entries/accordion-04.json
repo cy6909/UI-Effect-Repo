@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/accordion-04",
+  "slug": "accordion-04",
+  "name": "Accordion 4",
+  "titleZh": "折叠面板 accordion-04",
+  "description": "Plus/minus icon accordion with animated icon transitions for expand/collapse states.",
+  "tags": [
+    "accordion",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--accordion-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/accordion-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/accordion",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/accordion-04.json",
+    "sha256": "7886873fa4aa136b61fbf2b1ed35091c20eae51f4bdbd49cc3f116fc9c5d5bcc"
+  },
+  "registryDependencies": [
+    "accordion"
+  ],
+  "dependencies": [
+    "@radix-ui/react-accordion",
+    "lucide-react"
+  ]
+}

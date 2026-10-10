@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/card-05",
+  "slug": "card-05",
+  "name": "Card 5",
+  "titleZh": "卡片 card-05",
+  "description": "Image showcase card with top-aligned image and action buttons",
+  "tags": [
+    "card",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--card-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/card-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/card",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/card-05.json",
+    "sha256": "bf8026a07fc4ebfdf405e60b9290b140e13bddc797fd8d2e9ba17983a04dab1f"
+  },
+  "registryDependencies": [
+    "button",
+    "card"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pagination-02",
+  "slug": "pagination-02",
+  "name": "Pagination 2",
+  "titleZh": "分页 pagination-02",
+  "description": "A pagination component with chevron icons for previous and next navigation",
+  "tags": [
+    "pagination",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--pagination-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pagination-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/pagination",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pagination-02.json",
+    "sha256": "e5882f288ac1ed1ba8c85513b2a31e9311ac1b019db5a2429452ed0445acf8d9"
+  },
+  "registryDependencies": [
+    "pagination"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

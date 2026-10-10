@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/lukebaffait-animated-footer",
+  "name": "LukeBaffait Animated Footer",
+  "slug": "lukebaffait-animated-footer",
+  "titleZh": "LukeBaffait 动态页脚",
+  "category": "Footers",
+  "source": "motion-prompts",
+  "sourceCategory": "footer",
+  "description": "Fixed full-viewport footer revealed behind the page on scroll: a spacer div fires ScrollTrigger callbacks (in at top 50%, out on leave-back at top 85%) that stagger SplitText chars of the split 'Half tone' wordmark heading from the center, unmask footer links/paragraph lines, and slide two hand images in from the sides. The hands render as orange ASCII art on canvas (brightness sampling) with random cluster highlights on hover and lerped mouse parallax; Lenis drives the smooth scroll.",
+  "tags": [
+    "footer",
+    "scroll",
+    "reveal",
+    "ascii",
+    "canvas",
+    "splittext",
+    "stagger",
+    "parallax",
+    "hover",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/lukebaffait-animated-footer",
+  "docsUrl": "https://motionprompts.dev/component/lukebaffait-animated-footer/",
+  "demoUrl": "https://motionprompts.dev/components/lukebaffait-animated-footer/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/lukebaffait-animated-footer.webp",
+  "videoUrl": "https://motionprompts.dev/previews/lukebaffait-animated-footer.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/lukebaffait-animated-footer.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/lukebaffait-animated-footer.md",
+    "sha256": "e47d53a0ba301bef9ce2dd7330bfeaee0e8a0383f7e870f3855fb79a12052ac5",
+    "upstreamUrl": "https://motionprompts.dev/prompts/lukebaffait-animated-footer.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/lukebaffait-animated-footer/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power3",
+    "duration_range": [
+      0.2,
+      1
+    ],
+    "stagger": 0.01,
+    "assets_required": {
+      "count": 2,
+      "bytes": 186237,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-THRESHOLD",
+    "engine": "mixed",
+    "motion_signature": "fixed footer reveal: ASCII canvas hands, lerped parallax",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "reveal-on-enter"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/lukebaffait-animated-footer/"
+}

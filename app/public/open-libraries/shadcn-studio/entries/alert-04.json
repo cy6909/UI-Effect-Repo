@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-04",
+  "slug": "alert-04",
+  "name": "Alert 4",
+  "titleZh": "提示条 alert-04",
+  "description": "Interactive alert with link button featuring arrow icon and styled border/text colors.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-04.json",
+    "sha256": "d0b91b63d7caf108b09b7af5624186acae8c7c3e63c4933cd1182f1f8594920f"
+  },
+  "registryDependencies": [
+    "alert",
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/accordion-06",
+  "slug": "accordion-06",
+  "name": "Accordion 6",
+  "titleZh": "折叠面板 accordion-06",
+  "description": "Icon and expand indicator accordion with category icons and plus icon for expand/collapse.",
+  "tags": [
+    "accordion",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--accordion-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/accordion-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/accordion",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/accordion-06.json",
+    "sha256": "053e835abdbc0f8e23a68a6573205895af31437fa3e18c0da202c461ec2b9f6b"
+  },
+  "registryDependencies": [
+    "accordion"
+  ],
+  "dependencies": [
+    "@radix-ui/react-accordion",
+    "lucide-react"
+  ]
+}

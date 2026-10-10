@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-13",
+  "slug": "badge-13",
+  "name": "Badge 13",
+  "titleZh": "徽标 badge-13",
+  "description": "Selectable badge with checkbox functionality for interactive selection",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-13.json",
+    "sha256": "954ff932462f6253d0b82eabce1287864af9daed4f71352ee3235cb82382f2c5"
+  },
+  "registryDependencies": [
+    "badge",
+    "checkbox"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

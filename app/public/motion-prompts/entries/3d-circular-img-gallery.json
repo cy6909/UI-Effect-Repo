@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/3d-circular-img-gallery",
+  "name": "3D Circular Image Gallery",
+  "slug": "3d-circular-img-gallery",
+  "titleZh": "3D 环形图片画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "32 full-colour film-still tiles (18 on phones) are placed around a circle with CSS 3D transforms to form a tilted ring seen in perspective. On load the tiles are dealt out from a single stacked point to their places around the ring with a staggered GSAP tween. GSAP ScrollTrigger (scrub) spins the ring on scroll and a pointer drag spins it directly with inertia; a mousemove listener parallax-tilts the gallery toward the cursor, and hovering a tile pushes it outward and swaps the large centred preview still, which is mounted with no border or outline of any kind.",
+  "tags": [
+    "3d",
+    "css-3d",
+    "gallery",
+    "scroll",
+    "scrolltrigger",
+    "rotation",
+    "hover",
+    "parallax",
+    "circular",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/3d-circular-img-gallery",
+  "docsUrl": "https://motionprompts.dev/component/3d-circular-img-gallery/",
+  "demoUrl": "https://motionprompts.dev/components/3d-circular-img-gallery/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/3d-circular-img-gallery.webp",
+  "videoUrl": "https://motionprompts.dev/previews/3d-circular-img-gallery.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/3d-circular-img-gallery.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/3d-circular-img-gallery.md",
+    "sha256": "77cba833b006ee78d21d8bad346a87cd0bcf595bf36af6513baacf462cccde47",
+    "upstreamUrl": "https://motionprompts.dev/prompts/3d-circular-img-gallery.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/3d-circular-img-gallery/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 1000,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 15,
+      "bytes": 2324184,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh",
+      "asigna window.onload"
+    ],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scroll-scrubbed tilted 3D CSS ring, cursor parallax",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "document-height",
+    "window-onload"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/3d-circular-img-gallery/"
+}

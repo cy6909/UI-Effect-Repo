@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-38",
+  "slug": "button-38",
+  "name": "Button 38",
+  "titleZh": "按钮 button-38",
+  "description": "Notification icon button with animated blue dot indicator",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-38",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-38.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-38.json",
+    "sha256": "732de23cc64a5d8e79fbac045ecc68ef9968aba9b9f21c53d7b188f95b80b183"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

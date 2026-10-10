@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/spotlight-card",
+  "slug": "spotlight-card",
+  "name": "SPOTLIGHT",
+  "titleZh": "聚光灯卡片",
+  "description": "鼠标所到之处亮起一圈柔和的径向光晕，黑暗中摸索的质感（预览窗用深色底）。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--spotlight-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/spotlight-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=spotlight-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/spotlight-card.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/spotlight-card.md",
+    "sha256": "cd0722c8ae3abb2c1504aae8e4f69753c77b76eb653776c753c0245ea6d63ee8",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/spotlight-card.json",
+    "sha256": "71111c34141e9b580c8804522fbc4337c6a91be5658d5bec0ea2987569308dca"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

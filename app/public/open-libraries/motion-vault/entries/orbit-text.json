@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/orbit-text",
+  "slug": "orbit-text",
+  "name": "ORBIT TEXT",
+  "titleZh": "环形文字轨",
+  "description": "字符逐个按角度定位排成一圈（MOTION VAULT · INSPIRATION ·），整体 12 秒一圈持续旋转，中心一颗小 logo 点，悬停平滑反转方向。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--orbit-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/orbit-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=orbit-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/orbit-text.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/orbit-text.md",
+    "sha256": "d1146573eab7f16f9c5f6cd96747b7d1ab8685854c67490ed8e9d8c837ae3cfe",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/orbit-text.json",
+    "sha256": "85295dbec349a07b9de8e47663a9707e00223c1c8194edcc2306c38e512e8285"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

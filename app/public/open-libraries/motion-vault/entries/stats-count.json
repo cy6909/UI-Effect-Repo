@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/stats-count",
+  "slug": "stats-count",
+  "name": "STATS COUNT",
+  "titleZh": "滚动统计计数",
+  "description": "滑到数据区的一瞬间，三枚 mono 大数字从 0 弹簧计数到目标值，下方小条同步生长——年报式的满足感。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--stats-count",
+  "detailUrl": "/open-libraries/motion-vault/entries/stats-count.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=stats-count",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/stats-count.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/stats-count.md",
+    "sha256": "5121d5efe5575740d34ef6c2e6555432fe5ad17140af5e6c90c2eb79e7524243",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/stats-count.json",
+    "sha256": "1a9bec07c47417881678501c40cdb4287148d6e2614ef3817b60555f73c22a17"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

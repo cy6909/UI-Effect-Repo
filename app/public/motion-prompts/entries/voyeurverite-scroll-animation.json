@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/voyeurverite-scroll-animation",
+  "name": "VoyeurVerite Scroll Animation",
+  "slug": "voyeurverite-scroll-animation",
+  "titleZh": "VoyeurVerite 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Pinned hero scrubbed over five viewport heights with four manual phases: the foreground image clips into a central vertical slit while a dark overlay fades in, then rotates to 65deg, scales to zero over sliding background text columns as a red overlay flashes on, and finally two outro images wipe in via clip-path from top and bottom before a SplitText line-masked headline staggers up at 90% progress.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "clip-path",
+    "rotate",
+    "overlay",
+    "split-text",
+    "lenis",
+    "hero",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/voyeurverite-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/voyeurverite-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/voyeurverite-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/voyeurverite-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/voyeurverite-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/voyeurverite-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/voyeurverite-scroll-animation.md",
+    "sha256": "27d60d6ce0cff2996f9c5eb5d43a6c63cbaf4e70262f72268aa5d36ff558cfe5",
+    "upstreamUrl": "https://motionprompts.dev/prompts/voyeurverite-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/voyeurverite-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": true,
+    "viewport_heights": 500,
+    "needs_lenis": true,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      0.75
+    ],
+    "stagger": -0.05,
+    "assets_required": {
+      "count": 3,
+      "bytes": 252243,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "pinned hero, scrubbed multi-phase clip/rotate/scale collapse",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/voyeurverite-scroll-animation/"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/testimonials-component-01",
+  "slug": "testimonials-component-01",
+  "name": "Testimonials 1",
+  "titleZh": "界面组件 testimonials-component-01",
+  "description": "Testimonials section with side content and carousel featuring customer feedback with star ratings and avatars",
+  "tags": [
+    "testimonials-component",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--testimonials-component-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/testimonials-component-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/testimonials-component-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/testimonials-component-01.json",
+    "sha256": "3f4dd940012f70e5c53c9676db98ce43eab50ff3a5cb8201b80e10dd8db71a2e"
+  },
+  "registryDependencies": [
+    "avatar",
+    "card",
+    "carousel",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

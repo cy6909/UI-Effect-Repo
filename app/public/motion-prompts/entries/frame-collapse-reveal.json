@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/frame-collapse-reveal",
+  "name": "Frame Collapse Reveal",
+  "slug": "frame-collapse-reveal",
+  "titleZh": "收缩画框揭示",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A rounded frame contracts from the edges of a sticky section down to the size of a centre window; the full-bleed photograph behind it then fades out, and because that window carries the same shot at the same screen coordinates, the picture appears to shrink into the rectangle without a single pixel moving. Only once the fade finishes do six slabs slide out from behind the window, innermost first, and lock in place. Welded to scroll (`scrub: true`), no lag.",
+  "tags": [
+    "scroll",
+    "scrub",
+    "sticky",
+    "frame",
+    "crossfade",
+    "image-reveal",
+    "cards",
+    "glassmorphism",
+    "cinematic",
+    "black-and-white",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/frame-collapse-reveal",
+  "docsUrl": "https://motionprompts.dev/component/frame-collapse-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/frame-collapse-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/frame-collapse-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/frame-collapse-reveal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/frame-collapse-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/frame-collapse-reveal.md",
+    "sha256": "be89db29b73085e6061b2a293e3f38264e673c16bd8d23e9b179d5c3bc037cd9",
+    "upstreamUrl": "https://motionprompts.dev/prompts/frame-collapse-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/frame-collapse-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": 360,
+    "needs_lenis": true,
+    "ease_family": "power3",
+    "duration_range": [
+      0.05,
+      0.16
+    ],
+    "stagger": 0.03,
+    "assets_required": {
+      "count": 7,
+      "bytes": 559607,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-SCRUB",
+    "engine": "gsap",
+    "motion_signature": "frame contracts while the bleed cross-fades into its own window",
+    "systems": [
+      "scrub-welded",
+      "scrub-lagged",
+      "reveal-on-enter"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/frame-collapse-reveal/"
+}

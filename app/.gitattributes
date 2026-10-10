@@ -1,0 +1,4 @@
+# Keep upstream prompt snapshots byte-stable across Windows and Linux checkouts.
+public/motion-prompts/** text eol=lf
+public/personal-ai/source/** -text
+public/open-libraries/** text eol=lf

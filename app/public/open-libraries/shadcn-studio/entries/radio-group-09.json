@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/radio-group-09",
+  "slug": "radio-group-09",
+  "name": "Radio Group 9",
+  "titleZh": "单选 radio-group-09",
+  "description": "A list-style radio group with pricing and badges for plan selection",
+  "tags": [
+    "radio-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--radio-group-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/radio-group-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/radio-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/radio-group-09.json",
+    "sha256": "99d138e59e0bb1685e8911fcf9bc2d04cf6a954f4ed063e60684b8530d732ffb"
+  },
+  "registryDependencies": [
+    "badge",
+    "label",
+    "radio-group"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/grid-shutter-page-transition",
+  "name": "Grid Shutter Page Transition",
+  "slug": "grid-shutter-page-transition",
+  "titleZh": "网格快门转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "Page transition where a fixed 4x16 grid of cream blocks scales in horizontally with a per-block stagger, even rows sweeping from the left and odd rows from the right, shuttering the viewport closed before the page swaps and the same animation reverses to reveal the new page. Triggered by clicking the top navbar links routing between three full-viewport hero pages.",
+  "tags": [
+    "page-transition",
+    "grid",
+    "shutter",
+    "scalex",
+    "stagger",
+    "rows",
+    "fake-router",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/grid-shutter-page-transition",
+  "docsUrl": "https://motionprompts.dev/component/grid-shutter-page-transition/",
+  "demoUrl": "https://motionprompts.dev/components/grid-shutter-page-transition/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/grid-shutter-page-transition.webp",
+  "videoUrl": "https://motionprompts.dev/previews/grid-shutter-page-transition.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/grid-shutter-page-transition.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/grid-shutter-page-transition.md",
+    "sha256": "26778cbe10e57261b173c9783daa37ba6890a2d3ce40937cbb042ddbfd6155d3",
+    "upstreamUrl": "https://motionprompts.dev/prompts/grid-shutter-page-transition.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/grid-shutter-page-transition/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      0.6
+    ],
+    "stagger": 0.025,
+    "assets_required": {
+      "count": 3,
+      "bytes": 334868,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "row-alternating scaleX shutter closes then reopens: 4 bands of 16 blocks, transform-origin left on even rows and right on odd rows, each band wiping from its own edge with a 0.025s per-block stagger under power3.inOut; all 4 rows fire together at '<', so a full close (or open) takes ~0.975s",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/grid-shutter-page-transition/"
+}

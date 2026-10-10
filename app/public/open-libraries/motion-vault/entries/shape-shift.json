@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/shape-shift",
+  "slug": "shape-shift",
+  "name": "SHAPE SHIFT",
+  "titleZh": "方块变形",
+  "description": "一个方块边旋转边在方形与圆形之间变形——高级仪表盘里那种 morphing loader。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--shape-shift",
+  "detailUrl": "/open-libraries/motion-vault/entries/shape-shift.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=shape-shift",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/shape-shift.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/shape-shift.md",
+    "sha256": "70d8ff507fc080a3196ebe1c6d2cf77ad0ce1b8a432d02bd581a1f228047602d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/shape-shift.json",
+    "sha256": "c4b102758ed96807c93821bf3e35a336a25c14c3c65e62b827e21c5dedd35d1d"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

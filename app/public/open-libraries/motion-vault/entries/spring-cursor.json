@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/spring-cursor",
+  "slug": "spring-cursor",
+  "name": "SPRING CURSOR",
+  "titleZh": "弹簧跟随光标",
+  "description": "实心点紧贴指尖、描边圆环慵懒拖尾，移动越快圆环被拉得越扁，悬停文字时圆环还会放大 1.6 倍——全程零 setState。",
+  "tags": [
+    "spring",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--spring-cursor",
+  "detailUrl": "/open-libraries/motion-vault/entries/spring-cursor.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=spring-cursor",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/spring-cursor.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/spring-cursor.md",
+    "sha256": "0ce0745ff88cbed21344f285f7f199e838c6cd694cd0afe0740b4690eb81c3d7",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/spring-cursor.json",
+    "sha256": "caa736740e2fc169d20f9ea297fb8c962117aa4d9a0f1af15eca5e4056dfb069"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

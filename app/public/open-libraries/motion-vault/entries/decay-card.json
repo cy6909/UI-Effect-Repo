@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/decay-card",
+  "slug": "decay-card",
+  "name": "PIXEL DECAY",
+  "titleZh": "像素消散卡",
+  "description": "卡片内容被预渲染成一块画布：悬停时鼠标附近的 10px 碎块随机飞散淡出，松手后弹性归位、重组复原。",
+  "tags": [
+    "card",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--decay-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/decay-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=decay-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/decay-card.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/decay-card.md",
+    "sha256": "9797ff62dbde652c92ba572d68dbbb97061273c44446fbe48d722fa8586967fb",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/decay-card.json",
+    "sha256": "39278123efdc3fa46b8059c2f8789351200598794db34aef3be0d44df522d7d7"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

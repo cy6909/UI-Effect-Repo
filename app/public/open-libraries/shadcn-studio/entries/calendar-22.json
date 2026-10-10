@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-22",
+  "slug": "calendar-22",
+  "name": "Calendar 22",
+  "titleZh": "日历 calendar-22",
+  "description": "Calendar with preset date shortcuts (Today, Yesterday, Tomorrow, in 3 days, in a week, etc.)",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-22",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-22.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-22.json",
+    "sha256": "11ef3555b5c770dd894575a768b6f628cfc4417533604f264a16a050ece0f22f"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "card"
+  ],
+  "dependencies": []
+}

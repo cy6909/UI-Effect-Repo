@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/rubiks-cube",
+  "slug": "rubiks-cube",
+  "name": "RUBIKS CUBE",
+  "titleZh": "魔方拧动",
+  "description": "一颗哑光魔方在展台上缓缓旋转：点击或静置即随机拧动一层，27 个小块带贴纸真实归位。",
+  "tags": [
+    "3d",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--rubiks-cube",
+  "detailUrl": "/open-libraries/motion-vault/entries/rubiks-cube.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=rubiks-cube",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/rubiks-cube.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/rubiks-cube.md",
+    "sha256": "c9385a3a84e9325f858eb7ff95fd42465baee70ef3928089139157ba36930a74",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/rubiks-cube.json",
+    "sha256": "701e28cdc056d7bfd02ce4f7b3eaa3203bc1b1bde5309f91fcc97de6e0907a56"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

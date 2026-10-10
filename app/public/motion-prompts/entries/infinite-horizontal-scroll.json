@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/infinite-horizontal-scroll",
+  "name": "Infinite Horizontal Scroll",
+  "slug": "infinite-horizontal-scroll",
+  "titleZh": "无限横向滚动",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A seamless looping horizontal scroll gallery driven by raw wheel and touch input. Vertical wheel/touch deltas are mapped to horizontal movement with a lerp-smoothed translateX, cloned section buffers on both sides create an endless loop, and a synced progress bar and percentage counter track position.",
+  "tags": [
+    "infinite-scroll",
+    "horizontal-scroll",
+    "marquee",
+    "loop",
+    "lerp",
+    "vanilla-js",
+    "requestanimationframe",
+    "editorial",
+    "bold",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/infinite-horizontal-scroll",
+  "docsUrl": "https://motionprompts.dev/component/infinite-horizontal-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/infinite-horizontal-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/infinite-horizontal-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/infinite-horizontal-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/infinite-horizontal-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/infinite-horizontal-scroll.md",
+    "sha256": "d593ea65da071689fc9ab8c641ead615f6f922659f150ea9d3ede42eb36a434e",
+    "upstreamUrl": "https://motionprompts.dev/prompts/infinite-horizontal-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/infinite-horizontal-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 1429657,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "raf-lerp",
+    "motion_signature": "wheel/touch delta accumulated into targetScrollX, exponentially smoothed onto the track with lerp factor 0.05 (~critically damped, no overshoot), wrapped seamlessly at ±0.5 sequence widths against 2 cloned buffers per side; touch flicks add a *20 impulse decaying at 0.95/frame; the progress bar follows the same 0.05 lerp except on wrap frames, where it snaps",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/infinite-horizontal-scroll/"
+}

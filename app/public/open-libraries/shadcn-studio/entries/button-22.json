@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-22",
+  "slug": "button-22",
+  "name": "Button 22",
+  "titleZh": "按钮 button-22",
+  "description": "caution button with a warning icon and soft amber styling to indicate alerts or risks.",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-22",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-22.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-22.json",
+    "sha256": "19964cd386302484514bb38f7ef22d6fc979eb6f7511b09523f50cc0fa0a6628"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-04",
+  "slug": "data-table-04",
+  "name": "Data Table 4",
+  "titleZh": "数据表格 data-table-04",
+  "description": "Product inventory table with images, badges, and advanced filtering by multiple attributes",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-04.json",
+    "sha256": "ee1c2a98fc8b982a8eaaca3905874f4aee91d44d57b64f7e97c00d2926250d37"
+  },
+  "registryDependencies": [
+    "avatar",
+    "badge",
+    "checkbox",
+    "input",
+    "label",
+    "select",
+    "table",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "@tanstack/react-table"
+  ]
+}

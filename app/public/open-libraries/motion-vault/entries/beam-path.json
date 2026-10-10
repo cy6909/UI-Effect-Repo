@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/beam-path",
+  "slug": "beam-path",
+  "name": "BEAM PATH",
+  "titleZh": "光束流动",
+  "description": "一条 S 形发卡弯轨道上，高亮光斑带着 3 个渐隐拖尾点循环流动——getPointAtLength 驱动，丝滑无缝。",
+  "tags": [
+    "svg",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--beam-path",
+  "detailUrl": "/open-libraries/motion-vault/entries/beam-path.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=beam-path",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/beam-path.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/beam-path.md",
+    "sha256": "c699e1ad9f7becaad014fa5da44a66747f5f00a2d6f18b32250fbfe02ebba16e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/beam-path.json",
+    "sha256": "65b75645d5ed1e5ae145eb9eac05d135ef184b6e093fea89904f2bbb8118bc51"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

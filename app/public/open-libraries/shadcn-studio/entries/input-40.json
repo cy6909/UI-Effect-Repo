@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-40",
+  "slug": "input-40",
+  "name": "Input 40",
+  "titleZh": "输入框 input-40",
+  "description": "Number input field with increment/decrement buttons using React Aria Components",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-40",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-40.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-40.json",
+    "sha256": "346e7e9bc4e2e9adcf1d90cce594c8a4c07de71340756802389b23684714bbde"
+  },
+  "registryDependencies": [],
+  "dependencies": [
+    "lucide-react",
+    "react-aria-components"
+  ]
+}

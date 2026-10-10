@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/pinned-steps",
+  "slug": "pinned-steps",
+  "name": "PINNED STEPS",
+  "titleZh": "钉住步骤切换",
+  "description": "面板被钉在视窗中：左侧 UI 卡在三档阈值间渐变切换，右侧步骤说明滑过，当前步墨色高亮。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--pinned-steps",
+  "detailUrl": "/open-libraries/motion-vault/entries/pinned-steps.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=pinned-steps",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/pinned-steps.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/pinned-steps.md",
+    "sha256": "6a058e84559a877de862970bb7e45fd5574ac3fc5f5273e905876a39d19b69b3",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/pinned-steps.json",
+    "sha256": "6163fa843bfdbe94f633ffa5d3492fa261e29351ec3ad0c2a600fd93200567e4"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

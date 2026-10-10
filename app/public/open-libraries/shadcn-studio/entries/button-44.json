@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-44",
+  "slug": "button-44",
+  "name": "Button 44",
+  "titleZh": "按钮 button-44",
+  "description": "Button with bounce hover effect on mouse interaction",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-44",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-44.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-44.json",
+    "sha256": "b1b0be43c8ba28dcbc74a349f9474913f4132c53c270fe56fd763ce634cfe025"
+  },
+  "registryDependencies": [
+    "button",
+    "utils"
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "motion"
+  ]
+}

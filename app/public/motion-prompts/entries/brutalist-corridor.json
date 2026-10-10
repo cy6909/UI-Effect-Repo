@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/brutalist-corridor",
+  "name": "Brutalist Sci-fi Corridor",
+  "slug": "brutalist-corridor",
+  "titleZh": "粗野主义科幻走廊",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "On page load a preloader counter climbs to 100 over a black overlay, then a GSAP timeline fades the overlay, rotates the Three.js camera around a sodium-lit brutalist concrete corridor (ACES grade, UnrealBloom + film-grain post-processing) and scrambles the nav and heading text into view via staggered opacity; afterward the camera follows the mouse with a lerped parallax.",
+  "tags": [
+    "three.js",
+    "gsap",
+    "webgl",
+    "gltf",
+    "bloom",
+    "film-grain",
+    "parallax",
+    "brutalist",
+    "preloader",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/brutalist-corridor",
+  "docsUrl": "https://motionprompts.dev/component/brutalist-corridor/",
+  "demoUrl": "https://motionprompts.dev/components/brutalist-corridor/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/brutalist-corridor.webp",
+  "videoUrl": "https://motionprompts.dev/previews/brutalist-corridor.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/brutalist-corridor.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/brutalist-corridor.md",
+    "sha256": "2a00570eba866795fbfc353d46709b6436a40f7c3861b9448a49ac59339e6ff7",
+    "upstreamUrl": "https://motionprompts.dev/prompts/brutalist-corridor.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/brutalist-corridor/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "gsap",
+      "three",
+      "GLTFLoader",
+      "EffectComposer",
+      "RenderPass",
+      "ShaderPass",
+      "UnrealBloomPass"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.1,
+      4
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 6,
+      "bytes": 9410833,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "mixed",
+    "motion_signature": "Load-time preloader: a 4s linear counter to 100, then overlay fade + a 2s power2.inOut camera orbit (180deg swing to the corridor axis) crossfaded with a random-order char scramble; afterwards a permanent rAF loop lerps the camera angle/height toward the pointer at 0.025/0.05. Nothing is scroll-driven.",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/brutalist-corridor/"
+}

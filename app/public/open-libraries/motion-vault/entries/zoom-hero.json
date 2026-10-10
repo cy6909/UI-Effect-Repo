@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/zoom-hero",
+  "slug": "zoom-hero",
+  "name": "ZOOM HERO",
+  "titleZh": "滚动缩放封面",
+  "description": "封面大图从 1.25 倍缓缓回落至原始尺寸，标题淡出、副标题浮现——电影开场的呼吸感。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--zoom-hero",
+  "detailUrl": "/open-libraries/motion-vault/entries/zoom-hero.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=zoom-hero",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/zoom-hero.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/zoom-hero.md",
+    "sha256": "3fd8f6aba9ba0705bd84b8aa12986a059e8fc831336bde1d5c8889cb3385e6d8",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/zoom-hero.json",
+    "sha256": "930d07f5fdb3679e0a2c30b509fa2d79bfa76a8d8dcdd71cb0242c0758903546"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

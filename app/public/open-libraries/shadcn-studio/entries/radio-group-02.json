@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/radio-group-02",
+  "slug": "radio-group-02",
+  "name": "Radio Group 2",
+  "titleZh": "单选 radio-group-02",
+  "description": "A horizontal radio group layout",
+  "tags": [
+    "radio-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--radio-group-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/radio-group-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/radio-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/radio-group-02.json",
+    "sha256": "9027c60debe04bb1d39bef822bf27240cc56d22f4604bb0c017d49731aff1b38"
+  },
+  "registryDependencies": [
+    "label",
+    "radio-group"
+  ],
+  "dependencies": []
+}

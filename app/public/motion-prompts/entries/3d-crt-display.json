@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/3d-crt-display",
+  "name": "3D CRT Display",
+  "slug": "3d-crt-display",
+  "titleZh": "3D 显像管屏幕",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A 3D CRT monitor (GLB model) fills a dark broadcast-room hero, its screen driven by a custom shader with scanlines, RGB mask, vignette and chromatic aberration. The room and the HUD paint before any asset lands; the tube deliberately holds until the cabinet is there to sit in, and fades up with it (or alone, if the model is still in flight after 2.5s). Hovering the channel buttons at the bottom swaps the on-screen texture and fires a GSAP-driven glitch burst (line tearing, noise, RGB split) that decays over 0.75s, while the whole monitor lazily rotates toward the mouse. Framed as 'Nightfeed', a pirate station broadcasting five districts of an imagined neon city.",
+  "tags": [
+    "three-js",
+    "webgl",
+    "shader",
+    "crt",
+    "glitch",
+    "hover",
+    "3d",
+    "gltf",
+    "gsap",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/3d-crt-display",
+  "docsUrl": "https://motionprompts.dev/component/3d-crt-display/",
+  "demoUrl": "https://motionprompts.dev/components/3d-crt-display/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/3d-crt-display.webp",
+  "videoUrl": "https://motionprompts.dev/previews/3d-crt-display.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/3d-crt-display.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/3d-crt-display.md",
+    "sha256": "3ce0d103d07053ac395d70bb4732c632144d5d559a90c0948bc022f43a5030b6",
+    "upstreamUrl": "https://motionprompts.dev/prompts/3d-crt-display.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/3d-crt-display/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap",
+      "three",
+      "GLTFLoader"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.75,
+      1.6
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 7,
+      "bytes": 2403921,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "webgl-raf",
+    "motion_signature": "mouse-lerped 3D monitor with GSAP glitch burst",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/3d-crt-display/"
+}

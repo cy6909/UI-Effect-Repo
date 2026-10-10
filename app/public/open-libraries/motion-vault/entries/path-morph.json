@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/path-morph",
+  "slug": "path-morph",
+  "name": "PATH MORPH",
+  "titleZh": "路径变形",
+  "description": "一个有机的 Blob 与一颗四角星共用同一套路径命令，d 属性在两者之间平滑插值，每 3 秒循环一次。",
+  "tags": [
+    "svg",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--path-morph",
+  "detailUrl": "/open-libraries/motion-vault/entries/path-morph.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=path-morph",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/path-morph.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/path-morph.md",
+    "sha256": "cd9a07bd6b0154c8c5129e6043a7debc53ffc5bd992bb1b1bbf0efab27a89501",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/path-morph.json",
+    "sha256": "855376e0f0cbc69b24f41ce17867e09d233031571f1b6e7e5570f56874de9df5"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

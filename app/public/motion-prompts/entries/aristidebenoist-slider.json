@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/aristidebenoist-slider",
+  "name": "Aristide Benoist Slider",
+  "slug": "aristidebenoist-slider",
+  "titleZh": "Aristide Benoist 轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A full-screen horizontal image carousel where clicking a segment in the top progress-bar nav slides the track with gsap.to and a custom 'hop' CustomEase, tweens the background overlay to a random color, and re-animates two rows of large display-type title letters sliding in with power2.out. Triggered by click on the nav segments.",
+  "tags": [
+    "horizontal-slider",
+    "carousel",
+    "custom-ease",
+    "gsap",
+    "kinetic-typography",
+    "click-navigation",
+    "editorial",
+    "fullscreen",
+    "portfolio",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/aristidebenoist-slider",
+  "docsUrl": "https://motionprompts.dev/component/aristidebenoist-slider/",
+  "demoUrl": "https://motionprompts.dev/components/aristidebenoist-slider/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/aristidebenoist-slider.webp",
+  "videoUrl": "https://motionprompts.dev/previews/aristidebenoist-slider.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/aristidebenoist-slider.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/aristidebenoist-slider.md",
+    "sha256": "bc0175862ae68f36d41c49300cda810cb73e35e2e4b55990cd8be8f480c22458",
+    "upstreamUrl": "https://motionprompts.dev/prompts/aristidebenoist-slider.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/aristidebenoist-slider/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "CustomEase"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      1,
+      1.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 30,
+      "bytes": 4402442,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "click-driven horizontal slider: a fixed 3000vw flex strip is tweened to -i*100vw over 1.5s on the CustomEase \"hop\" curve (fast-in, long settle) while a fixed full-viewport overlay cross-tints to a new palette colour on the same 1.5s/hop; simultaneously all 14 title letters are re-created as spans set at x:±150 (sign = travel direction) and slid to 0 over 1s power2.out after a 0.125s delay — no scroll, no stagger, no physics",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aminezegmou-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "infinite-draggable-image-gallery-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "laserbysonymusic-landing-page-reveal-animation",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "maxmilkin-preloader",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "nite-riot-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "steelworks-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "truekindskincare-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-page-transitions",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/aristidebenoist-slider/"
+}

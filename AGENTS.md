@@ -1,10 +1,8 @@
-# Project entry
+# Repository guidance
 
-1. Read the [Notion Project Root](https://app.notion.com/p/3f490f837c9581998619fc1bad80b228), then only the relevant domain pointers. Notion owns requirements, decisions, plans, and progress; the repository owns source, contracts, and executable configuration.
-2. The user authorized a direct React Bits fork, personal improvements, and deployment on machine 12. The application checkout is `.upstream/react-bits`, a separate Git repository tracking `git@github.com:cy6909/react-bits.git`, branch `codex/personal-library`. This root repository remains the bootstrap entry; do not accidentally commit the nested checkout here. See [DEC-UIE-002](https://app.notion.com/p/3f490f837c9581999382d56c6b7f6c41).
-3. Windows is for source editing, Git, and documentation only. Run dependency installation, builds, tests, dev servers, browser rendering, screenshots, Docker, and model calls on `10.89.2.12`. Never install local `node_modules` or run a local preview.
-4. Preserve dirty work and unrelated remote services. Use an isolated remote checkout/run directory. Record the source commit or base commit plus file hashes and the remote evidence location.
-5. Keep upstream source, personal modifications, and original assets attributable. Preserve applicable licenses. Do not relabel React Bits code as Apache-2.0. Read the proposal before importing or publishing upstream content.
-6. A source-assisted integration prompt is different from a standalone reproduction prompt. Never claim prompt-only, skills-disabled, first-pass, model identity, reasoning effort, or acceptance without corresponding evidence. Unknown stays unknown. Imported upstream components have no inferred AI generation record.
-7. No automatic model-generation jobs. When reproduction is requested, isolate the executor from parent history, skills, memory, and reference source as supported; record any limitations. Run resource-consuming work on machine 12.
-8. Update the canonical Notion node and parent snapshot when scope, architecture, or delivery status changes. Do not create local progress/plan reports. Do not commit, push, change repository visibility, or publish unless authorized.
+- The complete application is in `app/`. Run application commands from that directory.
+- `.upstream/` contains optional independent checkouts and must not be committed. Do not copy nested Git metadata, secrets, dependencies, build output or runtime evidence.
+- Preserve upstream licenses, attribution, original prompt bytes and source availability boundaries.
+- Use the execution environment authorized for the current task. Keep infrastructure addresses, account details and private documentation links out of public README files.
+- Record requirements and delivery status in the project's configured documentation system. Do not fabricate model, reproduction or acceptance evidence.
+- Commit, push and deploy only when authorized by the user.

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-05",
+  "slug": "select-05",
+  "name": "Select 5",
+  "titleZh": "选择器 select-05",
+  "description": "A native select dropdown with error state and validation message",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-05.json",
+    "sha256": "a8cda51d7c9f2f289f7ae0598075cc98ffda3294d09a134c597fa4f1d56b77e2"
+  },
+  "registryDependencies": [
+    "label",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

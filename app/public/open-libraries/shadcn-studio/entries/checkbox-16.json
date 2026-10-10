@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/checkbox-16",
+  "slug": "checkbox-16",
+  "name": "Checkbox 16",
+  "titleZh": "复选框 checkbox-16",
+  "description": "Form checkbox with terms acceptance, description text, and action buttons",
+  "tags": [
+    "checkbox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--checkbox-16",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/checkbox-16.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/checkbox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/checkbox-16.json",
+    "sha256": "89f5c6eacc6ca1eb9c02a2267ea61274e9b9425e60ad918b551c1357d7e6a275"
+  },
+  "registryDependencies": [
+    "button",
+    "checkbox",
+    "label"
+  ],
+  "dependencies": []
+}

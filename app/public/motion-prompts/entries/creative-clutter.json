@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/creative-clutter",
+  "name": "Creative Clutter Flip Layouts",
+  "slug": "creative-clutter",
+  "titleZh": "创意散落翻转布局",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "A messy-desk hero of 11 floating cut-out items scattered around a centered Space Grotesk display header, with three arrangements (chaos scatter, tidy cleanup grid, notebook cluster) switched via bottom icon buttons. Each switch captures Flip.getState, applies new percent-based positions and rotations with gsap.set, then animates with Flip.from (1.25s, power3.inOut, 0.1s center-out stagger, absolute); the layout recalculates on window resize.",
+  "tags": [
+    "flip",
+    "layout-switch",
+    "collage",
+    "desk",
+    "stagger",
+    "grid",
+    "buttons",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/creative-clutter",
+  "docsUrl": "https://motionprompts.dev/component/creative-clutter/",
+  "demoUrl": "https://motionprompts.dev/components/creative-clutter/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/creative-clutter.webp",
+  "videoUrl": "https://motionprompts.dev/previews/creative-clutter.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/creative-clutter.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/creative-clutter.md",
+    "sha256": "87fbd2b11473312895e90fc9c2fd099fc5a8ba186128680579d1b60ab44daf91",
+    "upstreamUrl": "https://motionprompts.dev/prompts/creative-clutter.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/creative-clutter/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "Flip"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      1.25,
+      1.25
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 11,
+      "bytes": 5108022,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 4,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "Click-driven GSAP Flip: one 1.25s power3.inOut FLIP morph (absolute:true) remaps header + 11 cutouts between three hard-coded percent arrangements with a 0.1s center-out stagger; no scroll, rAF or physics involved",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/creative-clutter/"
+}

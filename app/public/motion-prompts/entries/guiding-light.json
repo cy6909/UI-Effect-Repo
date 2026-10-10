@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/guiding-light",
+  "name": "Guiding Light Cursor Spotlight",
+  "slug": "guiding-light",
+  "titleZh": "引导光标聚光",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "Cursor-following spotlight: a dark full-section mask with a radial-gradient cutout reveals content around the pointer while a Lottie fire flame with a pulsing glow trails the cursor via lerped rAF transforms. Activates on mousemove inside the spotlight section.",
+  "tags": [
+    "spotlight",
+    "cursor",
+    "mask",
+    "lottie",
+    "mousemove",
+    "lenis",
+    "lottie-web",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/guiding-light",
+  "docsUrl": "https://motionprompts.dev/component/guiding-light/",
+  "demoUrl": "https://motionprompts.dev/components/guiding-light/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/guiding-light.webp",
+  "videoUrl": "https://motionprompts.dev/previews/guiding-light.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/guiding-light.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/guiding-light.md",
+    "sha256": "ad76625f60afa007a106b4928d01b5e9916234fb2876302cd393ca4135636ca7",
+    "upstreamUrl": "https://motionprompts.dev/prompts/guiding-light.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/guiding-light/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "lenis",
+      "lottie-web"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 54014,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "raf-lerp",
+    "motion_signature": "rAF-lerped cursor spotlight mask with trailing flame",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "lenis",
+    "lottie-web"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/guiding-light/"
+}

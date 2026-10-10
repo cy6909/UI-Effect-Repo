@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-15",
+  "slug": "dialog-15",
+  "name": "Dialog 15",
+  "titleZh": "对话框 dialog-15",
+  "description": "Invite friends dialog with avatar list and email invitation functionality",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-15",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-15.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-15.json",
+    "sha256": "6097b8f2042013fda49a67b0872f459e9cf5e06325e5d68dca63c70982b6a0ce"
+  },
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "dialog",
+    "input",
+    "label"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

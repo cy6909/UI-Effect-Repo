@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/dock-bar",
+  "slug": "dock-bar",
+  "name": "DOCK MAGNIFICATION",
+  "titleZh": "悬浮 Dock 栏",
+  "description": "macOS 式 Dock：七枚锌色渐变图标排于底部，鼠标掠过时按距离放大（48 → 72px）并上浮，丝滑无 setState。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--dock-bar",
+  "detailUrl": "/open-libraries/motion-vault/entries/dock-bar.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=dock-bar",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/dock-bar.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/dock-bar.md",
+    "sha256": "57c300c914951223d4875c128e0eaba763c56d8cf5e4572c1eaea3ec5681dec4",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/dock-bar.json",
+    "sha256": "c07ec5cf56cef2c25293ae7bb25960932adc573b7fb2f51c913fda18a3c52e3f"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

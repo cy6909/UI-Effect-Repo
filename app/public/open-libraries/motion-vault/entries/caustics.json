@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/caustics",
+  "slug": "caustics",
+  "name": "CAUSTICS",
+  "titleZh": "水下焦散",
+  "description": "阳光穿过水面在池底投下流动的光网——Voronoi 焦散缓缓聚散明灭，一池安静的波光。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--caustics",
+  "detailUrl": "/open-libraries/motion-vault/entries/caustics.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=caustics",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/caustics.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/caustics.md",
+    "sha256": "6fe04631b3de826dd139a4d45ab27e34a32b61d9f9f112e01bf918277ceb71c7",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/caustics.json",
+    "sha256": "6eaae8e4d1a652746438ed0a7f235f941b7f8e1eb5003cb6a1f772cc087ae324"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

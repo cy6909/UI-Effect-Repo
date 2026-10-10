@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-05",
+  "slug": "alert-05",
+  "name": "Alert 5",
+  "titleZh": "提示条 alert-05",
+  "description": "Attached icon alert with separated icon section and destructive warning styling.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-05.json",
+    "sha256": "b671a36ff3c05fc70583ce6788c03d0ca2a56f1e0005e90b8984966e8984ed89"
+  },
+  "registryDependencies": [
+    "alert"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

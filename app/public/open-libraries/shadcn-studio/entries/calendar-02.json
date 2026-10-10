@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-02",
+  "slug": "calendar-02",
+  "name": "Calendar 2",
+  "titleZh": "日历 calendar-02",
+  "description": "Multi-month calendar displaying two months side by side for single date selection",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-02.json",
+    "sha256": "328bbfdd9b8afbd52f7a4f9f209290f66fd61c3b027f971532057ab1fa1e566b"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": []
+}

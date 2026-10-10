@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/jamarea-menu",
+  "name": "Jam Area Overlay Menu",
+  "slug": "jamarea-menu",
+  "titleZh": "Jam Area 覆盖式菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "Full-screen overlay menu that wipes open with a clip-path reveal when the Menu toggle is clicked, staggering in oversized SplitText links with per-character hover swaps. A lerped accent highlighter bar tracks the hovered link while the whole link strip pans with the mouse.",
+  "tags": [
+    "overlay",
+    "menu",
+    "lenis",
+    "hover",
+    "clip-path",
+    "split-text",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/jamarea-menu",
+  "docsUrl": "https://motionprompts.dev/component/jamarea-menu/",
+  "demoUrl": "https://motionprompts.dev/components/jamarea-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/jamarea-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/jamarea-menu.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/jamarea-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/jamarea-menu.md",
+    "sha256": "7927ba56431fd41923c2f5442356cc93d29e1d0c44af9820464e8714cbe4ca51",
+    "upstreamUrl": "https://motionprompts.dev/prompts/jamarea-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/jamarea-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "expo",
+    "duration_range": [
+      0.3,
+      1.5
+    ],
+    "stagger": 0.03,
+    "assets_required": {
+      "count": 1,
+      "bytes": 164608,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "disabled-below-breakpoint",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap+raf",
+    "motion_signature": "clip-path overlay wipe with lerped highlighter bar",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/jamarea-menu/"
+}

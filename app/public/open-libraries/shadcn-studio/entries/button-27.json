@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-27",
+  "slug": "button-27",
+  "name": "Button 27",
+  "titleZh": "按钮 button-27",
+  "description": "User profile button with avatar image and username display",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-27",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-27.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-27.json",
+    "sha256": "f9ba59185d27671c4bb516d88a724ce0317d5fa406c442e6ede4556be00bfa97"
+  },
+  "registryDependencies": [
+    "avatar",
+    "button"
+  ],
+  "dependencies": []
+}

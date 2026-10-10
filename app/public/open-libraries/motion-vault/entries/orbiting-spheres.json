@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/orbiting-spheres",
+  "slug": "orbiting-spheres",
+  "name": "ORBITING SPHERES",
+  "titleZh": "轨道球体组",
+  "description": "哑光中心球与六颗小球沿三条不同倾角的细轨道环绕运行，唯一的琥珀色小球是全场焦点。",
+  "tags": [
+    "3d",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--orbiting-spheres",
+  "detailUrl": "/open-libraries/motion-vault/entries/orbiting-spheres.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=orbiting-spheres",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/orbiting-spheres.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/orbiting-spheres.md",
+    "sha256": "afa20135f98d0709f431d2935ac6b72472e42837b58e7ca288782be0e0457d86",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/orbiting-spheres.json",
+    "sha256": "899c2e7bf0475ecbd53ec3a0851e295c51fca13e2a15049a9bce6e654c697914"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

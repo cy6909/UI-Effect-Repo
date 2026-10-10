@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pagination-09",
+  "slug": "pagination-09",
+  "name": "Pagination 9",
+  "titleZh": "分页 pagination-09",
+  "description": "A pagination component with underline styling for the active page indicator",
+  "tags": [
+    "pagination",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--pagination-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pagination-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/pagination",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pagination-09.json",
+    "sha256": "e589cfdba7e3188240cd7f39cf7afa03a13ebfbb55a1012a30cb8919d8a038b6"
+  },
+  "registryDependencies": [
+    "pagination"
+  ],
+  "dependencies": []
+}

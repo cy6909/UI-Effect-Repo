@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/loading-bar",
+  "slug": "loading-bar",
+  "name": "LOADING BAR",
+  "titleZh": "流光进度",
+  "description": "240px 细轨道，填充条 2.4 秒匀速到顶，内部一道高光持续扫过；完成后\"完成\"淡入，稍候归零重来。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--loading-bar",
+  "detailUrl": "/open-libraries/motion-vault/entries/loading-bar.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=loading-bar",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/loading-bar.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/loading-bar.md",
+    "sha256": "7a35bccfb4bf9cab0baffab0b0c243c89969fca82f2bf0d5cddb96321d6c25f0",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/loading-bar.json",
+    "sha256": "3f1b7ad3be4d52fca9ff3a6fb0048046db7d0eda80c73595575d939e2a2c3568"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

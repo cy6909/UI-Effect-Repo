@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/sarah-bassett",
+  "name": "Zoomable Image Wall",
+  "slug": "sarah-bassett",
+  "titleZh": "可缩放照片墙",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A full-viewport mosaic wall of 1200 image tiles that reveals on load with a random GSAP grid stagger (scale + opacity, power1.out). Zoom-in/out buttons run a 2.5s power4.inOut GSAP tween that explodes each tile outward and scales it up, and a drag layer lets you pan the zoomed wall with a lerp-smoothed translate3d.",
+  "tags": [
+    "gallery",
+    "mosaic",
+    "image-wall",
+    "drag",
+    "zoom",
+    "stagger",
+    "gsap",
+    "editorial",
+    "interactive",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/sarah-bassett",
+  "docsUrl": "https://motionprompts.dev/component/sarah-bassett/",
+  "demoUrl": "https://motionprompts.dev/components/sarah-bassett/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/sarah-bassett.webp",
+  "videoUrl": "https://motionprompts.dev/previews/sarah-bassett.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/sarah-bassett.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/sarah-bassett.md",
+    "sha256": "a8164fb9a7d4b046a0401aef773e7b0bf43f34b1a3fe227c6a6c137e638744f6",
+    "upstreamUrl": "https://motionprompts.dev/prompts/sarah-bassett.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/sarah-bassett/prompt.md"
+  },
+  "motion": {
+    "trigger": "drag",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 150,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.3,
+      2.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 50,
+      "bytes": 3342411,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "mixed",
+    "motion_signature": "grid-stagger reveal, tween zoom, lerp-dragged wall",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/sarah-bassett/"
+}

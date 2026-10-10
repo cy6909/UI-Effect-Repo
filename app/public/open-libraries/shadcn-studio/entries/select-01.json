@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-01",
+  "slug": "select-01",
+  "name": "Select 1",
+  "titleZh": "选择器 select-01",
+  "description": "A basic native select dropdown for gender selection",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-01.json",
+    "sha256": "ded4afddd358186113e327ff200f9c5e1f453a96e3e4919326d1fada60929e30"
+  },
+  "registryDependencies": [
+    "label",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/permianworld-landing-page-animation",
+  "name": "PermianWorld Landing Page Reveal Animation",
+  "slug": "permianworld-landing-page-animation",
+  "titleZh": "PermianWorld 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "Preloader reveal on page load: SplitText masked lines slide the preloader copy and counter up while a randomized counter climbs from 00 to 100 and a centered square revealer scales in stepped increments, then the black preloader collapses via clip-path as nav, hero image and hero content slide into place. Runs automatically on DOMContentLoaded.",
+  "tags": [
+    "preloader",
+    "reveal",
+    "splittext",
+    "counter",
+    "clip-path",
+    "landing",
+    "intro",
+    "stagger",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/permianworld-landing-page-animation",
+  "docsUrl": "https://motionprompts.dev/component/permianworld-landing-page-animation/",
+  "demoUrl": "https://motionprompts.dev/components/permianworld-landing-page-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/permianworld-landing-page-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/permianworld-landing-page-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/permianworld-landing-page-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/permianworld-landing-page-animation.md",
+    "sha256": "491f633e7ca08aca47b532ccea3bd715b9f1d019b1b7a3d9a2658105cc27129a",
+    "upstreamUrl": "https://motionprompts.dev/prompts/permianworld-landing-page-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/permianworld-landing-page-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "SplitText"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.5,
+      4.5
+    ],
+    "stagger": 0.075,
+    "assets_required": {
+      "count": 1,
+      "bytes": 381106,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "load-triggered preloader: staggered masked lines rise, centered square revealer scales in 5 discrete steps (0.1/0.25/0.5/0.75/1) with power2/power3 out, then a 1.25s clip-path wipe uncovers the page while nav + hero-img + hero-content ride up from y:35svh on the same overlapping beat; ~6s total, no scroll, no rAF",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/permianworld-landing-page-animation/"
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/burocratik-image-trail-js",
+  "name": "Burocratik Image Trail",
+  "slug": "burocratik-image-trail-js",
+  "titleZh": "Burocratik 图片拖尾",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "A cursor-driven image trail: while the mouse moves across the central full-viewport panel, a new 200px photo spawns at the cursor once it passes a distance threshold, scaling up from 0 with a random rotation via a CSS transform transition, then collapsing back to scale 0 and unmounting after a ~750ms lifespan. Idle cursors and scroll events also seed images. Pure vanilla JS driven by requestAnimationFrame and CSS cubic-bezier transitions (no GSAP); Lenis provides smooth scrolling.",
+  "tags": [
+    "image-trail",
+    "cursor",
+    "mouse-trail",
+    "lenis",
+    "vanilla-js",
+    "css-transitions",
+    "editorial",
+    "hover",
+    "scroll",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/burocratik-image-trail-js",
+  "docsUrl": "https://motionprompts.dev/component/burocratik-image-trail-js/",
+  "demoUrl": "https://motionprompts.dev/components/burocratik-image-trail-js/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/burocratik-image-trail-js.webp",
+  "videoUrl": "https://motionprompts.dev/previews/burocratik-image-trail-js.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/burocratik-image-trail-js.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/burocratik-image-trail-js.md",
+    "sha256": "b9a761f72d4c77ffcf06e84c15e8f100ad136330c114a44f6d20723118cfe8ea",
+    "upstreamUrl": "https://motionprompts.dev/prompts/burocratik-image-trail-js.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/burocratik-image-trail-js/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 35,
+      "bytes": 4834149,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "css-transition",
+    "motion_signature": "pointer-spawned CSS-transition image trail, rAF-culled",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/burocratik-image-trail-js/"
+}

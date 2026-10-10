@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-03",
+  "slug": "alert-03",
+  "name": "Alert 3",
+  "titleZh": "提示条 alert-03",
+  "description": "Closable alert with dismiss functionality using X icon and state management.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-03.json",
+    "sha256": "d2d6ccb3515fd78380bddb81db5a08851e505cf4a719b558272c9f3c4ac8b341"
+  },
+  "registryDependencies": [
+    "alert"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

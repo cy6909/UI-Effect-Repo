@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-12",
+  "slug": "select-12",
+  "name": "Select 12",
+  "titleZh": "选择器 select-12",
+  "description": "A custom select dropdown with icon",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-12",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-12.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-12.json",
+    "sha256": "e083bde199c7dc6dd58a0ba6a82f7e021b982f1a3683e339b188f8667ea844f2"
+  },
+  "registryDependencies": [
+    "label",
+    "select"
+  ],
+  "dependencies": []
+}

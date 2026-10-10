@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/tilt-card",
+  "slug": "tilt-card",
+  "name": "3D TILT CARD",
+  "titleZh": "3D 倾斜卡片",
+  "description": "卡片随鼠标在三维空间中倾斜，带一层跟随指针的高光，松手后弹性回正。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--tilt-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/tilt-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=tilt-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/tilt-card.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/tilt-card.md",
+    "sha256": "865f3625fed027ee9847a8cb75857a16f2d1728b572640de9351f7ab857772a1",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/tilt-card.json",
+    "sha256": "19044e709bb693a7a7c5ccf05a6139e6776b224603a565051fdb046c3ed441f3"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

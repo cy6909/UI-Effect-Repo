@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/dots-bounce",
+  "slug": "dots-bounce",
+  "name": "DOTS BOUNCE",
+  "titleZh": "三点跳跃",
+  "description": "三颗小圆点依次跳起又落下——经典打字指示器，节奏调得刚刚好。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--dots-bounce",
+  "detailUrl": "/open-libraries/motion-vault/entries/dots-bounce.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=dots-bounce",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/dots-bounce.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/dots-bounce.md",
+    "sha256": "529df340810a246cbf9d83a393e07503c1a7e2314a8fc58f40fca62913b6d3d8",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/dots-bounce.json",
+    "sha256": "aedc53e783928ba53e1a0369872c2c8df132dfc5a19fe997bf01d9f0fcfea770"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

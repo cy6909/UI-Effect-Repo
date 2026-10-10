@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/fiddle-digital-hover-effect",
+  "name": "Fiddle Digital Scramble Hover Effect",
+  "slug": "fiddle-digital-hover-effect",
+  "titleZh": "Fiddle Digital 乱序文字悬停",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A centered hero image is covered by an invisible grid of 25px blocks, some holding random symbols (O X * > $ W). Moving the mouse over the image activates the nearest block plus a random cluster of up to 7 neighbors (cobalt background, cream glyph) for ~300ms, while a subset of blocks scrambles its symbol every 150ms, leaving a digital-noise trail behind the cursor. Framed as a risograph print studio's catalogue plate.",
+  "tags": [
+    "scramble",
+    "pixel-grid",
+    "hover",
+    "image",
+    "symbols",
+    "vanilla-js",
+    "cursor-trail",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/fiddle-digital-hover-effect",
+  "docsUrl": "https://motionprompts.dev/component/fiddle-digital-hover-effect/",
+  "demoUrl": "https://motionprompts.dev/components/fiddle-digital-hover-effect/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/fiddle-digital-hover-effect.webp",
+  "videoUrl": "https://motionprompts.dev/previews/fiddle-digital-hover-effect.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/fiddle-digital-hover-effect.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/fiddle-digital-hover-effect.md",
+    "sha256": "dd10f4aaed6ceaf1995e54501aa3fc169e48601ffb52267fbef657a6319d73aa",
+    "upstreamUrl": "https://motionprompts.dev/prompts/fiddle-digital-hover-effect.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/fiddle-digital-hover-effect/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 187820,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "none",
+    "motion_signature": "pointer-nearest grid blocks flash with scrambling glyphs",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/fiddle-digital-hover-effect/"
+}

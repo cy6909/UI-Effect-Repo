@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/checkbox-14",
+  "slug": "checkbox-14",
+  "name": "Checkbox 14",
+  "titleZh": "复选框 checkbox-14",
+  "description": "List group checkboxes with icons and skills selection in bordered layout",
+  "tags": [
+    "checkbox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--checkbox-14",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/checkbox-14.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/checkbox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/checkbox-14.json",
+    "sha256": "8f73c681843d3249eb2c826b42ebde4f9eed28db7aeb2c1c4c9ce6c28713539b"
+  },
+  "registryDependencies": [
+    "checkbox",
+    "label"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

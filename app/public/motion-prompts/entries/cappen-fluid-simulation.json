@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/cappen-fluid-simulation",
+  "name": "Cappen Fluid Simulation",
+  "slug": "cappen-fluid-simulation",
+  "titleZh": "Cappen 流体模拟",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "Cappen-style GPU fluid simulation built with Three.js: moving the pointer injects ink and velocity splats into double-buffered HalfFloat render targets, and a Navier-Stokes shader solver (advection, curl/vorticity confinement, divergence, 40 pressure iterations) makes the ink swirl and dissipate. The full-screen canvas sits over a white typographic hero with mix-blend-mode: difference, so the flowing ink inverts the giant text beneath it.",
+  "tags": [
+    "fluid-simulation",
+    "webgl",
+    "three",
+    "shaders",
+    "navier-stokes",
+    "mouse",
+    "mix-blend-mode",
+    "hero",
+    "canvas",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/cappen-fluid-simulation",
+  "docsUrl": "https://motionprompts.dev/component/cappen-fluid-simulation/",
+  "demoUrl": "https://motionprompts.dev/components/cappen-fluid-simulation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/cappen-fluid-simulation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/cappen-fluid-simulation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/cappen-fluid-simulation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/cappen-fluid-simulation.md",
+    "sha256": "3e505f3616d271ae8afee25877e8116207860be16ad22bdd1f1b300c5ea70f14",
+    "upstreamUrl": "https://motionprompts.dev/prompts/cappen-fluid-simulation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/cappen-fluid-simulation/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "three"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      1.8
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "INTEGRATOR",
+    "engine": "webgl-raf",
+    "motion_signature": "pointer-driven GPU Navier-Stokes ink splats, difference-blended",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/cappen-fluid-simulation/"
+}

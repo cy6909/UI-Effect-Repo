@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/eseagency-scroll-carousel-javascript",
+  "name": "ESEAgency Scroll-Powered Carousel",
+  "slug": "eseagency-scroll-carousel-javascript",
+  "titleZh": "ESEAgency 滚动驱动轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A full-screen project carousel pinned by ScrollTrigger (scrub, Lenis-smoothed) where scroll progress drives slides in and out: each transition animates a clip-path polygon wipe plus opposing y-translations on the image and copy with power4.inOut, while a looping GSAP linear marquee scrolls the title and five progress bars fill via a --progress CSS variable.",
+  "tags": [
+    "scroll",
+    "carousel",
+    "slider",
+    "pin",
+    "scrub",
+    "clip-path",
+    "marquee",
+    "lenis",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/eseagency-scroll-carousel-javascript",
+  "docsUrl": "https://motionprompts.dev/component/eseagency-scroll-carousel-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/eseagency-scroll-carousel-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/eseagency-scroll-carousel-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/eseagency-scroll-carousel-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/eseagency-scroll-carousel-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/eseagency-scroll-carousel-javascript.md",
+    "sha256": "5a94ef5b7656494c941ef0279021a28fbf734f233820ae62903420818d01e56e",
+    "upstreamUrl": "https://motionprompts.dev/prompts/eseagency-scroll-carousel-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/eseagency-scroll-carousel-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 1500,
+    "needs_lenis": true,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      10
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 415408,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "pinned ~15-viewport scroll drives a quintile step-index; each step fires a fixed 1s power4.inOut clip-path wipe with counter-sliding image (±25%) and copy (±100%), plus a linear 10s infinite marquee — only the progress bars are truly scrub-linked, the wipes are discrete and direction-aware",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/eseagency-scroll-carousel-javascript/"
+}

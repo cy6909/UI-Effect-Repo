@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/pixel-card",
+  "slug": "pixel-card",
+  "name": "PIXEL SURGE",
+  "titleZh": "像素涌动卡",
+  "description": "卡片表面覆盖一层 8px 像素网格，悬停时像素块以随机延迟从指尖泛起又退去，像一波数字潮水。",
+  "tags": [
+    "card",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--pixel-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/pixel-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=pixel-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/pixel-card.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/pixel-card.md",
+    "sha256": "9a76b21baddf2a144cae8159ac3ceedc7dcdd27bb7f3cc26d875bfe4dc792175",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/pixel-card.json",
+    "sha256": "ca2d050c8f3c7ab33053d43fdab2db9b6d03d2bba7cb76d2aa0688536105a1e7"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

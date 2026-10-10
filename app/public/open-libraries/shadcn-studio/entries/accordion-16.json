@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/accordion-16",
+  "slug": "accordion-16",
+  "name": "Accordion 16",
+  "titleZh": "折叠面板 accordion-16",
+  "description": "Simplified multi-level accordion with plus/minus icons for nested FAQ categories and questions.",
+  "tags": [
+    "accordion",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--accordion-16",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/accordion-16.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/accordion",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/accordion-16.json",
+    "sha256": "7f9cc87a350d2aa69860b7257003f5adbd1ffe6ab814947295b5e1c757fbc8cb"
+  },
+  "registryDependencies": [
+    "accordion",
+    "collapsible"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

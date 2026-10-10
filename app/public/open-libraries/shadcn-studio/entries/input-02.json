@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-02",
+  "slug": "input-02",
+  "name": "Input 2",
+  "titleZh": "输入框 input-02",
+  "description": "An email input field with a descriptive label for improved accessibility",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-02.json",
+    "sha256": "5dfc01019be894e2580cf61265fbe6a4d159480ae96134462041a009ce36f8cc"
+  },
+  "registryDependencies": [
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

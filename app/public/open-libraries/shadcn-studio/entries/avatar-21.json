@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/avatar-21",
+  "slug": "avatar-21",
+  "name": "Avatar 21",
+  "titleZh": "头像 avatar-21",
+  "description": "Avatar group with popularity indicator styling and text showcasing community trust.",
+  "tags": [
+    "avatar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--avatar-21",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/avatar-21.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/avatar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/avatar-21.json",
+    "sha256": "2553b4fe9492b4973f5c6621eae0f2ba23c07f191507a82ce252db55ccb08f2e"
+  },
+  "registryDependencies": [
+    "avatar"
+  ],
+  "dependencies": []
+}

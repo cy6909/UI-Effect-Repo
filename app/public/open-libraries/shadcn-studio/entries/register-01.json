@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/register-01",
+  "slug": "register-01",
+  "name": "Register 1",
+  "titleZh": "界面组件 register-01",
+  "description": "Centered card layout with logo header, registration form featuring full name, email, password inputs, social signup options, and account linking for comprehensive user onboarding",
+  "tags": [
+    "register",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--register-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/register-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/register-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/register-01.json",
+    "sha256": "109f33be2d0f29f67f99d42ee46c95f693172a5fd091163b07e5be567f218268"
+  },
+  "registryDependencies": [
+    "button",
+    "card",
+    "checkbox",
+    "input",
+    "label",
+    "separator",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

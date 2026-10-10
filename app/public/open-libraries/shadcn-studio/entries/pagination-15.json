@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pagination-15",
+  "slug": "pagination-15",
+  "name": "Pagination 15",
+  "titleZh": "分页 pagination-15",
+  "description": "A comprehensive pagination component with page size selector, tooltips, and detailed navigation controls",
+  "tags": [
+    "pagination",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--pagination-15",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pagination-15.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/pagination",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pagination-15.json",
+    "sha256": "7113000d9a0b06da43cd27f59dd5910640c401758b3de72cc678043512ca4f34"
+  },
+  "registryDependencies": [
+    "label",
+    "pagination",
+    "select",
+    "tooltip"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

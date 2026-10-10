@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/flip-clock",
+  "slug": "flip-clock",
+  "name": "FLIP CLOCK",
+  "titleZh": "翻页时钟",
+  "description": "六块机械翻牌显示实时本地时间：每秒个位秒牌绕中轴翻落，落地时带一下轻微的铰链回弹。",
+  "tags": [
+    "3d",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--flip-clock",
+  "detailUrl": "/open-libraries/motion-vault/entries/flip-clock.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=flip-clock",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/flip-clock.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/flip-clock.md",
+    "sha256": "515401b426df16d73182cbe401f18797ad871f63d06496094a7a9ee4a0196aca",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/flip-clock.json",
+    "sha256": "c206db3f10bbca433f2ed316cf937a70bfd1c6977b02efe5ad8cc85cdd3180e3"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

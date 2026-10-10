@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/holo-card",
+  "slug": "holo-card",
+  "name": "HOLO GLARE",
+  "titleZh": "全息眩光卡",
+  "description": "深色卡片随鼠标在三维空间倾斜，一层低饱和的彩虹全息眩光随指针流转，像收藏卡的镭射面，克制而高级。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--holo-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/holo-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=holo-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/holo-card.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/holo-card.md",
+    "sha256": "e81aa697b3f284fb9cfc807afc758b172d17bfad56e61ac21a22aa57699d3a37",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/holo-card.json",
+    "sha256": "315900b94b9950ef02a53250c10dbdca889b06f0dbae8d7d5afdd449b71f9a95"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

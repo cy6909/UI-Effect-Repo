@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-38",
+  "slug": "input-38",
+  "name": "Input 38",
+  "titleZh": "输入框 input-38",
+  "description": "Search input field with search icon and microphone button for voice input",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-38",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-38.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-38.json",
+    "sha256": "319e78b14bedb6ea6ca2e2f7c24ccf54c20186e07a11effebba32c176975eac6"
+  },
+  "registryDependencies": [
+    "button",
+    "input",
+    "label"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

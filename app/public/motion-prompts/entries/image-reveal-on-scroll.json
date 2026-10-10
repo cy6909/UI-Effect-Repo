@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/image-reveal-on-scroll",
+  "name": "Image Reveal On Scroll",
+  "slug": "image-reveal-on-scroll",
+  "titleZh": "滚动图片揭示",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A staggered grid of tall portrait images that each unmask as they enter the viewport: GSAP animates a clip-path polygon from a zero-height sliver to a full rectangle (power1.out, 2s) driven by ScrollTrigger, while onEnter/onEnterBack tween the fixed background gradient to the current item's accent color and a fixed counter tracks scroll percentage.",
+  "tags": [
+    "scroll",
+    "clip-path",
+    "image-reveal",
+    "gsap",
+    "scrolltrigger",
+    "gradient",
+    "editorial",
+    "counter",
+    "gallery",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/image-reveal-on-scroll",
+  "docsUrl": "https://motionprompts.dev/component/image-reveal-on-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/image-reveal-on-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/image-reveal-on-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/image-reveal-on-scroll.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/image-reveal-on-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/image-reveal-on-scroll.md",
+    "sha256": "4199a6b1d152164dfb218800351ded5aca61086c4697bf21d371703ddaaf85c3",
+    "upstreamUrl": "https://motionprompts.dev/prompts/image-reveal-on-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/image-reveal-on-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power1",
+    "duration_range": [
+      2,
+      2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 8,
+      "bytes": 1036935,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-THRESHOLD",
+    "engine": "gsap",
+    "motion_signature": "enter-triggered clip-path unmask, tweened gradient background",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "reveal-on-enter"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/image-reveal-on-scroll/"
+}

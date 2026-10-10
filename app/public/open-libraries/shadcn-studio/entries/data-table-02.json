@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-02",
+  "slug": "data-table-02",
+  "name": "Data Table 2",
+  "titleZh": "数据表格 data-table-02",
+  "description": "Density data table with density selection",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-02.json",
+    "sha256": "3d68df2d545c653a17b32940c2ce1019a169d0687a2d0f667ef010a3d977f06a"
+  },
+  "registryDependencies": [
+    "checkbox",
+    "select",
+    "table",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "@tanstack/react-table"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-01",
+  "slug": "form-01",
+  "name": "Form 1",
+  "titleZh": "表单 form-01",
+  "description": "Form with radio group selection and alert notifications for user feedback",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-01.json",
+    "sha256": "e5dca3f10c6e34427735dd00d40063e82e0a5da84c5ed92594823a277b0936bf"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "form",
+    "radio-group"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

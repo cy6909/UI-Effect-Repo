@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-09",
+  "slug": "select-09",
+  "name": "Select 9",
+  "titleZh": "选择器 select-09",
+  "description": "A native select dropdown with inset label design and custom styling",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-09.json",
+    "sha256": "b4a17b6f4a16c85dc5f8c788ed7dc6bf3bb1eb36f565edb2f41e724e04f39db1"
+  },
+  "registryDependencies": [
+    "label",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

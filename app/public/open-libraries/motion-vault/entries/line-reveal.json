@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/line-reveal",
+  "slug": "line-reveal",
+  "name": "LINE REVEAL",
+  "titleZh": "逐行揭示",
+  "description": "段落在进入视口时逐行从遮罩中滑出，500ms 缓出、行间错峰 120ms，干净利落的编辑排版感。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--line-reveal",
+  "detailUrl": "/open-libraries/motion-vault/entries/line-reveal.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=line-reveal",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/line-reveal.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/line-reveal.md",
+    "sha256": "0535843b7f7c758eb48cae6d5b047bb641934766b2daf56a87b7ce7ff7ad2d8d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/line-reveal.json",
+    "sha256": "1e5fea32c13f49a6dbe3af66a2e8ae26cc752aff18c852b55cf4d836d607e8e1"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

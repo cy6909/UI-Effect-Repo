@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/art-tech-nav",
+  "name": "Art Tech Overlay Navigation",
+  "slug": "art-tech-nav",
+  "titleZh": "Art Tech 覆盖式导航",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "Clicking the burger button plays a paused GSAP timeline that reveals a fullscreen black overlay by animating the clip-path polygon of eight vertical blocks with a 0.075s stagger on a power3.inOut ease, then fades in the menu title and items with a staggered opacity tween; clicking again reverses the timeline to close.",
+  "tags": [
+    "overlay-menu",
+    "fullscreen-menu",
+    "clip-path",
+    "staggered-reveal",
+    "burger-toggle",
+    "timeline",
+    "gsap",
+    "editorial",
+    "technical",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/art-tech-nav",
+  "docsUrl": "https://motionprompts.dev/component/art-tech-nav/",
+  "demoUrl": "https://motionprompts.dev/components/art-tech-nav/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/art-tech-nav.webp",
+  "videoUrl": "https://motionprompts.dev/previews/art-tech-nav.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/art-tech-nav.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/art-tech-nav.md",
+    "sha256": "63a310774d2c26c88af082b7f7362acbdd1eb9e35f8c18c917d96f5b66042ae3",
+    "upstreamUrl": "https://motionprompts.dev/prompts/art-tech-nav.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/art-tech-nav/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.3,
+      1
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 2,
+      "bytes": 30785,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "Burger click plays one paused timeline: 8 full-height columns wipe top-to-bottom via clip-path polygon (1s, power3.inOut, 0.075s stagger), and 0.5s before that wipe finishes the index title + 4 menu items fade up in opacity (0.3s, power1.out default, 0.05s stagger). A second click reverses the same timeline. No scroll, no rAF, no physics.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/art-tech-nav/"
+}

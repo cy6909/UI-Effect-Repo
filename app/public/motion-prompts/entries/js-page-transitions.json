@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/js-page-transitions",
+  "name": "JS Page Transitions",
+  "slug": "js-page-transitions",
+  "titleZh": "JS 页面转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "A full-screen curtain page transition: clicking a nav link runs a GSAP tween that scales a 2x5 grid of purple blocks up on the Y axis (power4.inOut, staggered per column) to cover the viewport, swaps the hero heading, then scales the blocks back down to reveal the incoming page. The same reveal also plays on initial load.",
+  "tags": [
+    "page-transition",
+    "curtain",
+    "blocks",
+    "scaley",
+    "stagger",
+    "gsap",
+    "power4",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/js-page-transitions",
+  "docsUrl": "https://motionprompts.dev/component/js-page-transitions/",
+  "demoUrl": "https://motionprompts.dev/components/js-page-transitions/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/js-page-transitions.webp",
+  "videoUrl": "https://motionprompts.dev/previews/js-page-transitions.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/js-page-transitions.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/js-page-transitions.md",
+    "sha256": "529dcdc73ef6003807bd7b5fdf07f333f203a21fd57f1c813089a474474f8e99",
+    "upstreamUrl": "https://motionprompts.dev/prompts/js-page-transitions.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/js-page-transitions/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "staggered 2x5 block curtain scaleY cover/reveal — 1s power4.inOut per block, 0.1s per-column offset (axis x), top-origin top row / bottom-origin bottom row, ~1.4s per phase",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/js-page-transitions/"
+}

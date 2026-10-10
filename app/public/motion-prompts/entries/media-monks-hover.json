@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/media-monks-hover",
+  "name": "Media Monks Hover",
+  "slug": "media-monks-hover",
+  "titleZh": "Media Monks 悬停",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A dark film-studio work-list where hovering each project flips the whole panel to that project's pastel tint and lifts every row's opacity via CSS transitions, while a tilted strip of film-still previews behind the text repositions (top/left) and swaps its active card to reveal the matching project, plus an arrow icon that slides in from the left edge of a pill button on the hovered row.",
+  "tags": [
+    "hover",
+    "css-transitions",
+    "vanilla-js",
+    "work-list",
+    "image-reveal",
+    "portfolio",
+    "phosphor-icons",
+    "editorial",
+    "interactive",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/media-monks-hover",
+  "docsUrl": "https://motionprompts.dev/component/media-monks-hover/",
+  "demoUrl": "https://motionprompts.dev/components/media-monks-hover/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/media-monks-hover.webp",
+  "videoUrl": "https://motionprompts.dev/previews/media-monks-hover.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/media-monks-hover.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/media-monks-hover.md",
+    "sha256": "0e58049818b668817f22b1f0b76f74afbd32c212cd1903791c19388889ddbf8c",
+    "upstreamUrl": "https://motionprompts.dev/prompts/media-monks-hover.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/media-monks-hover/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "phosphor-icons"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 3,
+      "bytes": 836905,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "css-transition",
+    "motion_signature": "row hover tints the whole panel (background-color 0.5s ease) and slides the tilted preview strip to a new top/left over 1s, while the active .prev nudges rotate(10deg)->rotate(12.5deg) and the strip fades 0.45->0.9 opacity; an arrow pill wipes in with a 0.2s delay on the incoming glyph",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/media-monks-hover/"
+}

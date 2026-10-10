@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/explode-text-on-scroll-matterjs",
+  "name": "Explode Text On Scroll (Matter.js)",
+  "slug": "explode-text-on-scroll-matterjs",
+  "titleZh": "Explode Text On 滚动 (Matter.js)",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned sticky paragraph whose highlighted keywords progressively recolor as you scroll, then shatter into individual characters that fall and bounce under Matter.js physics. Driven by a scrubbed GSAP ScrollTrigger timeline that toggles gravity past 60% progress and syncs each character element to its physics body via an afterUpdate transform.",
+  "tags": [
+    "scroll",
+    "physics",
+    "matter-js",
+    "text",
+    "gsap",
+    "scrolltrigger",
+    "split-type",
+    "experimental",
+    "explode",
+    "lenis",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/explode-text-on-scroll-matterjs",
+  "docsUrl": "https://motionprompts.dev/component/explode-text-on-scroll-matterjs/",
+  "demoUrl": "https://motionprompts.dev/components/explode-text-on-scroll-matterjs/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/explode-text-on-scroll-matterjs.webp",
+  "videoUrl": "https://motionprompts.dev/previews/explode-text-on-scroll-matterjs.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/explode-text-on-scroll-matterjs.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/explode-text-on-scroll-matterjs.md",
+    "sha256": "f0b1b4fbac05434951d669d5b746b0ae6c33e48b9f1867ee83f77a8545567775",
+    "upstreamUrl": "https://motionprompts.dev/prompts/explode-text-on-scroll-matterjs.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/explode-text-on-scroll-matterjs/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitType",
+      "lenis",
+      "matter-js"
+    ],
+    "complexity": 5,
+    "pinned": true,
+    "viewport_heights": 400,
+    "needs_lenis": true,
+    "ease_family": "power2",
+    "duration_range": [
+      0.1,
+      2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "mixed",
+    "motion_signature": "pinned 400vh scrubbed word-colour sweep (two shuffled, randomly scattered phases) that at progress 0.6 flips Matter.js gravity from 0 to 1, un-statics every glyph body and kicks it with a random impulse (vx ±2.5, vy 0..-5, spin ±0.125 rad/s) so the letters tumble and bounce (restitution 0.75, friction 0.5, frictionAir 0.0175) onto a static floor at the viewport bottom; scrolling back up re-statics, re-seats and re-fades everything",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis",
+    "split-type",
+    "matter-js"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/explode-text-on-scroll-matterjs/"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-22",
+  "slug": "alert-22",
+  "name": "Alert 22",
+  "titleZh": "提示条 alert-22",
+  "description": "Soft info alert with blue background and subtle styling for information.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-22",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-22.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-22.json",
+    "sha256": "53b8bce56acc00fac5e3a9614cc18393afe722efde1e54b8a7fa389aa64ca817"
+  },
+  "registryDependencies": [
+    "alert"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

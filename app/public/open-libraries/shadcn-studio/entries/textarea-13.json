@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/textarea-13",
+  "slug": "textarea-13",
+  "name": "Textarea 13",
+  "titleZh": "多行输入 textarea-13",
+  "description": "A textarea with overlapping label for modern form design",
+  "tags": [
+    "textarea",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--textarea-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/textarea-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/textarea",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/textarea-13.json",
+    "sha256": "087f92e9e5db570056ea52cfabb9ac4bd8668ae6adc0e314eb03cab6e4bca956"
+  },
+  "registryDependencies": [
+    "label",
+    "textarea"
+  ],
+  "dependencies": []
+}

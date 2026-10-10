@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/circuit-pulse",
+  "slug": "circuit-pulse",
+  "name": "CIRCUIT PULSE",
+  "titleZh": "电路脉冲",
+  "description": "PCB 走线横平竖直地铺展，一簇簇光脉冲沿铜线奔流、在过孔处转弯，像一块沉睡中被点亮的主板。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--circuit-pulse",
+  "detailUrl": "/open-libraries/motion-vault/entries/circuit-pulse.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=circuit-pulse",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/circuit-pulse.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/circuit-pulse.md",
+    "sha256": "e38c6d91e61084cff99efbc5acfed80b0eac53d547bda2ae60342ac1e2929d4e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/circuit-pulse.json",
+    "sha256": "81a4d85d34b549041db45b404c306d43c29290b2de45f65d40f867f5be743319"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

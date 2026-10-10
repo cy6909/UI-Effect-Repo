@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/date-picker-01",
+  "slug": "date-picker-01",
+  "name": "Date Picker 1",
+  "titleZh": "日期选择 date-picker-01",
+  "description": "Basic single date picker with popover calendar display",
+  "tags": [
+    "date-picker",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--date-picker-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/date-picker-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/date-picker",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/date-picker-01.json",
+    "sha256": "25b7c99ff05bb7ca7734c9262adab40d779326a17a9207ed15b7d237d73b3f65"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "label",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "upstream": "https://github.com/VanguardiaAI/motionprompts-mcp",
+  "commit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "importedOn": "2026-10-09",
+  "count": 248,
+  "fullPrompts": 30,
+  "previewPrompts": 218,
+  "sourceCodeImported": false,
+  "mediaCopied": false,
+  "license": "PolyForm Noncommercial 1.0.0 plus visible attribution",
+  "catalogHash": "c7d2999d1aa90489819981f6cf5f71edaa158b26571160f5efbd955bd6f1b900"
+}

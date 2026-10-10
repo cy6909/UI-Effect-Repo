@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-23",
+  "slug": "calendar-23",
+  "name": "Calendar 23",
+  "titleZh": "日历 calendar-23",
+  "description": "Range calendar with preset date range shortcuts (Last week, month, year, etc.)",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-23",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-23.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-23.json",
+    "sha256": "bc88dcbcc73f2996d54edb9571846fc8446e8c5c377c1eed9c8fbbbd41d65caa"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "card"
+  ],
+  "dependencies": []
+}

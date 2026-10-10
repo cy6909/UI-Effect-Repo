@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/checkbox-03",
+  "slug": "checkbox-03",
+  "name": "Checkbox 3",
+  "titleZh": "复选框 checkbox-03",
+  "description": "Checkbox with dashed border styling for visual distinction",
+  "tags": [
+    "checkbox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--checkbox-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/checkbox-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/checkbox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/checkbox-03.json",
+    "sha256": "fdf60d199097cb6a78b1a5c81a7e6f5323289be79a246f7e8cf3814516c629b5"
+  },
+  "registryDependencies": [
+    "checkbox",
+    "label"
+  ],
+  "dependencies": []
+}

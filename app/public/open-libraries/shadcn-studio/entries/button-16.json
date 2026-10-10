@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-16",
+  "slug": "button-16",
+  "name": "Button 16",
+  "titleZh": "按钮 button-16",
+  "description": "Ghost button with animated arrow on hover",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-16",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-16.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-16.json",
+    "sha256": "bdc5f730577033e4f0a03620a8f5de5c1c823752f64c7fa346497d8572932983"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

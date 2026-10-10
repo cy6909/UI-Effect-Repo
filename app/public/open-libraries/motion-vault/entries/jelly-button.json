@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/jelly-button",
+  "slug": "jelly-button",
+  "name": "JELLY BUTTON",
+  "titleZh": "果冻按钮",
+  "description": "点击瞬间按钮像布丁一样被压扁又弹回——横向拉伸时纵向收缩，体积守恒的果冻物理。",
+  "tags": [
+    "spring",
+    "button",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--jelly-button",
+  "detailUrl": "/open-libraries/motion-vault/entries/jelly-button.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=jelly-button",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/jelly-button.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/jelly-button.md",
+    "sha256": "007eae79a78729915de8b63a126e5c9e45f490be3248b5940a130fb870a182b9",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/jelly-button.json",
+    "sha256": "2ae5108f46a579209bf4ebc878f0c32f568845cab60f13906b5d49e42b13be12"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

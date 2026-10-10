@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/js-image-minimap",
+  "name": "Scroll-Synced Image Minimap",
+  "slug": "js-image-minimap",
+  "titleZh": "滚动同步缩略图",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A tall vertical image gallery paired with a sticky sidebar minimap of thumbnails. As the user scrolls, a scroll listener maps the page scroll fraction onto a translateY of the thumbnail strip so the minimap glides through its images in sync, while a fixed bordered indicator marks the active thumbnail via mix-blend-mode; past a threshold the whole page inverts to a light theme.",
+  "tags": [
+    "minimap",
+    "scroll",
+    "sticky",
+    "gallery",
+    "thumbnails",
+    "mix-blend-mode",
+    "vanilla-js",
+    "editorial",
+    "navigator",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/js-image-minimap",
+  "docsUrl": "https://motionprompts.dev/component/js-image-minimap/",
+  "demoUrl": "https://motionprompts.dev/components/js-image-minimap/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/js-image-minimap.webp",
+  "videoUrl": "https://motionprompts.dev/previews/js-image-minimap.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/js-image-minimap.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/js-image-minimap.md",
+    "sha256": "4f322bca38c9cd3b97e27e7abe1b555c4b98378fc31c9c875700060aeacdf440",
+    "upstreamUrl": "https://motionprompts.dev/prompts/js-image-minimap.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/js-image-minimap/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.5,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 11,
+      "bytes": 1760665,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "css-transition",
+    "motion_signature": "scroll-mapped sticky thumbnail strip translate (linear, no lerp, no easing)",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/js-image-minimap/"
+}

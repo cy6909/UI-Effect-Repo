@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/timeline",
+  "slug": "timeline",
+  "name": "SCROLL TIMELINE",
+  "titleZh": "滚动时间线",
+  "description": "中央细线随滚动自上而下生长，五个年份节点在墨迹抵达时依次弹出、圆点填黑。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--timeline",
+  "detailUrl": "/open-libraries/motion-vault/entries/timeline.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=timeline",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/timeline.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/timeline.md",
+    "sha256": "21c8ee1ee54a0e6fcdc6c1ce0e09ea3195c3ab4fd6a38c424b49bbc9b0b5f3df",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/timeline.json",
+    "sha256": "bf32d7627c03512d8442689122fe3a126c82acd869effa43062fd88ac07dd31d"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

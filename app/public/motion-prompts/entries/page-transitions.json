@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/page-transitions",
+  "name": "Block Grid Page Transitions",
+  "slug": "page-transitions",
+  "titleZh": "方格页面转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "A fullscreen 10x11 grid of blocks acts as a curtain between routes: clicking a nav link grows the blocks up from the bottom (scaleY 0->1) to cover the viewport, the page title swaps behind them, then a second grid shrinks the blocks up from the top (scaleY 1->0) to reveal the new page. Each block uses a per-row random GSAP stagger with a CustomEase reproduction of the [0.22,1,0.36,1] cubic-bezier over a 1s duration.",
+  "tags": [
+    "page-transition",
+    "blocks",
+    "grid",
+    "stagger",
+    "custom-ease",
+    "reveal",
+    "navigation",
+    "minimal",
+    "fake-router",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/page-transitions",
+  "docsUrl": "https://motionprompts.dev/component/page-transitions/",
+  "demoUrl": "https://motionprompts.dev/components/page-transitions/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/page-transitions.webp",
+  "videoUrl": "https://motionprompts.dev/previews/page-transitions.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/page-transitions.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/page-transitions.md",
+    "sha256": "ff3d4bebeee5750747ae82b5f5c034ec6e1137dd8daeca4f24e067b91fb4bfc1",
+    "upstreamUrl": "https://motionprompts.dev/prompts/page-transitions.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/page-transitions/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "CustomEase"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "staggered block-grid curtain covers then reveals",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/page-transitions/"
+}

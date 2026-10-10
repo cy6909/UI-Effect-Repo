@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/lottie-scroll-animation",
+  "name": "Lottie Scroll Animation",
+  "slug": "lottie-scroll-animation",
+  "titleZh": "Lottie 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A full-screen Lottie animation is scrubbed frame-by-frame by scroll position. A GSAP ScrollTrigger with scrub tweens a playhead from frame 0 to the Lottie's last frame, calling goToAndStop on each update, so the fixed background animation plays and reverses smoothly as the user scrolls the tall page.",
+  "tags": [
+    "scroll",
+    "lottie",
+    "scrub",
+    "scrolltrigger",
+    "frame-by-frame",
+    "background",
+    "grain",
+    "cinematic",
+    "gsap",
+    "lottie-web",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/lottie-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/lottie-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/lottie-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/lottie-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/lottie-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/lottie-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/lottie-scroll-animation.md",
+    "sha256": "05215d9126195f3629f4c0885cb922683695d700ce55f13753f44daf9f2afc9d",
+    "upstreamUrl": "https://motionprompts.dev/prompts/lottie-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/lottie-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lottie-web"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 500,
+    "needs_lenis": false,
+    "ease_family": "none",
+    "duration_range": [
+      0.25,
+      8
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 2,
+      "bytes": 22503381,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "linear (ease:'none') lottie frame scrub mapped 1:1 to a 500vh scroll range, softened by scrub:2 — the playhead lags the scroll by up to ~2s and keeps easing to rest after the wheel stops; everything else on screen is static except an 8s stepped CSS grain loop over a fixed full-viewport background",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lottie-web"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/lottie-scroll-animation/"
+}

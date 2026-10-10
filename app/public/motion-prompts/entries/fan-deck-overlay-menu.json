@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/fan-deck-overlay-menu",
+  "name": "Fan Deck Overlay Menu",
+  "slug": "fan-deck-overlay-menu",
+  "titleZh": "扇形卡组 覆盖式菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "Click-to-open overlay menu: the dark panel wipes up with a clip-path while a glass shelf rises and four frosted image cards climb out of it blurred and tilted, straighten, then fan out with a centre-out stagger. With the menu open the pointer parallaxes the fan and drags a specular highlight across each card's glass; closing gathers the deck back into the shelf before the panel wipes down.",
+  "tags": [
+    "overlay",
+    "menu",
+    "cards",
+    "fan",
+    "glassmorphism",
+    "clip-path",
+    "parallax",
+    "iridescent",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/fan-deck-overlay-menu",
+  "docsUrl": "https://motionprompts.dev/component/fan-deck-overlay-menu/",
+  "demoUrl": "https://motionprompts.dev/components/fan-deck-overlay-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/fan-deck-overlay-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/fan-deck-overlay-menu.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/fan-deck-overlay-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/fan-deck-overlay-menu.md",
+    "sha256": "74d95fc8bc93622a77b8e64492f5b345b23c0848d54571ecc8367e5da3b46ff9",
+    "upstreamUrl": "https://motionprompts.dev/prompts/fan-deck-overlay-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/fan-deck-overlay-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      1.5
+    ],
+    "stagger": 0.035,
+    "assets_required": {
+      "count": 4,
+      "bytes": 205235,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "clip-path panel wipe, staggered card rise from a shelf and centre-out fan; pointer parallax via quickTo and a per-card specular highlight",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/fan-deck-overlay-menu/"
+}

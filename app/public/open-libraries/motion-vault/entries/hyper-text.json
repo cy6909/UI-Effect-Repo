@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/hyper-text",
+  "slug": "hyper-text",
+  "name": "HYPER TEXT",
+  "titleZh": "高能定格",
+  "description": "HYPERDRIVE 字母先以 20ms 一帧高速乱序约 600ms，再从左到右逐字定格（60ms 错峰），zinc-400 乱码落定为 zinc-950，入视口自动触发。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--hyper-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/hyper-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=hyper-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/hyper-text.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/hyper-text.md",
+    "sha256": "85edcca054e5993d2e90001f09e06608c6bafff2741401dd7f37eeaa77b642a4",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/hyper-text.json",
+    "sha256": "0be5b10d40365e09b6277aedce46af7076c9ec113db0f1a7f0e4febeacb513cd"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

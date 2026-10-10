@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/zoom-out-mark-preloader",
+  "name": "Zoom-Out Mark Preloader",
+  "slug": "zoom-out-mark-preloader",
+  "titleZh": "缩小标志加载",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "A preloader with no veil: the blank white screen IS the interior of the brand's plus-sign mark, blown up until its crossing covers the viewport. A counter ticks 0 to 100 in ink over the white, then the mark zooms out on a logarithmic scale — so the recede reads at a constant rate instead of stalling — and the hero photograph is discovered around it rather than uncovered. The mark lands pixel-exact on the hero's own mark (both are the same two-bar cross, and the landing point and final scale are measured from it, not hard-coded), the two words fly in from opposite edges, and only once they have settled does the mark turn 360 degrees on its axis.",
+  "tags": [
+    "preloader",
+    "loader",
+    "counter",
+    "zoom-out",
+    "logo-reveal",
+    "hero-reveal",
+    "logarithmic-scale",
+    "gsap-timeline",
+    "load-triggered",
+    "replayable",
+    "reduced-motion",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/zoom-out-mark-preloader",
+  "docsUrl": "https://motionprompts.dev/component/zoom-out-mark-preloader/",
+  "demoUrl": "https://motionprompts.dev/components/zoom-out-mark-preloader/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/zoom-out-mark-preloader.webp",
+  "videoUrl": "https://motionprompts.dev/previews/zoom-out-mark-preloader.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/zoom-out-mark-preloader.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/zoom-out-mark-preloader.md",
+    "sha256": "cb7201d398378e2698c2e9e7323d466577114381c7271fa85e66b903d8960492",
+    "upstreamUrl": "https://motionprompts.dev/prompts/zoom-out-mark-preloader.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/zoom-out-mark-preloader/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.3,
+      1.9
+    ],
+    "stagger": 0.07,
+    "assets_required": {
+      "count": 1,
+      "bytes": 246714,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "One paused-free gsap.timeline() fired on module evaluation, in four strictly sequential phases with no overlap between them beyond the two stated. A 1.8s power1.inOut tween counts an object from 0 to 100 and writes the rounded value into a text node while nothing moves on screen. After +=0.12 the counter fades out over 0.35s (power2.in) and, at the same instant, a second 1.9s power1.inOut tween drives a normalized 0-to-1 progress whose onUpdate writes scale = final * (start/final)^(1-p) — the scale is interpolated in LOG space, not linearly, so the recede reads at a constant rate; start is recomputed from the live viewport diagonal every frame and final is measured from the destination element, so neither end of the recede is a constant. On completion a callback swaps the preloader mark for the hero's, and at that same position the nav fades in over 0.6s while two words tween xPercent ±140 to 0 with opacity over 1.05s power4.out, stagger 0.07. Only after those finish does a 1s power2.inOut rotate the mark 360 degrees, with the standfirst and link fading up at <0.2. Total ≈5.9s. No scroll listener, no rAF loop of its own, no ScrollTrigger. Under prefers-reduced-motion the timeline never runs and document.getAnimations() stays at 0.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/zoom-out-mark-preloader/"
+}

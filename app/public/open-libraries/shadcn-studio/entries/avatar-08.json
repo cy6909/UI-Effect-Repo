@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/avatar-08",
+  "slug": "avatar-08",
+  "name": "Avatar 8",
+  "titleZh": "头像 avatar-08",
+  "description": "Status avatar with online indicator showing green status dot.",
+  "tags": [
+    "avatar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--avatar-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/avatar-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/avatar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/avatar-08.json",
+    "sha256": "c96bc8fc6f578c97ce0b268105502e6dd503d86061536f3efb66d5447edb6ad8"
+  },
+  "registryDependencies": [
+    "avatar"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

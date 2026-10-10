@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/table-08",
+  "slug": "table-08",
+  "name": "Table 8",
+  "titleZh": "表格 table-08",
+  "description": "A table with highlighted row functionality for emphasis and user interaction",
+  "tags": [
+    "table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--table-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/table-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/table-08.json",
+    "sha256": "a2005d373828df75e0035eab042078689d7a4d79b7fab735d4a36df81048b077"
+  },
+  "registryDependencies": [
+    "table"
+  ],
+  "dependencies": []
+}

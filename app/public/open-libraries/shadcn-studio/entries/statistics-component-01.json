@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/statistics-component-01",
+  "slug": "statistics-component-01",
+  "name": "Statistics 1",
+  "titleZh": "界面组件 statistics-component-01",
+  "description": "Logistics and shipping statistics cards displaying Shipped Orders, Damaged Returns, Missed Delivery Slots, and Late Deliveries with percentage change indicators and \"than last week\" comparison periods",
+  "tags": [
+    "statistics-component",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--statistics-component-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/statistics-component-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/statistics-component-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/statistics-component-01.json",
+    "sha256": "848f140faeb9fff178f68ac5669e0b2caff433f0007a7fda2b6e96ebb78a3ca5"
+  },
+  "registryDependencies": [
+    "card",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

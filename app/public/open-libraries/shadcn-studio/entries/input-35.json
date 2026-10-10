@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-35",
+  "slug": "input-35",
+  "name": "Input 35",
+  "titleZh": "输入框 input-35",
+  "description": "Input field with real-time character counter, guiding users on remaining character allowance.",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-35",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-35.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-35.json",
+    "sha256": "4a69f8c96a7671e839b83c134f95b9202e077daad7d4ec2623a00c17e8b2c4fc"
+  },
+  "registryDependencies": [
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/sidebar-slide-out-menu",
+  "name": "Sidebar Slide-Out Menu",
+  "slug": "sidebar-slide-out-menu",
+  "titleZh": "侧边滑出菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "Clicking the bottom-right 'Get the Overlay' toggle slides a column of three cards in from the right edge (right: -110% to 0%) with a 0.075s GSAP stagger on a power4.out ease, while the page content blurs to 15px; clicking any card reverses the tween to slide the cards back out and unblur. Cards expand their copy and swap colours on CSS hover.",
+  "tags": [
+    "sidebar",
+    "slide-out",
+    "overlay",
+    "stagger",
+    "blur",
+    "cards",
+    "gsap",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/sidebar-slide-out-menu",
+  "docsUrl": "https://motionprompts.dev/component/sidebar-slide-out-menu/",
+  "demoUrl": "https://motionprompts.dev/components/sidebar-slide-out-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/sidebar-slide-out-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/sidebar-slide-out-menu.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/sidebar-slide-out-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/sidebar-slide-out-menu.md",
+    "sha256": "53d01ece7ea08b3c3436b66a7646d7615fca7baeb18fd64c7eec08e626f8438e",
+    "upstreamUrl": "https://motionprompts.dev/prompts/sidebar-slide-out-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/sidebar-slide-out-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "phosphor-icons"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": 0.075,
+    "assets_required": {
+      "count": 1,
+      "bytes": 55862,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "click-toggled staggered card slide-in with background blur",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/sidebar-slide-out-menu/"
+}

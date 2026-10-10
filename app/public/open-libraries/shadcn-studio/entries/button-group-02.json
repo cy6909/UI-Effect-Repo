@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-group-02",
+  "slug": "button-group-02",
+  "name": "Button Group 2",
+  "titleZh": "按钮 button-group-02",
+  "description": "Interactive like button group with toggle state and dynamic count",
+  "tags": [
+    "button-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-group-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-group-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-group-02.json",
+    "sha256": "0506c2c0a43f26b24f826d9d4c16e25c957ce9dfb46ce827f6df199f77e2a2f3"
+  },
+  "registryDependencies": [
+    "button",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

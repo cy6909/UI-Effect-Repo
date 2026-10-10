@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/table-10",
+  "slug": "table-10",
+  "name": "Table 10",
+  "titleZh": "表格 table-10",
+  "description": "A table with sticky header that remains visible during vertical scrolling",
+  "tags": [
+    "table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--table-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/table-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/table-10.json",
+    "sha256": "de995a97289de4373ba2989696cafd753b883847b4c5dfa3d2915657244aa4f5"
+  },
+  "registryDependencies": [
+    "table"
+  ],
+  "dependencies": []
+}

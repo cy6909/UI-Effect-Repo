@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/popover-02",
+  "slug": "popover-02",
+  "name": "Popover 2",
+  "titleZh": "浮层 popover-02",
+  "description": "A dimensions popover with input fields for width, max width, height, and max height settings",
+  "tags": [
+    "popover",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--popover-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/popover-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/popover",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/popover-02.json",
+    "sha256": "071cd915137bb1a7b408d5f587e323224f816cce51b3b3866117c5fe5cfe5d1d"
+  },
+  "registryDependencies": [
+    "button",
+    "input",
+    "label",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

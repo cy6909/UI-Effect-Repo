@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-31",
+  "slug": "select-31",
+  "name": "Select 31",
+  "titleZh": "选择器 select-31",
+  "description": "A user select dropdown with avatar images for each user option",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-31",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-31.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-31.json",
+    "sha256": "acc0277818f41a0aef2b2887f3cb07402eccaf09a12d9c05ab3b6197377d0147"
+  },
+  "registryDependencies": [
+    "avatar",
+    "label",
+    "select"
+  ],
+  "dependencies": []
+}

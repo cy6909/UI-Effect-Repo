@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/spotlight-grid",
+  "slug": "spotlight-grid",
+  "name": "SPOTLIGHT GRID",
+  "titleZh": "鼠标点亮网格",
+  "description": "鼠标经过之处，浅色点阵下浮出一层深色网格——Linear 式的精确与克制。",
+  "tags": [
+    "background",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--spotlight-grid",
+  "detailUrl": "/open-libraries/motion-vault/entries/spotlight-grid.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=spotlight-grid",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/spotlight-grid.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/spotlight-grid.md",
+    "sha256": "129200b7a1fc77d6d2c95005e5a594e3f4f4f29d8dc01aeb3cc62a6b1acc6a09",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/spotlight-grid.json",
+    "sha256": "fd5f21d124b5f8e3548d41453bffacdc534aefe66c9cb1c21f9cb103b7234225"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

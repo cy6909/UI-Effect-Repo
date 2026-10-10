@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sonner-13",
+  "slug": "sonner-13",
+  "name": "Sonner 13",
+  "titleZh": "通知 sonner-13",
+  "description": "An outline-styled info toast notification with border highlighting for informational messages",
+  "tags": [
+    "sonner",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sonner-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sonner-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sonner",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sonner-13.json",
+    "sha256": "24510fabef7d6da38f185f20451c22cd1a47d64263ca1371097c5c2296444e81"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "sonner"
+  ]
+}

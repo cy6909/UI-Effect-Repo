@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/cube-flip-cards",
+  "name": "Cube Flip Cards",
+  "slug": "cube-flip-cards",
+  "titleZh": "立方翻转卡片",
+  "category": "Components",
+  "source": "motion-prompts",
+  "sourceCategory": "cards",
+  "description": "Four cards built as six-faced prisms with frosted glass sides: hovering flips the prism 180° on its horizontal axis to reveal the identical back face, after which pointer movement tilts it on both axes with short overwriting tweens, and a specular highlight sweeps across the face with the rotation. Leaving returns it to rest.",
+  "tags": [
+    "cards",
+    "3d",
+    "cube",
+    "flip",
+    "hover",
+    "tilt",
+    "glass",
+    "perspective",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/cube-flip-cards",
+  "docsUrl": "https://motionprompts.dev/component/cube-flip-cards/",
+  "demoUrl": "https://motionprompts.dev/components/cube-flip-cards/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/cube-flip-cards.webp",
+  "videoUrl": "https://motionprompts.dev/previews/cube-flip-cards.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/cube-flip-cards.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/cube-flip-cards.md",
+    "sha256": "13cc066b222b2d43d34f76ee560718ce5b20783f154fd2399da98fc34b5bfeba",
+    "upstreamUrl": "https://motionprompts.dev/prompts/cube-flip-cards.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/cube-flip-cards/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.5,
+      0.6
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 76734,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "gsap",
+    "motion_signature": "180° rotationX flip on enter, pointer-driven two-axis tilt with overwrite groups, specular sweep tied to the angle, reset on leave",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/cube-flip-cards/"
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/turbulent-inversion-lens-hover-effect-javascript",
+  "name": "Turbulent Inversion Lens Hover Effect",
+  "slug": "turbulent-inversion-lens-hover-effect-javascript",
+  "titleZh": "湍流反色透镜悬停",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A full-viewport Three.js plane renders a portrait through a fragment shader; moving the cursor drives a lerped mask whose radius grows on hover, and inside that circular lens the image is converted to inverted grayscale with animated fBm turbulence jittering the mask edge.",
+  "tags": [
+    "three",
+    "webgl",
+    "shader",
+    "hover",
+    "cursor",
+    "invert",
+    "turbulence",
+    "lens",
+    "grayscale",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/turbulent-inversion-lens-hover-effect-javascript",
+  "docsUrl": "https://motionprompts.dev/component/turbulent-inversion-lens-hover-effect-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/turbulent-inversion-lens-hover-effect-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/turbulent-inversion-lens-hover-effect-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/turbulent-inversion-lens-hover-effect-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/turbulent-inversion-lens-hover-effect-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/turbulent-inversion-lens-hover-effect-javascript.md",
+    "sha256": "52495e46488baf79eeb8927f15d5b4162479385c7947fd3c90cbf3c616e765ef",
+    "upstreamUrl": "https://motionprompts.dev/prompts/turbulent-inversion-lens-hover-effect-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/turbulent-inversion-lens-hover-effect-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "three"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      0.25
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 228381,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "webgl-raf",
+    "motion_signature": "rAF-lerped shader lens inverting image on hover; 8-octave fBm turbulence jitters the circular mask edge",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/turbulent-inversion-lens-hover-effect-javascript/"
+}

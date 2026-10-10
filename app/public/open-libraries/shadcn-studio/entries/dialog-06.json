@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-06",
+  "slug": "dialog-06",
+  "name": "Dialog 6",
+  "titleZh": "对话框 dialog-06",
+  "description": "Scrollable dialog with sticky footer for persistent action buttons",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-06.json",
+    "sha256": "542013f6ef72bc1f6697862ffd7d2f3ec92cb9917d0da3cedb036250437cb2f0"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog",
+    "scroll-area"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

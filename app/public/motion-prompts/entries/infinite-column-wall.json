@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/infinite-column-wall",
+  "name": "Infinite Column Wall",
+  "slug": "infinite-column-wall",
+  "titleZh": "无限列照片墙",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Six columns of photographs scroll vertically on their own clock — one up, the next down — and never stop, their top and bottom edges dissolving into the background. Scrolling through the sticky section darkens the ground to near-black, turns the headline hiding behind the grid lime, and slides the columns apart as two rigid blocks until only one column is left at each edge. The opening is ratcheted (scrolling back up does not rebuild the wall) while the colour change is a plain scrub and does rewind.",
+  "tags": [
+    "scroll",
+    "sticky",
+    "marquee",
+    "infinite-loop",
+    "columns",
+    "ratchet",
+    "colour-shift",
+    "photo-grid",
+    "black-and-white",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/infinite-column-wall",
+  "docsUrl": "https://motionprompts.dev/component/infinite-column-wall/",
+  "demoUrl": "https://motionprompts.dev/components/infinite-column-wall/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/infinite-column-wall.webp",
+  "videoUrl": "https://motionprompts.dev/previews/infinite-column-wall.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/infinite-column-wall.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/infinite-column-wall.md",
+    "sha256": "3e087142ff8c3edd00247d4d078d4536404d7e43705936ef20cc576c1fe54222",
+    "upstreamUrl": "https://motionprompts.dev/prompts/infinite-column-wall.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/infinite-column-wall/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": 300,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": [
+      0.16,
+      49
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 24,
+      "bytes": 434116,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-THRESHOLD",
+    "engine": "gsap",
+    "motion_signature": "endless vertical belts that ratchet open into a corridor",
+    "systems": [
+      "reveal-on-enter",
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "reveal-on-enter"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/infinite-column-wall/"
+}

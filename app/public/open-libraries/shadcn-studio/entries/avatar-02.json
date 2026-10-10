@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/avatar-02",
+  "slug": "avatar-02",
+  "name": "Avatar 2",
+  "titleZh": "头像 avatar-02",
+  "description": "Avatar with ring border highlighting for active or selected states.",
+  "tags": [
+    "avatar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--avatar-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/avatar-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/avatar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/avatar-02.json",
+    "sha256": "a2e466d88ce788ed1d7a7edf3bda43e647246488b2560d370103780155b1c01c"
+  },
+  "registryDependencies": [
+    "avatar"
+  ],
+  "dependencies": []
+}

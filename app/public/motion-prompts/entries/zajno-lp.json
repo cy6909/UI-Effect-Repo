@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/zajno-lp",
+  "name": "Zajno Landing Page Reveal",
+  "slug": "zajno-lp",
+  "titleZh": "Zajno 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "An on-load intro where a centered number counts up to 100, then triggers the landing-page reveal: the scaled-down hero clip-path opens from the bottom while it scales to full size, a dark overlay wipes upward, the hero image un-zooms from scale 2 to 1, and the giant headline's per-character spans rise into place with a stagger. Driven entirely by GSAP timelines chained via onStart/onComplete callbacks, using a CustomEase named 'hop' plus power3/power4 eases.",
+  "tags": [
+    "intro",
+    "counter",
+    "reveal",
+    "clip-path",
+    "text-reveal",
+    "customease",
+    "onload",
+    "editorial",
+    "minimal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/zajno-lp",
+  "docsUrl": "https://motionprompts.dev/component/zajno-lp/",
+  "demoUrl": "https://motionprompts.dev/components/zajno-lp/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/zajno-lp.webp",
+  "videoUrl": "https://motionprompts.dev/previews/zajno-lp.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/zajno-lp.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/zajno-lp.md",
+    "sha256": "01a27eb2d1bdd925df3525bbc7ca7a9ca0309963b692143cf0f5adddafae5b73",
+    "upstreamUrl": "https://motionprompts.dev/prompts/zajno-lp.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/zajno-lp/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "CustomEase"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.35,
+      2.25
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 4,
+      "bytes": 838011,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "on-load counter to 100, then a hop-eased clip-path hero reveal running simultaneously with a 2.25s scale(0.7)->scale(1) un-zoom, a 2.25s image scale(2)->scale(1) push-in, an overlay clip-path wipe and a 0.1s per-character headline rise from translateY(500px); everything is time-based, no scroll or rAF physics",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aminezegmou-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "infinite-draggable-image-gallery-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "laserbysonymusic-landing-page-reveal-animation",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "maxmilkin-preloader",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "nite-riot-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "steelworks-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "truekindskincare-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-page-transitions",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/zajno-lp/"
+}

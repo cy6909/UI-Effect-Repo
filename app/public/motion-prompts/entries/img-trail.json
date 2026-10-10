@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/img-trail",
+  "name": "Mouse Image Trail",
+  "slug": "img-trail",
+  "titleZh": "鼠标图片拖尾",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A cursor-driven image trail: moving the mouse spawns positioned image tiles that follow the pointer, and after a brief pause of no movement GSAP animates the whole batch downward with a staggered scale-and-fade drop before removing them. Purely hover/mousemove triggered using gsap.to with y, scale, opacity and a 0.025s stagger.",
+  "tags": [
+    "cursor",
+    "trail",
+    "mousemove",
+    "image-trail",
+    "stagger",
+    "gsap",
+    "interactive",
+    "playful",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/img-trail",
+  "docsUrl": "https://motionprompts.dev/component/img-trail/",
+  "demoUrl": "https://motionprompts.dev/components/img-trail/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/img-trail.webp",
+  "videoUrl": "https://motionprompts.dev/previews/img-trail.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/img-trail.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/img-trail.md",
+    "sha256": "6907e01b81f52fa5f42873b2e0819165fee5b338237365e75a70b41c7e19726c",
+    "upstreamUrl": "https://motionprompts.dev/prompts/img-trail.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/img-trail/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.5,
+      0.5
+    ],
+    "stagger": 0.025,
+    "assets_required": {
+      "count": 15,
+      "bytes": 957917,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "POINTER-LATCHED",
+    "engine": "gsap",
+    "motion_signature": "cursor-spawned tiles pile up (max 20), then on a 100ms rest a staggered fall-away — y+1000, scale 0.5, fade — with no ease passed, so GSAP's default power1.out, not real gravity",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/img-trail/"
+}

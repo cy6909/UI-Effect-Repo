@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/nordquantique-scroll",
+  "name": "Nordquantique Scroll",
+  "slug": "nordquantique-scroll",
+  "titleZh": "Nordquantique 滚动",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A scroll-driven pixelated block transition between full-bleed sections. Each image section is 200vh tall and overlaid with two grids of 4 rows x 16 blocks (top and bottom); a scrubbed ScrollTrigger per row maps scroll progress, plus a per-row delay and a gsap.utils.shuffle randomized per-block offset, to each block's opacity so the top blocks dissolve away to reveal the photo while the bottom blocks build up to cover it as the section scrolls through the viewport.",
+  "tags": [
+    "scroll",
+    "pixelated",
+    "blocks",
+    "reveal",
+    "transition",
+    "scrolltrigger",
+    "scrub",
+    "grid",
+    "minimal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/nordquantique-scroll",
+  "docsUrl": "https://motionprompts.dev/component/nordquantique-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/nordquantique-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/nordquantique-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/nordquantique-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/nordquantique-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/nordquantique-scroll.md",
+    "sha256": "4ef4b365d9d0eb921081c70f598be976b0774f6a951ebc71c77e1d68347f1888",
+    "upstreamUrl": "https://motionprompts.dev/prompts/nordquantique-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/nordquantique-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 200,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 2,
+      "bytes": 290095,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "mixed",
+    "motion_signature": "scrub-driven per-row, random-order block opacity dissolve — no GSAP tweens at all; ScrollTrigger.onUpdate writes inline opacity per block and a 250ms CSS opacity transition supplies all the easing",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/nordquantique-scroll/"
+}

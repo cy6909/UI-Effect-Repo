@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/sageeast-3d-scroll",
+  "name": "Sage East 3D Scroll",
+  "slug": "sageeast-3d-scroll",
+  "titleZh": "Sage East 3D 滚动",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A fixed 3D perspective slider where ten alternating slides sit at staggered translateZ depths and fly toward the viewer as you scroll a 2000vh page. A per-slide ScrollTrigger (scrub) maps scroll progress to a Z increment, recomputes each slide's opacity via a mapRange fade, and cross-fades a blurred full-screen background image with gsap.to power3.out as each slide reaches the front.",
+  "tags": [
+    "scroll",
+    "3d-perspective",
+    "translatez",
+    "scrub",
+    "depth",
+    "fashion",
+    "gsap",
+    "editorial",
+    "gallery",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/sageeast-3d-scroll",
+  "docsUrl": "https://motionprompts.dev/component/sageeast-3d-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/sageeast-3d-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/sageeast-3d-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/sageeast-3d-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/sageeast-3d-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/sageeast-3d-scroll.md",
+    "sha256": "3a2313bee8020a6bcc4c9b1bd3f19e29454759eaf1b7aa270e2594199d7147dc",
+    "upstreamUrl": "https://motionprompts.dev/prompts/sageeast-3d-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/sageeast-3d-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": 2000,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.3,
+      1.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 1361082,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "scrub-driven translateZ tunnel: each slide's CSS-authored initial Z (-22500 → 0 in 2500px steps) is read once via getComputedStyle and advanced linearly by progress*22500 across 2000vh, with opacity piecewise-mapped from Z (0→0.5 over -5000..-2500, 0.5→1 over -2500..0); no easing on the depth motion itself",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/sageeast-3d-scroll/"
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/javascript-responsive-minimap",
+  "name": "JavaScript Responsive Minimap",
+  "slug": "javascript-responsive-minimap",
+  "titleZh": "响应式缩略导航",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A vertical thumbnail minimap (horizontal on mobile) whose framed indicator scrubs through 15 images as you scroll the wheel or drag on touch; a requestAnimationFrame loop lerps the strip toward its target offset, dims the thumbnail with the greatest overlap inside the indicator, and swaps that image into the large centered preview. Clicking a thumbnail eases the strip to center it with a slower lerp factor.",
+  "tags": [
+    "minimap",
+    "gallery",
+    "scroll",
+    "lerp",
+    "requestanimationframe",
+    "vanilla-js",
+    "responsive",
+    "image-preview",
+    "interactive",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/javascript-responsive-minimap",
+  "docsUrl": "https://motionprompts.dev/component/javascript-responsive-minimap/",
+  "demoUrl": "https://motionprompts.dev/components/javascript-responsive-minimap/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/javascript-responsive-minimap.webp",
+  "videoUrl": "https://motionprompts.dev/previews/javascript-responsive-minimap.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/javascript-responsive-minimap.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/javascript-responsive-minimap.md",
+    "sha256": "a015145d3052afc430580fdaee56fdba2d05c9f05d27530eb5dad21543d1506a",
+    "upstreamUrl": "https://motionprompts.dev/prompts/javascript-responsive-minimap.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/javascript-responsive-minimap/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      0.2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 15,
+      "bytes": 1922702,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "preventDefault en wheel"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "raf-lerp",
+    "motion_signature": "Frame-rate-dependent exponential lerp (factor 0.075, or 0.05 during a click-to-center move) drives a thumbnail strip's translateX/translateY toward a target that wheel/touch deltas push by clamp(delta*0.5, -20, 20) per event and clicks snap to a centred plate; target is clamped to [-maxTranslate, 0]. The strip element with the greatest overlap against a fixed indicator box is dimmed to opacity 0.3 and swapped into the large preview. No tweening engine, no scroll space, no inertia beyond the lerp tail.",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/javascript-responsive-minimap/"
+}

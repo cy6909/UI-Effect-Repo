@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/brandappart-sticky-cards",
+  "name": "BrandAppart Sticky Cards",
+  "slug": "brandappart-sticky-cards",
+  "titleZh": "BrandAppart 吸附卡片",
+  "category": "Components",
+  "source": "motion-prompts",
+  "sourceCategory": "cards",
+  "description": "Scroll-pinned deck of four stacked cards: as you scroll through the pinned section (8 viewport heights, scrub-synced with Lenis), the front card flies up while tilting back 35deg in 3D perspective, and the cards behind slide forward and scale up to take its place.",
+  "tags": [
+    "sticky",
+    "stacked-cards",
+    "scroll",
+    "pin",
+    "scrub",
+    "3d-tilt",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/brandappart-sticky-cards",
+  "docsUrl": "https://motionprompts.dev/component/brandappart-sticky-cards/",
+  "demoUrl": "https://motionprompts.dev/components/brandappart-sticky-cards/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/brandappart-sticky-cards.webp",
+  "videoUrl": "https://motionprompts.dev/previews/brandappart-sticky-cards.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/brandappart-sticky-cards.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/brandappart-sticky-cards.md",
+    "sha256": "0cfa9005fd2d589d084d0e9d5416ac19b86e0d76072d9295db8c342babd497d0",
+    "upstreamUrl": "https://motionprompts.dev/prompts/brandappart-sticky-cards.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/brandappart-sticky-cards/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 800,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 970292,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scrub-pinned 3D card deck flying up",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/brandappart-sticky-cards/"
+}

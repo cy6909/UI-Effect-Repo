@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/switch-09",
+  "slug": "switch-09",
+  "name": "Switch 9",
+  "titleZh": "开关 switch-09",
+  "description": "A dual-label switch with clickable Yes/No labels that toggle the switch state",
+  "tags": [
+    "switch",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--switch-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/switch-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/switch",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/switch-09.json",
+    "sha256": "61190acc7328f3d729ec753c9356f7a2321e4bde1a2d1b9d94f9a9d3a8c32fbb"
+  },
+  "registryDependencies": [
+    "switch"
+  ],
+  "dependencies": []
+}

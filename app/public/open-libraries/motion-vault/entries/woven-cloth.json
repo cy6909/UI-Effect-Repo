@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/woven-cloth",
+  "slug": "woven-cloth",
+  "name": "WOVEN CLOTH",
+  "titleZh": "织物波浪",
+  "description": "48×48 顶点的细线框平面做交错正弦波浪，经纬相位交错起伏，像一块在风里微微抖动的布。",
+  "tags": [
+    "3d",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--woven-cloth",
+  "detailUrl": "/open-libraries/motion-vault/entries/woven-cloth.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=woven-cloth",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/woven-cloth.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/woven-cloth.md",
+    "sha256": "079b60ffd1fc28f7e7c9d62ddd92f53fa40501893ae7618bcfc72becd432295f",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/woven-cloth.json",
+    "sha256": "38c0ea231f0cc9b7d6fde3a2f434a517743c7baf322ea026c4fd06be2039d716"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

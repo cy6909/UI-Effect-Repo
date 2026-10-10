@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/inline-spot-hover-cards",
+  "name": "Inline Spot Hover Cards",
+  "slug": "inline-spot-hover-cards",
+  "titleZh": "内联聚光悬停卡片",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "Headline with three inline dots that open into image cards on hover: the dot grows to a fixed card size while the photo fades and sharpens in; a GSAP ticker loop then lerps the card toward the pointer (drift clamped to a radius, tilt clamped to an angle) and moves the photo the opposite way, as if seen through glass, with an iridescent edge on the open card. Leaving collapses it back to a breathing dot. Desktop only.",
+  "tags": [
+    "hover",
+    "headline",
+    "inline",
+    "3d-tilt",
+    "lerp",
+    "glass",
+    "iridescent",
+    "cards",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/inline-spot-hover-cards",
+  "docsUrl": "https://motionprompts.dev/component/inline-spot-hover-cards/",
+  "demoUrl": "https://motionprompts.dev/components/inline-spot-hover-cards/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/inline-spot-hover-cards.webp",
+  "videoUrl": "https://motionprompts.dev/previews/inline-spot-hover-cards.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/inline-spot-hover-cards.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/inline-spot-hover-cards.md",
+    "sha256": "a698939ad089f594d7f09cb810750411f8fe98fb3308536aa4ceed24af2af186",
+    "upstreamUrl": "https://motionprompts.dev/prompts/inline-spot-hover-cards.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/inline-spot-hover-cards/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      0.75
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 3,
+      "bytes": 229469,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "disabled-below-breakpoint",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "gsap+raf",
+    "motion_signature": "ticker lerp of drift and tilt toward the pointer with a counter-moving image; size tween on enter/leave; slow hue rotation of the glass edge",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/inline-spot-hover-cards/"
+}

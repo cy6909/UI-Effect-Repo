@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/converging-card-stack",
+  "name": "Converging Card Stack",
+  "slug": "converging-card-stack",
+  "titleZh": "聚拢卡片堆",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Six scattered, rotated photo cards converge into a single stack as you scroll through a sticky section, uncovering the headline they were covering. A single GSAP timeline drives all six from their authored data-x/data-y/data-r offsets to a shared resting point, wired to ScrollTrigger with `scrub: 1.1` — a lagged scrub, so releasing the wheel leaves the cards travelling for about a second and scrolling back up finds them still piled over the headline.",
+  "tags": [
+    "scroll",
+    "scrub",
+    "lagged-scrub",
+    "sticky",
+    "card-stack",
+    "collage",
+    "convergence",
+    "editorial",
+    "lenis",
+    "colour-photography",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/converging-card-stack",
+  "docsUrl": "https://motionprompts.dev/component/converging-card-stack/",
+  "demoUrl": "https://motionprompts.dev/components/converging-card-stack/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/converging-card-stack.webp",
+  "videoUrl": "https://motionprompts.dev/previews/converging-card-stack.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/converging-card-stack.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/converging-card-stack.md",
+    "sha256": "699e2afb47b92bd5d788b373b18fcf40fb6b009e09323653abf45e49d14013c7",
+    "upstreamUrl": "https://motionprompts.dev/prompts/converging-card-stack.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/converging-card-stack/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 260,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": [
+      1,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 398495,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-SCRUB",
+    "engine": "gsap",
+    "motion_signature": "lagged-scrub convergence of scattered cards into one pile",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded",
+      "reveal-on-enter"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/converging-card-stack/"
+}

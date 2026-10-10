@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/icon-cloud",
+  "slug": "icon-cloud",
+  "name": "ICON CLOUD",
+  "titleZh": "图标球云",
+  "description": "12 枚 lucide 图标分布在球面上缓缓自转，按住拖拽即可甩动球云改变转速与方向，松手带惯性衰减。",
+  "tags": [
+    "3d",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--icon-cloud",
+  "detailUrl": "/open-libraries/motion-vault/entries/icon-cloud.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=icon-cloud",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/icon-cloud.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/icon-cloud.md",
+    "sha256": "049c903e988750311d11c25e96ac86c96dd154a8a4b284aff2fae43287e5c3a9",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/icon-cloud.json",
+    "sha256": "1efd89b2972647386e46ee93991efe42afdd1cb62301469ab8d28b13d4fd548b"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/mat-voyce-scroll-animation",
+  "name": "Mat Voyce Scroll Animation",
+  "slug": "mat-voyce-scroll-animation",
+  "titleZh": "Mat Voyce 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned scroll section (scrub over 5x viewport height, Lenis-smoothed) drives a horizontal reel of four huge italic project titles while ten rounded image cards fly toward the viewer from deep translateZ. A single ScrollTrigger onUpdate maps progress to the titles' x offset and, per card, staggers each one's Z position and scale; scroll velocity adds a springy layered x-jitter to two color copies of every title for a Mat Voyce style kinetic-type effect.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "kinetic-typography",
+    "3d-perspective",
+    "translatez",
+    "velocity",
+    "lenis",
+    "playful",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/mat-voyce-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/mat-voyce-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/mat-voyce-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/mat-voyce-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/mat-voyce-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/mat-voyce-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/mat-voyce-scroll-animation.md",
+    "sha256": "028fc739ad347d2c32f6510c8f3d3f51bc7ea12833e857ba85bab933c694923a",
+    "upstreamUrl": "https://motionprompts.dev/prompts/mat-voyce-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/mat-voyce-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 500,
+    "needs_lenis": true,
+    "ease_family": "power1",
+    "duration_range": [
+      0.2,
+      0.3
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 11,
+      "bytes": 1786716,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "pinned scrub: horizontal titles + cards flying from deep Z",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/mat-voyce-scroll-animation/"
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/magnetic-button",
+  "slug": "magnetic-button",
+  "name": "MAGNETIC",
+  "titleZh": "磁吸按钮",
+  "description": "鼠标靠近时按钮被吸附过去，文字以更小幅度跟随，形成双层视差。",
+  "tags": [
+    "button",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--magnetic-button",
+  "detailUrl": "/open-libraries/motion-vault/entries/magnetic-button.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=magnetic-button",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/magnetic-button.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/magnetic-button.md",
+    "sha256": "bb47806e98e465bc850d41a487d845cfe52c5c007936f99ed3ec3b796f42cc9c",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/magnetic-button.json",
+    "sha256": "259b06f55ede5795b65e4ec141b193af6899f9947ef574caeb69500bc036318f"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

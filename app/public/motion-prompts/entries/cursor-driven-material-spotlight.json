@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/cursor-driven-material-spotlight",
+  "name": "Cursor-Driven Material Spotlight",
+  "slug": "cursor-driven-material-spotlight",
+  "titleZh": "光标驱动材质聚光",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "Full-viewport Three.js scene with a GLB sculpture whose PBR material is patched via onBeforeCompile: moving the cursor raycasts a world-space hit point and a smoothstep mask around it lowers roughness and darkens diffuse, revealing a glossy spotlight that trails the mouse with a lerped follow.",
+  "tags": [
+    "three",
+    "webgl",
+    "shader",
+    "onBeforeCompile",
+    "raycast",
+    "hover",
+    "spotlight",
+    "pbr",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/cursor-driven-material-spotlight",
+  "docsUrl": "https://motionprompts.dev/component/cursor-driven-material-spotlight/",
+  "demoUrl": "https://motionprompts.dev/components/cursor-driven-material-spotlight/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/cursor-driven-material-spotlight.webp",
+  "videoUrl": "https://motionprompts.dev/previews/cursor-driven-material-spotlight.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/cursor-driven-material-spotlight.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/cursor-driven-material-spotlight.md",
+    "sha256": "ece7e545c09ba0fe2b63978ab5895251894b8afdae5fe988fede53fd789aeb14",
+    "upstreamUrl": "https://motionprompts.dev/prompts/cursor-driven-material-spotlight.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/cursor-driven-material-spotlight/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "three",
+      "GLTFLoader",
+      "RoomEnvironment",
+      "PMREMGenerator"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      2.4
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 5563016,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "webgl-raf",
+    "motion_signature": "rAF lerped raycast spotlight on PBR shader",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/cursor-driven-material-spotlight/"
+}

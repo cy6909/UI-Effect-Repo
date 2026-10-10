@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-35",
+  "slug": "button-35",
+  "name": "Button 35",
+  "titleZh": "按钮 button-35",
+  "description": "Mail icon button with notification badge counter for unread messages",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-35",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-35.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-35.json",
+    "sha256": "91184cce73361afcbde341a0d5606350f6a743252f95157fb4a0112f114152cc"
+  },
+  "registryDependencies": [
+    "badge",
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

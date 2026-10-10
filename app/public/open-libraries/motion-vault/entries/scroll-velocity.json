@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/scroll-velocity",
+  "slug": "scroll-velocity",
+  "name": "SCROLL VELOCITY",
+  "titleZh": "滚动速度跑马灯",
+  "description": "大字跑马灯基础匀速前行，容器一滑动就瞬时加速并倾斜，停下后弹簧回稳——速度感直接拉满。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--scroll-velocity",
+  "detailUrl": "/open-libraries/motion-vault/entries/scroll-velocity.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=scroll-velocity",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/scroll-velocity.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/scroll-velocity.md",
+    "sha256": "bee189a51db787da0cc9b75fe3e06a2a245ce59509c682db96f0e0c4f70eb77b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/scroll-velocity.json",
+    "sha256": "0bad122069185b86baaab257f7e3042689eeaf3e5f05aaa59039b24f8a12320d"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

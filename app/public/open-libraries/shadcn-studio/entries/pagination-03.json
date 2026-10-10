@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pagination-03",
+  "slug": "pagination-03",
+  "name": "Pagination 3",
+  "titleZh": "分页 pagination-03",
+  "description": "A pagination component with primary button styling for the active page",
+  "tags": [
+    "pagination",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--pagination-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pagination-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/pagination",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pagination-03.json",
+    "sha256": "879a9a9797c980e8855c77d9e81a2e3ef837cf2d52909747b4e57b5ef9686eca"
+  },
+  "registryDependencies": [
+    "button",
+    "pagination",
+    "utils"
+  ],
+  "dependencies": []
+}

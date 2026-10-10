@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-02",
+  "slug": "form-02",
+  "name": "Form 2",
+  "titleZh": "表单 form-02",
+  "description": "Form with checkbox controls and alert integration for user selections",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-02.json",
+    "sha256": "a21b497fab0a3342a688d07eb24a57b254407eaa77fcb60b39de40a7dac58419"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "checkbox",
+    "form"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

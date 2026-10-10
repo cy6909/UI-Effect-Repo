@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-46",
+  "slug": "button-46",
+  "name": "Button 46",
+  "titleZh": "按钮 button-46",
+  "description": "Destructive button with heartbeat pulse animation effect",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-46",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-46.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-46.json",
+    "sha256": "a5783df4cbe27f3fe9d2ac13411b656b52a0a44c4f19735b0ac0746d61ad6faa"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": []
+}

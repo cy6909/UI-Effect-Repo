@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/stack-blocks",
+  "slug": "stack-blocks",
+  "name": "STACK BLOCKS",
+  "titleZh": "下落堆叠方块",
+  "description": "每次点击从上方落下一块圆角方块，落在塔顶轻轻回弹晃动；堆到 8 层后整体淡出重来。",
+  "tags": [
+    "3d",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--stack-blocks",
+  "detailUrl": "/open-libraries/motion-vault/entries/stack-blocks.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=stack-blocks",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/stack-blocks.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/stack-blocks.md",
+    "sha256": "e52a871edc4df3435677195753b696a59fb6aa3cbe2bca53a7b30db45818e179",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/stack-blocks.json",
+    "sha256": "a3e0db68d2f4ab36bd611585123fd29ae59087ce2ae67ab6ec3d15c8700fe4f6"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/checkbox-15",
+  "slug": "checkbox-15",
+  "name": "Checkbox 15",
+  "titleZh": "复选框 checkbox-15",
+  "description": "Tree checkbox with parent-child relationship and indeterminate state",
+  "tags": [
+    "checkbox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--checkbox-15",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/checkbox-15.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/checkbox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/checkbox-15.json",
+    "sha256": "65c5a8bc004130fb629d8624c83dafe4e14f168c8a8fd069098c0765d60152fb"
+  },
+  "registryDependencies": [
+    "label"
+  ],
+  "dependencies": [
+    "@radix-ui/react-checkbox",
+    "lucide-react"
+  ]
+}

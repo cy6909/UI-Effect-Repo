@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/polaroid-develop",
+  "slug": "polaroid-develop",
+  "name": "POLAROID DEVELOP",
+  "titleZh": "拍立得显影",
+  "description": "按下快门吐出一张新照片，从奶白一片慢慢显影出山川海景；来回摇晃照片，显影会肉眼可见地加速。",
+  "tags": [
+    "card",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--polaroid-develop",
+  "detailUrl": "/open-libraries/motion-vault/entries/polaroid-develop.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=polaroid-develop",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/polaroid-develop.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/polaroid-develop.md",
+    "sha256": "dfc52eeacb1b61ab9df6bc56cc737f738253b723f88918643ba21338d2f18e7d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/polaroid-develop.json",
+    "sha256": "aea3f02454f4568686d8b12e15bfd3d6cccc45b0ecdc4f7c87f037e85f51dd55"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-group-15",
+  "slug": "button-group-15",
+  "name": "Button Group 15",
+  "titleZh": "按钮 button-group-15",
+  "description": "Navigation button group with scale animation on press using Framer Motion",
+  "tags": [
+    "button-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-group-15",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-group-15.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-group-15.json",
+    "sha256": "23fea60b9180a7bdb1dfd4cf42679de52e34079a2bf5fe4aa47e011e0dff5d5d"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "motion"
+  ]
+}

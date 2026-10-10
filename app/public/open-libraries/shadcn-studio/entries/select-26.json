@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-26",
+  "slug": "select-26",
+  "name": "Select 26",
+  "titleZh": "选择器 select-26",
+  "description": "A timezone select dropdown with grouped time zones by geographic regions",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-26",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-26.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-26.json",
+    "sha256": "eea19d8788a7cafbf257a31d2d092c8c8f4f20d7e94b01dab6ea80368bf60458"
+  },
+  "registryDependencies": [
+    "label",
+    "select"
+  ],
+  "dependencies": []
+}

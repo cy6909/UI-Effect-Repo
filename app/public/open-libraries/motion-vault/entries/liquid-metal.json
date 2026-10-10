@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/liquid-metal",
+  "slug": "liquid-metal",
+  "name": "LIQUID METAL",
+  "titleZh": "液态金属按钮",
+  "description": "一团模糊高光随鼠标在深色表面快速流动，像水银反光；边缘一圈细亮边。",
+  "tags": [
+    "button",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--liquid-metal",
+  "detailUrl": "/open-libraries/motion-vault/entries/liquid-metal.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=liquid-metal",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/liquid-metal.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/liquid-metal.md",
+    "sha256": "87b27646aaa5abb271dba34139c3725c3b4daca23632e77611fb5800dd938db1",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/liquid-metal.json",
+    "sha256": "b933c02b3caf2537847153143072a871576bb08e0499ab635f976f186776b8e9"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/text-focus",
+  "slug": "text-focus",
+  "name": "SCROLL TEXT FOCUS",
+  "titleZh": "滚动聚焦文字",
+  "description": "长段落随滚动逐字点亮：文字从 15% 的浅灰依次沉入墨色，滚到哪里读到哪里。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--text-focus",
+  "detailUrl": "/open-libraries/motion-vault/entries/text-focus.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=text-focus",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/text-focus.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/text-focus.md",
+    "sha256": "580cf5896a6c200bd7fd82b396b9bcb81b4b46ec75dbee86606c661ec765fd1d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/text-focus.json",
+    "sha256": "a6e51c09db16832978856fc25638d861ea5a7923dccd4b0a38c8abf1b84c3911"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

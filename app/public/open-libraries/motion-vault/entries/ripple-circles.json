@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/ripple-circles",
+  "slug": "ripple-circles",
+  "name": "RIPPLE CIRCLES",
+  "titleZh": "同心涟漪",
+  "description": "点击处荡开三环同心细圈，错峰扩散后淡出；支持快速连击。",
+  "tags": [
+    "background",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--ripple-circles",
+  "detailUrl": "/open-libraries/motion-vault/entries/ripple-circles.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=ripple-circles",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/ripple-circles.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/ripple-circles.md",
+    "sha256": "80b7635e3e96fb13dcc1376890585e65157e907fb539e62b0fb729e80cb29914",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/ripple-circles.json",
+    "sha256": "2dbf19197a94679ebb82eb6f01656c43cad0b88f36e531c035229ddc61dd9e28"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

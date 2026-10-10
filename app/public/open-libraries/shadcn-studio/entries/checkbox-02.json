@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/checkbox-02",
+  "slug": "checkbox-02",
+  "name": "Checkbox 2",
+  "titleZh": "复选框 checkbox-02",
+  "description": "Indeterminate checkbox with custom styling and three-state functionality",
+  "tags": [
+    "checkbox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--checkbox-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/checkbox-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/checkbox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/checkbox-02.json",
+    "sha256": "650a47c1f1e5a8cd386db7efc3af74e8f7785e46802adc94debb4c1200b5d6d2"
+  },
+  "registryDependencies": [
+    "label"
+  ],
+  "dependencies": [
+    "@radix-ui/react-checkbox",
+    "lucide-react"
+  ]
+}

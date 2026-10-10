@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/click-spark",
+  "slug": "click-spark",
+  "name": "CLICK SPARK",
+  "titleZh": "点击火花",
+  "description": "点击任意处迸发放射状火花：短线条四散飞出、受重力下坠、迅速淡出，zinc 单色点缀少量琥珀。",
+  "tags": [
+    "particle",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--click-spark",
+  "detailUrl": "/open-libraries/motion-vault/entries/click-spark.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=click-spark",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/click-spark.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/click-spark.md",
+    "sha256": "fdf866de2e40c1ca5020f52a6f3006b188699c11afd8be37d8e2b00d3b314786",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/click-spark.json",
+    "sha256": "55ab1e5fd80f1a6ecc0a0d53259cdb077876f6cf15f8c02030d14a98727cebb7"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

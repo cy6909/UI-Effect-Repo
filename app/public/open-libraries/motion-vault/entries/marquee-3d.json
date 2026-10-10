@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/marquee-3d",
+  "slug": "marquee-3d",
+  "name": "MARQUEE 3D",
+  "titleZh": "立体滚动卡墙",
+  "description": "CSS 3D 透视下的四列卡片墙垂直无限滚动，方向交错、速度各异，上下边缘渐隐。",
+  "tags": [
+    "3d",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--marquee-3d",
+  "detailUrl": "/open-libraries/motion-vault/entries/marquee-3d.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=marquee-3d",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/marquee-3d.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/marquee-3d.md",
+    "sha256": "5309f2685487afe45ac65f5dbd974a7049336924afeb3cf0bb34f2ba99d2c15c",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/marquee-3d.json",
+    "sha256": "2ce31f34710605750cc54bae284469fb7dfc00fed7e2e4da6b9329337a376354"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

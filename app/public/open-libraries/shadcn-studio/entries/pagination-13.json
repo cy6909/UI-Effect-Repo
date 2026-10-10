@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pagination-13",
+  "slug": "pagination-13",
+  "name": "Pagination 13",
+  "titleZh": "分页 pagination-13",
+  "description": "A compact mini pagination component with page count display and icon navigation",
+  "tags": [
+    "pagination",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--pagination-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pagination-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/pagination",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pagination-13.json",
+    "sha256": "1cf58a95ae7f0c732efadbba39d39b3ce0b0fc512ac437c9ed39b94c680c816b"
+  },
+  "registryDependencies": [
+    "pagination"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

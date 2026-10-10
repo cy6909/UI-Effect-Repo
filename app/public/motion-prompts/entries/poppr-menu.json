@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/poppr-menu",
+  "name": "Poppr Gooey Overlay Menu",
+  "slug": "poppr-menu",
+  "titleZh": "Poppr 粘性融合 覆盖式菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "Fullscreen overlay menu with a gooey liquid-curtain reveal: clicking the Menu/Close toggle morphs an SVG path's d attribute through a quadratic-Bezier bulge into a full-screen sheet (power4.in/out, reversed with power3 on close), while SplitText characters of each nav link snap in from x:750% with an elastic.out(1, 0.25) ease and staggered fades, and contact info items stagger up from y:100.",
+  "tags": [
+    "overlay",
+    "menu",
+    "svg-morph",
+    "gooey",
+    "split-text",
+    "elastic",
+    "stagger",
+    "path-animation",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/poppr-menu",
+  "docsUrl": "https://motionprompts.dev/component/poppr-menu/",
+  "demoUrl": "https://motionprompts.dev/components/poppr-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/poppr-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/poppr-menu.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/poppr-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/poppr-menu.md",
+    "sha256": "02b4b9cbeda26b962e01e10f67ddac5d02f29a3c03737f3217e38df3aed9a144",
+    "upstreamUrl": "https://motionprompts.dev/prompts/poppr-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/poppr-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "SplitText"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "none",
+    "duration_range": [
+      0.1,
+      1.5
+    ],
+    "stagger": 0.01,
+    "assets_required": {
+      "count": 3,
+      "bytes": 496964,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "SVG path-morph curtain with elastic SplitText chars",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/poppr-menu/"
+}

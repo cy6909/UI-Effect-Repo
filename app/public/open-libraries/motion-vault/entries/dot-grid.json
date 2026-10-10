@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/dot-grid",
+  "slug": "dot-grid",
+  "name": "DOT GRID",
+  "titleZh": "呼吸点阵",
+  "description": "规整的点阵以波浪节奏明暗呼吸，鼠标经过时附近的点会亮起。",
+  "tags": [
+    "background",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--dot-grid",
+  "detailUrl": "/open-libraries/motion-vault/entries/dot-grid.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=dot-grid",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/dot-grid.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/dot-grid.md",
+    "sha256": "fc2f488f908a5fc66aeb52152aaac19e96cbcc1972c6ed2ef2b242eb234bef10",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/dot-grid.json",
+    "sha256": "0e555da4ead435fa0924e652677eee9afb13b574dbb53601364b51369a60f391"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

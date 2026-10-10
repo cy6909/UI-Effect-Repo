@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/scroll-powered-svg-stroke",
+  "name": "Scroll-Powered SVG Stroke Draw",
+  "slug": "scroll-powered-svg-stroke",
+  "titleZh": "滚动 SVG 路径描绘",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A thick serpentine orange SVG stroke draws itself behind the page content as you scroll, using the classic strokeDasharray/strokeDashoffset technique: the path length is measured on load and a scrubbed ScrollTrigger (ease none) animates the dashoffset to 0 across the spotlight section, with Lenis smooth scrolling.",
+  "tags": [
+    "scroll",
+    "svg",
+    "stroke",
+    "draw",
+    "line",
+    "scrolltrigger",
+    "scrub",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/scroll-powered-svg-stroke",
+  "docsUrl": "https://motionprompts.dev/component/scroll-powered-svg-stroke/",
+  "demoUrl": "https://motionprompts.dev/components/scroll-powered-svg-stroke/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/scroll-powered-svg-stroke.webp",
+  "videoUrl": "https://motionprompts.dev/previews/scroll-powered-svg-stroke.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/scroll-powered-svg-stroke.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/scroll-powered-svg-stroke.md",
+    "sha256": "0032a9a7ba454c3a79a636cdde17dec31f2ba16bd1f9620483a84d8fcb093a48",
+    "upstreamUrl": "https://motionprompts.dev/prompts/scroll-powered-svg-stroke.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/scroll-powered-svg-stroke/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 4911,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "scrubbed SVG stroke-dashoffset draw on scroll",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/scroll-powered-svg-stroke/"
+}

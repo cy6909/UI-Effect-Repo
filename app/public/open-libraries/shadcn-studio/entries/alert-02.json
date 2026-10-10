@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-02",
+  "slug": "alert-02",
+  "name": "Alert 2",
+  "titleZh": "提示条 alert-02",
+  "description": "Avatar-enhanced alert with user profile image, and alert icon.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-02.json",
+    "sha256": "3ba16871a8f95fbcc5eebf3962365f8c33e24d228f89d6460739f33c1f33f9fe"
+  },
+  "registryDependencies": [
+    "alert",
+    "avatar"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

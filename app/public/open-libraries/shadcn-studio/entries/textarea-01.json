@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/textarea-01",
+  "slug": "textarea-01",
+  "name": "Textarea 1",
+  "titleZh": "多行输入 textarea-01",
+  "description": "A basic textarea input field with placeholder text",
+  "tags": [
+    "textarea",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--textarea-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/textarea-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/textarea",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/textarea-01.json",
+    "sha256": "0926db341a3b3e4303a56541b94f8e7d105386c96908c52a85dbb1f82d67f998"
+  },
+  "registryDependencies": [
+    "textarea"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-07",
+  "slug": "button-07",
+  "name": "Button 7",
+  "titleZh": "按钮 button-07",
+  "description": "A button component with large size variant",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-07.json",
+    "sha256": "d7bcceccbcab8e4cc75c77d2f9293066782303bafcc2bdfae720b01ed671832b"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": []
+}

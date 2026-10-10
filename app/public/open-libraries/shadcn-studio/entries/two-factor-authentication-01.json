@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/two-factor-authentication-01",
+  "slug": "two-factor-authentication-01",
+  "name": "Two Factor Authentication 1",
+  "titleZh": "界面组件 two-factor-authentication-01",
+  "description": "Centered card layout with logo header, clear two-factor authentication messaging, OTP input field, and authenticator app instructions for secure account verification",
+  "tags": [
+    "two-factor-authentication",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--two-factor-authentication-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/two-factor-authentication-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/two-factor-authentication-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/two-factor-authentication-01.json",
+    "sha256": "8b3f52fa2096e7a1db02a79a95f1dc874889af31d4eb3251c07f2f410d34752c"
+  },
+  "registryDependencies": [
+    "button",
+    "card",
+    "input-otp",
+    "label",
+    "utils"
+  ],
+  "dependencies": []
+}

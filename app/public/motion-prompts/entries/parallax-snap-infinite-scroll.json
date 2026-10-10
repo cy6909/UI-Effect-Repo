@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/parallax-snap-infinite-scroll",
+  "name": "Infinite Scroll with Parallax",
+  "slug": "parallax-snap-infinite-scroll",
+  "titleZh": "无限视差滚动",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "An endlessly looping vertical project list where wheel and touch scrolling drive a lerp-smoothed translateY on recycled full-screen slides. Each slide's image gets an independent parallax offset, and when scrolling stops the list eases (cubic ease-out) to snap the nearest slide fully into view.",
+  "tags": [
+    "infinite-scroll",
+    "parallax",
+    "snap-scroll",
+    "lerp",
+    "requestanimationframe",
+    "vanilla-js",
+    "editorial",
+    "minimal",
+    "gallery",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/parallax-snap-infinite-scroll",
+  "docsUrl": "https://motionprompts.dev/component/parallax-snap-infinite-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/parallax-snap-infinite-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/parallax-snap-infinite-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/parallax-snap-infinite-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/parallax-snap-infinite-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/parallax-snap-infinite-scroll.md",
+    "sha256": "bca76fb4b6de46df41446ef5e9359d40ea50841d367fac1f823e41489e4dd7fc",
+    "upstreamUrl": "https://motionprompts.dev/prompts/parallax-snap-infinite-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/parallax-snap-infinite-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      2.1,
+      2.1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 1269452,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "preventDefault en wheel"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "raf-lerp",
+    "motion_signature": "rAF lerp virtual scroll, recycled slides, snap",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/parallax-snap-infinite-scroll/"
+}

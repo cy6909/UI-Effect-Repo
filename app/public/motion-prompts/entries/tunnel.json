@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/tunnel",
+  "name": "3D Tunnel Image Slider Carousel",
+  "slug": "tunnel",
+  "titleZh": "3D 隧道图片轮播",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A full-screen animated monochrome tunnel, rendered as a Three.js fragment-shader plane, sits behind ten framed cinematic film stills laid out along the Z axis inside a CSS perspective container. Smooth scrolling via Lenis feeds a GSAP ScrollTrigger with scrub:1 whose onUpdate handlers push each slide's translateZ toward the camera and fade it in through a Z-to-opacity mapping, while the same scroll progress drives the shader's scrollOffset uniform to warp the tunnel in sync. Presented as the showreel of a film and color studio, 'Tunnel Vision'.",
+  "tags": [
+    "3d",
+    "tunnel",
+    "webgl",
+    "shader",
+    "three.js",
+    "scrolltrigger",
+    "lenis",
+    "carousel",
+    "film",
+    "cinematic",
+    "portfolio",
+    "gsap",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/tunnel",
+  "docsUrl": "https://motionprompts.dev/component/tunnel/",
+  "demoUrl": "https://motionprompts.dev/components/tunnel/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/tunnel.webp",
+  "videoUrl": "https://motionprompts.dev/previews/tunnel.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/tunnel.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/tunnel.md",
+    "sha256": "b449575bc4ea2c25e840aeff302f1db181d0cf5f74bd9b782a8aaae07f6415d4",
+    "upstreamUrl": "https://motionprompts.dev/prompts/tunnel.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/tunnel/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "three",
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": 2000,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.3,
+      1.8
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 1489903,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "webgl-raf",
+    "motion_signature": "scrub-1 z-depth push of 10 fixed cards through a 500px-perspective stage over 2000vh, plus a bounded sine idle drift (±120px Z) whose speed is energised by Lenis scroll velocity and decays 0.94/frame; a full-viewport polar-sine tunnel shader behind it is driven by the same combined value",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis",
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/tunnel/"
+}

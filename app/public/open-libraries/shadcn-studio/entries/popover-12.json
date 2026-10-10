@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/popover-12",
+  "slug": "popover-12",
+  "name": "Popover 12",
+  "titleZh": "浮层 popover-12",
+  "description": "An informational popover with image and content layout for location details",
+  "tags": [
+    "popover",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--popover-12",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/popover-12.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/popover",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/popover-12.json",
+    "sha256": "e9a0e0568c75fde8bfc40f23fe8576b2137eb92104561ba02c347ca8120fe5af"
+  },
+  "registryDependencies": [
+    "button",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

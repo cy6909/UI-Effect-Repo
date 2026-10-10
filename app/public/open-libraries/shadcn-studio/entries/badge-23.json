@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-23",
+  "slug": "badge-23",
+  "name": "Badge 23",
+  "titleZh": "徽标 badge-23",
+  "description": "Cart notification badge with count display over shopping icon",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-23",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-23.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-23.json",
+    "sha256": "a3c9f2df273b87898ba0b070b4cfd3d2d0a32de3890673bf4deb20a272d6626a"
+  },
+  "registryDependencies": [
+    "avatar",
+    "badge"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

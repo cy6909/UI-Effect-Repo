@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/rising-tide",
+  "slug": "rising-tide",
+  "name": "RISING TIDE",
+  "titleZh": "滚动涨潮",
+  "description": "滚动一寸，潮水一寸：水位线推着浪花持续上涨，城市剪影在半透明海水中渐渐沉没，纸船与浮标随水面起伏，右侧水位计同步读数。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--rising-tide",
+  "detailUrl": "/open-libraries/motion-vault/entries/rising-tide.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=rising-tide",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/rising-tide.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/rising-tide.md",
+    "sha256": "a6051417be5a2ea144988fb0221bb20b8ea2da182372254876ebee5c491673ba",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/rising-tide.json",
+    "sha256": "674c372919fae1fd200a434154117e01015c7237a9d695a9e6da7c388da94517"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

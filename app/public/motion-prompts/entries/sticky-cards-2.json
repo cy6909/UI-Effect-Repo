@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/sticky-cards-2",
+  "name": "Sticky Cards ScrollTrigger",
+  "slug": "sticky-cards-2",
+  "titleZh": "ScrollTrigger 吸附卡片",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A stack of full-screen sections is pinned one after another with ScrollTrigger (pin, pinSpacing:false, scrub) so each card holds in place while the next scrolls over it, and each pinned image scales from 1 down to 0.5 as the following section approaches. The hero heading fades its opacity from 1 to 0 across the first 400vh of scroll.",
+  "tags": [
+    "sticky",
+    "sticky-cards",
+    "scroll",
+    "pin",
+    "scrub",
+    "scale",
+    "scrolltrigger",
+    "gallery",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/sticky-cards-2",
+  "docsUrl": "https://motionprompts.dev/component/sticky-cards-2/",
+  "demoUrl": "https://motionprompts.dev/components/sticky-cards-2/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/sticky-cards-2.webp",
+  "videoUrl": "https://motionprompts.dev/previews/sticky-cards-2.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/sticky-cards-2.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/sticky-cards-2.md",
+    "sha256": "0e83f1dba21467b02759a969deab287d3f44fc9855e8d4a86445bfe2e30732a5",
+    "upstreamUrl": "https://motionprompts.dev/prompts/sticky-cards-2.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/sticky-cards-2/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger"
+    ],
+    "complexity": 4,
+    "pinned": true,
+    "viewport_heights": 400,
+    "needs_lenis": false,
+    "ease_family": "none",
+    "duration_range": [
+      0.2,
+      0.2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 889718,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "stacked pinned full-screen cards, images scrub-scale down",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/sticky-cards-2/"
+}

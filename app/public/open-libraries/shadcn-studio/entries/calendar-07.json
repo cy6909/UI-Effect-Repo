@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-07",
+  "slug": "calendar-07",
+  "name": "Calendar 7",
+  "titleZh": "日历 calendar-07",
+  "description": "Range calendar with disabled weekends for business day selection only",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-07.json",
+    "sha256": "5c8f0a25ba9eee85beb43b9925f632ea7fa00b57f0c1ae12cd3a2b1490d02061"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": [
+    "react-day-picker"
+  ]
+}

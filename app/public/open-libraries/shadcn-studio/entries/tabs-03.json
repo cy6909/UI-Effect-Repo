@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-03",
+  "slug": "tabs-03",
+  "name": "Tabs 3",
+  "titleZh": "标签页 tabs-03",
+  "description": "Tabs with icons for enhanced visual navigation and improved user experience",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-03.json",
+    "sha256": "5cf2c24d469d9bbc243b64bc90091b8c271ba87197b202ff8f18f20caea9e79e"
+  },
+  "registryDependencies": [
+    "tabs"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

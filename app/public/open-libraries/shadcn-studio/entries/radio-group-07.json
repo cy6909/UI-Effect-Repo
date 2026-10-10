@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/radio-group-07",
+  "slug": "radio-group-07",
+  "name": "Radio Group 7",
+  "titleZh": "单选 radio-group-07",
+  "description": "A radio group with descriptions for detailed plan selection options",
+  "tags": [
+    "radio-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--radio-group-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/radio-group-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/radio-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/radio-group-07.json",
+    "sha256": "3ea768fab669bd97f1e81fa3e7ed596756fe84ff405166e8998591c9b01fb2fa"
+  },
+  "registryDependencies": [
+    "label",
+    "radio-group"
+  ],
+  "dependencies": []
+}

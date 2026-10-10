@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/push-over-overlay-menu",
+  "name": "Minimal Push Overlay Menu",
+  "slug": "push-over-overlay-menu",
+  "titleZh": "极简推移 覆盖式菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "A fullscreen overlay menu triggered by clicking the hamburger toggle: a GSAP timeline with a custom 'hop' ease pushes the page content down 100svh while the dark overlay expands via an animated clip-path polygon, its inner content slides up from -50% to 0, the media image fades in, and SplitText line-masked links stagger in with a negative stagger. Clicking again reverses the timeline.",
+  "tags": [
+    "menu",
+    "overlay",
+    "clip-path",
+    "splittext",
+    "stagger",
+    "push",
+    "lenis",
+    "custom-ease",
+    "navigation",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/push-over-overlay-menu",
+  "docsUrl": "https://motionprompts.dev/component/push-over-overlay-menu/",
+  "demoUrl": "https://motionprompts.dev/components/push-over-overlay-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/push-over-overlay-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/push-over-overlay-menu.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/push-over-overlay-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/push-over-overlay-menu.md",
+    "sha256": "ee3bacf01fc067ccffdc0bd041c07cc0ace14b35bb7644f27eabd689dc27fb22",
+    "upstreamUrl": "https://motionprompts.dev/prompts/push-over-overlay-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/push-over-overlay-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "CustomEase",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "custom",
+    "duration_range": [
+      0.4,
+      2
+    ],
+    "stagger": -0.075,
+    "assets_required": {
+      "count": 3,
+      "bytes": 499287,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap+raf",
+    "motion_signature": "click-toggled clip-path overlay pushing page down",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aminezegmou-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "infinite-draggable-image-gallery-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "laserbysonymusic-landing-page-reveal-animation",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "maxmilkin-preloader",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "nite-riot-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "steelworks-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "truekindskincare-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-page-transitions",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/push-over-overlay-menu/"
+}

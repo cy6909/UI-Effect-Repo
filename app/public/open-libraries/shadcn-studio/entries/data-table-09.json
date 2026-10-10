@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-09",
+  "slug": "data-table-09",
+  "name": "Data Table 9",
+  "titleZh": "数据表格 data-table-09",
+  "description": "Data table with expanding sub rows for detailed content display",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-09.json",
+    "sha256": "71e34142a75b3b86ed12a594ccec2b1a161ee7a3934f909daa265a588bd97c83"
+  },
+  "registryDependencies": [
+    "button",
+    "checkbox",
+    "table"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "@tanstack/react-table"
+  ]
+}

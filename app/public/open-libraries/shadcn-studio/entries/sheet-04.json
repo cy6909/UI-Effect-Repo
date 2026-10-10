@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sheet-04",
+  "slug": "sheet-04",
+  "name": "Sheet 4",
+  "titleZh": "侧边面板 sheet-04",
+  "description": "A sheet component with scrollable content for terms and conditions",
+  "tags": [
+    "sheet",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sheet-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sheet-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sheet",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sheet-04.json",
+    "sha256": "e75de3f7345c49522bd66a3c555070278562079fa93512b5d19978604c174c6e"
+  },
+  "registryDependencies": [
+    "button",
+    "scroll-area",
+    "sheet"
+  ],
+  "dependencies": []
+}

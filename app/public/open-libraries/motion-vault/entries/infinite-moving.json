@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/infinite-moving",
+  "slug": "infinite-moving",
+  "name": "INFINITE MOVING CARDS",
+  "titleZh": "无限横滚卡带",
+  "description": "六张卡片带以 30 秒一圈无缝横滚（双拷贝位移折返），悬停减速至 0.2 倍，两端渐隐遮罩。",
+  "tags": [
+    "card",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--infinite-moving",
+  "detailUrl": "/open-libraries/motion-vault/entries/infinite-moving.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=infinite-moving",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/infinite-moving.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/infinite-moving.md",
+    "sha256": "ebe104b32fcfdd410c4eaf5e6005c99ce1704356fbec38a33ee3cbf56badb761",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/infinite-moving.json",
+    "sha256": "72601c4604aac5bcf19fb12a9aec6b351c7266cba5925ed598d19c3008e3e7c6"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/tracing-beam",
+  "slug": "tracing-beam",
+  "name": "TRACING BEAM",
+  "titleZh": "光束描边",
+  "description": "文章左侧一条 S 形曲线随滚动被墨水描绘，锌黑光点带光晕始终骑在墨迹最前端。",
+  "tags": [
+    "scroll",
+    "svg",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--tracing-beam",
+  "detailUrl": "/open-libraries/motion-vault/entries/tracing-beam.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=tracing-beam",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/tracing-beam.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/tracing-beam.md",
+    "sha256": "0702d5fcbb952ba00d09d58b077a3f79ed8115b87fd0e7adfe4e2f0920f33d58",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/tracing-beam.json",
+    "sha256": "c8d20e8973f116473efc7ccc039dd35482e8a58c13be07231f20d4f641a512db"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

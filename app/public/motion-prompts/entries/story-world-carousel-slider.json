@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/story-world-carousel-slider",
+  "name": "Story World Carousel Slider",
+  "slug": "story-world-carousel-slider",
+  "titleZh": "故事场景轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A fullscreen click-advanced carousel where each click slides the current image left (x:-500) while the next slide is revealed by animating its clip-path from a collapsed right edge to full, its image easing in from x:250. All tweens use a custom GSAP 'hop' CustomEase, and a horizontal 'pm' timeline animates flex-grow so the active hour label expands while the others collapse, looping infinitely.",
+  "tags": [
+    "carousel",
+    "clip-path",
+    "custom-ease",
+    "image-reveal",
+    "timeline",
+    "vanilla-js",
+    "editorial",
+    "cinematic",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/story-world-carousel-slider",
+  "docsUrl": "https://motionprompts.dev/component/story-world-carousel-slider/",
+  "demoUrl": "https://motionprompts.dev/components/story-world-carousel-slider/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/story-world-carousel-slider.webp",
+  "videoUrl": "https://motionprompts.dev/previews/story-world-carousel-slider.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/story-world-carousel-slider.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/story-world-carousel-slider.md",
+    "sha256": "81834ad459a018bbe3c1e2276109b196391e57b53e92c4d57878f3a6a276cc3d",
+    "upstreamUrl": "https://motionprompts.dev/prompts/story-world-carousel-slider.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/story-world-carousel-slider/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "CustomEase"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      0.3,
+      1.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 927140,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 3,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "click-advanced clip-path wipe: the incoming slide's clip-path opens left-to-right over 1.5s on the custom 'hop' ease while its image counter-slides from x:250 to 0 and the outgoing image drifts to x:-500 — a parallax offset between wipe edge and image. In parallel every hour label in the .timeline shifts its flex-grow one slot down the 5/4/3/1.5/1/0 ladder on the same 1.5s 'hop', so the hour strip re-proportions as one continuous width redistribution rather than a translate.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aminezegmou-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "infinite-draggable-image-gallery-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "laserbysonymusic-landing-page-reveal-animation",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "maxmilkin-preloader",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "nite-riot-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "steelworks-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "truekindskincare-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-page-transitions",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/story-world-carousel-slider/"
+}

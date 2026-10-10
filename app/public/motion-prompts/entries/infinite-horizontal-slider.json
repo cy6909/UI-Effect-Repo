@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/infinite-horizontal-slider",
+  "name": "Infinite Horizontal Parallax Slider",
+  "slug": "infinite-horizontal-slider",
+  "titleZh": "无限横向视差轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A seamless, infinitely looping horizontal image slider driven by mouse wheel, drag and touch. A custom requestAnimationFrame loop lerps the track position (no GSAP), recycles duplicated slide sequences for the endless loop, and shifts each image inside its frame based on distance from the viewport center for a parallax effect; hovering a slide reveals its title and arrow overlay while the track is idle.",
+  "tags": [
+    "infinite-slider",
+    "parallax",
+    "drag",
+    "marquee",
+    "requestanimationframe",
+    "lerp",
+    "vanilla-js",
+    "editorial",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/infinite-horizontal-slider",
+  "docsUrl": "https://motionprompts.dev/component/infinite-horizontal-slider/",
+  "demoUrl": "https://motionprompts.dev/components/infinite-horizontal-slider/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/infinite-horizontal-slider.webp",
+  "videoUrl": "https://motionprompts.dev/previews/infinite-horizontal-slider.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/infinite-horizontal-slider.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/infinite-horizontal-slider.md",
+    "sha256": "5213940df72672686e53a7c90cf9e2207931187d1caf4206ffb4d4d353e16c3b",
+    "upstreamUrl": "https://motionprompts.dev/prompts/infinite-horizontal-slider.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/infinite-horizontal-slider/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      0.35
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 8,
+      "bytes": 1136119,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "raf-lerp",
+    "motion_signature": "rAF lerp infinite drag track with image parallax",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/infinite-horizontal-slider/"
+}

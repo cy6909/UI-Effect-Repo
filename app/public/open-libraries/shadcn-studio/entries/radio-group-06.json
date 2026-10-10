@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/radio-group-06",
+  "slug": "radio-group-06",
+  "name": "Radio Group 6",
+  "titleZh": "单选 radio-group-06",
+  "description": "A radio group with solid filled styling for theme selection",
+  "tags": [
+    "radio-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--radio-group-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/radio-group-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/radio-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/radio-group-06.json",
+    "sha256": "53db7a822c409e71d57a7be24ce63fbdda570e37799a8cc07a7314bd0240e485"
+  },
+  "registryDependencies": [
+    "label",
+    "radio-group"
+  ],
+  "dependencies": []
+}

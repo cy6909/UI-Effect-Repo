@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/card-swap",
+  "slug": "card-swap",
+  "name": "CARD SWAP",
+  "titleZh": "自动换牌卡堆",
+  "description": "三张卡片循环换牌：每 3 秒最前面的卡先下沉 60px 并微微淡出，再滑到卡堆最后，其余卡片依次向前递补，安静而持续。",
+  "tags": [
+    "card",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--card-swap",
+  "detailUrl": "/open-libraries/motion-vault/entries/card-swap.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=card-swap",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/card-swap.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/card-swap.md",
+    "sha256": "57b3fca7004ccc9c40b3c2d7c18dc70ca427937404090d2793d4bf68b8b25638",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/card-swap.json",
+    "sha256": "0c4194ade9520d926c76f2601844167a56fa6ab4508c1c229f273e15626ef2ed"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

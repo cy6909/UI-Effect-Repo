@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/silenceo",
+  "name": "3D Scroll Scanner Experience",
+  "slug": "silenceo",
+  "titleZh": "3D 滚动扫描",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A full-page scroll experience where a Three.js GLTF model floats and rotates as you scroll, its X-rotation mapped to scroll progress via a Lenis-fed render loop. In a pinned scanner section, a ScrollTrigger onEnter handler plays a scan sound, spins the model a full turn with GSAP, then shrinks it and the scan frame to zero; scrolling back reverses the reveal.",
+  "tags": [
+    "scroll",
+    "three.js",
+    "webgl",
+    "scrolltrigger",
+    "gltf",
+    "lenis",
+    "pin",
+    "product-showcase",
+    "cinematic",
+    "three",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/silenceo",
+  "docsUrl": "https://motionprompts.dev/component/silenceo/",
+  "demoUrl": "https://motionprompts.dev/components/silenceo/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/silenceo.webp",
+  "videoUrl": "https://motionprompts.dev/previews/silenceo.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/silenceo.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/silenceo.md",
+    "sha256": "a41274f5785e6405c15def4964a8edc2acc1eafe9b6883a9a2927af2a4e426ce",
+    "upstreamUrl": "https://motionprompts.dev/prompts/silenceo.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/silenceo/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "three",
+      "GLTFLoader",
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 5,
+    "pinned": true,
+    "viewport_heights": 500,
+    "needs_lenis": true,
+    "ease_family": "power2",
+    "duration_range": [
+      0.5,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 3,
+      "bytes": 889632,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-WELDED",
+    "engine": "mixed",
+    "motion_signature": "Scroll-rotated GLTF can, pinned scan-and-vanish",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "three",
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/silenceo/"
+}

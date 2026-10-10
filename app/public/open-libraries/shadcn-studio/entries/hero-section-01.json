@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/hero-section-01",
+  "slug": "hero-section-01",
+  "name": "Hero 1",
+  "titleZh": "界面组件 hero-section-01",
+  "description": "Centered vertical layout hero with navigation header, AI-powered badge in muted container, decorative SVG underline animation on \"Effortless\" text, call-to-action button, and full-width bottom dish image showcase",
+  "tags": [
+    "hero-section",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--hero-section-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/hero-section-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/hero-section-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/hero-section-01.json",
+    "sha256": "cd3740ada3e5940199e27aa10b60e0ed0a1536929d7d362028ee5b0d1074e13b"
+  },
+  "registryDependencies": [
+    "badge",
+    "button",
+    "dropdown-menu",
+    "navigation-menu",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

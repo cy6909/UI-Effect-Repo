@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/zentry-scroll",
+  "name": "Zentry Scroll Animations",
+  "slug": "zentry-scroll",
+  "titleZh": "Zentry 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A long scroll story where a section is pinned for 4x the viewport height and every stage is scrubbed by scroll. As you scroll, letters of the intro copy flicker in with a random stagger, a center image expands from a small rectangle to fullscreen via an animated clip-path while its image scales, then a third image opens from a vertical seam and zooms far in before zooming back out, and finally a rotateY(-75deg) headline swings flat to reveal the closing copy. All driven by GSAP ScrollTrigger (pin + scrub) with Lenis smooth scrolling.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "clip-path",
+    "image-reveal",
+    "text-flicker",
+    "3d-perspective",
+    "lenis",
+    "cinematic",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/zentry-scroll",
+  "docsUrl": "https://motionprompts.dev/component/zentry-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/zentry-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/zentry-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/zentry-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/zentry-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/zentry-scroll.md",
+    "sha256": "064bc6f658b338a4d56b036d44d9e278c9b83c1c5b65d4d9fb3ee35243d86263",
+    "upstreamUrl": "https://motionprompts.dev/prompts/zentry-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/zentry-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": true,
+    "viewport_heights": 700,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": [
+      0.05,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 838359,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "400vh-pinned sticky section: linear scrubbed clip-path iris reveals (img-2 rectangle opening, img-3 centre-out) layered with continuous image zooms (1 -> 1.125 -> 1.25, and 2.9 -> 1 zoom-out from a top-right transform origin), plus a random-order per-letter opacity flicker on the intro text and a final 3D rotateY(-75deg)+scale(0.5) copy reveal through a 1000px perspective — every motion is scroll-position-driven with ease 'none', no inertia of its own beyond Lenis smoothing",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/zentry-scroll/"
+}

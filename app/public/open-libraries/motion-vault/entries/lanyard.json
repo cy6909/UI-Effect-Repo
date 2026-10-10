@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/lanyard",
+  "slug": "lanyard",
+  "name": "LANYARD",
+  "titleZh": "悬挂工牌",
+  "description": "一张工牌吊在细绳上，按住拖拽即可甩动，松手后带阻尼摆动回稳——轻重力的弹簧摆动物理。",
+  "tags": [
+    "3d",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--lanyard",
+  "detailUrl": "/open-libraries/motion-vault/entries/lanyard.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=lanyard",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/lanyard.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/lanyard.md",
+    "sha256": "47946d4e6288821d435254f71133b9764aec53226918b834a03e3f9a11dfff14",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/lanyard.json",
+    "sha256": "a94210e2a9a548204f59a4249cc9a57a3e3b7adba61fdf38782805b8525a23be"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

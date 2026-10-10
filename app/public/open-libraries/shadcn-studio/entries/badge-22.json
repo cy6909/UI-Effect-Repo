@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-22",
+  "slug": "badge-22",
+  "name": "Badge 22",
+  "titleZh": "徽标 badge-22",
+  "description": "Avatar badge combining user profile image with label text",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-22",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-22.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-22.json",
+    "sha256": "61ef6ec97dad8e0bd577916f8188e2bfd9a5291da9662cf10144e3b5335ef444"
+  },
+  "registryDependencies": [
+    "badge"
+  ],
+  "dependencies": []
+}

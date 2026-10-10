@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/text-hover-effect",
+  "name": "Text Hover Image Ring",
+  "slug": "text-hover-effect",
+  "titleZh": "文字悬停图片环",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "Hovering a highlighted word in the hero paragraph reveals a ring of 11 images that continuously orbits around the cursor. The images fan out on a circle via GSAP: a gsap.ticker loop advances the rotation angle each frame while gsap.to tweens each item's x/y, opacity in and out (0.5s, power1.out) with lerped cursor-following.",
+  "tags": [
+    "text-hover",
+    "image-reveal",
+    "cursor-follow",
+    "circular-orbit",
+    "rotating-ring",
+    "gsap",
+    "editorial",
+    "interactive",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/text-hover-effect",
+  "docsUrl": "https://motionprompts.dev/component/text-hover-effect/",
+  "demoUrl": "https://motionprompts.dev/components/text-hover-effect/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/text-hover-effect.webp",
+  "videoUrl": "https://motionprompts.dev/previews/text-hover-effect.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/text-hover-effect.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/text-hover-effect.md",
+    "sha256": "9e56fcb78fb371f34016d7fb7db0c4561a8ab70396c41fd796ebde458c88024b",
+    "upstreamUrl": "https://motionprompts.dev/prompts/text-hover-effect.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/text-hover-effect/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power1",
+    "duration_range": [
+      0.5,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 11,
+      "bytes": 1612120,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh",
+      "asigna window.onload"
+    ],
+    "cluster": "POINTER-CHASE",
+    "engine": "gsap+raf",
+    "motion_signature": "cursor-following orbiting image ring on word hover",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "window-onload"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/text-hover-effect/"
+}

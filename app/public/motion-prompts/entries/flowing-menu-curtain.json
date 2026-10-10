@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/flowing-menu-curtain",
+  "name": "Meridian — Flowing Menu Curtain",
+  "slug": "flowing-menu-curtain",
+  "titleZh": "Meridian — 流动菜单帷幕",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A vertical list of large rows where hovering pulls an inverted sheet across the row, carrying the row's own name on an endless marquee with a photographic still between each repetition. The sheet enters from whichever horizontal edge the pointer actually crossed and leaves towards the edge it exits by, measured on both events with a squared-distance test against the top and bottom midpoints. Panel and strip travel in opposite directions — the panel from ∓101%, its content from ±101% — so the marquee holds almost still against the window while the sheet wipes over it, which is what makes it read as a physical sheet rather than a div sliding up. The loop is seamless because exactly one measured copy of the content is animated, and the copy count is derived from that width against the viewport and recomputed on resize.",
+  "tags": [
+    "hover",
+    "marquee",
+    "curtain",
+    "closest-edge",
+    "direction-aware",
+    "menu",
+    "navigation",
+    "infinite-loop",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/flowing-menu-curtain",
+  "docsUrl": "https://motionprompts.dev/component/flowing-menu-curtain/",
+  "demoUrl": "https://motionprompts.dev/components/flowing-menu-curtain/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/flowing-menu-curtain.webp",
+  "videoUrl": "https://motionprompts.dev/previews/flowing-menu-curtain.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/flowing-menu-curtain.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/flowing-menu-curtain.md",
+    "sha256": "bd3bd19bc13b470a043ffd2c331ab03058f8be2d77e26163af58d55a25c137ea",
+    "upstreamUrl": "https://motionprompts.dev/prompts/flowing-menu-curtain.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/flowing-menu-curtain/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 224108,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "touch-branch",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "gsap",
+    "motion_signature": "Five rows, each a link with an absolutely positioned curtain clipped to the row. On mouseenter the handler measures which horizontal edge of the row the pointer is nearer — squared distance against (w/2, 0) and (w/2, h) — and a 0.6s expo timeline SETS the panel to yPercent ∓101 and its strip to the opposite ±101 at time 0, then tweens both to 0 together. On mouseleave the same measurement runs again and both tween back out towards the edge the pointer is leaving by. The counter-movement between panel and strip is the whole illusion: the marquee text barely moves against the window while the sheet wipes across it. Independently of that, each strip runs an endless x tween of exactly one measured copy width at ease none over 18s, with the copy count derived from that width against the viewport and rebuilt on a 120ms-debounced resize. Rows without hover never build their copies or their loop at all. One load-time flourish outside the mechanic: the row numerals rise 60% with a 0.06 stagger.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/flowing-menu-curtain/"
+}

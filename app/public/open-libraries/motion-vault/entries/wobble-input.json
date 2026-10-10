@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/wobble-input",
+  "slug": "wobble-input",
+  "name": "WOBBLE INPUT",
+  "titleZh": "抖动输入框",
+  "description": "登录失败的经典反馈：整行左右抖动、边框闪红、错误提示从上方滑下——聚焦输入框即复位。",
+  "tags": [
+    "spring",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--wobble-input",
+  "detailUrl": "/open-libraries/motion-vault/entries/wobble-input.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=wobble-input",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/wobble-input.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/wobble-input.md",
+    "sha256": "effbc46ab715b19a6b2e1d06175b2cc9c03cabfa7bc65501321c545459664e1b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/wobble-input.json",
+    "sha256": "ad05af6ffd9203ceb32c263476b69a8e3b575d8bec3f2a85d7c585cb5097e00e"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/nvg8-scroll-animation-2",
+  "name": "Assembly Icon-to-Text Scroll Animation",
+  "slug": "nvg8-scroll-animation-2",
+  "titleZh": "Assembly Icon-to-文字滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned hero for the 'Assembly' creative workspace, driven by a single scrubbed ScrollTrigger (smoothed with Lenis). As you scroll, the wordmark fades out, a bottom row of five flat app tiles (built as inline SVG) rises with a staggered offset, gathers to center while scaling down, the background flips from near-black to warm paper, the tiles are cloned and flown one-by-one into inline placeholders inside a headline, and the headline words fade in one at a time in a shuffled order.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "lenis",
+    "stagger",
+    "icon-morph",
+    "theme-switch",
+    "text-reveal",
+    "flip",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/nvg8-scroll-animation-2",
+  "docsUrl": "https://motionprompts.dev/component/nvg8-scroll-animation-2/",
+  "demoUrl": "https://motionprompts.dev/components/nvg8-scroll-animation-2/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/nvg8-scroll-animation-2.webp",
+  "videoUrl": "https://motionprompts.dev/previews/nvg8-scroll-animation-2.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/nvg8-scroll-animation-2.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/nvg8-scroll-animation-2.md",
+    "sha256": "4af9816012be2ce05fb7145e4807bf587e759dbbc1942368337fca27af5a3462",
+    "upstreamUrl": "https://motionprompts.dev/prompts/nvg8-scroll-animation-2.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/nvg8-scroll-animation-2/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 800,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      0.3
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 4954972,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scrubbed pinned icons fly into headline",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/nvg8-scroll-animation-2/"
+}

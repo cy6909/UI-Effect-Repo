@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/text-scramble",
+  "slug": "text-scramble",
+  "name": "TEXT SCRAMBLE",
+  "titleZh": "乱序解码",
+  "description": "字符先显示为随机符号，再逐位“解码”成正确文字，有黑客终端的感觉。点击预览窗重播。",
+  "tags": [
+    "text",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--text-scramble",
+  "detailUrl": "/open-libraries/motion-vault/entries/text-scramble.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=text-scramble",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/text-scramble.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/text-scramble.md",
+    "sha256": "d05c416d9ef3b31c9941bb81202ea2059c2db293c77692c260087997a5be0c1b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/text-scramble.json",
+    "sha256": "066e99a5f90d79fb03c03b346bf774358b37d320b5e89ce0924bd4405b388b9e"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pricing-component-01",
+  "slug": "pricing-component-01",
+  "name": "Pricing 1",
+  "titleZh": "界面组件 pricing-component-01",
+  "description": "Interactive pricing cards with monthly/annual toggle switch and plan comparison features",
+  "tags": [
+    "pricing-component",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--pricing-component-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pricing-component-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/pricing-component-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pricing-component-01.json",
+    "sha256": "1b6c16767bd4d44dcc2a05eb383763595e176ca91d8212d7f78f3c9e269df9a2"
+  },
+  "registryDependencies": [
+    "button",
+    "card",
+    "switch",
+    "separator"
+  ],
+  "dependencies": []
+}

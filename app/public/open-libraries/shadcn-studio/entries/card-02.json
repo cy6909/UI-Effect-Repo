@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/card-02",
+  "slug": "card-02",
+  "name": "Card 2",
+  "titleZh": "卡片 card-02",
+  "description": "Meeting notes card with team member avatars and attendee list",
+  "tags": [
+    "card",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--card-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/card-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/card",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/card-02.json",
+    "sha256": "a29d497f0a1f42c7ebed46b70dd7b5f6dd877a557229c9836095727f3f87ad4d"
+  },
+  "registryDependencies": [
+    "avatar",
+    "card"
+  ],
+  "dependencies": []
+}

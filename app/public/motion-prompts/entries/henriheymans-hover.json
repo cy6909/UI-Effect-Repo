@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/henriheymans-hover",
+  "name": "Vanguardia Award List Hover",
+  "slug": "henriheymans-hover",
+  "titleZh": "Vanguardia 奖项列表悬停",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "An awards list where hovering each row slides a three-layer wrapper via gsap.to (y translate, power2.out) so the row flips between the award panel and a cobalt project/year panel depending on whether the cursor enters from the top or bottom, while a fixed corner preview stacks the row’s image scaling it in and out with GSAP for a cursor-driven hover reveal.",
+  "tags": [
+    "hover",
+    "list",
+    "image-preview",
+    "gsap",
+    "lenis",
+    "cursor",
+    "awards",
+    "editorial",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/henriheymans-hover",
+  "docsUrl": "https://motionprompts.dev/component/henriheymans-hover/",
+  "demoUrl": "https://motionprompts.dev/components/henriheymans-hover/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/henriheymans-hover.webp",
+  "videoUrl": "https://motionprompts.dev/previews/henriheymans-hover.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/henriheymans-hover.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/henriheymans-hover.md",
+    "sha256": "3ce0088fafce78630ce38efa24d0626bc8a60478a948800bc0c00fb1deb6ab30",
+    "upstreamUrl": "https://motionprompts.dev/prompts/henriheymans-hover.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/henriheymans-hover/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power2",
+    "duration_range": [
+      0.4,
+      0.4
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 18,
+      "bytes": 2652168,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "gsap",
+    "motion_signature": "hover-driven row panel slide with corner image stack",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/henriheymans-hover/"
+}

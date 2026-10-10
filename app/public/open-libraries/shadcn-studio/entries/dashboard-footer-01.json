@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dashboard-footer-01",
+  "slug": "dashboard-footer-01",
+  "name": "Dashboard Footer 1",
+  "titleZh": "界面组件 dashboard-footer-01",
+  "description": "A complete dashboard layout with sidebar, main content area, and footer featuring copyright text with social media icons (Facebook, Instagram, LinkedIn, Twitter) for application branding.",
+  "tags": [
+    "dashboard-footer",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dashboard-footer-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dashboard-footer-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/dashboard-footer-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dashboard-footer-01.json",
+    "sha256": "17dc4cc556176fef7af5892ee852231d729584cfbbd91602db7149887f41af6d"
+  },
+  "registryDependencies": [
+    "card",
+    "sidebar"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

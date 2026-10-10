@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/draw-arrow",
+  "slug": "draw-arrow",
+  "name": "DRAW ARROW",
+  "titleZh": "手绘引导箭头",
+  "description": "一条略带抖动的手绘弯曲线从左上绕到右下，1.2 秒画出、停留 1 秒、0.5 秒反向擦除，箭头头部在最后时刻补上，无限循环。",
+  "tags": [
+    "svg",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--draw-arrow",
+  "detailUrl": "/open-libraries/motion-vault/entries/draw-arrow.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=draw-arrow",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/draw-arrow.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/draw-arrow.md",
+    "sha256": "cf2494872c69b9e89c6bdeec11ef45c7120fd8365ec6bcb08c62db6e1d8ed39e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/draw-arrow.json",
+    "sha256": "c70c34964bb2090e31f937b5bb3c8e09c8cac13893165a2315a6380b6aaac106"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

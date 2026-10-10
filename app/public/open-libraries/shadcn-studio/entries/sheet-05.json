@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sheet-05",
+  "slug": "sheet-05",
+  "name": "Sheet 5",
+  "titleZh": "侧边面板 sheet-05",
+  "description": "A sheet component with form validation and structured user registration",
+  "tags": [
+    "sheet",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sheet-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sheet-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sheet",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sheet-05.json",
+    "sha256": "aa96491f66b4505817f7cdecb69307d7789b38879f98e6a8896824b6dfcc067b"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "form",
+    "input",
+    "sheet"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/multi-step",
+  "slug": "multi-step",
+  "name": "MULTI-STEP",
+  "titleZh": "多步加载",
+  "description": "四个步骤每 900ms 推进一格：当前行点亮、前面行描绘对勾，走到底停留一秒后重置循环。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--multi-step",
+  "detailUrl": "/open-libraries/motion-vault/entries/multi-step.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=multi-step",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/multi-step.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/multi-step.md",
+    "sha256": "1b521c6b19e16f426a0292a49b40f67ca922c431a13ce2a355a0bfec0fa5112e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/multi-step.json",
+    "sha256": "107e14e47e299a6dd968b71e47885452bcb81463d9f4d5803cdf690260e4d4d7"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

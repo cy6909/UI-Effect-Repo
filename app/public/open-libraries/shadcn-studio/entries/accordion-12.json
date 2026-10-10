@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/accordion-12",
+  "slug": "accordion-12",
+  "name": "Accordion 12",
+  "titleZh": "折叠面板 accordion-12",
+  "description": "Tab with outline accordion featuring bordered highlighting and shadow effects for expanded items.",
+  "tags": [
+    "accordion",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--accordion-12",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/accordion-12.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/accordion",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/accordion-12.json",
+    "sha256": "936b34474d0027ba201ba7ddd1d7823d664eb607a705818190c8e9bab4239563"
+  },
+  "registryDependencies": [
+    "accordion"
+  ],
+  "dependencies": [
+    "@radix-ui/react-accordion",
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/blog-component-01",
+  "slug": "blog-component-01",
+  "name": "Blog 1",
+  "titleZh": "界面组件 blog-component-01",
+  "description": "Three-column blog grid with featured images, titles, descriptions, and read more buttons for journey and destination content",
+  "tags": [
+    "blog-component",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--blog-component-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/blog-component-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/blog-component-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/blog-component-01.json",
+    "sha256": "893ff7448b4f2efe821e9977d3d9b5174a71c3bf70c38cbaa6c1620a3cfd7bc0"
+  },
+  "registryDependencies": [
+    "button",
+    "card"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

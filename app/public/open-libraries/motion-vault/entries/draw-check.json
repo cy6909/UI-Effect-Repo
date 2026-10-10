@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/draw-check",
+  "slug": "draw-check",
+  "name": "DRAW CHECK",
+  "titleZh": "描绘打勾",
+  "description": "圆圈先描出轮廓，对勾随即一气呵成，结尾带一点回弹缩放的“咔哒”感与一抹极淡的绿色。点击图标即可重播。",
+  "tags": [
+    "svg",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--draw-check",
+  "detailUrl": "/open-libraries/motion-vault/entries/draw-check.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=draw-check",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/draw-check.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/draw-check.md",
+    "sha256": "afa4435feee087b110c48b5f25a39535e289c34476f2514d6f31c2517d1e662b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/draw-check.json",
+    "sha256": "2cc20d3c92bd553087984d78122d8add9b8c0104bc2b2fbdeff19d8f343947e8"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

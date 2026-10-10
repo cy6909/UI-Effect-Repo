@@ -1,0 +1,19 @@
+name: ui-effect-repo
+services:
+  web:
+    image: ui-effect-repo:${UIE_IMAGE_TAG:-personal-v1}
+    build:
+      context: .
+      dockerfile: Dockerfile.personal
+    ports:
+      - '${UIE_BIND_ADDRESS:-0.0.0.0}:${UIE_PORT:-18120}:8080'
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 256m
+    cpus: 1

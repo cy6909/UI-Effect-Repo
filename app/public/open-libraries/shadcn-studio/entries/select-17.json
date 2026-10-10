@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-17",
+  "slug": "select-17",
+  "name": "Select 17",
+  "titleZh": "选择器 select-17",
+  "description": "A custom select dropdown with colored background and themed styling",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-17",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-17.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-17.json",
+    "sha256": "428a4a3989d13b60b7f473be250033ce8a8b41e062159a9eca4faf98b4807e83"
+  },
+  "registryDependencies": [
+    "label",
+    "select"
+  ],
+  "dependencies": []
+}

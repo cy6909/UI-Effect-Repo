@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/murmuration",
+  "slug": "murmuration",
+  "name": "MURMURATION",
+  "titleZh": "椋鸟群飞",
+  "description": "数百只椋鸟按 boids 三原则（分离、对齐、聚合）汇成流动的鸟群，时而舒展时而收拢；鼠标掠过时鸟群惊散又回旋重聚。",
+  "tags": [
+    "particle",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--murmuration",
+  "detailUrl": "/open-libraries/motion-vault/entries/murmuration.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=murmuration",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/murmuration.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/murmuration.md",
+    "sha256": "04bd8b6974c37ef670275e816396b807376ae50a593485fba96d111f52b635c5",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/murmuration.json",
+    "sha256": "6b0a164011c181e3afa79e3565f1d84ae203332c4fc4cf134a36c9cec986acfc"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

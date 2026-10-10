@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/text-pulse",
+  "slug": "text-pulse",
+  "name": "TEXT PULSE",
+  "titleZh": "文字呼吸",
+  "description": "「加载中…」六个字符依次明暗呼吸——安静克制，适合任何等待角落。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--text-pulse",
+  "detailUrl": "/open-libraries/motion-vault/entries/text-pulse.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=text-pulse",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/text-pulse.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/text-pulse.md",
+    "sha256": "bb69315d204e59c17f3686952eac25c7c966765cbe0c86f3307287fc7a5c1556",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/text-pulse.json",
+    "sha256": "67137bf6c5306fc6fa3eb32553dbc1f127dd92338b08b3275496200963683ef9"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/cards",
+  "name": "Interactive Calendar Cards",
+  "slug": "cards",
+  "titleZh": "交互日历卡片",
+  "category": "Components",
+  "source": "motion-prompts",
+  "sourceCategory": "cards",
+  "description": "A column of month cards, each showing a randomized grid of contribution-style pads with a few colored 'active' cells. Clicking an active pad triggers gsap.to to scale it up 20x to flood-fill the card, then reveals an image, title, copy and link that fly in with a staggered elastic.out gsap.fromTo (y and random rotation); a Back button reverses the animation.",
+  "tags": [
+    "cards",
+    "click-reveal",
+    "gsap",
+    "grid",
+    "contribution-graph",
+    "elastic",
+    "interactive",
+    "calendar",
+    "dark",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/cards",
+  "docsUrl": "https://motionprompts.dev/component/cards/",
+  "demoUrl": "https://motionprompts.dev/components/cards/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/cards.webp",
+  "videoUrl": "https://motionprompts.dev/previews/cards.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/cards.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/cards.md",
+    "sha256": "7c606598a9ef378323e891062f157d6dd6b10697691eea9e5a4f56a855c7862f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/cards.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/cards/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "ionicons"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "elastic",
+    "duration_range": [
+      0.075,
+      2
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 10,
+      "bytes": 615312,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 3,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "click-scaled pad flood-fill (scale 20 in 0.3s, contained by the card's overflow:hidden), then a 2s elastic.out staggered fromTo of 3 content blocks from y:100 with a per-element random rotation (-30..30); Back reverses as a nested chain (fade 0.2s -> unscale 0.3s -> clearProps). No scroll-driven motion at all.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/cards/"
+}

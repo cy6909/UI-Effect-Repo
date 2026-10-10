@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sonner-10",
+  "slug": "sonner-10",
+  "name": "Sonner 10",
+  "titleZh": "通知 sonner-10",
+  "description": "A soft-styled success toast notification with green color theming for positive feedback",
+  "tags": [
+    "sonner",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sonner-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sonner-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sonner",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sonner-10.json",
+    "sha256": "b54e1576ab25ba0b663ce9de86a8ac96dcf2a598323504ca3ed613d991a5800a"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "sonner"
+  ]
+}

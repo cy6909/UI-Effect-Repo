@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-05",
+  "slug": "dialog-05",
+  "name": "Dialog 5",
+  "titleZh": "对话框 dialog-05",
+  "description": "Scrollable dialog with sticky header for fixed navigation while scrolling content",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-05.json",
+    "sha256": "ec1d54c306afe15a416df85f044fb650f8f595b8d383cf139e2f58d961842f9f"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog",
+    "scroll-area"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

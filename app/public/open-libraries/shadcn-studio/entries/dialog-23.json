@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-23",
+  "slug": "dialog-23",
+  "name": "Dialog 23",
+  "titleZh": "对话框 dialog-23",
+  "description": "Profile edit dialog positioned at bottom right aligned of screen",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-23",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-23.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-23.json",
+    "sha256": "f2b21c780ea19fd5bb523cc448a804e6e1a790f1af43438788fa6085f29ddb53"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog",
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

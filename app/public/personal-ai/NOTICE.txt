@@ -1,0 +1,10 @@
+Personal AI implementations / 个人 AI 实现
+
+These are the user's archived AI-assisted prototype implementations, imported from the local files identified by the user and linked to their Notion archive. This label describes implementation ownership, not original authorship of every design, photograph, font or reference prompt.
+
+M01: Montserrat candidate, with external Fontsource CSS (Montserrat SIL OFL 1.1).
+M02-M06: complete archived interaction workbench, retaining its original embedded demo images.
+R01: complete offline Web Animations API prototype with substitute photographs. It is not the unverified Vite/GSAP project. Design and original prompt reference: Motion Prompts / Vanguardia, https://motionprompts.dev/component/cards/ . The original prompt was supplied by the user; it is preserved without invented additions. See /motion-prompts/LICENSE.txt for the separate Motion Prompts distribution license.
+
+No general commercial or sublicensing rights for third-party assets are granted by this collection. Replace example media with appropriately licensed assets when integrating elsewhere.
+Agent model, reasoning effort, skill-loading state and first-pass generation evidence were not preserved in the supplied archives and remain unknown.

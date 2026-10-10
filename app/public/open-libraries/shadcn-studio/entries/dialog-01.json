@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-01",
+  "slug": "dialog-01",
+  "name": "Dialog 1",
+  "titleZh": "对话框 dialog-01",
+  "description": "Basic alert dialog with confirmation for destructive actions",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-01.json",
+    "sha256": "69a54bb5f11f392c3c2d2b93bdafb35c9df95477567460f61280d8245d87f2c2"
+  },
+  "registryDependencies": [
+    "alert-dialog",
+    "button"
+  ],
+  "dependencies": []
+}

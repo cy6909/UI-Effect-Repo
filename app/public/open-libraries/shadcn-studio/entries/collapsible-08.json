@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/collapsible-08",
+  "slug": "collapsible-08",
+  "name": "Collapsible 8",
+  "titleZh": "折叠区域 collapsible-08",
+  "description": "Menu items with dropdown actions and nested navigation structure",
+  "tags": [
+    "collapsible",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--collapsible-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/collapsible-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/collapsible",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/collapsible-08.json",
+    "sha256": "c01e637458d84727935285bc59465eb2495863bd5e56ca5e8f20fc077d977058"
+  },
+  "registryDependencies": [
+    "button",
+    "collapsible",
+    "dropdown-menu"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/yard-hover",
+  "name": "YARD Hover Menu",
+  "slug": "yard-hover",
+  "titleZh": "YARD 悬停菜单",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A large uppercase project list where hovering a menu item swaps its label lines via GSAP top-position tweens and reveals a stacked image preview that follows the cursor. The preview images grow in and out with an animated clip-path polygon on a power3.out ease, while the trailing cursor position is smoothed with a gsap.to on mousemove.",
+  "tags": [
+    "hover-menu",
+    "clip-path",
+    "image-preview",
+    "cursor-follow",
+    "text-swap",
+    "gsap",
+    "editorial",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/yard-hover",
+  "docsUrl": "https://motionprompts.dev/component/yard-hover/",
+  "demoUrl": "https://motionprompts.dev/components/yard-hover/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/yard-hover.webp",
+  "videoUrl": "https://motionprompts.dev/previews/yard-hover.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/yard-hover.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/yard-hover.md",
+    "sha256": "75bf7103e16f822b3af273f2a43fb51227de55b3c8a0057c453e1dae54f68ed5",
+    "upstreamUrl": "https://motionprompts.dev/prompts/yard-hover.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/yard-hover/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 969089,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "gsap",
+    "motion_signature": "cursor-trailing clip-path image preview with label swap",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/yard-hover/"
+}

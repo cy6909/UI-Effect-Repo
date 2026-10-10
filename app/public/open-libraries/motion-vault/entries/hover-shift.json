@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/hover-shift",
+  "slug": "hover-shift",
+  "name": "HOVER SHIFT",
+  "titleZh": "悬停错位按钮",
+  "description": "悬停时原文案上滑离场，带箭头的新文案从下方滑入，底色同步变浅一档。",
+  "tags": [
+    "button",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--hover-shift",
+  "detailUrl": "/open-libraries/motion-vault/entries/hover-shift.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=hover-shift",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/hover-shift.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/hover-shift.md",
+    "sha256": "9a88ec4d598be21d11d70b9b862c665e770dd1b2fc733bea1a91b9908dd087ea",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/hover-shift.json",
+    "sha256": "d9cb37111c8526291a07344e0f01c726d196e9ed273aa780abc164cece2a97ec"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

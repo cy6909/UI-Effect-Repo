@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-13",
+  "slug": "data-table-13",
+  "name": "Data Table 13",
+  "titleZh": "数据表格 data-table-13",
+  "description": "editable data table with inline cell editing for text, status, and progress—supports row selection and live updates.",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-13.json",
+    "sha256": "1f62d16891eefcaaf65598e00f2f13c608e622c41d7e073d42eac2c2ec92b07e"
+  },
+  "registryDependencies": [
+    "button",
+    "checkbox",
+    "input",
+    "select",
+    "table"
+  ],
+  "dependencies": [
+    "@tanstack/react-table"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-10",
+  "slug": "data-table-10",
+  "name": "Data Table 10",
+  "titleZh": "数据表格 data-table-10",
+  "description": "Data table with pagination, rows selection, and sorting system",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-10.json",
+    "sha256": "2ec7400d668b3f17dc4bd661e25d6dc8f62170bb9546d045a6d5de2642e08758"
+  },
+  "registryDependencies": [
+    "badge",
+    "button",
+    "checkbox",
+    "label",
+    "pagination",
+    "select",
+    "table",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "@tanstack/react-table"
+  ]
+}

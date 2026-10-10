@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/eduardbodak-scroll-animation",
+  "name": "Eduardbodak Animated Cards",
+  "slug": "eduardbodak-scroll-animation",
+  "titleZh": "Eduardbodak 动态卡片",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A scroll-driven card sequence with Lenis smooth scroll where GSAP ScrollTrigger scrubs three stacked hero cards apart and fades them out, then pins the services section and, using per-card progress math on scrub, flies three floating cards up from tiny scaled thumbnails into full-size, rotating them 180deg on the Y axis to flip from front to back.",
+  "tags": [
+    "scroll",
+    "scrub",
+    "pinning",
+    "cards",
+    "3d-flip",
+    "lenis",
+    "smoothstep",
+    "editorial",
+    "minimal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/eduardbodak-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/eduardbodak-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/eduardbodak-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/eduardbodak-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/eduardbodak-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/eduardbodak-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/eduardbodak-scroll-animation.md",
+    "sha256": "965089f5d7cc746398e9b8d47ec3eadefa4a1f6cad0289311e382dfce817e3dd",
+    "upstreamUrl": "https://motionprompts.dev/prompts/eduardbodak-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/eduardbodak-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 400,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      2,
+      2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap+raf",
+    "motion_signature": "scrubbed pinned card deck with 3D flip",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/eduardbodak-scroll-animation/"
+}

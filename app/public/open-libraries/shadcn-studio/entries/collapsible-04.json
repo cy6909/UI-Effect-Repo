@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/collapsible-04",
+  "slug": "collapsible-04",
+  "name": "Collapsible 4",
+  "titleZh": "折叠区域 collapsible-04",
+  "description": "User list with avatars, status indicators and expandable team member details",
+  "tags": [
+    "collapsible",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--collapsible-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/collapsible-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/collapsible",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/collapsible-04.json",
+    "sha256": "8d76ba1df1625e51c44ec69b62292b6e319f9b9eb4fdbd32b74f5dc564005b1d"
+  },
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "collapsible"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

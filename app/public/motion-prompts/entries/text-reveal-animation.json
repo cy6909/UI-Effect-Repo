@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/text-reveal-animation",
+  "name": "Text Reveal Animation",
+  "slug": "text-reveal-animation",
+  "titleZh": "文字揭示动效",
+  "category": "TextAnimations",
+  "source": "motion-prompts",
+  "sourceCategory": "text",
+  "description": "Char-level text reveal built on GSAP SplitText: each character slides in from x:100 with a 20-degree skew and fades to place (power3.out, 0.65s), staggered 0.05s by its index within its own line so all lines animate in parallel. Three trigger modes across full-height sections: on page load, on scroll enter (replays entering, resets when scrolled back above), and scrubbed between viewport positions, all under Lenis smooth scrolling.",
+  "tags": [
+    "text",
+    "reveal",
+    "split-text",
+    "chars",
+    "stagger",
+    "skew",
+    "scroll",
+    "scrub",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/text-reveal-animation",
+  "docsUrl": "https://motionprompts.dev/component/text-reveal-animation/",
+  "demoUrl": "https://motionprompts.dev/components/text-reveal-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/text-reveal-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/text-reveal-animation.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/text-reveal-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/text-reveal-animation.md",
+    "sha256": "ef5ce5bbb91cdf4b7ec0366bc59670ce5d00a40d1c95cd5be8b2f823c2c01247",
+    "upstreamUrl": "https://motionprompts.dev/prompts/text-reveal-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/text-reveal-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power3",
+    "duration_range": [
+      0.65,
+      0.65
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "per-char skewed slide-in (x 100→0, opacity 0→1, skewX 20→0, 0.65s power3.out), stagger by index within each line so all lines fire in parallel",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/text-reveal-animation/"
+}

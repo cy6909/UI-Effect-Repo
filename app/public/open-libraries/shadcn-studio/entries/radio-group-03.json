@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/radio-group-03",
+  "slug": "radio-group-03",
+  "name": "Radio Group 3",
+  "titleZh": "单选 radio-group-03",
+  "description": "A colored radio group with custom styling for different states",
+  "tags": [
+    "radio-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--radio-group-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/radio-group-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/radio-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/radio-group-03.json",
+    "sha256": "7f0e40ee382e78f53e4bc5da3a1ab3c69ab5e71f8a5490152d9b48ba28bd583e"
+  },
+  "registryDependencies": [
+    "label",
+    "radio-group"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-33",
+  "slug": "select-33",
+  "name": "Select 33",
+  "titleZh": "选择器 select-33",
+  "description": "A multi-select dropdown with placeholder, badge display and removal functionality",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-33",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-33.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-33.json",
+    "sha256": "42fad0d75c5cf9383c9c3eb355239dba860fb21140dee26c9b1f8ea27237122b"
+  },
+  "registryDependencies": [
+    "command",
+    "label",
+    "utils"
+  ],
+  "dependencies": [
+    "cmdk",
+    "lucide-react"
+  ]
+}

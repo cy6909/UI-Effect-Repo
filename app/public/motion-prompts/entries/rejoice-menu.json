@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/rejoice-menu",
+  "name": "Rejoice Fullscreen Overlay Menu",
+  "slug": "rejoice-menu",
+  "titleZh": "Rejoice 全屏覆盖菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "A fullscreen overlay navigation menu that opens on clicking the 'Menu' button and closes on 'Close'. A single paused GSAP timeline plays/reverses: it animates the overlay clip-path open, staggers the nav links and CTA up with a fade, grows the video preview thumbnail and draws the footer divider from 0 to 100% width.",
+  "tags": [
+    "menu",
+    "fullscreen-overlay",
+    "clip-path",
+    "gsap-timeline",
+    "staggered-reveal",
+    "hamburger",
+    "navigation",
+    "vanilla-js",
+    "minimal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/rejoice-menu",
+  "docsUrl": "https://motionprompts.dev/component/rejoice-menu/",
+  "demoUrl": "https://motionprompts.dev/components/rejoice-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/rejoice-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/rejoice-menu.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/rejoice-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/rejoice-menu.md",
+    "sha256": "389c57d6b63eeb2820a24f75c47a8d4583826b091847246950272cf57bb134ee",
+    "upstreamUrl": "https://motionprompts.dev/prompts/rejoice-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/rejoice-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "phosphor-icons"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 2,
+      "bytes": 361921,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "Paused, reversible GSAP timeline: a top-edge clip-path wipe opens a full-viewport overlay (1s power2.out) while, from the same t=0, links stagger up 60px at 0.05s each (0.75s power1.inOut), a video preview grows 0 -> 200px (1s power2.out) and a footer divider draws 0% -> 100% width (2s power4.out, the tail that sets the 2s total). Close plays the exact same curves backwards.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/rejoice-menu/"
+}

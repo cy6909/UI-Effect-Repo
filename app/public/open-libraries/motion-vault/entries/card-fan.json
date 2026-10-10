@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/card-fan",
+  "slug": "card-fan",
+  "name": "CARD FAN",
+  "titleZh": "扇形卡叠",
+  "description": "五张白色卡片原本微微错落地叠着，悬停时以底部为轴扇形展开，离开时收回。",
+  "tags": [
+    "card",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--card-fan",
+  "detailUrl": "/open-libraries/motion-vault/entries/card-fan.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=card-fan",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/card-fan.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/card-fan.md",
+    "sha256": "79e7934daf2fd4890411d7e6f63bc7f0e1c970a3575ca2a85d0edc78816518fe",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/card-fan.json",
+    "sha256": "8979a6bfbba595f41c64b85e49c6b967b835788fc02e494618054ca17b8e0835"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

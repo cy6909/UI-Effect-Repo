@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/table-02",
+  "slug": "table-02",
+  "name": "Table 2",
+  "titleZh": "表格 table-02",
+  "description": "A bordered table with complete border styling around the table container",
+  "tags": [
+    "table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--table-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/table-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/table-02.json",
+    "sha256": "727261f1780ed07e879ba1c2eab92117cc6bf46c2b6dd4158f1724e233bdbbd8"
+  },
+  "registryDependencies": [
+    "table"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/lava-buster",
+  "name": "Lava Buster Fluid Simulation",
+  "slug": "lava-buster",
+  "titleZh": "Lava Buster 流体模拟",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A fullscreen Three.js WebGL fluid/particle simulation running multi-pass GLSL shaders in ping-pong float render targets; molten lava-like particles are continuously blasted from the center and swirl toward the cursor, reacting to mouse move and mouse-down in real time.",
+  "tags": [
+    "webgl",
+    "three.js",
+    "glsl",
+    "shaders",
+    "fluid-simulation",
+    "particles",
+    "lava",
+    "mouse-interactive",
+    "fullscreen",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/lava-buster",
+  "docsUrl": "https://motionprompts.dev/component/lava-buster/",
+  "demoUrl": "https://motionprompts.dev/components/lava-buster/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/lava-buster.webp",
+  "videoUrl": "https://motionprompts.dev/previews/lava-buster.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/lava-buster.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/lava-buster.md",
+    "sha256": "27a6ff21ac4d28378416e0bdb7616803470087eb7da7a14be90be60c12c62a8d",
+    "upstreamUrl": "https://motionprompts.dev/prompts/lava-buster.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/lava-buster/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "three"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      3.4
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "INTEGRATOR",
+    "engine": "webgl-raf",
+    "motion_signature": "GPU ping-pong particle-in-cell fluid on a bare rAF loop: dt=8.5 advection with pressure gradient (P=0.01), 0.9995-per-frame velocity damping, and a time-rotating force jet injected at the exact center of the field (gaussian r=8). The cursor only steers while the mouse button is HELD (iMouse.z>0 gates a gaussian r=25 swirl); plain mousemove moves the sample point but injects nothing.",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/lava-buster/"
+}

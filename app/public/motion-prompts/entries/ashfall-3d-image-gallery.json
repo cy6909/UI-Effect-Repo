@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/ashfall-3d-image-gallery",
+  "name": "Ashfall 3D Cylinder Gallery",
+  "slug": "ashfall-3d-image-gallery",
+  "titleZh": "Ashfall 3D 圆柱画廊",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A Three.js WebGL gallery arranges dozens of curved image planes into a tall rotating cylinder that spins continuously. Lenis smooth-scroll drives the camera vertically through the stack while scroll velocity briefly accelerates the group's Y rotation for an inertial, momentum-based spin.",
+  "tags": [
+    "three.js",
+    "webgl",
+    "scroll",
+    "gallery",
+    "cylinder",
+    "lenis",
+    "rotation",
+    "immersive",
+    "curved-plane",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/ashfall-3d-image-gallery",
+  "docsUrl": "https://motionprompts.dev/component/ashfall-3d-image-gallery/",
+  "demoUrl": "https://motionprompts.dev/components/ashfall-3d-image-gallery/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/ashfall-3d-image-gallery.webp",
+  "videoUrl": "https://motionprompts.dev/previews/ashfall-3d-image-gallery.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/ashfall-3d-image-gallery.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/ashfall-3d-image-gallery.md",
+    "sha256": "a6d497a86e01e44916d4f838e19d2306f02732e4ecfc962568c9f0ecdafafdc4",
+    "upstreamUrl": "https://motionprompts.dev/prompts/ashfall-3d-image-gallery.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/ashfall-3d-image-gallery/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "three",
+      "lenis"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": 500,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 50,
+      "bytes": 7826398,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "webgl-raf",
+    "motion_signature": "scroll-driven camera descent inside rotating photo cylinder: camera.position.y lerps at 0.1 toward -(scrollFraction*30 - 15) while galleryGroup.rotation.y advances 0.0025 rad/frame plus an unclamped scroll-velocity kick (velocity*0.005) decaying 0.95/frame",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "three",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/ashfall-3d-image-gallery/"
+}

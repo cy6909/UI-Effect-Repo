@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/magnet-lines",
+  "slug": "magnet-lines",
+  "name": "MAGNET LINES",
+  "titleZh": "磁吸线阵",
+  "description": "9×5 的短线阵列，每根线用弹簧平滑转向指针方向，离指针越近拉得越长、颜色越深；指针离开后缓缓回正。",
+  "tags": [
+    "spring",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--magnet-lines",
+  "detailUrl": "/open-libraries/motion-vault/entries/magnet-lines.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=magnet-lines",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/magnet-lines.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/magnet-lines.md",
+    "sha256": "aca4b97a650e67732438f59825f3e98404f2dc10409aad50bea9e7997ca2a09d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/magnet-lines.json",
+    "sha256": "3996f26fb127edb48746c54febf005048be743c682f5e7f070ec6c30696266b4"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

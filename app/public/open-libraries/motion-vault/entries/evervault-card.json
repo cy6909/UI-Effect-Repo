@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/evervault-card",
+  "slug": "evervault-card",
+  "name": "ENCRYPTED MATRIX",
+  "titleZh": "加密矩阵卡",
+  "description": "满屏随机字符的矩阵中，鼠标周围的圆形区域被点亮成深色高亮并高速刷新，像一束扫描光扫过密文。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--evervault-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/evervault-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=evervault-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/evervault-card.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/evervault-card.md",
+    "sha256": "acca75428a5b3fbc80e99cf3735549ba192cb1399b11cf63164d9f92fb290efb",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/evervault-card.json",
+    "sha256": "6854bea756fde32ddc7aa76ccae0b4fc892f550dfd5a035303e2357e227a6932"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

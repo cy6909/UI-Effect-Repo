@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/menuxl-text-displacement-animation",
+  "name": "Text Displacement Cursor Repel",
+  "slug": "menuxl-text-displacement-animation",
+  "titleZh": "光标排斥文字位移",
+  "category": "TextAnimations",
+  "source": "motion-prompts",
+  "sourceCategory": "text",
+  "description": "Headings and paragraph text are split into individual letters and words that get pushed away from the cursor within a 150px radius, the displacement force scaling with proximity. Pure requestAnimationFrame with per-element lerp smoothing (no GSAP) drives the elastic follow-and-settle motion via CSS transforms on mousemove.",
+  "tags": [
+    "text",
+    "cursor",
+    "displacement",
+    "repel",
+    "hover",
+    "lerp",
+    "raf",
+    "interactive",
+    "vanilla-js",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/menuxl-text-displacement-animation",
+  "docsUrl": "https://motionprompts.dev/component/menuxl-text-displacement-animation/",
+  "demoUrl": "https://motionprompts.dev/components/menuxl-text-displacement-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/menuxl-text-displacement-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/menuxl-text-displacement-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/menuxl-text-displacement-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/menuxl-text-displacement-animation.md",
+    "sha256": "ca56765f943a3b87471110661b9593f00df62a56124f215541adf5a57c130d57",
+    "upstreamUrl": "https://motionprompts.dev/prompts/menuxl-text-displacement-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/menuxl-text-displacement-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "raf-lerp",
+    "motion_signature": "rAF lerp letters/words repelled from cursor",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/menuxl-text-displacement-animation/"
+}

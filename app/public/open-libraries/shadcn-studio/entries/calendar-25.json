@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-25",
+  "slug": "calendar-25",
+  "name": "Calendar 25",
+  "titleZh": "日历 calendar-25",
+  "description": "Pricing calendar with dynamic price display for each date based on availability",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-25",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-25.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-25.json",
+    "sha256": "641cff1156f2d63d6b3dcf81215a3da96f7383192fb4848a904221ae6eeda905"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/nextjs-text-reveal-animation",
+  "name": "Line-by-Line Text Reveal",
+  "slug": "nextjs-text-reveal-animation",
+  "titleZh": "逐行文字揭示",
+  "category": "TextAnimations",
+  "source": "motion-prompts",
+  "sourceCategory": "text",
+  "description": "A scroll-driven line-by-line text reveal. GSAP SplitText breaks each heading and paragraph into masked lines, gsap.set pushes them to y:100%, and a ScrollTrigger fired once at 'top 75%' tweens them back to y:0% (duration 1, stagger 0.1, power4.out); the hero headline runs on load with a 0.5s delay. Lenis provides smooth scrolling.",
+  "tags": [
+    "text-reveal",
+    "split-text",
+    "line-mask",
+    "scroll",
+    "stagger",
+    "lenis",
+    "editorial",
+    "minimal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/nextjs-text-reveal-animation",
+  "docsUrl": "https://motionprompts.dev/component/nextjs-text-reveal-animation/",
+  "demoUrl": "https://motionprompts.dev/components/nextjs-text-reveal-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/nextjs-text-reveal-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/nextjs-text-reveal-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/nextjs-text-reveal-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/nextjs-text-reveal-animation.md",
+    "sha256": "ccd8138db4d5d2b93b7a7cb23759e0c4100a505aa809964696646e86d6836f04",
+    "upstreamUrl": "https://motionprompts.dev/prompts/nextjs-text-reveal-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/nextjs-text-reveal-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power4",
+    "duration_range": [
+      1,
+      1
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 2,
+      "bytes": 763163,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-THRESHOLD",
+    "engine": "gsap",
+    "motion_signature": "once-triggered masked line reveal, staggered upward",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "reveal-on-enter"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/nextjs-text-reveal-animation/"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sonner-18",
+  "slug": "sonner-18",
+  "name": "Sonner 18",
+  "titleZh": "通知 sonner-18",
+  "description": "A solid-styled success toast notification with green background and white text for prominent positive feedback",
+  "tags": [
+    "sonner",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sonner-18",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sonner-18.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sonner",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sonner-18.json",
+    "sha256": "de6deb1d31a4bd21561b5e033af8c04422b82c2585a9b9e2463bf0f6f2e7a905"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "sonner"
+  ]
+}

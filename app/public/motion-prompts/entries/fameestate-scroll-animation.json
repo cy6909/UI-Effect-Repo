@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/fameestate-scroll-animation",
+  "name": "FameEstate Scroll Animation",
+  "slug": "fameestate-scroll-animation",
+  "titleZh": "FameEstate 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Pinned hero scrubbed over seven viewport heights with Lenis smooth scroll: a red panel opens from a thin clip-path slit to full screen, three images cascade in with staggered clip-path and scale reveals, then an outro panel scales in and splits into two clip-path halves that slide apart to uncover the about section.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "clip-path",
+    "reveal",
+    "lenis",
+    "hero",
+    "stagger",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/fameestate-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/fameestate-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/fameestate-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/fameestate-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/fameestate-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/fameestate-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/fameestate-scroll-animation.md",
+    "sha256": "e1237957154b641ce9c922eb9a0632ddc41395883e28ac0fe5e97e706701d096",
+    "upstreamUrl": "https://motionprompts.dev/prompts/fameestate-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/fameestate-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 700,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.16,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 924969,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "pinned hero scrubbed clip-path reveal cascade",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/fameestate-scroll-animation/"
+}

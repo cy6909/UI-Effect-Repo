@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-06",
+  "slug": "input-06",
+  "name": "Input 6",
+  "titleZh": "输入框 input-06",
+  "description": "Text input fields showcasing different size variants (small, medium, large)",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-06.json",
+    "sha256": "aca75c257393e5ce39a94f5551dd2e51d14697d3e0aafa21b7dc043c5ac69a03"
+  },
+  "registryDependencies": [
+    "input"
+  ],
+  "dependencies": []
+}

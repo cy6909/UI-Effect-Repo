@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/testimonial-cycle",
+  "slug": "testimonial-cycle",
+  "name": "QUOTE CYCLE",
+  "titleZh": "语录轮播卡",
+  "description": "三张语录卡自动轮播：前排卡片带轻微旋转向下淡出，后一张放大升起接棒，节奏安静克制。",
+  "tags": [
+    "card",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--testimonial-cycle",
+  "detailUrl": "/open-libraries/motion-vault/entries/testimonial-cycle.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=testimonial-cycle",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/testimonial-cycle.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/testimonial-cycle.md",
+    "sha256": "d3168a83d8eaf0152358173ea144d897cead7fa254ce0e82d2784f9e1824cbd6",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/testimonial-cycle.json",
+    "sha256": "60b964a1dd1ade76a51d370312d601bf086f351a8c9e433cb3d00aeda7aa6127"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-10",
+  "slug": "select-10",
+  "name": "Select 10",
+  "titleZh": "选择器 select-10",
+  "description": "A basic custom select dropdown with grouped items and labels",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-10.json",
+    "sha256": "c5fa3fa903659e77aa91e424cc3439fd52da2dc5302319337d4170c2ab88c29b"
+  },
+  "registryDependencies": [
+    "label",
+    "select"
+  ],
+  "dependencies": []
+}

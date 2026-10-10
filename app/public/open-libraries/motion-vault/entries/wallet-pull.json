@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/wallet-pull",
+  "slug": "wallet-pull",
+  "name": "WALLET PULL",
+  "titleZh": "钱包抽卡",
+  "description": "三张银行卡插在钱包夹层里，各露出 28px 卡边；点击露出的卡边，那张卡向上抽出并完整呈现卡面细节，再点一次或点其他卡便归位。",
+  "tags": [
+    "card",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--wallet-pull",
+  "detailUrl": "/open-libraries/motion-vault/entries/wallet-pull.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=wallet-pull",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/wallet-pull.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/wallet-pull.md",
+    "sha256": "dcc8bd452912b42bb9f3f683dc319ce82488838b634ce2dd570b88b79a215662",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/wallet-pull.json",
+    "sha256": "69d7ce3fab84e0a00fb6325c1c0d10b7913d2d20a1da8d0f859996086e017711"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

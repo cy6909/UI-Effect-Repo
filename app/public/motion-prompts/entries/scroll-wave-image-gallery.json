@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/scroll-wave-image-gallery",
+  "name": "Scroll Wave Image Gallery",
+  "slug": "scroll-wave-image-gallery",
+  "titleZh": "滚动波浪画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "Vertical gallery of 12 JS-generated images that drift horizontally in a sine-wave pattern as you scroll: each image has its own ScrollTrigger whose progress drives a translateX composed of three layered sine waves (base/flow/detail) scaled to viewport width, plus a horizontal clip-path inset that opens fully when the image is centered on screen. Lenis smooth scroll is hooked into the GSAP ticker, and the last quarter of images progressively shrink in height.",
+  "tags": [
+    "scroll",
+    "gallery",
+    "wave",
+    "sine",
+    "clip-path",
+    "lenis",
+    "scrolltrigger",
+    "images",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/scroll-wave-image-gallery",
+  "docsUrl": "https://motionprompts.dev/component/scroll-wave-image-gallery/",
+  "demoUrl": "https://motionprompts.dev/components/scroll-wave-image-gallery/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/scroll-wave-image-gallery.webp",
+  "videoUrl": "https://motionprompts.dev/previews/scroll-wave-image-gallery.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/scroll-wave-image-gallery.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/scroll-wave-image-gallery.md",
+    "sha256": "373db50410bde781470ae3af440ac4818943908d059a36c30d37029ee021491f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/scroll-wave-image-gallery.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/scroll-wave-image-gallery/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 12,
+      "bytes": 1367398,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap+raf",
+    "motion_signature": "Scroll-position-driven, tween-free: each plate's horizontal translate is the sum of three layered sines of (normalizedIndex, scroll progress) — base amp 0.10*vw / freq 1.0 / speed 1.0 / phase 5.0 (driven by 1-progress), flow amp 0.15*vw / freq 5.0 / speed 5.0 / phase 10.0, detail amp 0.025*vw / freq 5.0 / speed 1.5 / phase 2.5 (last two offset by +0.5) — laid on a centering term (vw - offsetWidth)/2 minus 0.1*vw. Simultaneously a clip-path inset opens quadratically as the plate centers: inset = (|progress-0.5|*2)^2 * 20%, so plates arrive fully revealed at mid-viewport and pinch back to 20%/side at the extremes. No easing curve exists; the 'ease' is the sine geometry plus Lenis' default smoothing.",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/scroll-wave-image-gallery/"
+}

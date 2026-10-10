@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/wave-plane",
+  "slug": "wave-plane",
+  "name": "WAVE PLANE",
+  "titleZh": "波浪平面",
+  "description": "一个由点或细线构成的平面像海面一样起伏，极简而催眠。",
+  "tags": [
+    "3d",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--wave-plane",
+  "detailUrl": "/open-libraries/motion-vault/entries/wave-plane.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=wave-plane",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/wave-plane.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/wave-plane.md",
+    "sha256": "d500a5d2785453e78a1b38f8f6a8fcca41d6054491e4bb60f18b677d14cd8686",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/wave-plane.json",
+    "sha256": "0d03d767ff0a279271c7377ddabb2aa2f0fff481c2f3700318097202a6601a09"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

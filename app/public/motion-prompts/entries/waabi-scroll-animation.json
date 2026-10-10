@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/waabi-scroll-animation",
+  "name": "Waabi Scroll Animation",
+  "slug": "waabi-scroll-animation",
+  "titleZh": "Waabi 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Hero pinned for 3.5 viewport heights with Lenis smooth scroll and a scrubbed ScrollTrigger whose progress is mapped manually: the header slides up, the copy is revealed word by word via SplitText then fades out, and the fullscreen hero image shrinks into a 150px rounded card. A following section parallax-scrolls four image columns upward at different speeds.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "splittext",
+    "word-reveal",
+    "parallax",
+    "lenis",
+    "hero",
+    "image-shrink",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/waabi-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/waabi-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/waabi-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/waabi-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/waabi-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/waabi-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/waabi-scroll-animation.md",
+    "sha256": "e8c92d8f39c5f8eaa062be5fc3815a6c045e93a63184e58c41b273afe250710f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/waabi-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/waabi-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 5,
+    "pinned": true,
+    "viewport_heights": 350,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 17,
+      "bytes": 3273218,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "pinned hero scrub (header slide-up + word-by-word reveal + fullscreen image shrinking to a 150px rounded card), then a 4-column image parallax over the next section",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/waabi-scroll-animation/"
+}

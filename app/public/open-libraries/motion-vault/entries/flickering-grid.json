@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/flickering-grid",
+  "slug": "flickering-grid",
+  "name": "FLICKERING GRID",
+  "titleZh": "网格明灭",
+  "description": "规整的浅色网格之上，随机方格如城市灯火般轻轻点亮又熄灭；中央标题验证可读性。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--flickering-grid",
+  "detailUrl": "/open-libraries/motion-vault/entries/flickering-grid.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=flickering-grid",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/flickering-grid.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/flickering-grid.md",
+    "sha256": "c999f03bdce895054484d797c01e72f443759420e6be29e0b8a3768657eee70f",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/flickering-grid.json",
+    "sha256": "9e8e70012943d5c39dca52dac06fcdc6dd098b228ae496b30ca1c98e68c6107c"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/outfit-landing-page-reveal",
+  "name": "Outfit Landing Page Reveal",
+  "slug": "outfit-landing-page-reveal",
+  "titleZh": "Outfit 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "Preloader reveal for a fashion-archive landing page: six stacked centered images with random tilts scale up and un-clip with stagger while a SplitText title animates in and a 000-to-100 counter ticks; everything then exits and the preloader clips away upward, revealing the hero with masked char/word slide-ups on the header, nav and footer. Plays automatically once on page load.",
+  "tags": [
+    "preloader",
+    "reveal",
+    "clip-path",
+    "splittext",
+    "counter",
+    "stagger",
+    "intro",
+    "landing",
+    "hero",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/outfit-landing-page-reveal",
+  "docsUrl": "https://motionprompts.dev/component/outfit-landing-page-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/outfit-landing-page-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/outfit-landing-page-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/outfit-landing-page-reveal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/outfit-landing-page-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/outfit-landing-page-reveal.md",
+    "sha256": "1b7668d8359b7659ab6b14066af9a4b7020f854dbd121697d5ae4360e03f998f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/outfit-landing-page-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/outfit-landing-page-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "SplitText",
+      "CustomEase"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      0.75,
+      2
+    ],
+    "stagger": 0.075,
+    "assets_required": {
+      "count": 6,
+      "bytes": 543508,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "autoplay preloader timeline: a deck of six pre-rotated, scale-0 images blooms open via clip-path inset→full-bleed on a 0.2s stagger, a masked SplitText wordmark and a 000→100 counter ride up, everything scales back out on a negative stagger, then the fixed dark panel clips upward to hand off to masked hero/nav/footer text",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aminezegmou-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "infinite-draggable-image-gallery-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "laserbysonymusic-landing-page-reveal-animation",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "maxmilkin-preloader",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "nite-riot-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "steelworks-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "truekindskincare-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-page-transitions",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/outfit-landing-page-reveal/"
+}

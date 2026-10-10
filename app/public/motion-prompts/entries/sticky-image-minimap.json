@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/sticky-image-minimap",
+  "name": "Sticky Image Minimap",
+  "slug": "sticky-image-minimap",
+  "titleZh": "吸附图片缩略导航",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A tall scrolling column of full-size images paired with a sticky vertical minimap of thumbnails; a GSAP ScrollTrigger created per image fires onToggle as each image passes the viewport center (start 'top center', end 'bottom center'), and gsap.to animates the matching thumbnail's border, opacity, scale (1.3) and z-index to highlight it. Triggered by scroll.",
+  "tags": [
+    "scrolltrigger",
+    "sticky",
+    "minimap",
+    "gallery",
+    "image-highlight",
+    "editorial",
+    "scroll-progress",
+    "gsap",
+    "photography",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/sticky-image-minimap",
+  "docsUrl": "https://motionprompts.dev/component/sticky-image-minimap/",
+  "demoUrl": "https://motionprompts.dev/components/sticky-image-minimap/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/sticky-image-minimap.webp",
+  "videoUrl": "https://motionprompts.dev/previews/sticky-image-minimap.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/sticky-image-minimap.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/sticky-image-minimap.md",
+    "sha256": "cd5015ce60628b1d69cbcee2db8fec3e0870169ec0ccfdfa8259fd0afb90cb96",
+    "upstreamUrl": "https://motionprompts.dev/prompts/sticky-image-minimap.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/sticky-image-minimap/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      0.3
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 1696005,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-THRESHOLD",
+    "engine": "gsap",
+    "motion_signature": "per-image ScrollTrigger toggles sticky thumbnail highlight — discrete boolean state change at viewport center, 0.3s power1.out tween of opacity 0.5↔1, scale 1↔1.3, zIndex 1↔10000; no scrub, no continuous scroll mapping, no inertia",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "reveal-on-enter"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/sticky-image-minimap/"
+}

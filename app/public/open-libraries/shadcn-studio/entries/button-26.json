@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-26",
+  "slug": "button-26",
+  "name": "Button 26",
+  "titleZh": "按钮 button-26",
+  "description": "Promise-based button with loading spinner and success/error state transitions",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-26",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-26.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-26.json",
+    "sha256": "e6b449ff16cb5093c9cc487eff460c720a676d1fcea7e8aa433550f54a196406"
+  },
+  "registryDependencies": [
+    "button",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

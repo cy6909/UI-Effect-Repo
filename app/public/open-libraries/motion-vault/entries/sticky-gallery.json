@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/sticky-gallery",
+  "slug": "sticky-gallery",
+  "name": "STICKY GALLERY",
+  "titleZh": "粘性画廊",
+  "description": "左侧编号标题随进度在 01 晨曦 / 02 正午 / 03 暮色间切换，右侧三张柔色渐变场景卡交叉淡入淡出，带轻微缩放视差。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--sticky-gallery",
+  "detailUrl": "/open-libraries/motion-vault/entries/sticky-gallery.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=sticky-gallery",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/sticky-gallery.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/sticky-gallery.md",
+    "sha256": "2a349587e5c63d0db180baffaed84c4159bc771177df6a5682c31689fac8c8d8",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/sticky-gallery.json",
+    "sha256": "345314057689fc4b5c8ad21072f2b1d1958ff384b37e581471051574d2703a12"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

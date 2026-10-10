@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/particle-drift",
+  "slug": "particle-drift",
+  "name": "PARTICLE DRIFT",
+  "titleZh": "漂浮粒子场",
+  "description": "大小不一的尘埃粒子缓缓上浮、明暗呼吸，安静的氛围背景。",
+  "tags": [
+    "particle",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--particle-drift",
+  "detailUrl": "/open-libraries/motion-vault/entries/particle-drift.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=particle-drift",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/particle-drift.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/particle-drift.md",
+    "sha256": "bf6d0e6f2b0b394f6d41798c5f4181e7f91a5c58f8ef13860b3b1667b973a731",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/particle-drift.json",
+    "sha256": "93500336d4501989e74f32fc4a8e61f051a062b9c605b523c1e0ce2490bec0c3"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

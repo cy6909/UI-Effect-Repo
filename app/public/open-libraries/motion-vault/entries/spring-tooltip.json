@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/spring-tooltip",
+  "slug": "spring-tooltip",
+  "name": "SPRING TOOLTIP",
+  "titleZh": "弹性气泡",
+  "description": "悬停时气泡提示从按钮上方弹出来——带一点过冲的弹簧入场，离开时快速收缩消失。",
+  "tags": [
+    "spring",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--spring-tooltip",
+  "detailUrl": "/open-libraries/motion-vault/entries/spring-tooltip.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=spring-tooltip",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/spring-tooltip.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/spring-tooltip.md",
+    "sha256": "03191a77663231745bafd4369e8121a813835330ed4475419f79817b6b880bd9",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/spring-tooltip.json",
+    "sha256": "1c8996ffe71f9fff960f5f5e550d425f9efa2650387f35f83d9ebc6bbc9eb126"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

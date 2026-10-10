@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pagination-08",
+  "slug": "pagination-08",
+  "name": "Pagination 8",
+  "titleZh": "分页 pagination-08",
+  "description": "A pagination component with ellipsis and tooltip showing hidden page count",
+  "tags": [
+    "pagination",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--pagination-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pagination-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/pagination",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pagination-08.json",
+    "sha256": "13638e3b7de478bccee303fa4f2604204693b620091d4e3ab478f3f9af000448"
+  },
+  "registryDependencies": [
+    "pagination",
+    "tooltip"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/heurebleue-scroll-animation",
+  "name": "HeureBleue Scroll Animation",
+  "slug": "heurebleue-scroll-animation",
+  "titleZh": "HeureBleue 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A scroll-driven zoom-through gallery: a fixed grid of five image columns sits behind the page and, as a tall spacer section scrolls past, a single ScrollTrigger (scrub 1) reads its progress and scales the whole gallery wrapper up (to ~2.65x, or 4x under 900px), pushes the side columns down and shrinks the centered main image from scale 2 to ~1.15, so the viewer appears to fly forward through the images. Lenis drives smooth scrolling synced to GSAP's ticker.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "zoom",
+    "gallery",
+    "lenis",
+    "parallax",
+    "fullscreen",
+    "cinematic",
+    "scrub",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/heurebleue-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/heurebleue-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/heurebleue-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/heurebleue-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/heurebleue-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/heurebleue-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/heurebleue-scroll-animation.md",
+    "sha256": "d0ff514ef09fb4a2d8ec24c921f0b19454e6d9abbd184ed9e0d46bac99b2fec0",
+    "upstreamUrl": "https://motionprompts.dev/prompts/heurebleue-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/heurebleue-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 1000,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 14,
+      "bytes": 1634370,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap+raf",
+    "motion_signature": "scrubbed fixed-grid zoom fly-through on scroll",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/heurebleue-scroll-animation/"
+}

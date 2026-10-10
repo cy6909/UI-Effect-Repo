@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-05",
+  "slug": "calendar-05",
+  "name": "Calendar 5",
+  "titleZh": "日历 calendar-05",
+  "description": "Range selection calendar with minimum days constraint (5 days minimum)",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-05.json",
+    "sha256": "6462695db52bcec06760a28bc508b6f3e04ad8e9a787dd00cc36c96180e3f6c6"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": [
+    "react-day-picker"
+  ]
+}

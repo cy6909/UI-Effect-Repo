@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/layout-grid",
+  "slug": "layout-grid",
+  "name": "LAYOUT GRID",
+  "titleZh": "网格主位放大",
+  "description": "2×3 网格中点击某格，它弹性占据左侧主区域，其余五格退到右列小格，文字内容交叉淡入淡出。",
+  "tags": [
+    "card",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--layout-grid",
+  "detailUrl": "/open-libraries/motion-vault/entries/layout-grid.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=layout-grid",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/layout-grid.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/layout-grid.md",
+    "sha256": "3de5e6bc38a7298ffb1072990977efe8931d5c971316878f4b924b00525a107d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/layout-grid.json",
+    "sha256": "f58932d4bb406f069050f1e7fba627eee594c6aab38ad12f1d8e6d03d7a1eb87"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

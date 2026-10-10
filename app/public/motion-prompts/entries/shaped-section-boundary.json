@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/shaped-section-boundary",
+  "name": "Shaped Section Boundary",
+  "slug": "shaped-section-boundary",
+  "titleZh": "异形区块边界",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "Stacked full-height sections whose top edge is a shape instead of a straight line: each incoming section carries its own boundary element, painted with `background: inherit` so the edge can never drift from the section colour, and clipped by a `clip-path: polygon()` whose vertices are driven by a single `@property`-registered custom property `--forma`. One scrubbed ScrollTrigger per boundary tweens `--forma` from 0 (flat) to 1 (full shape) over a window that closes at `top 55%`, so the edge has finished moving before the section is read. Five forms ship: wave, chevron, oblique, torn (twelve fixed pseudo-random points) and arch (a real curve via `border-radius`, not a polygon). Smoothed by Lenis; honours prefers-reduced-motion by locking the shape open.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "scrub",
+    "clip-path",
+    "section",
+    "divider",
+    "boundary",
+    "wave",
+    "chevron",
+    "diagonal",
+    "custom-property",
+    "lenis",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/shaped-section-boundary",
+  "docsUrl": "https://motionprompts.dev/component/shaped-section-boundary/",
+  "demoUrl": "https://motionprompts.dev/components/shaped-section-boundary/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/shaped-section-boundary.webp",
+  "videoUrl": "https://motionprompts.dev/previews/shaped-section-boundary.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/shaped-section-boundary.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/shaped-section-boundary.md",
+    "sha256": "dc521c7de9406cb313f01bb510d759142b63567e9c723ee52d1edea116562e62",
+    "upstreamUrl": "https://motionprompts.dev/prompts/shaped-section-boundary.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/shaped-section-boundary/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scroll-scrubbed clip-path morph on section top edges: one ScrollTrigger per boundary tweens an @property-registered custom property --forma 0→1 over start top bottom → end top 55%, and the polygon() vertices of each shape (wave/chevron/oblique/torn) or the border-radius (arch) are calc() expressions of that number; no tween on any content, no pin, no transform",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/shaped-section-boundary/"
+}

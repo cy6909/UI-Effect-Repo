@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/checkbox-11",
+  "slug": "checkbox-11",
+  "name": "Checkbox 11",
+  "titleZh": "复选框 checkbox-11",
+  "description": "Custom icon checkboxes with heart, star, and circle icons for visual feedback",
+  "tags": [
+    "checkbox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--checkbox-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/checkbox-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/checkbox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/checkbox-11.json",
+    "sha256": "fcb5540f73633e93bc85db840bd2313e35b804e7ae5d153125f8bbca62782933"
+  },
+  "registryDependencies": [],
+  "dependencies": [
+    "@radix-ui/react-checkbox",
+    "lucide-react"
+  ]
+}

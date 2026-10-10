@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-09",
+  "slug": "alert-09",
+  "name": "Alert 9",
+  "titleZh": "提示条 alert-09",
+  "description": "Task progress alert with user avatar, progress indicator, and task completion tracking.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-09.json",
+    "sha256": "f60fe8679b66ad863b8e7675825573fe18cef0d726f344637ddd05ab97a98842"
+  },
+  "registryDependencies": [
+    "alert",
+    "avatar",
+    "progress"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

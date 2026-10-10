@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-03",
+  "slug": "form-03",
+  "name": "Form 3",
+  "titleZh": "表单 form-03",
+  "description": "Form with switch toggle controls for settings and preferences",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-03.json",
+    "sha256": "570df98f26619de03f5f783a01fddd9b4649e1bf01918eb2138790ec9830e055"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "form",
+    "switch"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

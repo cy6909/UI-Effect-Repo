@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/particle-text",
+  "slug": "particle-text",
+  "name": "PARTICLE TEXT",
+  "titleZh": "粒子文字",
+  "description": "文字由上千个粒子拼成，鼠标划过时粒子四散逃开再归位——交互感最强的一个。",
+  "tags": [
+    "particle",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--particle-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/particle-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=particle-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/particle-text.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/particle-text.md",
+    "sha256": "fcee145dcd40491a448098a2e8282c492492316e24c0ac56991ebe68bd977ae9",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/particle-text.json",
+    "sha256": "3c8b045ad4d5dd2b61250c6fb02d73eb77518d73544646627c754df67dcec0db"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

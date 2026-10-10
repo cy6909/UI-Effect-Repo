@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/laserbysonymusic-landing-page-reveal-animation",
+  "name": "LaserBySonyMusic Landing Page Reveal",
+  "slug": "laserbysonymusic-landing-page-reveal-animation",
+  "titleZh": "LaserBySonyMusic 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "Preloader-to-hero reveal that plays automatically on page load: a giant counter ticks 0 to 100 while scaling up and a thin progress bar grows, then the hero background is unmasked via a clip-path polygon (collapsed center point, to a small centered rectangle, to full viewport) with a custom 'hop' ease as the image de-zooms from 2x to 1x. Masked SplitText finishes the sequence: header chars slide in from the right, nav and footer words rise from below; about 8.5 seconds total.",
+  "tags": [
+    "preloader",
+    "reveal",
+    "counter",
+    "clip-path",
+    "splittext",
+    "customease",
+    "landing",
+    "hero",
+    "progress-bar",
+    "stagger",
+    "intro",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/laserbysonymusic-landing-page-reveal-animation",
+  "docsUrl": "https://motionprompts.dev/component/laserbysonymusic-landing-page-reveal-animation/",
+  "demoUrl": "https://motionprompts.dev/components/laserbysonymusic-landing-page-reveal-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/laserbysonymusic-landing-page-reveal-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/laserbysonymusic-landing-page-reveal-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/laserbysonymusic-landing-page-reveal-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/laserbysonymusic-landing-page-reveal-animation.md",
+    "sha256": "452b3b87b6a8544ea8b48314e6600c216b1795d49a67ba3f2f0a2ea9f316d26b",
+    "upstreamUrl": "https://motionprompts.dev/prompts/laserbysonymusic-landing-page-reveal-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/laserbysonymusic-landing-page-reveal-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "SplitText",
+      "CustomEase"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      0.75,
+      3
+    ],
+    "stagger": 0.075,
+    "assets_required": {
+      "count": 1,
+      "bytes": 247230,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "autoplay counter preloader then clip-path hero unmask: a 3s power3.out count 0->100 with the numeral scaling 0.25->1 and a progress rail growing, then a two-step custom 'hop' (0.9,0,0.1,1 — near-hold, violent middle, hard settle) clip-path from a collapsed centre point to a 30% rectangle to full viewport while the image de-zooms 2x -> 1.5x -> 1x, closing with power4.out masked SplitText (chars from the right, words from below) at 0.075 stagger; ~8.5s total, no scroll input",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/laserbysonymusic-landing-page-reveal-animation/"
+}

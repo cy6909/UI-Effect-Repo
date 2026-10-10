@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/stacked-alternating-marquees",
+  "name": "Stacked Alternating Marquees",
+  "slug": "stacked-alternating-marquees",
+  "titleZh": "交替方向堆叠跑马灯",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Four full-width marquee rows stacked with no gap, running continuously in ALTERNATING directions at non-harmonic speeds (26/34/30/22), each row inverting the palette so the opposition is visible at a glance. The rows also lean into the scroll: a single ScrollTrigger reads `getVelocity()` and feeds a push term that speeds each row up in its own direction, decaying at 0.92 per frame so stopping does not leave them racing. Written as one `gsap.ticker` loop rather than CSS `@keyframes` precisely because a CSS animation runs on its own clock and cannot know the scroll exists. The strip content is cloned once at runtime (the copy `aria-hidden`, so categories are not read twice) and the transform wraps at exactly half the measured width, re-measured on `load` and on `fonts.ready` because images change that width. Dressed as a print fair: Archivo Black + Syne Mono, teal, cream and red.",
+  "tags": [
+    "marquee",
+    "ticker",
+    "infinite",
+    "scroll",
+    "scrolltrigger",
+    "velocity",
+    "alternating",
+    "rows",
+    "typography",
+    "lenis",
+    "bold",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/stacked-alternating-marquees",
+  "docsUrl": "https://motionprompts.dev/component/stacked-alternating-marquees/",
+  "demoUrl": "https://motionprompts.dev/components/stacked-alternating-marquees/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/stacked-alternating-marquees.webp",
+  "videoUrl": "https://motionprompts.dev/previews/stacked-alternating-marquees.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/stacked-alternating-marquees.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/stacked-alternating-marquees.md",
+    "sha256": "0510308f4a67732cdf98205a993df5ee7741ed9ecaee3c586021cdeecca6d61f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/stacked-alternating-marquees.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/stacked-alternating-marquees/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 189542,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "no-mobile-handling",
+      "media_queries": 0,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "gsap",
+    "motion_signature": "four stacked marquee rows on a single gsap.ticker loop, alternating direction at non-harmonic speeds 26/34/30/22 px/s, wrapping at half the measured strip width after a runtime clone; a lone ScrollTrigger feeds getVelocity()/900 clamped to ±2.5 as a push term that decays 0.92 per frame — no tween, no scrub, no CSS keyframes",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/stacked-alternating-marquees/"
+}

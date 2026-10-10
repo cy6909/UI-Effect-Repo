@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/truekindskincare-landing-page-reveal-javascript",
+  "name": "TrueKind Landing Page Reveal",
+  "slug": "truekindskincare-landing-page-reveal-javascript",
+  "titleZh": "TrueKind 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "A preloader-to-hero landing reveal driven by a single GSAP timeline with a custom 'hop' ease: a two-digit counter rolls through milestone numbers (00, 27, 65, 98, 99) with a staggered vertical roll, the 'KindRoot' logo words slide together, a vertical divider scales up and fades, then two dark blocks wipe upward via clip-path while the background hero image scales from 1.5 to 1 and the nav, masked headline lines, paragraph and CTA pill slide and scale into place. Plays automatically once on page load.",
+  "tags": [
+    "preloader",
+    "reveal",
+    "counter",
+    "clip-path",
+    "customease",
+    "landing",
+    "hero",
+    "stagger",
+    "skincare",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/truekindskincare-landing-page-reveal-javascript",
+  "docsUrl": "https://motionprompts.dev/component/truekindskincare-landing-page-reveal-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/truekindskincare-landing-page-reveal-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/truekindskincare-landing-page-reveal-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/truekindskincare-landing-page-reveal-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/truekindskincare-landing-page-reveal-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/truekindskincare-landing-page-reveal-javascript.md",
+    "sha256": "0848431176efd47ecd9fe9ee442fddc4134f57980ec64553f52deff955fe2b1c",
+    "upstreamUrl": "https://motionprompts.dev/prompts/truekindskincare-landing-page-reveal-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/truekindskincare-landing-page-reveal-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "CustomEase",
+      "ionicons"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": 0.075,
+    "assets_required": {
+      "count": 1,
+      "bytes": 160547,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "Autoplay one-shot preloader: five 2-digit counter pairs roll up and out on a 1s-per-index cadence (0.075s per-digit stagger), all driven by a single CustomEase \"hop\" = cubic-bezier(0.9, 0, 0.1, 1) — an extreme symmetric ease-in-out that holds still, snaps through the middle, then settles, so every move reads as a hard mechanical flick rather than an organic curve. The counter hands off to a vertical divider that scaleY-wipes down from the top, a two-panel clip-path curtain that lifts the .block overlay, and a slow 2s scale 1.5->1 push-out of the hero image on the same hop curve, with nav/headline/CTA sliding up beneath on 1.5s tweens. No scroll input, no rAF, no physics — a fixed-length ~9s scripted sequence.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/truekindskincare-landing-page-reveal-javascript/"
+}

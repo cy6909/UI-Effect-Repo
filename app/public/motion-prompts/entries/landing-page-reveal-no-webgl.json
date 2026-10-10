@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/landing-page-reveal-no-webgl",
+  "name": "Landing Page Reveal With Circular Gallery",
+  "slug": "landing-page-reveal-no-webgl",
+  "titleZh": "环形画廊入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "On load a numeric preloader counts up to 100, then 30 photo cards rise from below into a centered horizontal strip and, using GSAP Flip, morph into a rotating circular gallery while the nav labels slide up into view. Fully load-triggered with a CustomEase 'hop' curve.",
+  "tags": [
+    "gsap",
+    "flip",
+    "custom-ease",
+    "preloader",
+    "counter",
+    "circular-gallery",
+    "reveal",
+    "editorial",
+    "loader",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/landing-page-reveal-no-webgl",
+  "docsUrl": "https://motionprompts.dev/component/landing-page-reveal-no-webgl/",
+  "demoUrl": "https://motionprompts.dev/components/landing-page-reveal-no-webgl/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/landing-page-reveal-no-webgl.webp",
+  "videoUrl": "https://motionprompts.dev/previews/landing-page-reveal-no-webgl.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/landing-page-reveal-no-webgl.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/landing-page-reveal-no-webgl.md",
+    "sha256": "02aa5a5e25737d8b3f88006500ff5c220bd6fbaa1889b8e5fd33dc110ca43afa",
+    "upstreamUrl": "https://motionprompts.dev/prompts/landing-page-reveal-no-webgl.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/landing-page-reveal-no-webgl/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "Flip",
+      "CustomEase"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": -0.03,
+    "assets_required": {
+      "count": 30,
+      "bytes": 1729855,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "load-triggered strip rise, Flip morph to circle",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aminezegmou-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "infinite-draggable-image-gallery-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "laserbysonymusic-landing-page-reveal-animation",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "maxmilkin-preloader",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "nite-riot-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "steelworks-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "truekindskincare-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-page-transitions",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/landing-page-reveal-no-webgl/"
+}

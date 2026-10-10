@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-group-03",
+  "slug": "button-group-03",
+  "name": "Button Group 3",
+  "titleZh": "按钮 button-group-03",
+  "description": "Toolbar button group with tooltips for design tools and actions",
+  "tags": [
+    "button-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-group-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-group-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-group-03.json",
+    "sha256": "67d4d4681cdc22a10891686d1dece0a5bca33cdf6f60aa2d2afa7c65d66c3378"
+  },
+  "registryDependencies": [
+    "button",
+    "tooltip"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

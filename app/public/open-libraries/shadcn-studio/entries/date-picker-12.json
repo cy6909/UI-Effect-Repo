@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/date-picker-12",
+  "slug": "date-picker-12",
+  "name": "Date Picker 12",
+  "titleZh": "日期选择 date-picker-12",
+  "description": "Travel date picker with departure/return dates and time selection for bookings",
+  "tags": [
+    "date-picker",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--date-picker-12",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/date-picker-12.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/date-picker",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/date-picker-12.json",
+    "sha256": "7fd53c7cc7fd6583fb6c94c5efab4fc281f92fad7563dd48f7016e88ca9e1717"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "input",
+    "label",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

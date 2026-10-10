@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/combobox-02",
+  "slug": "combobox-02",
+  "name": "Combobox 2",
+  "titleZh": "组合选择 combobox-02",
+  "description": "Grouped combobox with fruits, vegetables, and beverages organized by categories",
+  "tags": [
+    "combobox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--combobox-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/combobox-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/combobox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/combobox-02.json",
+    "sha256": "2a3a4c6929e20c12d62bac03f64e73a1dc7644a1dc86340318c23e3db2327360"
+  },
+  "registryDependencies": [
+    "button",
+    "command",
+    "label",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

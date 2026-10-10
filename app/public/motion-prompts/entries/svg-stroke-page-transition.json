@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/svg-stroke-page-transition",
+  "name": "SVG Stroke Page Transition",
+  "slug": "svg-stroke-page-transition",
+  "titleZh": "SVG 描边转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "Page transition where two full-screen squiggly SVG paths draw themselves in via animated strokeDashoffset while their stroke-width swells from 200 to 700, wiping the viewport, then keep drawing out as the stroke thins back to reveal the new page. Triggered by clicking the navbar links routing between three hero pages.",
+  "tags": [
+    "page-transition",
+    "svg",
+    "stroke",
+    "dashoffset",
+    "wipe",
+    "draw",
+    "fake-router",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/svg-stroke-page-transition",
+  "docsUrl": "https://motionprompts.dev/component/svg-stroke-page-transition/",
+  "demoUrl": "https://motionprompts.dev/components/svg-stroke-page-transition/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/svg-stroke-page-transition.webp",
+  "videoUrl": "https://motionprompts.dev/previews/svg-stroke-page-transition.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/svg-stroke-page-transition.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/svg-stroke-page-transition.md",
+    "sha256": "fcd6e27cddb188892070f6fc626ba33f507c25e988e64fc049a05e23acdfcc60",
+    "upstreamUrl": "https://motionprompts.dev/prompts/svg-stroke-page-transition.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/svg-stroke-page-transition/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power1",
+    "duration_range": [
+      0.3,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "click-triggered SVG stroke draw wipe overlay: two full-screen squiggle paths run strokeDashoffset length->0 while attr stroke-width fattens 200->700 (leave), then offset->-length while stroke-width thins back to 200 (enter); both 1s power1.inOut, simultaneous, no scroll and no inertia",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/svg-stroke-page-transition/"
+}

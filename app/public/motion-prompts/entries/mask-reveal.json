@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/mask-reveal",
+  "name": "Mask Reveal On Scroll",
+  "slug": "mask-reveal",
+  "titleZh": "滚动遮罩揭示",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "As each image row enters the viewport, a 3x3 grid of clip-path masks unveils the picture piece by piece: GSAP injects nine overlay divs per image and a ScrollTrigger timeline (start 'top 75%') animates their clip-path polygons from collapsed points to full cells in a diagonal wave (power2.out, 0.5s, staggered), producing a tiled mosaic reveal. Lenis drives smooth scrolling synced to ScrollTrigger.",
+  "tags": [
+    "scroll",
+    "clip-path",
+    "mask-reveal",
+    "image-reveal",
+    "gsap",
+    "scrolltrigger",
+    "lenis",
+    "mosaic",
+    "editorial",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/mask-reveal",
+  "docsUrl": "https://motionprompts.dev/component/mask-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/mask-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/mask-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/mask-reveal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/mask-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/mask-reveal.md",
+    "sha256": "7b0a31daf1d795125bf9dee167c603ab3116f322f2edde3de80aa7b5d98c5f84",
+    "upstreamUrl": "https://motionprompts.dev/prompts/mask-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/mask-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power2",
+    "duration_range": [
+      0.25,
+      0.5
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 7,
+      "bytes": 1339856,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-THRESHOLD",
+    "engine": "gsap",
+    "motion_signature": "enter-triggered 3x3 clip-path mosaic reveal, diagonal wave",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "reveal-on-enter"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/mask-reveal/"
+}

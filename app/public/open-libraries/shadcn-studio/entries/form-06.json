@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-06",
+  "slug": "form-06",
+  "name": "Form 6",
+  "titleZh": "表单 form-06",
+  "description": "Form with textarea component for multi-line text input",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-06.json",
+    "sha256": "126e1b5131ea0a603e18c3ef778d5b6f78e6434088f3a8acccfc78691d469704"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "form",
+    "textarea"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

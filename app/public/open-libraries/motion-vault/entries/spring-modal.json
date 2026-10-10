@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/spring-modal",
+  "slug": "spring-modal",
+  "name": "SPRING MODAL",
+  "titleZh": "弹簧弹窗",
+  "description": "弹窗带着明显的过冲弹簧蹦进来，还能用手指向下拖——拖过 100px 就松手坠落关闭。",
+  "tags": [
+    "spring",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--spring-modal",
+  "detailUrl": "/open-libraries/motion-vault/entries/spring-modal.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=spring-modal",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/spring-modal.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/spring-modal.md",
+    "sha256": "36255009cd1e5a715689926c1a66cee244cd813c58e8379bb067a877e4f67550",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/spring-modal.json",
+    "sha256": "9bd56d371ea5de64dcceffdd05e69900207661e37f64c44979cd0eb88f061165"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

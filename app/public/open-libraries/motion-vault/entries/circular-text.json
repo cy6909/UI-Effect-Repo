@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/circular-text",
+  "slug": "circular-text",
+  "name": "CIRCULAR TEXT",
+  "titleZh": "环形旋转文字",
+  "description": "一行文字沿圆环缓慢旋转（12 秒一圈），悬停时像唱片机一样平滑加速到 4 倍速，离开缓缓减速——加速过程用 lerp 插值，绝不生硬。",
+  "tags": [
+    "text",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--circular-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/circular-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=circular-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/circular-text.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/circular-text.md",
+    "sha256": "6893aa9a786a26858a4f001444ba5aa718fc34050c4598fd5b1efdc50c606773",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/circular-text.json",
+    "sha256": "90c3c365be7ca767d3afbbd0bd818c2141902ca0586d33bfaef51794426e90fa"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

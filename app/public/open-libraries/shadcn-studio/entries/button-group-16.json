@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-group-16",
+  "slug": "button-group-16",
+  "name": "Button Group 16",
+  "titleZh": "按钮 button-group-16",
+  "description": "File action button group with animated shine/shimmer hover effect",
+  "tags": [
+    "button-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-group-16",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-group-16.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-group-16.json",
+    "sha256": "d1020cbe89261683b27f81b9676acdea3e618ab210a813b8549c519ac65aa469"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": []
+}

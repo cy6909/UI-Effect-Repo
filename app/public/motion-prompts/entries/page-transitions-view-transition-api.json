@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/page-transitions-view-transition-api",
+  "name": "Page Transitions with the View Transition API",
+  "slug": "page-transitions-view-transition-api",
+  "titleZh": "View Transition API 页面转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "A multi-page portfolio where clicking a nav link is intercepted by the native Navigation API, which fetches the target HTML, swaps the document body inside document.startViewTransition(): the outgoing page fades to 40% and slides up while the incoming page wipes in from the bottom via an animated clip-path, both over 1.5s with a cubic-bezier(0.87,0,0.13,1) ease. Each destination then runs its own GSAP intro on mount, the home headline reveals character-by-character and the about paragraph reveals line-by-line (SplitType, power4.out y-translate), with Lenis smooth scrolling.",
+  "tags": [
+    "page-transition",
+    "view-transitions",
+    "navigation-api",
+    "clip-path",
+    "split-type",
+    "char-reveal",
+    "lenis",
+    "editorial",
+    "minimal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/page-transitions-view-transition-api",
+  "docsUrl": "https://motionprompts.dev/component/page-transitions-view-transition-api/",
+  "demoUrl": "https://motionprompts.dev/components/page-transitions-view-transition-api/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/page-transitions-view-transition-api.webp",
+  "videoUrl": "https://motionprompts.dev/previews/page-transitions-view-transition-api.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/page-transitions-view-transition-api.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/page-transitions-view-transition-api.md",
+    "sha256": "aa50aa3da5155b26e02fabf464c51b15f79d1c4fb4d80c6e781ffc4be36d452f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/page-transitions-view-transition-api.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/page-transitions-view-transition-api/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "lenis",
+      "split-type"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": 0.075,
+    "assets_required": {
+      "count": 5,
+      "bytes": 705809,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "mixed",
+    "motion_signature": "native view-transition clip wipe plus GSAP text reveals",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "lenis",
+    "gsap",
+    "split-type"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/page-transitions-view-transition-api/"
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/larevoltosa-scroll-animation",
+  "name": "Larevoltosa Scroll Animation",
+  "slug": "larevoltosa-scroll-animation",
+  "titleZh": "Larevoltosa 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Pinned spotlight section scrubbed over three viewport heights with Lenis smooth scroll: a giant inline doodle character zooms up to 22x toward its glasses while white glare bands sweep across each lens via runtime-generated clipPaths, a photo fades in inside the lens shapes past 50% progress, and a SplitText word-by-word header reveal plays between 65-85% progress.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "zoom",
+    "svg",
+    "clip-path",
+    "lenis",
+    "spotlight",
+    "text-reveal",
+    "doodle",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/larevoltosa-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/larevoltosa-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/larevoltosa-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/larevoltosa-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/larevoltosa-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/larevoltosa-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/larevoltosa-scroll-animation.md",
+    "sha256": "db2ea059025d54ca18663d85ebb85048ec76ceb8f3cfc7615dbbb1d9e90614e6",
+    "upstreamUrl": "https://motionprompts.dev/prompts/larevoltosa-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/larevoltosa-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": true,
+    "viewport_heights": 400,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 125867,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "pinned, scrubbed SVG zoom driven entirely by gsap.set from ScrollTrigger progress — no tweens, no easing, so the physics is pure linear mapping of scroll: scale = 1 + progress*2*(22-1), i.e. 1x → 43x (22x at mid-scroll), transform-origin 47% 21% with transformBox fill-box, while white glare rects sweep x = min(progress/0.75,1) * sweepDistance across each lens clipPath, an in-lens photo fades 0→1 over progress 0.5→1, and header words pop on one-by-one (opacity 0/1, no fade) over progress 0.65→0.85",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/larevoltosa-scroll-animation/"
+}

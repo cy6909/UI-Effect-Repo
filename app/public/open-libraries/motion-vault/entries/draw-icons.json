@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/draw-icons",
+  "slug": "draw-icons",
+  "name": "DRAW ICONS",
+  "titleZh": "图标描绘",
+  "description": "四个极简线性图标排在圆角小方块里，悬停任意一个，它的描边会依次画出；移开保持完成态，再次悬停重新描绘。",
+  "tags": [
+    "svg",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--draw-icons",
+  "detailUrl": "/open-libraries/motion-vault/entries/draw-icons.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=draw-icons",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/draw-icons.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/draw-icons.md",
+    "sha256": "209473c1f46095c4b14c7c13fc7945153647dbf54c1c07ee4e77d2a1d7021413",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/draw-icons.json",
+    "sha256": "c8c559cd1b36a0d6dbc008565a75093e66055cfd9f61bd9ad69887d285dbae6e"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

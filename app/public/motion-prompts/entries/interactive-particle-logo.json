@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/interactive-particle-logo",
+  "name": "Interactive Fluid Particle Logo",
+  "slug": "interactive-particle-logo",
+  "titleZh": "交互流体粒子标志",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "Full-viewport WebGL canvas that rasterizes a PNG logo into thousands of soft GL_POINTS particles on a dark background. Moving the mouse applies an inverse-square repulsion force to nearby particles, which scatter and then spring back to their origin via velocity damping and a return-force, capped by an exponentially damped max-displacement clamp; no GSAP, raw WebGL physics on requestAnimationFrame.",
+  "tags": [
+    "webgl",
+    "particles",
+    "logo",
+    "mouse",
+    "physics",
+    "shaders",
+    "hero",
+    "gpgpu",
+    "repulsion",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/interactive-particle-logo",
+  "docsUrl": "https://motionprompts.dev/component/interactive-particle-logo/",
+  "demoUrl": "https://motionprompts.dev/components/interactive-particle-logo/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/interactive-particle-logo.webp",
+  "videoUrl": "https://motionprompts.dev/previews/interactive-particle-logo.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/interactive-particle-logo.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/interactive-particle-logo.md",
+    "sha256": "316b2ecdb7b7e7cff740eba738d44036f10b7b8e68bdd8cc513842095ed675b5",
+    "upstreamUrl": "https://motionprompts.dev/prompts/interactive-particle-logo.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/interactive-particle-logo/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 33431,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "INTEGRATOR",
+    "engine": "webgl-raf",
+    "motion_signature": "rAF WebGL point-sprite logo, cursor repulsion spring-back",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/interactive-particle-logo/"
+}

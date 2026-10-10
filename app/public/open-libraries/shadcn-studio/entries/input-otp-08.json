@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-otp-08",
+  "slug": "input-otp-08",
+  "name": "Input OTP 8",
+  "titleZh": "输入框 input-otp-08",
+  "description": "A 6-digit OTP input field with grouped layout and visual separator between groups",
+  "tags": [
+    "input-otp",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-otp-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-otp-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input-otp",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-otp-08.json",
+    "sha256": "af489848fe94052f2d6f86a3f0ae22382d463b8ba388a379e19cf7f8b7b26fb5"
+  },
+  "registryDependencies": [
+    "input-otp",
+    "label"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/followart-scroll-animation",
+  "name": "FollowArt Scroll Animation",
+  "slug": "followart-scroll-animation",
+  "titleZh": "FollowArt 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Stacked full-screen sections that swing in from a 30-degree tilt as you scroll, each panel scrubbing back to level before pinning underneath the next one for a layered card-deck reveal.",
+  "tags": [
+    "scroll",
+    "pin",
+    "rotation",
+    "scrub",
+    "sections",
+    "lenis",
+    "stacking",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/followart-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/followart-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/followart-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/followart-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/followart-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/followart-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/followart-scroll-animation.md",
+    "sha256": "2d3cda519eb6dcbe5f9b27e2480efc80e2704aa0490169dadde1e0c8db86cb88",
+    "upstreamUrl": "https://motionprompts.dev/prompts/followart-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/followart-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 200,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 3,
+      "bytes": 537199,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "scrubbed tilt-to-level sections pinned into a stack",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/followart-scroll-animation/"
+}

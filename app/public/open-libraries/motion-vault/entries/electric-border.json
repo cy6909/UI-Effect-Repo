@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/electric-border",
+  "slug": "electric-border",
+  "name": "ELECTRIC BORDER",
+  "titleZh": "电流边框卡",
+  "description": "深色卡片边缘盘绕着一道电流：SVG 滤镜把描边扭曲成电弧，光段沿边框流动，悬停时辉光更亮。",
+  "tags": [
+    "card",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--electric-border",
+  "detailUrl": "/open-libraries/motion-vault/entries/electric-border.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=electric-border",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/electric-border.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/electric-border.md",
+    "sha256": "eab5b9a07612535c44b143faf457dfd28400740aeaef8935495f412707473211",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/electric-border.json",
+    "sha256": "6e246c89d33a7bb257637df819534ede3e25a12b91a47cdd910dbfc36d5d8ee0"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

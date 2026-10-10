@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-13",
+  "slug": "calendar-13",
+  "name": "Calendar 13",
+  "titleZh": "日历 calendar-13",
+  "description": "Custom styled calendar with sky blue theme for selected dates",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-13.json",
+    "sha256": "313199f04c29ac5504ff3add880eca0425849f66ff9a05f3e191ae7ff770dd26"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": []
+}

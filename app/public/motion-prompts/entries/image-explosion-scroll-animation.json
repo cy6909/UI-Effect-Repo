@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/image-explosion-scroll-animation",
+  "name": "Image Explosion Scroll Animation",
+  "slug": "image-explosion-scroll-animation",
+  "titleZh": "滚动图片喷射",
+  "category": "Footers",
+  "source": "motion-prompts",
+  "sourceCategory": "footer",
+  "description": "As the footer scrolls into view, fifteen images burst upward from the bottom of the footer and arc back down under simulated gravity. Pure vanilla JS: a requestAnimationFrame loop drives a custom particle physics system (velocity, gravity, friction, rotation) with no GSAP, fired by a scroll listener that checks the footer's bounding rect against the viewport.",
+  "tags": [
+    "scroll",
+    "explosion",
+    "particles",
+    "physics",
+    "footer",
+    "gravity",
+    "raf",
+    "image-reveal",
+    "playful",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/image-explosion-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/image-explosion-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/image-explosion-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/image-explosion-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/image-explosion-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/image-explosion-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/image-explosion-scroll-animation.md",
+    "sha256": "2b9b2643c96011c40cedc37f9bd24a48db2ae32c6918a9fd926aa6e8638cc764",
+    "upstreamUrl": "https://motionprompts.dev/prompts/image-explosion-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/image-explosion-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 17,
+      "bytes": 2561515,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "physics",
+    "motion_signature": "hand-rolled per-frame gravity sim: 15 <img> particles launched from the footer bottom with vx = (rand-0.5)*20, vy = -15 - rand*10, rotationSpeed = (rand-0.5)*10 deg/frame; each frame vy += 0.25 (gravity) then vx/vy/rotationSpeed *= 0.99 (friction), integrated into an inline translate()+rotate() transform; loop ends when every particle's y exceeds explosionContainer.offsetHeight/2",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/image-explosion-scroll-animation/"
+}

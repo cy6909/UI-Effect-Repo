@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dashboard-dropdown-01",
+  "slug": "dashboard-dropdown-01",
+  "name": "Dashboard Dropdown 1",
+  "titleZh": "界面组件 dashboard-dropdown-01",
+  "description": "A language selection dropdown with flag icons and language options for internationalization and localization features.",
+  "tags": [
+    "dashboard-dropdown",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dashboard-dropdown-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dashboard-dropdown-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/dashboard-dropdown-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dashboard-dropdown-01.json",
+    "sha256": "b047fdc51faab5af17574b6aea8885dd8ec80cdd3cb1b7faa8bf6e4587edf778"
+  },
+  "registryDependencies": [
+    "button",
+    "dropdown-menu"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

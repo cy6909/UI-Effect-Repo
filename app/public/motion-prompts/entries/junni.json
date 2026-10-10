@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/junni",
+  "name": "Junni Tile Flip Board",
+  "slug": "junni",
+  "titleZh": "Junni 方砖翻转看板",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "A full-screen 6x6 grid of 3D tiles, each showing a slice of a shared image split by background-position. Hovering a tile triggers a GSAP timeline that spins it a full turn on rotateX with a column-based rotateY tilt; a 'Flip Tiles' button flips the whole board with gsap.to and a random stagger, swapping between the front and back images. A fixed grid overlay highlights cells under the cursor on mousemove.",
+  "tags": [
+    "3d-flip",
+    "grid",
+    "hover",
+    "tiles",
+    "gsap",
+    "perspective",
+    "cursor-grid",
+    "bold",
+    "editorial",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/junni",
+  "docsUrl": "https://motionprompts.dev/component/junni/",
+  "demoUrl": "https://motionprompts.dev/components/junni/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/junni.webp",
+  "videoUrl": "https://motionprompts.dev/previews/junni.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/junni.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/junni.md",
+    "sha256": "999d29df42949b12f02dc6b5995dedd5079d1a2ba054d0392d3651b127476854",
+    "upstreamUrl": "https://motionprompts.dev/prompts/junni.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/junni/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 2,
+      "bytes": 753811,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "mixed",
+    "motion_signature": "hover-triggered 3D tile flips with per-column tilt, random-stagger board-wide flip, plus a CSS-transition cursor grid highlight",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/junni/"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-02",
+  "slug": "dialog-02",
+  "name": "Dialog 2",
+  "titleZh": "对话框 dialog-02",
+  "description": "Alert dialog with icon and detailed feature list for update notifications",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-02.json",
+    "sha256": "737409f2488fea1100ae16f55ddabbf131f9cbb7c10f55a90b7ff32a3554530e"
+  },
+  "registryDependencies": [
+    "alert-dialog",
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

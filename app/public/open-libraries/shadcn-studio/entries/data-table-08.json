@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-08",
+  "slug": "data-table-08",
+  "name": "Data Table 8",
+  "titleZh": "数据表格 data-table-08",
+  "description": "Drag-and-drop data table with sortable rows and reordering functionality",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-08.json",
+    "sha256": "786b01c05c7a168df0a53d817e0e1118944d08f0280a20719672bd4b05f6620e"
+  },
+  "registryDependencies": [
+    "button",
+    "table"
+  ],
+  "dependencies": [
+    "@dnd-kit/core",
+    "@dnd-kit/modifiers",
+    "@dnd-kit/sortable",
+    "@dnd-kit/utilities",
+    "lucide-react",
+    "@tanstack/react-table"
+  ]
+}

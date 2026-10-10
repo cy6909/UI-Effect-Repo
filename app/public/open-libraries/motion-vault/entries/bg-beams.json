@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/bg-beams",
+  "slug": "bg-beams",
+  "name": "BACKGROUND BEAMS",
+  "titleZh": "光束流动",
+  "description": "五条细曲线路径自顶部垂落，光点沿路径周期流动，顶端淡入、底端淡出。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--bg-beams",
+  "detailUrl": "/open-libraries/motion-vault/entries/bg-beams.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=bg-beams",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/bg-beams.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/bg-beams.md",
+    "sha256": "ab0efc91fe9207471001a8d31005fd078389b7dd97b8d6adb8931d78e81669b2",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/bg-beams.json",
+    "sha256": "7d89f17f14f9b1ea5b0609d82b293bcbda54a2ffd70f6812b13688bba5e01112"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

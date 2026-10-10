@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/wave-text",
+  "slug": "wave-text",
+  "name": "WAVE TEXT",
+  "titleZh": "波浪文字",
+  "description": "每个字母像波浪一样持续起伏，轻盈活泼。悬停时波浪加速，离开后缓缓恢复。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--wave-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/wave-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=wave-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/wave-text.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/wave-text.md",
+    "sha256": "9a191b780d12d36d515e8582f3e428f4dadfb8a75678b0395f3f0aa89030f013",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/wave-text.json",
+    "sha256": "0b9dd7d6ab5dc95ea1715ad94b4950ccdfcbf8eeadb46cfca7799a9b8eef2a1d"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/checkbox-13",
+  "slug": "checkbox-13",
+  "name": "Checkbox 13",
+  "titleZh": "复选框 checkbox-13",
+  "description": "Card-style checkboxes with border highlighting and description text",
+  "tags": [
+    "checkbox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--checkbox-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/checkbox-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/checkbox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/checkbox-13.json",
+    "sha256": "fa5d4e23f8f29412ba67bef090fe207b46c6a97533566d977ffe8144b16f372b"
+  },
+  "registryDependencies": [
+    "checkbox",
+    "label"
+  ],
+  "dependencies": []
+}

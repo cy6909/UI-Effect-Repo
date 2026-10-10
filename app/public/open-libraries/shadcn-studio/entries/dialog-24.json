@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-24",
+  "slug": "dialog-24",
+  "name": "Dialog 24",
+  "titleZh": "对话框 dialog-24",
+  "description": "Profile edit dialog with slide-up animation from bottom",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-24",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-24.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-24.json",
+    "sha256": "ec78c8a5a74c9d487d124f62b56669671ff7742a7e2312dbb66bb03c9cfe6abd"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog",
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/inversa-scroll-animation",
+  "name": "Inversa Scroll Animation",
+  "slug": "inversa-scroll-animation",
+  "titleZh": "Inversa 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Hero pinned over four viewport heights where a single scrubbed onUpdate drives phase-based animations from scroll progress with smoothstep easing: text blocks slide up, a 200svh aerial image parallaxes in three phases, a fixed dark layer with a subtractive bar-code SVG mask scales from 2.5 to 1 to frame the image while it desaturates and darkens, and a grid overlay, two pulsing location markers, and a side progress bar fade in and out at precise progress windows.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "mask",
+    "parallax",
+    "lenis",
+    "hero",
+    "svg-mask",
+    "markers",
+    "progress-bar",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/inversa-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/inversa-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/inversa-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/inversa-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/inversa-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/inversa-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/inversa-scroll-animation.md",
+    "sha256": "4440b462fbae174e53f7bb98b67de1c63c6185afe960471014260247b3d6fd38",
+    "upstreamUrl": "https://motionprompts.dev/prompts/inversa-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/inversa-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 400,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      1.5,
+      1.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 3,
+      "bytes": 158504,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap+raf",
+    "motion_signature": "pinned hero, scrubbed phase-based mask reveal parallax",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/inversa-scroll-animation/"
+}

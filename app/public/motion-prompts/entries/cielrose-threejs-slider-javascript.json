@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/cielrose-threejs-slider-javascript",
+  "name": "Cielrose Inspired ThreeJS Slider",
+  "slug": "cielrose-threejs-slider-javascript",
+  "titleZh": "Cielrose Inspired ThreeJS 轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A wheel-driven WebGL image slider built with Three.js: scrolling drives a custom shader that vertically wipes between the current and next texture while a distortion/scale uniform bends and swells the plane, then a smooth lerp snaps to the nearest image and slides the project title back into view. Animation is hand-rolled in a requestAnimationFrame loop plus CSS transitions (no GSAP).",
+  "tags": [
+    "three.js",
+    "webgl",
+    "shader",
+    "slider",
+    "scroll",
+    "chromatic",
+    "distortion",
+    "experimental",
+    "gallery",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/cielrose-threejs-slider-javascript",
+  "docsUrl": "https://motionprompts.dev/component/cielrose-threejs-slider-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/cielrose-threejs-slider-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/cielrose-threejs-slider-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/cielrose-threejs-slider-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/cielrose-threejs-slider-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/cielrose-threejs-slider-javascript.md",
+    "sha256": "368f5bc656d0a549039492fd472be537fff92dae08d595cedb01ed232b73ff63",
+    "upstreamUrl": "https://motionprompts.dev/prompts/cielrose-threejs-slider-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/cielrose-threejs-slider-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "three"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.3,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 7,
+      "bytes": 866964,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "webgl-raf",
+    "motion_signature": "wheel/touch-driven double-lerped WebGL vertical UV wipe with sine vertex bulge, ±0.1 plane scale and round-to-nearest snap",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/cielrose-threejs-slider-javascript/"
+}

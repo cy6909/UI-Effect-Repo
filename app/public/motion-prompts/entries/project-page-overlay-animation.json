@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/project-page-overlay-animation",
+  "name": "Project Overview Modal",
+  "slug": "project-page-overlay-animation",
+  "titleZh": "项目概览弹层",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "A project index where clicking any list item plays a paused GSAP timeline that slides a white detail overlay up from off-screen (bottom -1200px to 0) while un-rotating it from a 20deg tilt to flat with a power2.out ease; clicking Close or anywhere outside reverses the same timeline, and the overlay content (name, category, copy, link, image) is swapped in from a data array on open.",
+  "tags": [
+    "modal",
+    "overlay",
+    "gsap",
+    "timeline",
+    "click",
+    "reveal",
+    "portfolio",
+    "editorial",
+    "rotate",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/project-page-overlay-animation",
+  "docsUrl": "https://motionprompts.dev/component/project-page-overlay-animation/",
+  "demoUrl": "https://motionprompts.dev/components/project-page-overlay-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/project-page-overlay-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/project-page-overlay-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/project-page-overlay-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/project-page-overlay-animation.md",
+    "sha256": "3d957c9b22da27a28f6f9c77a0c95dcddd5a6b4ec66b4d0137135b7f1278ff0f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/project-page-overlay-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/project-page-overlay-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "phosphor-icons"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.2,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 637615,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "click-triggered overlay slides up from bottom:-1200px to 0 while un-rotating from a CSS-set 20deg about 'bottom center', 0.5s power2.out; close button and any outside click reverse the same paused timeline",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/project-page-overlay-animation/"
+}

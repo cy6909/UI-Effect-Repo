@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/chase-ring",
+  "slug": "chase-ring",
+  "name": "CHASE RING",
+  "titleZh": "双弧追逐",
+  "description": "同一圆环上两段缺口圆弧反向匀速旋转，长弧的缺口还会呼吸伸缩——短弧永远在追，永远差一点。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--chase-ring",
+  "detailUrl": "/open-libraries/motion-vault/entries/chase-ring.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=chase-ring",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/chase-ring.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/chase-ring.md",
+    "sha256": "0d7648aa5080e424ebb6e4a62831b79404453fd3a3dbe05992c65e004eaa8e65",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/chase-ring.json",
+    "sha256": "c79ff6b88d2675bef9eb81f6bdd2d0a942a1cd8c996ae67ab44a1f71552b3e19"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

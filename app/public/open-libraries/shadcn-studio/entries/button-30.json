@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-30",
+  "slug": "button-30",
+  "name": "Button 30",
+  "titleZh": "按钮 button-30",
+  "description": "Social authentication buttons with branded colors and \"Continue with\" text",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-30",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-30.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-30.json",
+    "sha256": "b40799b3a2ea1f62861d91f8fc28be9e239b84ef93dd5a31a955b4bef34e6936"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": []
+}

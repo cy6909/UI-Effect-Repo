@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/var-font-anim",
+  "name": "ScrollTrigger Variable Font Marquee",
+  "slug": "var-font-anim",
+  "titleZh": "ScrollTrigger 可变字形跑马灯",
+  "category": "TextAnimations",
+  "source": "motion-prompts",
+  "sourceCategory": "text",
+  "description": "Four horizontal image marquees drift sideways as you scroll (gsap.fromTo on x driven by a scrubbed ScrollTrigger), while SplitType splits the interspersed word headings into characters whose variable fontWeight is tweened from 100 to 900 with a staggered, scrubbed ScrollTrigger. Lenis provides the smooth scroll that ScrollTrigger reads.",
+  "tags": [
+    "scrolltrigger",
+    "variable-font",
+    "font-weight",
+    "marquee",
+    "split-text",
+    "lenis",
+    "editorial",
+    "scrub",
+    "gsap",
+    "split-type",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/var-font-anim",
+  "docsUrl": "https://motionprompts.dev/component/var-font-anim/",
+  "demoUrl": "https://motionprompts.dev/components/var-font-anim/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/var-font-anim.webp",
+  "videoUrl": "https://motionprompts.dev/previews/var-font-anim.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/var-font-anim.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/var-font-anim.md",
+    "sha256": "4a3256705bc7c313d944e5757b385b7f3f57af87eff02e3d6f45bd380511962e",
+    "upstreamUrl": "https://motionprompts.dev/prompts/var-font-anim.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/var-font-anim/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitType",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": 150,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": [
+      0.5,
+      1
+    ],
+    "stagger": 0.35,
+    "assets_required": {
+      "count": 18,
+      "bytes": 2682930,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "scrub-driven marquee drift with per-char weight wave; position is a pure linear function of scroll progress (ease:'none' + scrub:true), all smoothing comes from Lenis and scrub's default catch-up",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "split-type",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/var-font-anim/"
+}

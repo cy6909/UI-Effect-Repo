@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/karim-saab-work-carousel",
+  "name": "Karim Saab Work Carousel",
+  "slug": "karim-saab-work-carousel",
+  "titleZh": "Karim Saab 作品轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A fullscreen one-slide-at-a-time work carousel where each wheel or touch swipe fires a GSAP transition: the outgoing slide scales down, rotates 30deg, fades and flings off-screen with power4.inOut, while the incoming slide flies in from a clip-path window that opens to full frame with power4.out. Title words and info lines are revealed with masked SplitText staggers on each slide entry.",
+  "tags": [
+    "carousel",
+    "fullscreen",
+    "wheel",
+    "clip-path",
+    "split-text",
+    "reveal",
+    "editorial",
+    "gsap",
+    "touch",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/karim-saab-work-carousel",
+  "docsUrl": "https://motionprompts.dev/component/karim-saab-work-carousel/",
+  "demoUrl": "https://motionprompts.dev/components/karim-saab-work-carousel/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/karim-saab-work-carousel.webp",
+  "videoUrl": "https://motionprompts.dev/previews/karim-saab-work-carousel.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/karim-saab-work-carousel.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/karim-saab-work-carousel.md",
+    "sha256": "5fbb6bd24b2bd824246ed34b47adf69134306bc9b762fab9b4cf9c2308533788",
+    "upstreamUrl": "https://motionprompts.dev/prompts/karim-saab-work-carousel.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/karim-saab-work-carousel/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "gsap",
+      "SplitText"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 200,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.3,
+      2
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 4,
+      "bytes": 475032,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel"
+    ],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "wheel-stepped fullscreen slide swap: outgoing slide scales/rotates and flings off-screen over 2s while the incoming slide rises from ±100vh and opens a centered clip-path window to full frame in 1.5s, with staggered masked word/line reveals layered on top",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/karim-saab-work-carousel/"
+}

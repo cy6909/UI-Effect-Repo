@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sheet-02",
+  "slug": "sheet-02",
+  "name": "Sheet 2",
+  "titleZh": "侧边面板 sheet-02",
+  "description": "A sheet component demonstrating different slide directions (top, right, bottom, left)",
+  "tags": [
+    "sheet",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sheet-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sheet-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sheet",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sheet-02.json",
+    "sha256": "501166453ace4784debdb77ad9b4a5651b998c1ba799e59f60408b067cb5fc2b"
+  },
+  "registryDependencies": [
+    "button",
+    "input",
+    "label",
+    "sheet"
+  ],
+  "dependencies": []
+}

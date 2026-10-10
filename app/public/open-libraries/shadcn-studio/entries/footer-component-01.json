@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/footer-component-01",
+  "slug": "footer-component-01",
+  "name": "Footer 1",
+  "titleZh": "界面组件 footer-component-01",
+  "description": "Simple three-section footer with logo and brand name, centered navigation links, social media icons, separator line, and copyright text with heart emoji",
+  "tags": [
+    "footer-component",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--footer-component-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/footer-component-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/footer-component-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/footer-component-01.json",
+    "sha256": "50e890ebce5684d683f1715802c0d71f07f2e8a0f7bcc1504c88d5f5694f3b47"
+  },
+  "registryDependencies": [
+    "separator",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

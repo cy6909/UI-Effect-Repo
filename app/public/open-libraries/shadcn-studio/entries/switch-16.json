@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/switch-16",
+  "slug": "switch-16",
+  "name": "Switch 16",
+  "titleZh": "开关 switch-16",
+  "description": "A switch card with Google Cloud icon for backup service toggle functionality",
+  "tags": [
+    "switch",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--switch-16",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/switch-16.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/switch",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/switch-16.json",
+    "sha256": "775119c60ad015d3a05700a01ab2e428760d8491ab5fdf10311d842d8720d288"
+  },
+  "registryDependencies": [
+    "label",
+    "switch"
+  ],
+  "dependencies": []
+}

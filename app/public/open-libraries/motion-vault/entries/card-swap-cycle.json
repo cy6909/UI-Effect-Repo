@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/card-swap-cycle",
+  "slug": "card-swap-cycle",
+  "name": "CARD SWAP CYCLE",
+  "titleZh": "卡片换位",
+  "description": "三张错位微旋的卡片叠放：每 4 秒顶卡向前上方抽出并淡化，从后方落回牌堆最底，其余卡片前移补位，如循环洗牌。",
+  "tags": [
+    "card",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--card-swap-cycle",
+  "detailUrl": "/open-libraries/motion-vault/entries/card-swap-cycle.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=card-swap-cycle",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/card-swap-cycle.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/card-swap-cycle.md",
+    "sha256": "3d588757a59ad3487117a951ba1ca57fe2b9a71a9899d2edd80aa6237e0f128d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/card-swap-cycle.json",
+    "sha256": "d8caee3e3aba47976db69865d4f9f6d1410ca1e8e4d88560a3b08f693fe41fce"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

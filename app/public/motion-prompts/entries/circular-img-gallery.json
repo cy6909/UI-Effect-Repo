@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/circular-img-gallery",
+  "name": "Circular Image Gallery",
+  "slug": "circular-img-gallery",
+  "titleZh": "Circular 图片画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "On page load a GSAP timeline lays out 15 image tiles into a full circle, each scaling from 0 to 1 and rotating tangentially with a staggered power2.out entrance. Clicking any tile shrinks the others away (power2.in stagger) and animates the chosen tile to the center, scaling it up 5x; clicking again reverses it back into the ring.",
+  "tags": [
+    "gallery",
+    "circular",
+    "gsap",
+    "timeline",
+    "click",
+    "radial",
+    "stagger",
+    "editorial",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/circular-img-gallery",
+  "docsUrl": "https://motionprompts.dev/component/circular-img-gallery/",
+  "demoUrl": "https://motionprompts.dev/components/circular-img-gallery/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/circular-img-gallery.webp",
+  "videoUrl": "https://motionprompts.dev/previews/circular-img-gallery.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/circular-img-gallery.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/circular-img-gallery.md",
+    "sha256": "8361d4d569e53303bcb84530a0cd26c123e4498108f2becf4d07ff48401891f4",
+    "upstreamUrl": "https://motionprompts.dev/prompts/circular-img-gallery.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/circular-img-gallery/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.0001,
+      1
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 15,
+      "bytes": 2656499,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "staggered radial ring assembly, click zooms tile center",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/circular-img-gallery/"
+}

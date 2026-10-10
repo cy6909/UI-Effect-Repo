@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/sofihealth-product-scroll-animation",
+  "name": "SofiHealth Product Scroll Animation",
+  "slug": "sofihealth-product-scroll-animation",
+  "titleZh": "SofiHealth Product 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned, scrub-driven scroll section where a Three.js GLTF shaker model spins on its Y-axis while a single ScrollTrigger onUpdate handler maps scroll progress to sliding headers, an expanding circular clip-path mask, and staggered SplitText tooltip reveals. Lenis smooth-scroll feeds ScrollTrigger, and a separate ScrollTrigger reveals the split header characters on enter.",
+  "tags": [
+    "scroll",
+    "three.js",
+    "webgl",
+    "scrolltrigger",
+    "splittext",
+    "gltf",
+    "product-showcase",
+    "lenis",
+    "clip-path",
+    "three",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/sofihealth-product-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/sofihealth-product-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/sofihealth-product-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/sofihealth-product-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/sofihealth-product-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/sofihealth-product-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/sofihealth-product-scroll-animation.md",
+    "sha256": "2562201e7c6534edac761fb5697979a602407be11b554da9113b956f47e19a07",
+    "upstreamUrl": "https://motionprompts.dev/prompts/sofihealth-product-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/sofihealth-product-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "three",
+      "GLTFLoader",
+      "lenis",
+      "ionicons"
+    ],
+    "complexity": 5,
+    "pinned": true,
+    "viewport_heights": 1000,
+    "needs_lenis": true,
+    "ease_family": "power3",
+    "duration_range": [
+      0.5,
+      1
+    ],
+    "stagger": 0.025,
+    "assets_required": {
+      "count": 1,
+      "bytes": 7252200,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "mixed",
+    "motion_signature": "pinned scrub: 3D model spin + clip-path mask reveal",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "three",
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/sofihealth-product-scroll-animation/"
+}

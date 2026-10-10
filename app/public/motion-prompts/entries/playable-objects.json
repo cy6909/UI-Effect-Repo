@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/playable-objects",
+  "name": "Playable Objects",
+  "slug": "playable-objects",
+  "titleZh": "可交互物件",
+  "category": "Footers",
+  "source": "motion-prompts",
+  "sourceCategory": "footer",
+  "description": "A dark footer where tech-tag pills drop in from above and pile up under Matter.js physics (gravity, restitution, friction, staggered spawn heights). A ScrollTrigger with once:true fires the physics engine the first time the footer scrolls into view, Lenis drives smooth scrolling, and a Matter MouseConstraint lets you grab and fling each pill in real time.",
+  "tags": [
+    "physics",
+    "matter-js",
+    "drag",
+    "gravity",
+    "scrolltrigger",
+    "lenis",
+    "interactive",
+    "playful",
+    "footer",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/playable-objects",
+  "docsUrl": "https://motionprompts.dev/component/playable-objects/",
+  "demoUrl": "https://motionprompts.dev/components/playable-objects/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/playable-objects.webp",
+  "videoUrl": "https://motionprompts.dev/previews/playable-objects.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/playable-objects.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/playable-objects.md",
+    "sha256": "482511e013140a2857f05de69dab5479337b0ea335db58f9f9d3b8f0c4461868",
+    "upstreamUrl": "https://motionprompts.dev/prompts/playable-objects.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/playable-objects/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis",
+      "matter-js"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      1.6
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "physics",
+    "motion_signature": "Matter.js pills drop from off-screen and pile up under gravity {x:0,y:1} with restitution 0.5 / friction 0.15 / frictionAir 0.02 / density 0.002; the ceiling wall is only added 3s in so they can fall through; a MouseConstraint (stiffness 0.6) makes each pill grab-and-fling, with inertia frozen and velocity clamped to ±20 while dragging",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis",
+    "matter-js"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/playable-objects/"
+}

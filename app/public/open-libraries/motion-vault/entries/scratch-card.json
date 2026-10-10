@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/scratch-card",
+  "slug": "scratch-card",
+  "name": "SCRATCH CARD",
+  "titleZh": "刮刮卡",
+  "description": "一张盖着银灰刮刮层的奖品卡：按住拖动刮开金属涂层，露出底下的「再来一瓶」；刮开超过 45% 后剩余涂层自动淡出，可一键重来。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--scratch-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/scratch-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=scratch-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/scratch-card.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/scratch-card.md",
+    "sha256": "0a36c31ca64a2225a8568f38645ae2b195b450bd832ee2775c55e049c7989532",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/scratch-card.json",
+    "sha256": "16101678dccfef8cfba23c625489c49911087e92458724d5e9e5762c91461860"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

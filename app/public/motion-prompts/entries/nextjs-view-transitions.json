@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/nextjs-view-transitions",
+  "name": "Next.js View Transitions",
+  "slug": "nextjs-view-transitions",
+  "titleZh": "Next.js View Transitions · 转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "A multi-page portfolio where clicking a nav link fires a full-page transition built on the native View Transitions API: the outgoing page slides up and fades to 20% opacity while the incoming page is revealed from the bottom via an animated clip-path, both over 1.5s with a cubic-bezier(0.87,0,0.13,1) ease. Each destination also runs its own GSAP intro on mount, the home headline reveals character-by-character and the info paragraph reveals line-by-line (SplitType, power4.out y-translate).",
+  "tags": [
+    "page-transition",
+    "view-transitions",
+    "clip-path",
+    "split-type",
+    "char-reveal",
+    "lenis",
+    "editorial",
+    "minimal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/nextjs-view-transitions",
+  "docsUrl": "https://motionprompts.dev/component/nextjs-view-transitions/",
+  "demoUrl": "https://motionprompts.dev/components/nextjs-view-transitions/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/nextjs-view-transitions.webp",
+  "videoUrl": "https://motionprompts.dev/previews/nextjs-view-transitions.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/nextjs-view-transitions.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/nextjs-view-transitions.md",
+    "sha256": "425ae5882a7f8b816688d86e642087fe398396ca0c3b44365aba8ee5a0b35880",
+    "upstreamUrl": "https://motionprompts.dev/prompts/nextjs-view-transitions.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/nextjs-view-transitions/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "SplitType",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power4",
+    "duration_range": [
+      0.3,
+      2
+    ],
+    "stagger": 0.075,
+    "assets_required": {
+      "count": 5,
+      "bytes": 725788,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "mixed",
+    "motion_signature": "Whole-document View Transition: the outgoing root fades 1->0.2 while translating Y 0->-35% as the incoming root is wiped in by a bottom-to-top clip-path polygon, both 1500ms on cubic-bezier(0.87,0,0.13,1); per-route SplitType intros slide chars/lines y:400->0 on power4.out with a 0.075 stagger",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "split-type",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/nextjs-view-transitions/"
+}

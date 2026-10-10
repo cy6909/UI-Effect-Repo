@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/grid-expand",
+  "slug": "grid-expand",
+  "name": "GRID EXPAND",
+  "titleZh": "点击展开画廊",
+  "description": "2×2 的渐变小卡，点击任意一张便以共享布局动画放大铺满预览窗，其余退成 30%。",
+  "tags": [
+    "card",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--grid-expand",
+  "detailUrl": "/open-libraries/motion-vault/entries/grid-expand.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=grid-expand",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/grid-expand.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/grid-expand.md",
+    "sha256": "19e5454857de67494649440648b4606e7d9176df8d94a697167551d20d308bd2",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/grid-expand.json",
+    "sha256": "a482028c5f7ad829ee74f06ec19bb783f7e43d437178576b9070e8415001a625"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

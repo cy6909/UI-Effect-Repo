@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/radio-group-15",
+  "slug": "radio-group-15",
+  "name": "Radio Group 15",
+  "titleZh": "单选 radio-group-15",
+  "description": "An animated inset radio group with smooth transitions for language selection",
+  "tags": [
+    "radio-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--radio-group-15",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/radio-group-15.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/radio-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/radio-group-15.json",
+    "sha256": "577c0f5aa242800aae62eed91169e21b1bcb64fc91f97a2f068969ec31f9a649"
+  },
+  "registryDependencies": [
+    "label",
+    "radio-group"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/sparkles-text",
+  "slug": "sparkles-text",
+  "name": "SPARKLES TEXT",
+  "titleZh": "星光文字",
+  "description": "标题周围持续生成细小的四角星光，缩放旋转着闪现再淡出，像灵感在字句间发光。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--sparkles-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/sparkles-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=sparkles-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/sparkles-text.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/sparkles-text.md",
+    "sha256": "2bfe5f4be62a9a650c112225af3b977db8f1ef46e907857b802ca80211f9f173",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/sparkles-text.json",
+    "sha256": "6123b90798a7f1ea3dfbcd4d6e87a995fab210d5c89ff3c18d8021458f07bc1b"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-13",
+  "slug": "alert-13",
+  "name": "Alert 13",
+  "titleZh": "提示条 alert-13",
+  "description": "displaying a minimal \"New message!\" notification with an attention icon and an actionable \"Open\" button",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-13.json",
+    "sha256": "9fee3a4f8389ce37447b668b402d49f98b8a4cfdb265d7ef6979b1c9889a47ed"
+  },
+  "registryDependencies": [
+    "alert",
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

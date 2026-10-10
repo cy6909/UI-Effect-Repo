@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/ashleybrookecs-smudge-revealer",
+  "name": "Cursor Smudge Revealer",
+  "slug": "ashleybrookecs-smudge-revealer",
+  "titleZh": "光标涂抹揭示",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "Full-screen hero where moving the cursor (or finger) smudges away the still-wet ink foreground: circles sized by pointer speed are stamped at a lerped pointer position inside a gooey SVG mask, each expanding 2x over 2s then dissolving over 3s, revealing the second-colour layer beneath the title.",
+  "tags": [
+    "cursor",
+    "mouse",
+    "svg",
+    "mask",
+    "goo",
+    "reveal",
+    "hero",
+    "touch",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/ashleybrookecs-smudge-revealer",
+  "docsUrl": "https://motionprompts.dev/component/ashleybrookecs-smudge-revealer/",
+  "demoUrl": "https://motionprompts.dev/components/ashleybrookecs-smudge-revealer/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/ashleybrookecs-smudge-revealer.webp",
+  "videoUrl": "https://motionprompts.dev/previews/ashleybrookecs-smudge-revealer.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/ashleybrookecs-smudge-revealer.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/ashleybrookecs-smudge-revealer.md",
+    "sha256": "eacd48e56dbfc86e018b06a5ca93e67527996b3d78f9062c582a12a9c5ce47e9",
+    "upstreamUrl": "https://motionprompts.dev/prompts/ashleybrookecs-smudge-revealer.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/ashleybrookecs-smudge-revealer/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power1",
+    "duration_range": [
+      2,
+      3
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "gsap+raf",
+    "motion_signature": "lerped pointer stamps gooey SVG mask blobs",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/ashleybrookecs-smudge-revealer/"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tooltip-13",
+  "slug": "tooltip-13",
+  "name": "Tooltip 13",
+  "titleZh": "工具提示 tooltip-13",
+  "description": "A project hover card with progress bar, timeline, and team avatars",
+  "tags": [
+    "tooltip",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--tooltip-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tooltip-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tooltip",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tooltip-13.json",
+    "sha256": "ea8c9063cbbeaeeab77f67fb8ef87c1025cb166c16a68f727a818bd087af3ef3"
+  },
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "hover-card",
+    "progress"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

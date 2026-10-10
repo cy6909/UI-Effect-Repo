@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-01",
+  "slug": "data-table-01",
+  "name": "Data Table 1",
+  "titleZh": "数据表格 data-table-01",
+  "description": "Basic data table with records and row selection functionality",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-01.json",
+    "sha256": "5904e3d38d34259a0f1281b52b25777e7829100dcf3d9282e67a5e18c530f441"
+  },
+  "registryDependencies": [
+    "checkbox",
+    "table"
+  ],
+  "dependencies": [
+    "@tanstack/react-table"
+  ]
+}

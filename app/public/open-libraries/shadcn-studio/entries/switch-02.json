@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/switch-02",
+  "slug": "switch-02",
+  "name": "Switch 2",
+  "titleZh": "开关 switch-02",
+  "description": "A square-styled switch with rounded corners for alternative visual design",
+  "tags": [
+    "switch",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--switch-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/switch-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/switch",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/switch-02.json",
+    "sha256": "d5ad2e360eb005468828184b3c06c7b175bb65b42e40bb310820b8bd6d76e8f8"
+  },
+  "registryDependencies": [
+    "switch"
+  ],
+  "dependencies": []
+}

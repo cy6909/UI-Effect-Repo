@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-13",
+  "slug": "tabs-13",
+  "name": "Tabs 13",
+  "titleZh": "标签页 tabs-13",
+  "description": "Lifted tabs with shadow effects for elevated appearance",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-13.json",
+    "sha256": "fd96afe52e6c4f7b561db3077074955b4fe4a95bb94e9d561951d31a5a22f704"
+  },
+  "registryDependencies": [
+    "tabs"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/spotlight-list-hover",
+  "name": "Spotlight List Hover Cards",
+  "slug": "spotlight-list-hover",
+  "titleZh": "聚光列表悬停卡片",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "Hover list inside a dark rounded panel: entering the list pops four glass-framed cards from scale 0 with an elastic ease; hovering a title swaps it for a handwritten version (opacity, back-out scale and blur), grows its row while the neighbours shrink in proportion to their distance, and reshuffles the cards with random offsets and rotation as they follow the row's height. A soft light in the panel follows the pointer.",
+  "tags": [
+    "hover",
+    "list",
+    "cards",
+    "elastic",
+    "blur",
+    "handwritten",
+    "glass",
+    "spotlight",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/spotlight-list-hover",
+  "docsUrl": "https://motionprompts.dev/component/spotlight-list-hover/",
+  "demoUrl": "https://motionprompts.dev/components/spotlight-list-hover/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/spotlight-list-hover.webp",
+  "videoUrl": "https://motionprompts.dev/previews/spotlight-list-hover.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/spotlight-list-hover.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/spotlight-list-hover.md",
+    "sha256": "00b9f018ba829ffcf9658894c85e0e7ab2cdaeccac64cd69d64aa849b32298d6",
+    "upstreamUrl": "https://motionprompts.dev/prompts/spotlight-list-hover.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/spotlight-list-hover/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap",
+      "CustomEase"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "elastic",
+    "duration_range": [
+      0.1,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 24,
+      "bytes": 1417944,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "gsap",
+    "motion_signature": "elastic card pop and reshuffle on hover, proximity-weighted row height redistribution, label blur/scale swap, pointer-following panel light",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/spotlight-list-hover/"
+}

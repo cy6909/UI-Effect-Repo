@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-group-08",
+  "slug": "button-group-08",
+  "name": "Button Group 8",
+  "titleZh": "按钮 button-group-08",
+  "description": "Preview link button group with primary action and external link icon",
+  "tags": [
+    "button-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-group-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-group-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-group-08.json",
+    "sha256": "cf83ef2cb7e0c25ec688558a1d3734bbbc2b28b5099c3ad70a690a7a18237d92"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

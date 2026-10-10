@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/phive-text-scroll-animation",
+  "name": "Phive Text Scroll Animation",
+  "slug": "phive-text-scroll-animation",
+  "titleZh": "Phive 文字滚动动效",
+  "category": "TextAnimations",
+  "source": "motion-prompts",
+  "sourceCategory": "text",
+  "description": "Scroll-driven sequence of pinned full-screen sections where giant uppercase words stretch open vertically (scaleY driven by each ScrollTrigger's scrub progress) and collapse as they leave; the final word scales up 10x while its dark backdrop fades to reveal a background image, then a SplitText headline reveals word-by-word.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "scaley",
+    "text-reveal",
+    "typography",
+    "lenis",
+    "splittext",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/phive-text-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/phive-text-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/phive-text-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/phive-text-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/phive-text-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/phive-text-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/phive-text-scroll-animation.md",
+    "sha256": "a45d66028771374e57c872e5860b10868eef858b54ac5fd3de3587a68debdb15",
+    "upstreamUrl": "https://motionprompts.dev/prompts/phive-text-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/phive-text-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 5,
+    "pinned": true,
+    "viewport_heights": 400,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 210430,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "Pure linear scrub (no eases, no durations): each of three pinned sections stretches its headline on scaleY from 0 up to a measured sectionHeight/textHeight ratio on approach, then back to 0 while pinned; the third pinned section additionally zooms its text panel scale3d 1→10 over the first 75% of a 400vh pin, cross-fades the panel background alpha (0.25→0.5) and its opacity (0.5→0.75) to zero, and reveals the header word-by-word by index threshold over 0.75→0.95. Smoothing comes only from scrub:1 and Lenis inertia.",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/phive-text-scroll-animation/"
+}

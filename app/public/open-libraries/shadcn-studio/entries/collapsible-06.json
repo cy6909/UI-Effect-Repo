@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/collapsible-06",
+  "slug": "collapsible-06",
+  "name": "Collapsible 6",
+  "titleZh": "折叠区域 collapsible-06",
+  "description": "Simple text content collapsible with expandable paragraph sections",
+  "tags": [
+    "collapsible",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--collapsible-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/collapsible-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/collapsible",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/collapsible-06.json",
+    "sha256": "caecb7143ceb437e8b04260ee8ead2d5683169889bd50cc7eccf8af8b0b62db7"
+  },
+  "registryDependencies": [
+    "collapsible"
+  ],
+  "dependencies": []
+}

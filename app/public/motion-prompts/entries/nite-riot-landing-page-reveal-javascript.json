@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/nite-riot-landing-page-reveal-javascript",
+  "name": "Nite Riot Landing Page Reveal",
+  "slug": "nite-riot-landing-page-reveal-javascript",
+  "titleZh": "Nite Riot 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "Autoplay landing-page intro: a black overlay reveals a gradient-fill logo and staggered project/location lists, then a centered 3x3 image grid clips open and rapidly cycles through random fashion photos. The outer cells clip away and the central hero image scales up (clip-path zoom) while two banner images pop and rotate outward, the nav drops in, and masked SplitType word reveals push in the intro copy and title. Runs on DOMContentLoaded via three parallel GSAP timelines with a custom 'hop' CustomEase.",
+  "tags": [
+    "reveal",
+    "preloader",
+    "clip-path",
+    "gsap",
+    "splittype",
+    "customease",
+    "editorial",
+    "image-grid",
+    "landing",
+    "split-type",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/nite-riot-landing-page-reveal-javascript",
+  "docsUrl": "https://motionprompts.dev/component/nite-riot-landing-page-reveal-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/nite-riot-landing-page-reveal-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/nite-riot-landing-page-reveal-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/nite-riot-landing-page-reveal-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/nite-riot-landing-page-reveal-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/nite-riot-landing-page-reveal-javascript.md",
+    "sha256": "2e24970cc2328dd32adb7c55b62db07fe5c71b3db70167ca58a975d722f3b789",
+    "upstreamUrl": "https://motionprompts.dev/prompts/nite-riot-landing-page-reveal-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/nite-riot-landing-page-reveal-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "CustomEase",
+      "SplitType"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      0.15,
+      1.5
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 35,
+      "bytes": 3880036,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 3,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "timed preloader: clip-path grid reveal into hero",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "split-type"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/nite-riot-landing-page-reveal-javascript/"
+}

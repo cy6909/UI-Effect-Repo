@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/phantom-gallery-javascript",
+  "name": "Halation — Phantom Draggable Infinite Gallery",
+  "slug": "phantom-gallery-javascript",
+  "titleZh": "Halation — 幻影视差无限拖动画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A Three.js orthographic full-screen plane renders an infinite grid of captioned images via a fragment shader, using image and text texture atlases and a barrel-distortion lens with a radial fade. Pointer/touch dragging pans the grid (offset lerped for inertia) and momentarily zooms in while dragging; a quick tap on a cell navigates to its project link.",
+  "tags": [
+    "three.js",
+    "webgl",
+    "glsl-shader",
+    "drag",
+    "infinite-grid",
+    "texture-atlas",
+    "lens-distortion",
+    "editorial",
+    "interactive",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/phantom-gallery-javascript",
+  "docsUrl": "https://motionprompts.dev/component/phantom-gallery-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/phantom-gallery-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/phantom-gallery-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/phantom-gallery-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/phantom-gallery-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/phantom-gallery-javascript.md",
+    "sha256": "f2867482fdd27c3365f25a3742e64a93fca57564a27906954c47a81f7da792fe",
+    "upstreamUrl": "https://motionprompts.dev/prompts/phantom-gallery-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/phantom-gallery-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "drag",
+    "libs": [
+      "three"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      2.4,
+      2.4
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 25,
+      "bytes": 2728799,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "webgl-raf",
+    "motion_signature": "drag-lerped infinite WebGL grid with zoom-out",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/phantom-gallery-javascript/"
+}

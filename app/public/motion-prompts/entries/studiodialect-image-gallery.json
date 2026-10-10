@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/studiodialect-image-gallery",
+  "name": "StudioDialect 3D Spiral Image Gallery",
+  "slug": "studiodialect-image-gallery",
+  "titleZh": "StudioDialect 3D 螺旋画廊",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "Scroll-driven 3D spiral gallery built with Three.js: 75 curved tiles textured with 10 photos wind down a five-revolution helix, and a custom shader dims each tile as it turns away from the camera. Lenis scroll velocity spins the spiral (with decay) while scroll progress lerps the camera down through the helix; mouse movement adds a subtle X/Z parallax tilt on desktop.",
+  "tags": [
+    "three.js",
+    "webgl",
+    "spiral",
+    "helix",
+    "gallery",
+    "scroll",
+    "scroll-velocity",
+    "lenis",
+    "shader",
+    "parallax",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/studiodialect-image-gallery",
+  "docsUrl": "https://motionprompts.dev/component/studiodialect-image-gallery/",
+  "demoUrl": "https://motionprompts.dev/components/studiodialect-image-gallery/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/studiodialect-image-gallery.webp",
+  "videoUrl": "https://motionprompts.dev/previews/studiodialect-image-gallery.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/studiodialect-image-gallery.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/studiodialect-image-gallery.md",
+    "sha256": "842a94eedd6287180a5da6d9da67e38be18041b8405454a81f4fc9cf15bae4a9",
+    "upstreamUrl": "https://motionprompts.dev/prompts/studiodialect-image-gallery.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/studiodialect-image-gallery/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "three",
+      "lenis"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": 150,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      2.4
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 12,
+      "bytes": 1806852,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 3,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "webgl-raf",
+    "motion_signature": "scroll-velocity spun 3D helix with camera lerp",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "three",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/studiodialect-image-gallery/"
+}

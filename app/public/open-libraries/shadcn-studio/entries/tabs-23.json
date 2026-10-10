@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-23",
+  "slug": "tabs-23",
+  "name": "Tabs 23",
+  "titleZh": "标签页 tabs-23",
+  "description": "Vertical tabs with badge indicators in left navigation layout",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-23",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-23.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-23.json",
+    "sha256": "9fc4366ac80b6d204679355f7f173e3b8dd50fb19982cb3c3241f48696182a31"
+  },
+  "registryDependencies": [
+    "badge",
+    "tabs"
+  ],
+  "dependencies": []
+}

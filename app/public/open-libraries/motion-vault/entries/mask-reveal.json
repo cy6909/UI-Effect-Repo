@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/mask-reveal",
+  "slug": "mask-reveal",
+  "name": "MASK REVEAL",
+  "titleZh": "遮罩揭示",
+  "description": "浅灰描边的 HIDDEN 铺底，实心黑字只在一枚跟随指针的径向渐变光斑内显形——聚光灯下现出真身。",
+  "tags": [
+    "svg",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--mask-reveal",
+  "detailUrl": "/open-libraries/motion-vault/entries/mask-reveal.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=mask-reveal",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/mask-reveal.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/mask-reveal.md",
+    "sha256": "92177a3b9a16eaf11f5f56b190cb2e7215f3392c964320075a3997a0af1122bd",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/mask-reveal.json",
+    "sha256": "0ba8b15adc921678049506aaef4ef6334c8db6bcd5727404c808a3c10ea091e2"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

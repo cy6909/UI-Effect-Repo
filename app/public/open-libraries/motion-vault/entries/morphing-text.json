@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/morphing-text",
+  "slug": "morphing-text",
+  "name": "MORPHING TEXT",
+  "titleZh": "词间形变",
+  "description": "两个 64px 粗体词通过 blur 12px→0 + 缩放交叉溶解互相转化，1.8 秒一周期无缝循环，词宽不同也绝对居中、毫无跳动。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--morphing-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/morphing-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=morphing-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/morphing-text.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/morphing-text.md",
+    "sha256": "e618b4b84dc0b9c76a684572f4eba89079f9c08098aad8fed0dcc6ea003c5077",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/morphing-text.json",
+    "sha256": "7a6c775061d7c1892593496326ccb71808ca9ca1da9afa68f62b2d631661a512"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

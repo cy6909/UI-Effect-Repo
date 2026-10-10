@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/aurora-flow",
+  "slug": "aurora-flow",
+  "name": "AURORA FLOW",
+  "titleZh": "极光流动",
+  "description": "标题字面填充低饱和青→蓝→紫极光渐变，6 秒匀速扫过一个完整周期无缝循环；旁边一行静态灰小字作对照，更显克制高级。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--aurora-flow",
+  "detailUrl": "/open-libraries/motion-vault/entries/aurora-flow.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=aurora-flow",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/aurora-flow.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/aurora-flow.md",
+    "sha256": "ab710ae9271503327b2703e1fe83c68c970271fb4ecc248ae4f338ef7a2da30b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/aurora-flow.json",
+    "sha256": "003da8c6a7f32077ceb13fc47ee8af10116c8aafc44568150a30ba6621f1c28d"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-14",
+  "slug": "dialog-14",
+  "name": "Dialog 14",
+  "titleZh": "对话框 dialog-14",
+  "description": "Sign in dialog with gradient background and social login options",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-14",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-14.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-14.json",
+    "sha256": "e2b3fc93550886b352e90cd7d5cb90a32c4bef787eb090c858d70217d8ae38d3"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog",
+    "input",
+    "label"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

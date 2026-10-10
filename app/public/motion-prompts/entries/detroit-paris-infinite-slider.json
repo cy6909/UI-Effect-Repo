@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/detroit-paris-infinite-slider",
+  "name": "DetroitParis Infinite Slider",
+  "slug": "detroit-paris-infinite-slider",
+  "titleZh": "DetroitParis 无限轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "Infinite draggable image slider with exponential perspective sizing: slides anchored to the bottom edge grow exponentially wider toward the right, creating a perpetual-motion depth effect. Wheel, touch and pointer-drag update a scroll target that is lerped each rAF frame, with slide images wrapped modulo 10 for endless looping in both directions.",
+  "tags": [
+    "infinite",
+    "draggable",
+    "wheel",
+    "lerp",
+    "perspective",
+    "vanilla-js",
+    "raf",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/detroit-paris-infinite-slider",
+  "docsUrl": "https://motionprompts.dev/component/detroit-paris-infinite-slider/",
+  "demoUrl": "https://motionprompts.dev/components/detroit-paris-infinite-slider/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/detroit-paris-infinite-slider.webp",
+  "videoUrl": "https://motionprompts.dev/previews/detroit-paris-infinite-slider.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/detroit-paris-infinite-slider.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/detroit-paris-infinite-slider.md",
+    "sha256": "6875519baba349edcb667c6fbd987a52d29706ea3d1d33c1dda5abb675806905",
+    "upstreamUrl": "https://motionprompts.dev/prompts/detroit-paris-infinite-slider.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/detroit-paris-infinite-slider/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      2.6
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 1438274,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "raf-lerp",
+    "motion_signature": "rAF-lerped infinite exponential-width slide track",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/detroit-paris-infinite-slider/"
+}

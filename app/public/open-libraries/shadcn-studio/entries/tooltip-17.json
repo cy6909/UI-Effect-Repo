@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tooltip-17",
+  "slug": "tooltip-17",
+  "name": "Tooltip 17",
+  "titleZh": "工具提示 tooltip-17",
+  "description": "A global tooltip system with overlapping avatars and hover scaling effects using global-tooltip component",
+  "tags": [
+    "tooltip",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--tooltip-17",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tooltip-17.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tooltip",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tooltip-17.json",
+    "sha256": "82a2b955c5210e39bc60df50ecd71f53da203ed627f12d925f9661ad9f36b909"
+  },
+  "registryDependencies": [
+    "avatar",
+    "utils"
+  ],
+  "dependencies": [
+    "motion"
+  ]
+}

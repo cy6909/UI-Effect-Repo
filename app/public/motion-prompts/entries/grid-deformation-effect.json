@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/grid-deformation-effect",
+  "name": "Grid Deformation Effect",
+  "slug": "grid-deformation-effect",
+  "titleZh": "网格变形",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A fullscreen hero photograph is rendered as a Three.js texture on a shader plane; moving the pointer injects velocity into a 25-cell grid DataTexture that displaces the UVs with RGB chromatic aberration, and the distortion relaxes back smoothly (0.925/frame) when the cursor stops. Styled as the landing page of Moiré, a dance and digital-image festival: the photo is monochrome, so the aberration is the only color on the page.",
+  "tags": [
+    "three-js",
+    "webgl",
+    "shader",
+    "video",
+    "mouse",
+    "distortion",
+    "grid",
+    "chromatic-aberration",
+    "hover",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/grid-deformation-effect",
+  "docsUrl": "https://motionprompts.dev/component/grid-deformation-effect/",
+  "demoUrl": "https://motionprompts.dev/components/grid-deformation-effect/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/grid-deformation-effect.webp",
+  "videoUrl": "https://motionprompts.dev/previews/grid-deformation-effect.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/grid-deformation-effect.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/grid-deformation-effect.md",
+    "sha256": "126f80ba0f7ab1ca58124f60bb54b3fcbed612664689ca4d679f6132fe35d520",
+    "upstreamUrl": "https://motionprompts.dev/prompts/grid-deformation-effect.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/grid-deformation-effect/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "three"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      2.4
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 172717,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "webgl-raf",
+    "motion_signature": "pointer-velocity grid distortion with RGB aberration, relaxing",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/grid-deformation-effect/"
+}

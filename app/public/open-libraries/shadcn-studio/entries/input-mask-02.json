@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-mask-02",
+  "slug": "input-mask-02",
+  "name": "Input Mask 2",
+  "titleZh": "输入框 input-mask-02",
+  "description": "A time input field with HH:MM:SS mask formatting for precise time entry",
+  "tags": [
+    "input-mask",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-mask-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-mask-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input-mask",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-mask-02.json",
+    "sha256": "19ef1aad5130d0f410fe95ff3dd2c3ad3e83cd16d8d6978027bba2e0c08c24b0"
+  },
+  "registryDependencies": [
+    "input",
+    "label"
+  ],
+  "dependencies": [
+    "use-mask-input"
+  ]
+}

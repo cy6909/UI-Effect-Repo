@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/bouncing-balls",
+  "slug": "bouncing-balls",
+  "name": "BOUNCING BALLS",
+  "titleZh": "弹跳小球",
+  "description": "三颗哑光小球永不停歇地弹跳，落地瞬间挤压变形；点击任意处再丢下一颗新球。",
+  "tags": [
+    "3d",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--bouncing-balls",
+  "detailUrl": "/open-libraries/motion-vault/entries/bouncing-balls.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=bouncing-balls",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/bouncing-balls.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/bouncing-balls.md",
+    "sha256": "466a76ab3824cde95d7cbc2e609ed84b35b1faa65d7a9f5db25c9d6f840e3697",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/bouncing-balls.json",
+    "sha256": "a2c193d3a8d29d32b1864f538e3befc1b5bd6c82e5e2eab56a27f3e4ccc3ce2b"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

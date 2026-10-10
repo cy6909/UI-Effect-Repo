@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/arch-portal-reveal",
+  "name": "Arch Portal Reveal",
+  "slug": "arch-portal-reveal",
+  "titleZh": "Arch Portal Reveal · 转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "A sticky stage where an arch-shaped opening grows from a small doorway to the entire frame as you scroll, revealing the scene behind it. The scene never scales: it keeps its own viewport-sized box and is anchored to the same bottom-centre point as the opening, so it sits perfectly still while the aperture grows around it — scaling the container instead would balloon the type, lose the photograph's crop and read as a zoom rather than as walking through a door. The arch is `border-radius`, not `clip-path` (a real curve, no facets, two numbers to animate instead of a polygon whose vertex count must stay constant), and the radius is pulled down on a `pow(1-p, 1.9)` curve so the shape is unmistakably an arch during the first third, which is the part the reader watches. One ScrollTrigger writing directly on every update, no scrub; Lenis supplies the smoothing. Dressed as a glasshouse: Playfair Display + Kumbh Sans, moss green and chalk.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "sticky",
+    "reveal",
+    "portal",
+    "arch",
+    "doorway",
+    "mask",
+    "border-radius",
+    "architecture",
+    "lenis",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/arch-portal-reveal",
+  "docsUrl": "https://motionprompts.dev/component/arch-portal-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/arch-portal-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/arch-portal-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/arch-portal-reveal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/arch-portal-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/arch-portal-reveal.md",
+    "sha256": "af10e19d5c4ac292dffa0fe036acc5694b559e02a8749c29dc189cdfe11c9fb8",
+    "upstreamUrl": "https://motionprompts.dev/prompts/arch-portal-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/arch-portal-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 3,
+      "bytes": 514913,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "sticky stage over a 260svh track where an arch-shaped opening grows from 26vw/34svh to 100vw/100svh by writing --w/--h/--r on every ScrollTrigger update; the radius follows pow(1-p,1.9) so the arch reads as an arch through the first third; the revealed scene keeps a viewport-sized box anchored to the same bottom-centre point and never scales; no tween, no scrub, smoothing from Lenis only",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/arch-portal-reveal/"
+}

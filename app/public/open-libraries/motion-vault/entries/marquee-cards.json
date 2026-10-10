@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/marquee-cards",
+  "slug": "marquee-cards",
+  "name": "MARQUEE",
+  "titleZh": "无限巡游卡",
+  "description": "一组卡片横向无限滚动，悬停减速，适合展示合集。",
+  "tags": [
+    "card",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--marquee-cards",
+  "detailUrl": "/open-libraries/motion-vault/entries/marquee-cards.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=marquee-cards",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/marquee-cards.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/marquee-cards.md",
+    "sha256": "e46020487640611d912ab035478cb0e0340bbe0e80017009041d0c08bd7923cd",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/marquee-cards.json",
+    "sha256": "0b52434101fd8a6422688aeaa7e0a301234e1df6355ca0fd1b20b542dad8e810"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-03",
+  "slug": "calendar-03",
+  "name": "Calendar 3",
+  "titleZh": "日历 calendar-03",
+  "description": "Single month calendar with date range selection capability",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-03.json",
+    "sha256": "08843f71741b44ac8a1debfeb42266a5bf9be7cf9263fbe982ff1d09710ebfed"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": [
+    "react-day-picker"
+  ]
+}

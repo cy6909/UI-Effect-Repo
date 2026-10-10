@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-09",
+  "slug": "calendar-09",
+  "name": "Calendar 9",
+  "titleZh": "日历 calendar-09",
+  "description": "Calendar with month and year dropdown selectors for easy navigation",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-09.json",
+    "sha256": "feb66cf69c73b63682824b7e435bd4705f768bb3b5e347adfd87e073f5abe91d"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": []
+}

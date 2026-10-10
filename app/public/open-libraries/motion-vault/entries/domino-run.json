@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/domino-run",
+  "slug": "domino-run",
+  "name": "DOMINO RUN",
+  "titleZh": "滚动多米诺",
+  "description": "滚动推倒九块多米诺：每块弹簧过冲地砸向下一块，连锁一路传到尽头，最后一块撞响铃铛，声波荡开，一声「叮」。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--domino-run",
+  "detailUrl": "/open-libraries/motion-vault/entries/domino-run.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=domino-run",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/domino-run.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/domino-run.md",
+    "sha256": "c96a39c097ec979089f4869f763ad7323a6dda8b74e00f96de724729b40ce74b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/domino-run.json",
+    "sha256": "66cdb45e4fdf7cfbb82623c3905638162aa22a69794daee0a3908101951f5749"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/dice-roll",
+  "slug": "dice-roll",
+  "name": "DICE ROLL",
+  "titleZh": "掷骰子",
+  "description": "点击任意处抛出一颗哑光白骰子，翻滚、落地、弹跳后稳稳停在随机点数上。",
+  "tags": [
+    "3d",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--dice-roll",
+  "detailUrl": "/open-libraries/motion-vault/entries/dice-roll.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=dice-roll",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/dice-roll.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/dice-roll.md",
+    "sha256": "568f397873738ab58dd6a42f5593bf74de255151c15f9f3abd9ec6b059c821f4",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/dice-roll.json",
+    "sha256": "38db8f93d74b7914825a0742ce8c4a2a20cbb734ac994aafa219a2963a782ed0"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/maximatherapy-sticky-cards",
+  "name": "MaximaTherapy Sticky Cards",
+  "slug": "maximatherapy-sticky-cards",
+  "titleZh": "MaximaTherapy 吸附卡片",
+  "category": "Components",
+  "source": "motion-prompts",
+  "sourceCategory": "cards",
+  "description": "Scroll-pinned hero (700svh of scrub scroll, Lenis-smoothed) where a stack of cards rises into view while the headline exits upward; past the halfway mark the front card 3D-flips with an elastic rotationY to reveal four tilted colored cards, which then get dismissed upward one by one with increasing rotation across staggered progress ranges.",
+  "tags": [
+    "sticky",
+    "stacked-cards",
+    "scroll",
+    "pin",
+    "scrub",
+    "3d-flip",
+    "elastic",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/maximatherapy-sticky-cards",
+  "docsUrl": "https://motionprompts.dev/component/maximatherapy-sticky-cards/",
+  "demoUrl": "https://motionprompts.dev/components/maximatherapy-sticky-cards/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/maximatherapy-sticky-cards.webp",
+  "videoUrl": "https://motionprompts.dev/previews/maximatherapy-sticky-cards.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/maximatherapy-sticky-cards.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/maximatherapy-sticky-cards.md",
+    "sha256": "e2383f371f69560ceb09608705c5458719c00901e1b2406825748ee264142e21",
+    "upstreamUrl": "https://motionprompts.dev/prompts/maximatherapy-sticky-cards.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/maximatherapy-sticky-cards/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis",
+      "ionicons"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 700,
+    "needs_lenis": true,
+    "ease_family": "elastic",
+    "duration_range": [
+      1,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "pinned 700vh scrub, elastic 3D card-deck flip",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/maximatherapy-sticky-cards/"
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/clip-reveal",
+  "slug": "clip-reveal",
+  "name": "CLIP REVEAL",
+  "titleZh": "裁切揭示",
+  "description": "一张山谷\"照片\"从中心窄条随滚动缓缓展开到全幅，叠加文字由模糊到清晰——电影揭幕般的仪式感。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--clip-reveal",
+  "detailUrl": "/open-libraries/motion-vault/entries/clip-reveal.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=clip-reveal",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/clip-reveal.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/clip-reveal.md",
+    "sha256": "73e4ef5026c1009f22edcf562a01d3832e40a6c98ec6bb2da2f0daa35f606bbc",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/clip-reveal.json",
+    "sha256": "160386686ad65280f1efa0b929428668e9f41dbd642b23b6b98bc5bf0176285b"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

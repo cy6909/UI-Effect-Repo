@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-12",
+  "slug": "badge-12",
+  "name": "Badge 12",
+  "titleZh": "徽标 badge-12",
+  "description": "Closable badge with X button for dismissible notifications",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-12",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-12.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-12.json",
+    "sha256": "5fa109001880989c6b77148cde176212fc565735ec7f84918102a47be74eeb40"
+  },
+  "registryDependencies": [
+    "badge"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

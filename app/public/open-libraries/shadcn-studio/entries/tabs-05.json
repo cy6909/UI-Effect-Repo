@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-05",
+  "slug": "tabs-05",
+  "name": "Tabs 5",
+  "titleZh": "标签页 tabs-05",
+  "description": "Vertical tabs with icons displayed above text labels in a stacked layout",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-05.json",
+    "sha256": "bedac7add10d5678d7d6f2afd9b6882389bf1e1d12863233e42accd4c1267991"
+  },
+  "registryDependencies": [
+    "tabs"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

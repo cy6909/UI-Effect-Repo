@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/drag-knot",
+  "slug": "drag-knot",
+  "name": "DRAG KNOT",
+  "titleZh": "可拖拽金属结",
+  "description": "一颗抛光锌色金属环面结，按住拖拽即可甩动旋转，松手后带惯性滑行，静置 2 秒恢复慢速自转。",
+  "tags": [
+    "3d",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--drag-knot",
+  "detailUrl": "/open-libraries/motion-vault/entries/drag-knot.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=drag-knot",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/drag-knot.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/drag-knot.md",
+    "sha256": "ff017162535b903150c2e4c3f4f2e81c402484d045e89e710fe65aeec0fffcc6",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/drag-knot.json",
+    "sha256": "2c27523a4dad3550f6a040fda720ed79b62982b896601728694bcb891f898f9b"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

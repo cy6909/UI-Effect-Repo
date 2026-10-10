@@ -7,11 +7,8 @@
   "licenseLabel": "MIT + Commons Clause License Condition v1.0",
   "adoptionStatus": "adopted-in-fork",
   "codeImported": true,
-  "forkRepository": "https://github.com/cy6909/react-bits",
-  "branch": "codex/personal-library",
   "personalCommit": "a934c4f8c2743c73751ef3f38e95722112eafbfe",
-  "checkout": ".upstream/react-bits",
-  "decisionUrl": "https://app.notion.com/p/3f490f837c9581999382d56c6b7f6c41",
+  "checkout": "app",
   "motionPrompts": {
     "repository": "https://github.com/VanguardiaAI/motionprompts-mcp",
     "commit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
@@ -23,7 +20,6 @@
   },
   "personalAi": {
     "entries": 7,
-    "archive": "https://app.notion.com/p/3f490f837c95815a9cfafa2b6591b307",
     "originalHtmlFiles": 3,
     "originalPromptFiles": 1,
     "generationProvenance": "unknown"

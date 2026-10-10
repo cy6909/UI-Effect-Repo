@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-33",
+  "slug": "input-33",
+  "name": "Input 33",
+  "titleZh": "输入框 input-33",
+  "description": "An email input field with an external subscribe button connected via styling",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-33",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-33.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-33.json",
+    "sha256": "fa4b64d3f7e23ddeb136d32afe985c11269fede7668b5e416cfcbcc5beaeddd1"
+  },
+  "registryDependencies": [
+    "button",
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

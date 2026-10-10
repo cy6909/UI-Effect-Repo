@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/oversized-year-scroll",
+  "name": "Oversized Year, Counter-Scrolled",
+  "slug": "oversized-year-scroll",
+  "titleZh": "超大年份反向滚动",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A timeline where each era band carries an enormous four-digit year as a watermark behind its content, drifting AGAINST the scroll while the copy rises with it. One ScrollTrigger per band tweens the numeral on `xPercent` across the band's entire passage through the viewport (`top bottom` → `bottom top`, scrub 1), and the direction alternates band to band so consecutive years do not read as one long background pan. The numeral is `aria-hidden` at 7% opacity and the readable date lives in the copy: in front it stops being atmosphere and competes with the paragraph it dates. Each band clips horizontally because the numeral is deliberately wider than the viewport. Smoothed by Lenis; reduced motion parks every numeral centred. The demo is dressed as a Gotland ceramics studio: Vollkorn + Martian Mono, oat and kiln-black with an ember accent.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "scrub",
+    "timeline",
+    "history",
+    "watermark",
+    "numerals",
+    "parallax",
+    "counter-scroll",
+    "editorial",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/oversized-year-scroll",
+  "docsUrl": "https://motionprompts.dev/component/oversized-year-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/oversized-year-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/oversized-year-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/oversized-year-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/oversized-year-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/oversized-year-scroll.md",
+    "sha256": "564796725497127ff27bd6fe3baf8c174694f7de04fc6ac22a19cd3f2fbb74d7",
+    "upstreamUrl": "https://motionprompts.dev/prompts/oversized-year-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/oversized-year-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": [
+      0.9,
+      0.9
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 199236,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "per-band watermark numeral tweened on xPercent against the scroll across the band full passage (top bottom → bottom top, scrub 1), direction alternating band to band, while the band content rises with a power3.out entrance at top 72%",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/oversized-year-scroll/"
+}

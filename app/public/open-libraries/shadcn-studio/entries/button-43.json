@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-43",
+  "slug": "button-43",
+  "name": "Button 43",
+  "titleZh": "按钮 button-43",
+  "description": "Button with shimmer effect animation across the surface",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-43",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-43.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-43.json",
+    "sha256": "9cdac2d94481bdf66265c35f5aa63be21f53e75fd94dc996c9ede4888b7365d0"
+  },
+  "registryDependencies": [
+    "utils"
+  ],
+  "dependencies": [
+    "motion"
+  ]
+}

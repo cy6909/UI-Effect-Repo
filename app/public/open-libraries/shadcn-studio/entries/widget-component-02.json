@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/widget-component-02",
+  "slug": "widget-component-02",
+  "name": "Widget 2",
+  "titleZh": "界面组件 widget-component-02",
+  "description": "Product insights widget with advanced analytics, chart visualization, and comprehensive product data overview",
+  "tags": [
+    "widget-component",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--widget-component-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/widget-component-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/widget-component-02.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/widget-component-02.json",
+    "sha256": "358e9e2f8275562c4321af183c91cbde7928d39e8e406d68f66722fcb3c0f70c"
+  },
+  "registryDependencies": [
+    "card",
+    "chart",
+    "separator",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "recharts"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/topo-flow",
+  "slug": "topo-flow",
+  "name": "TOPO FLOW",
+  "titleZh": "等高线流动",
+  "description": "一片缓慢呼吸的噪声地形，marching squares 实时描出等高线，像地质图上的山脉在生长；鼠标划过会抬起一片高地。",
+  "tags": [
+    "background",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--topo-flow",
+  "detailUrl": "/open-libraries/motion-vault/entries/topo-flow.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=topo-flow",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/topo-flow.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/topo-flow.md",
+    "sha256": "42e45b513c58de24cb487bc8c82a501a33cb61017dde552efc7ea67fe653399d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/topo-flow.json",
+    "sha256": "db705bd2de0601281d7a4fac8fcba23e8e06cfce6c179d223bd0e756c9ba0fe0"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

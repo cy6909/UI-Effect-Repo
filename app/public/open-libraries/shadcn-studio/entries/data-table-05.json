@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-05",
+  "slug": "data-table-05",
+  "name": "Data Table 5",
+  "titleZh": "数据表格 data-table-05",
+  "description": "table with sortable columns and up/down arrow sort indicators",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-05.json",
+    "sha256": "d8c42fb5a2db9c10bc256b6ebbaa9e8ceb114ef56cd9f51d99931354088572d8"
+  },
+  "registryDependencies": [
+    "checkbox",
+    "table",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "@tanstack/react-table"
+  ]
+}

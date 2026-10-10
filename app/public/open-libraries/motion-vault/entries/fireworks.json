@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/fireworks",
+  "slug": "fireworks",
+  "name": "FIREWORKS",
+  "titleZh": "烟花绽放",
+  "description": "点击任意处，一枚烟花呼啸升空后炸开成放射状星火；静置几秒会自动补一发。",
+  "tags": [
+    "particle",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--fireworks",
+  "detailUrl": "/open-libraries/motion-vault/entries/fireworks.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=fireworks",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/fireworks.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/fireworks.md",
+    "sha256": "3306ab7fe6e91bce2d3dc495622135ee9f5841a8799a1e1937fc7819e4ed9613",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/fireworks.json",
+    "sha256": "a89ee668da7d6593391a7b281f123fbaa82e3d052e0224ce30a0e53f77531c51"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/pixelated-text-hover-shaders",
+  "name": "Pixelated Text Hover Shaders",
+  "slug": "pixelated-text-hover-shaders",
+  "titleZh": "像素文字悬停着色器",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A large wordmark is rendered to a 2D canvas texture and drawn on a full-screen Three.js orthographic plane. A custom fragment shader quantizes the UVs into a 40x40 pixel grid and, near the cursor, displaces the texture along the mouse's movement direction to create a rippling pixelated smear. Movement is eased frame-by-frame in JS (requestAnimationFrame lerp, no GSAP) on mousemove/enter/leave.",
+  "tags": [
+    "three-js",
+    "webgl",
+    "shader",
+    "pixelate",
+    "text",
+    "hover",
+    "cursor",
+    "distortion",
+    "experimental",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/pixelated-text-hover-shaders",
+  "docsUrl": "https://motionprompts.dev/component/pixelated-text-hover-shaders/",
+  "demoUrl": "https://motionprompts.dev/components/pixelated-text-hover-shaders/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/pixelated-text-hover-shaders.webp",
+  "videoUrl": "https://motionprompts.dev/previews/pixelated-text-hover-shaders.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/pixelated-text-hover-shaders.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/pixelated-text-hover-shaders.md",
+    "sha256": "50b8daea75ed72163c3f9acae846c7f20705b27871d986d81d09a3aeae2492fc",
+    "upstreamUrl": "https://motionprompts.dev/prompts/pixelated-text-hover-shaders.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/pixelated-text-hover-shaders/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "three"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "POINTER-CHASE",
+    "engine": "webgl-raf",
+    "motion_signature": "rAF-lerped cursor smear on pixelated shader plane",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/pixelated-text-hover-shaders/"
+}

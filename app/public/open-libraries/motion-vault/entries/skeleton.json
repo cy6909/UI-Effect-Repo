@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/skeleton",
+  "slug": "skeleton",
+  "name": "SKELETON",
+  "titleZh": "骨架屏",
+  "description": "头像、文字条与图片块组成的骨架卡片，微光扫过；每 4 秒闪现一次真实内容作为对照。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--skeleton",
+  "detailUrl": "/open-libraries/motion-vault/entries/skeleton.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=skeleton",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/skeleton.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/skeleton.md",
+    "sha256": "dbb6f75fc0992948ef767a9f4c8267e3a183c23a52cc521a8f4499fb8013e95b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/skeleton.json",
+    "sha256": "216bd9c27aa94ac9faaabfbd17835f88e5a9e703e16fdaf1326750b190bd8636"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

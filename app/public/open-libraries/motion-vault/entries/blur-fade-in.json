@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/blur-fade-in",
+  "slug": "blur-fade-in",
+  "name": "BLUR FADE IN",
+  "titleZh": "模糊浮现",
+  "description": "文字逐词（或逐字）从模糊中浮现——opacity 0→1、blur 8px→0、轻微上移，词间错峰 120ms，适合标题与开场文案。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--blur-fade-in",
+  "detailUrl": "/open-libraries/motion-vault/entries/blur-fade-in.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=blur-fade-in",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/blur-fade-in.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/blur-fade-in.md",
+    "sha256": "78aa00ed8bfdc18bbfe66e07d2cef8e27381009d22f24f45668153f6abece1ce",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/blur-fade-in.json",
+    "sha256": "2ddc10701ee0b7822a3182aab4f3405562dd23e49ff9ae2dc12671a7a2d41959"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

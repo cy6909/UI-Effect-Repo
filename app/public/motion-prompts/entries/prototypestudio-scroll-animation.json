@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/prototypestudio-scroll-animation",
+  "name": "PrototypeStudio Scroll Animation",
+  "slug": "prototypestudio-scroll-animation",
+  "titleZh": "PrototypeStudio 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Pinned spotlight section scrubbed over five viewport heights with Lenis smooth scroll: a 01/10 counter travels down the section while a centered column of ten project images translates upward, the image crossing the viewport midline brightens to full opacity, and each project name slides up in its own progress window and turns white while active.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "lenis",
+    "spotlight",
+    "counter",
+    "portfolio",
+    "images",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/prototypestudio-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/prototypestudio-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/prototypestudio-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/prototypestudio-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/prototypestudio-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/prototypestudio-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/prototypestudio-scroll-animation.md",
+    "sha256": "006a7ecdb4e13eac9e4351f54c0ae702beefc734be14444ec02bde5652ead33d",
+    "upstreamUrl": "https://motionprompts.dev/prompts/prototypestudio-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/prototypestudio-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 500,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.3,
+      0.3
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 1644553,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "pinned scrubbed spotlight column with active-item highlight",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/prototypestudio-scroll-animation/"
+}

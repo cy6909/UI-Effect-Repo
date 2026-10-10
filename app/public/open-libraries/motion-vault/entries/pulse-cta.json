@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/pulse-cta",
+  "slug": "pulse-cta",
+  "name": "PULSE CTA",
+  "titleZh": "呼吸光环",
+  "description": "两圈柔和的光环从按钮边缘缓缓扩散又淡出，平静地把视线引向主行动按钮。",
+  "tags": [
+    "button",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--pulse-cta",
+  "detailUrl": "/open-libraries/motion-vault/entries/pulse-cta.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=pulse-cta",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/pulse-cta.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/pulse-cta.md",
+    "sha256": "cc8fb32bb38756272eb73b21e1d15bb403200b21e504490107924d11195040be",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/pulse-cta.json",
+    "sha256": "67834abadd65b7ef21c8621ed51dba9b5b9408fea777a54a0201021230cdf074"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/gentlerain",
+  "name": "Water Ripple Text Simulation",
+  "slug": "gentlerain",
+  "titleZh": "水波文字模拟",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A full-screen Three.js water-ripple simulation over giant canvas-drawn wordmark text: moving the pointer injects pressure into double-buffered FloatType render targets running a ping-pong wave-equation shader, and a render pass refracts and adds specular highlights to the text beneath, so the cursor leaves rippling wakes across the surface. Driven entirely by mousemove on the WebGL canvas (no GSAP).",
+  "tags": [
+    "water-simulation",
+    "ripple",
+    "webgl",
+    "three",
+    "shaders",
+    "wave-equation",
+    "mouse",
+    "canvas",
+    "hero",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/gentlerain",
+  "docsUrl": "https://motionprompts.dev/component/gentlerain/",
+  "demoUrl": "https://motionprompts.dev/components/gentlerain/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/gentlerain.webp",
+  "videoUrl": "https://motionprompts.dev/previews/gentlerain.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/gentlerain.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/gentlerain.md",
+    "sha256": "ce27bc3c266799afd4d4a028d28e68f0a425c366ceda9e93440fc7e26c972937",
+    "upstreamUrl": "https://motionprompts.dev/prompts/gentlerain.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/gentlerain/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "three"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      0.2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "webgl-raf",
+    "motion_signature": "ping-pong wave-equation ripples refracting canvas wordmark",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/gentlerain/"
+}

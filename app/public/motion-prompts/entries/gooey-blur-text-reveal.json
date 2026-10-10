@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/gooey-blur-text-reveal",
+  "name": "Gooey Blur Text Reveal",
+  "slug": "gooey-blur-text-reveal",
+  "titleZh": "融合模糊文字揭示",
+  "category": "TextAnimations",
+  "source": "motion-prompts",
+  "sourceCategory": "text",
+  "description": "Line-by-line text reveal that reads like ink pooling into letters: each line is split with SplitText and wrapped in an inner span that starts at a large em-based blur and animates to sharp, while the outer line carries an SVG feColorMatrix alpha-threshold filter that hardens the soft edges into a gooey mass. Three modes per block (on load, once on scroll, scrubbed), Lenis smooth scroll, and banner photos that settle from a slight zoom as they pass.",
+  "tags": [
+    "text",
+    "reveal",
+    "gooey",
+    "blur",
+    "splittext",
+    "scrolltrigger",
+    "lenis",
+    "svg-filter",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/gooey-blur-text-reveal",
+  "docsUrl": "https://motionprompts.dev/component/gooey-blur-text-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/gooey-blur-text-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/gooey-blur-text-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/gooey-blur-text-reveal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/gooey-blur-text-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/gooey-blur-text-reveal.md",
+    "sha256": "5b8ce172ea1b3da11e7916384ccf8524a950c0580011248d8e770b4e05127921",
+    "upstreamUrl": "https://motionprompts.dev/prompts/gooey-blur-text-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/gooey-blur-text-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "SplitText",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power3",
+    "duration_range": [
+      1.5,
+      1.5
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 4,
+      "bytes": 3457490,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "SplitText lines wrapped in an inner span whose em blur tweens to zero under an alpha-threshold SVG filter; load, once-on-enter and scrubbed variants; scrubbed banner scale",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/gooey-blur-text-reveal/"
+}

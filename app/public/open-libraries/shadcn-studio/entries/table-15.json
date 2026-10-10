@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/table-15",
+  "slug": "table-15",
+  "name": "Table 15",
+  "titleZh": "表格 table-15",
+  "description": "A table with selectable rows using checkboxes for bulk actions and data manipulation",
+  "tags": [
+    "table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--table-15",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/table-15.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/table-15.json",
+    "sha256": "cb77511dc8a0693c402c124e352e1e60dfdc2dacfaafd6b3de68a28ea100a646"
+  },
+  "registryDependencies": [
+    "checkbox",
+    "table"
+  ],
+  "dependencies": []
+}

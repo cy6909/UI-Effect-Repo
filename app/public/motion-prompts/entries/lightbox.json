@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/lightbox",
+  "name": "Sliding Lightbox Gallery",
+  "slug": "lightbox",
+  "titleZh": "Sliding 灯箱画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A click-triggered image lightbox for a ceramics-studio archive: clicking any thumbnail in the 4x4 plate grid slides a large preview in from the right while the previous one scales up and slides off left, and the page background tweens to a tone sampled from that image. Driven purely by gsap.to animating right/left/scale over a 1s duration.",
+  "tags": [
+    "lightbox",
+    "gallery",
+    "click",
+    "image-preview",
+    "slide",
+    "gsap",
+    "editorial",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/lightbox",
+  "docsUrl": "https://motionprompts.dev/component/lightbox/",
+  "demoUrl": "https://motionprompts.dev/components/lightbox/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/lightbox.webp",
+  "videoUrl": "https://motionprompts.dev/previews/lightbox.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/lightbox.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/lightbox.md",
+    "sha256": "09e4a40bd5b1370b445f1a80c127f72aab1734b30f236b8a46235c4045ad0cac",
+    "upstreamUrl": "https://motionprompts.dev/prompts/lightbox.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/lightbox/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.35,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 16,
+      "bytes": 1496267,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "click-swapped preview slides in, old one scales off",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/lightbox/"
+}

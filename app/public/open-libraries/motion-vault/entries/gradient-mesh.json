@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/gradient-mesh",
+  "slug": "gradient-mesh",
+  "name": "GRADIENT MESH",
+  "titleZh": "流动渐变网格",
+  "description": "几团柔和的彩色光晕缓慢漂移融合，最流行的高级感渐变背景。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--gradient-mesh",
+  "detailUrl": "/open-libraries/motion-vault/entries/gradient-mesh.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=gradient-mesh",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/gradient-mesh.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/gradient-mesh.md",
+    "sha256": "bb1a475f00dde902f173e7f4d108a18c8cc5e4c8e0c9f7f4024f6cecfca470eb",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/gradient-mesh.json",
+    "sha256": "a0494e2ebd02a137a759f32e60748374024163a72ad056dfc95333cabad9c39c"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

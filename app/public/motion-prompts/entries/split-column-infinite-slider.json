@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/split-column-infinite-slider",
+  "name": "Split Column Infinite Slider",
+  "slug": "split-column-infinite-slider",
+  "titleZh": "分列无限轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "Two full-height columns driven by a virtual wheel or touch scroll: each project is a pair of photos, the left one revealed by a clip-path rising from the bottom and the right one descending from the top, with the images drifting in opposite directions and a single 100vw title block split across both columns that holds still while its slide is centred. Slides are created and removed around the current index with modulo wrapping, so the loop is infinite, and a light bar tracks progress.",
+  "tags": [
+    "slider",
+    "infinite",
+    "split",
+    "clip-path",
+    "wheel",
+    "raf",
+    "parallax",
+    "glass",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/split-column-infinite-slider",
+  "docsUrl": "https://motionprompts.dev/component/split-column-infinite-slider/",
+  "demoUrl": "https://motionprompts.dev/components/split-column-infinite-slider/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/split-column-infinite-slider.webp",
+  "videoUrl": "https://motionprompts.dev/previews/split-column-infinite-slider.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/split-column-infinite-slider.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/split-column-infinite-slider.md",
+    "sha256": "132670815f25cedd5a8791dfcce04cc5cb0d7346d2a302fa150ac367050c3670",
+    "upstreamUrl": "https://motionprompts.dev/prompts/split-column-infinite-slider.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/split-column-infinite-slider/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 5070624,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "touch-branch",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "la rueda alimenta su scroll virtual, no el de la página"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "raf-lerp",
+    "motion_signature": "lerped virtual scroll; per-frame clip-path reveal, opposite image drift and held title drift on a windowed, modulo-wrapped slide pool",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/split-column-infinite-slider/"
+}

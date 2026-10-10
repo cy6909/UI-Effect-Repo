@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-15",
+  "slug": "badge-15",
+  "name": "Badge 15",
+  "titleZh": "徽标 badge-15",
+  "description": "Gradient outline badge with bordered gradient effect",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-15",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-15.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-15.json",
+    "sha256": "3e29b65716fabe075beb3b2a04f863c87870d5f79fb5131b176ae82bc5171e79"
+  },
+  "registryDependencies": [
+    "badge"
+  ],
+  "dependencies": []
+}

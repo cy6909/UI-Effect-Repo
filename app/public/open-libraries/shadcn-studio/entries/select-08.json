@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-08",
+  "slug": "select-08",
+  "name": "Select 8",
+  "titleZh": "选择器 select-08",
+  "description": "A native select dropdown with overlapping label design",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-08.json",
+    "sha256": "c837f495a652531038452952109ee9663e32ed8e3781e4cbac5d942ed0b0a8d7"
+  },
+  "registryDependencies": [
+    "label",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/magnetic-card",
+  "slug": "magnetic-card",
+  "name": "MAGNETIC",
+  "titleZh": "磁吸卡",
+  "description": "鼠标靠近时卡片被轻轻吸向光标，离开后被弹回原位。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--magnetic-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/magnetic-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=magnetic-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/magnetic-card.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/magnetic-card.md",
+    "sha256": "d74c5ccf31560f03c4bce0d66d2fa5bb1fe9f069d945eb97298405d2b8a784c1",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/magnetic-card.json",
+    "sha256": "93b1144f18253658468a274ce2d445f88f5aefcd263c091a6a22703bd2adf60c"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-11",
+  "slug": "data-table-11",
+  "name": "Data Table 11",
+  "titleZh": "数据表格 data-table-11",
+  "description": "data table with sorting, row selection, and pagination—styled with Origin UI and powered by @tanstack/react-table",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-11.json",
+    "sha256": "5a82d859739a51dbba2b8c501d5f33be89410c213d1487b319617f31e496525f"
+  },
+  "registryDependencies": [
+    "badge",
+    "button",
+    "checkbox",
+    "pagination",
+    "select",
+    "table"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "@tanstack/react-table"
+  ]
+}

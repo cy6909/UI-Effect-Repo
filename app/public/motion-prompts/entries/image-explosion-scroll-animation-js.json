@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/image-explosion-scroll-animation-js",
+  "name": "Image Explosion with JS Physics",
+  "slug": "image-explosion-scroll-animation-js",
+  "titleZh": "JS 物理图片喷射",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "As the footer scrolls into view, 15 images burst upward from the bottom edge and rain back down with a hand-rolled requestAnimationFrame physics simulation (per-particle velocity, gravity, friction and rotation). A scroll listener watches the footer's bounding rect and fires the one-shot explosion, resetting after the particles fall past the container midpoint. Lenis provides the smooth scroll.",
+  "tags": [
+    "scroll-trigger",
+    "particles",
+    "physics",
+    "explosion",
+    "image-burst",
+    "lenis",
+    "requestanimationframe",
+    "footer",
+    "editorial",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/image-explosion-scroll-animation-js",
+  "docsUrl": "https://motionprompts.dev/component/image-explosion-scroll-animation-js/",
+  "demoUrl": "https://motionprompts.dev/components/image-explosion-scroll-animation-js/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/image-explosion-scroll-animation-js.webp",
+  "videoUrl": "https://motionprompts.dev/previews/image-explosion-scroll-animation-js.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/image-explosion-scroll-animation-js.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/image-explosion-scroll-animation-js.md",
+    "sha256": "bbf5e5021d092a878bdbc39a7601e51d3c884e63fa0d8bd84475bf7c5786ae24",
+    "upstreamUrl": "https://motionprompts.dev/prompts/image-explosion-scroll-animation-js.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/image-explosion-scroll-animation-js/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 17,
+      "bytes": 2803422,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "physics",
+    "motion_signature": "footer-triggered rAF gravity burst of images — 15 particles launched with vy = -15 - rand*10 and vx = (rand-0.5)*20, gravity +0.25/frame, friction 0.99 on vx/vy/rotationSpeed (terminal velocity ~25px/frame), transform translate()+rotate() rewritten every frame until all particles pass the container midpoint",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/image-explosion-scroll-animation-js/"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/accordion-07",
+  "slug": "accordion-07",
+  "name": "Accordion 7",
+  "titleZh": "折叠面板 accordion-07",
+  "description": "Avatar-based accordion displaying user profiles with avatar images, names, and email addresses.",
+  "tags": [
+    "accordion",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--accordion-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/accordion-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/accordion",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/accordion-07.json",
+    "sha256": "9f191b6e86fec7e4da45b2fd6a28c59711272bed009cabbbdd642fbda3d78108"
+  },
+  "registryDependencies": [
+    "accordion",
+    "avatar"
+  ],
+  "dependencies": []
+}

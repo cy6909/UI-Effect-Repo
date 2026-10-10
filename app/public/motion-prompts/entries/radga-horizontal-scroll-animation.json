@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/radga-horizontal-scroll-animation",
+  "name": "RADGA Horizontal Scroll Animation",
+  "slug": "radga-horizontal-scroll-animation",
+  "titleZh": "RADGA 横向滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned section turns vertical scroll into a horizontal slide-strip: one ScrollTrigger (pin + scrub over 6x viewport height, Lenis-smoothed) maps scroll progress to translateX of the slides track, adds an opposing parallax x-shift on the current/next images, and an IntersectionObserver slides each slide's title up into view (y: -200 to 0, power2.out) as it becomes visible.",
+  "tags": [
+    "scroll",
+    "horizontal-scroll",
+    "pin",
+    "scrub",
+    "parallax",
+    "slider",
+    "gsap",
+    "lenis",
+    "editorial",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/radga-horizontal-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/radga-horizontal-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/radga-horizontal-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/radga-horizontal-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/radga-horizontal-scroll-animation.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/radga-horizontal-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/radga-horizontal-scroll-animation.md",
+    "sha256": "530b670099acb32cbfbcda0b97bbe8afadbc9c548eb37e6732b43078e405f9a3",
+    "upstreamUrl": "https://motionprompts.dev/prompts/radga-horizontal-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/radga-horizontal-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 700,
+    "needs_lenis": true,
+    "ease_family": "power2",
+    "duration_range": [
+      0.5,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 686532,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap+raf",
+    "motion_signature": "scrubbed pinned horizontal track (scrub 1) with counter-parallax on the current and next slide image (0.25x track speed, constant scale 1.35), plus IntersectionObserver-driven title reveals (y -200 -> 0, 0.5s power2.out)",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/radga-horizontal-scroll-animation/"
+}

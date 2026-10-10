@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/expand-card",
+  "slug": "expand-card",
+  "name": "EXPANDABLE CARD",
+  "titleZh": "弹性展开卡",
+  "description": "小卡点击后弹性展开为大详情卡：封面与标题作为共享元素连续变形，遮罩淡入，点空白或 ✕ 收回。",
+  "tags": [
+    "card",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--expand-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/expand-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=expand-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/expand-card.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/expand-card.md",
+    "sha256": "9a7183e58f7feabeae047bd81e37748a8f3a6e7a3d8b0e05063f2a21f679a0e8",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/expand-card.json",
+    "sha256": "b28572cbde13386bf0bccdb95f3c4724dfc1a58cd58151f8c7a1ce2846d99ae6"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

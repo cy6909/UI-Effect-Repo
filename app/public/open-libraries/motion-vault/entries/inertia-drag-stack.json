@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/inertia-drag-stack",
+  "slug": "inertia-drag-stack",
+  "name": "INERTIA DRAG STACK",
+  "titleZh": "惯性拖拽牌堆",
+  "description": "一叠四张卡，最上面可拖拽：甩出阈值后带旋转惯性飞离，下一张弹簧补位，飞离的卡回到牌堆底部。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--inertia-drag-stack",
+  "detailUrl": "/open-libraries/motion-vault/entries/inertia-drag-stack.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=inertia-drag-stack",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/inertia-drag-stack.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/inertia-drag-stack.md",
+    "sha256": "ae550f2d1d9acd622a66ea54e833bf85f063d722897ba8ceee6a626051beaffe",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/inertia-drag-stack.json",
+    "sha256": "0d9298643a8429e8910924e58b9c9e15be1bad4496d4dfb96acd0a6a1951c437"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

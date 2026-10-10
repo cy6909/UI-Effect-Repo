@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/kaitonote-3d-gallery-showcase-scroll-animation",
+  "name": "Kaitonote 3D Gallery Showcase",
+  "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+  "titleZh": "Kaitonote 3D 画廊展台",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A pinned spotlight section scrubbed over fifteen viewport heights with Lenis smooth scroll: twenty editorial portrait and movement images fly from deep z-space (z:-1000, scale 0) toward the viewer and scatter outward in staggered 3D perspective driven by ScrollTrigger onUpdate, while SplitText fades an intro headline out word-by-word and reveals an outro headline word-by-word, ending with a cover portrait zooming into frame.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "3d",
+    "perspective",
+    "gallery",
+    "lenis",
+    "splittext",
+    "stagger",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/kaitonote-3d-gallery-showcase-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/kaitonote-3d-gallery-showcase-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/kaitonote-3d-gallery-showcase-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/kaitonote-3d-gallery-showcase-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/kaitonote-3d-gallery-showcase-scroll-animation.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/kaitonote-3d-gallery-showcase-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/kaitonote-3d-gallery-showcase-scroll-animation.md",
+    "sha256": "5c1183344ac8e60e8750ae0064d8aff15eae8da42ee4cf520cdd9863a509f679",
+    "upstreamUrl": "https://motionprompts.dev/prompts/kaitonote-3d-gallery-showcase-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/kaitonote-3d-gallery-showcase-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": true,
+    "viewport_heights": 1500,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 21,
+      "bytes": 2322380,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "mata todos los ScrollTrigger"
+    ],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scrub-pinned 3D images flying past camera",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/kaitonote-3d-gallery-showcase-scroll-animation/"
+}

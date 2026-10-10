@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/navigate-scroll-animated-text-javascript",
+  "name": "Scroll Animated Text Reveal",
+  "slug": "navigate-scroll-animated-text-javascript",
+  "titleZh": "滚动文字揭示",
+  "category": "TextAnimations",
+  "source": "motion-prompts",
+  "sourceCategory": "text",
+  "description": "A scroll-driven, word-by-word text reveal where Lenis smooth scroll feeds GSAP ScrollTrigger, which pins each text section over four viewport heights and, via manual per-word progress math in onUpdate, fades words in behind a grey highlight pill that then dissolves to expose the letters; select keywords reveal inside colored rounded pills, and past 70% progress the sequence re-highlights the words in reverse.",
+  "tags": [
+    "scroll",
+    "scrub",
+    "pinning",
+    "text-reveal",
+    "word-by-word",
+    "highlight",
+    "lenis",
+    "editorial",
+    "bold",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/navigate-scroll-animated-text-javascript",
+  "docsUrl": "https://motionprompts.dev/component/navigate-scroll-animated-text-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/navigate-scroll-animated-text-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/navigate-scroll-animated-text-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/navigate-scroll-animated-text-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/navigate-scroll-animated-text-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/navigate-scroll-animated-text-javascript.md",
+    "sha256": "773d133fc408d57656c76278f1fd009d76a487a53e563b44eea9777e3f1cc2dc",
+    "upstreamUrl": "https://motionprompts.dev/prompts/navigate-scroll-animated-text-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/navigate-scroll-animated-text-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 800,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap+raf",
+    "motion_signature": "pinned scroll-progress word-by-word highlight reveal",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/navigate-scroll-animated-text-javascript/"
+}

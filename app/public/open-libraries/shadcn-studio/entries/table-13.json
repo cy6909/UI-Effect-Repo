@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/table-13",
+  "slug": "table-13",
+  "name": "Table 13",
+  "titleZh": "表格 table-13",
+  "description": "A table with avatar components for displaying user information with profile pictures",
+  "tags": [
+    "table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--table-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/table-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/table-13.json",
+    "sha256": "55b9d9d00f7de7feaeead758e72f9e0966bda97b9def6e6c23b08ade0aa3c38e"
+  },
+  "registryDependencies": [
+    "avatar",
+    "table"
+  ],
+  "dependencies": []
+}

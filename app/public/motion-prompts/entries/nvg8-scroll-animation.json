@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/nvg8-scroll-animation",
+  "name": "Nvg8 Scroll Animation",
+  "slug": "nvg8-scroll-animation",
+  "titleZh": "Nvg8 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Intro section pinned for eight viewport heights and scrubbed with Lenis smooth scroll: nine thick rounded SVG strokes draw on in a staggered order via strokeDashoffset (each with a cloned darker border path behind it for an outlined look), two large curved strokes then draw and un-draw, the section flips to a dark theme with swapped headline text at 50% progress, and the three stroke rows finally slide out with a staggered xPercent exit.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "svg",
+    "stroke-drawing",
+    "dashoffset",
+    "lenis",
+    "stagger",
+    "theme-switch",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/nvg8-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/nvg8-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/nvg8-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/nvg8-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/nvg8-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/nvg8-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/nvg8-scroll-animation.md",
+    "sha256": "60a8d8df35d4626e366548faba5fab53e43a1ee4de2f1ab4bdc8171057a577fe",
+    "upstreamUrl": "https://motionprompts.dev/prompts/nvg8-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/nvg8-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": true,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power2",
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": 0.15,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 3,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap+raf",
+    "motion_signature": "scrubbed pinned SVG stroke-draw with theme flip",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/nvg8-scroll-animation/"
+}

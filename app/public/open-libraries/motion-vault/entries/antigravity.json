@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/antigravity",
+  "slug": "antigravity",
+  "name": "ANTIGRAVITY",
+  "titleZh": "失重粒子",
+  "description": "40 个小圆点失重般静止漂浮，鼠标靠近时被平方衰减的斥力推开，远离后弹簧缓缓归位。",
+  "tags": [
+    "particle",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--antigravity",
+  "detailUrl": "/open-libraries/motion-vault/entries/antigravity.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=antigravity",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/antigravity.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/antigravity.md",
+    "sha256": "bc6d68995dc34dd59a641ea5d3a3829d4dcc13ba71d9850b0d1fd15a57be4eca",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/antigravity.json",
+    "sha256": "c8997de32e087c437ccae26e3461533dca243a86cd634d2575c80aa85ec21ba4"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

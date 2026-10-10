@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/film-grain",
+  "slug": "film-grain",
+  "name": "FILM GRAIN",
+  "titleZh": "胶片颗粒",
+  "description": "老电影质感：细密的颗粒噪点以 12fps 跳动闪烁，偶有竖直划痕与暗角呼吸——任何页面一秒变胶片。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--film-grain",
+  "detailUrl": "/open-libraries/motion-vault/entries/film-grain.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=film-grain",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/film-grain.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/film-grain.md",
+    "sha256": "a6f0dbfda9decaf2c8f952c5bb7e03efc2c1f1bffa5e026d96b9e8d36061c0b9",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/film-grain.json",
+    "sha256": "9f5b39fcf24e4913d422fede4d3fc350d7fc85e273365c523506c7ab85be2834"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

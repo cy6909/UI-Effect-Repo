@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/split-flap",
+  "slug": "split-flap",
+  "name": "SPLIT FLAP",
+  "titleZh": "翻牌显示",
+  "description": "机场翻牌钟：深色小牌上的字母绕中间铰链向下翻转入场，列间 80ms 涟漪错峰，每词停留 2 秒后翻到下一个词。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--split-flap",
+  "detailUrl": "/open-libraries/motion-vault/entries/split-flap.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=split-flap",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/split-flap.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/split-flap.md",
+    "sha256": "835b3e409d3720ad57bbd9ff9fd87d5bcd98abb8f06a53927b07224eb1f7d179",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/split-flap.json",
+    "sha256": "a9e4106a0703fd6226b4917df56e8ca640367f87a0e3f83f02a3dae557574ea3"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

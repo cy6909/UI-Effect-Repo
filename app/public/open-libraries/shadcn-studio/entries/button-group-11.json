@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-group-11",
+  "slug": "button-group-11",
+  "name": "Button Group 11",
+  "titleZh": "按钮 button-group-11",
+  "description": "Git merge button group with dropdown menu for merge strategy selection",
+  "tags": [
+    "button-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-group-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-group-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-group-11.json",
+    "sha256": "5c5052aa7542aa8218b0f6b050aae60a53be92588d0396ec2f45f5073fa0c9e4"
+  },
+  "registryDependencies": [
+    "button",
+    "dropdown-menu"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

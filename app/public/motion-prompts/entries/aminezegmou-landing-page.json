@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/aminezegmou-landing-page",
+  "name": "Sci-Fi Preloader Button Hero Reveal",
+  "slug": "aminezegmou-landing-page",
+  "titleZh": "科幻加载按钮首屏揭示",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "Terminal-styled preloader that auto-plays on load: monospace status lines rise with masked SplitText, a circular SVG button outline draws itself while rotating 270deg, and a progress stroke fills in randomized stops before the logo swaps to an 'Engage' label. Clicking the button scales the preloader down, unwinds the strokes, flips the label to 'Access Granted' and wipes preloader plus white revealer left via clip-path, scaling the hero up as its headline words stagger in.",
+  "tags": [
+    "preloader",
+    "reveal",
+    "clip-path",
+    "splittext",
+    "custom-ease",
+    "svg-stroke",
+    "hero",
+    "click",
+    "landing",
+    "intro",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/aminezegmou-landing-page",
+  "docsUrl": "https://motionprompts.dev/component/aminezegmou-landing-page/",
+  "demoUrl": "https://motionprompts.dev/components/aminezegmou-landing-page/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/aminezegmou-landing-page.webp",
+  "videoUrl": "https://motionprompts.dev/previews/aminezegmou-landing-page.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/aminezegmou-landing-page.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/aminezegmou-landing-page.md",
+    "sha256": "4186abb40491620dc285a4e28ff530ba711eac2c5922ad44c808c8c90786bb39",
+    "upstreamUrl": "https://motionprompts.dev/prompts/aminezegmou-landing-page.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/aminezegmou-landing-page/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "SplitText",
+      "CustomEase"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      0.3,
+      2
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 3,
+      "bytes": 50373,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "click-gated preloader: SVG ring draw, clip-path wipe reveal",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/aminezegmou-landing-page/"
+}

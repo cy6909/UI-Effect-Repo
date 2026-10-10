@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/day-night",
+  "slug": "day-night",
+  "name": "DAY NIGHT CYCLE",
+  "titleZh": "昼夜流转",
+  "description": "16 秒一轮的天光：晨曦、正午、暮色、星夜依次流转，日月交替掠过天际。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--day-night",
+  "detailUrl": "/open-libraries/motion-vault/entries/day-night.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=day-night",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/day-night.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/day-night.md",
+    "sha256": "dd434e76eb09f73a0e8ace89973aca8c03c2bdb63b6c7618fbc4d2b92f39f63d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/day-night.json",
+    "sha256": "c3efb69806271ad1839117afed2ac26af89d188b1e6607f2f68b9d35f17bf347"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

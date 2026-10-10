@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/glitch-text",
+  "slug": "glitch-text",
+  "name": "GLITCH TEXT",
+  "titleZh": "故障艺术字",
+  "description": "悬停瞬间文字撕裂成 RGB 重影——玫瑰红与天蓝两层残影左右错位，clip-path 切片以 steps() 硬切跳动，600ms 爆发后恢复干净字面。",
+  "tags": [
+    "text",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--glitch-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/glitch-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=glitch-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/glitch-text.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/glitch-text.md",
+    "sha256": "8318f1d0fc743b13d80c80f2536aba63ffa059b4148b9bd63dc56ce52ad16079",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/glitch-text.json",
+    "sha256": "f94f89e9ab2ae118a0c384586bc04518f82f73eafccec9c271b03e3b1ffd552f"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

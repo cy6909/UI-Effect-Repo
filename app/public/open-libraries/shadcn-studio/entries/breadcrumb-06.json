@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/breadcrumb-06",
+  "slug": "breadcrumb-06",
+  "name": "Breadcrumb 6",
+  "titleZh": "面包屑 breadcrumb-06",
+  "description": "Breadcrumb with dropdown menu integration for compact nested navigation and outlined badge components for modern tab-like appearance",
+  "tags": [
+    "breadcrumb",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--breadcrumb-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/breadcrumb-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/breadcrumb",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/breadcrumb-06.json",
+    "sha256": "9cbcb2e182732fc4dde77680764faac6887283bb50006596c0823d610eda7749"
+  },
+  "registryDependencies": [
+    "badge",
+    "breadcrumb",
+    "dropdown-menu"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

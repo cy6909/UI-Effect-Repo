@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/werowallet-scroll-animation",
+  "name": "WeroWallet Spotlight Stroke Draw",
+  "slug": "werowallet-scroll-animation",
+  "titleZh": "WeroWallet 聚光描边",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Pinned spotlight section where 13 thick diagonal SVG strokes draw in with a staggered stroke-dashoffset scrub until they cover the screen, swapping the headline and popping three sparkles before un-drawing in reverse. Driven by scroll (ScrollTrigger pin + scrub with Lenis smooth scrolling).",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "svg",
+    "stroke-draw",
+    "dashoffset",
+    "lenis",
+    "sparkles",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/werowallet-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/werowallet-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/werowallet-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/werowallet-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/werowallet-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/werowallet-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/werowallet-scroll-animation.md",
+    "sha256": "54d7ac2862675e29d2a40b31e2933339846e3e889ae7c4d2b9652e6fc20b5074",
+    "upstreamUrl": "https://motionprompts.dev/prompts/werowallet-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/werowallet-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 400,
+    "needs_lenis": true,
+    "ease_family": "power2",
+    "duration_range": [
+      0.5,
+      1.49
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scrubbed pinned staggered SVG stroke draw",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/werowallet-scroll-animation/"
+}

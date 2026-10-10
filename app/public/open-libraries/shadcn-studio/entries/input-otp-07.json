@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-otp-07",
+  "slug": "input-otp-07",
+  "name": "Input OTP 7",
+  "titleZh": "输入框 input-otp-07",
+  "description": "A 4-digit OTP input field with minimal underline styling and no background",
+  "tags": [
+    "input-otp",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-otp-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-otp-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input-otp",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-otp-07.json",
+    "sha256": "fbf9cf2d71f7e372ccf1528827e2e8b211edf5cd45e5a81ffbfd6a24ea2bc084"
+  },
+  "registryDependencies": [
+    "input-otp",
+    "label"
+  ],
+  "dependencies": []
+}

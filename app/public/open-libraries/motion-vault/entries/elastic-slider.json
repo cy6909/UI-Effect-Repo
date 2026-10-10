@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/elastic-slider",
+  "slug": "elastic-slider",
+  "name": "ELASTIC SLIDER",
+  "titleZh": "弹性滑块",
+  "description": "拖拽手柄时它沿拖拽方向被拉扁，轨道填充像跟屁虫一样滞后半拍地弹过来，松手瞬间手柄果冻式回弹归位。",
+  "tags": [
+    "spring",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--elastic-slider",
+  "detailUrl": "/open-libraries/motion-vault/entries/elastic-slider.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=elastic-slider",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/elastic-slider.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/elastic-slider.md",
+    "sha256": "95576427fbaa09f52f64a462ea2383f5e3caf81a861fc7f0d9481d674db595c0",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/elastic-slider.json",
+    "sha256": "a0feeb4a082a840891fd32fec13f81870e1b787977f74c8311c7381e766ab1e6"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

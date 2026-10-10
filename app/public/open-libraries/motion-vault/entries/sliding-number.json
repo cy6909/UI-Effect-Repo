@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/sliding-number",
+  "slug": "sliding-number",
+  "name": "SLIDING NUMBER",
+  "titleZh": "逐位滑换数字",
+  "description": "四位计数器的每一位都是一条独立的数字卷轴——点击 +1/+10 时老数字上滑出、新数字滑入，个位先动、逐位错峰 40ms 回稳。",
+  "tags": [
+    "spring",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--sliding-number",
+  "detailUrl": "/open-libraries/motion-vault/entries/sliding-number.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=sliding-number",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/sliding-number.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/sliding-number.md",
+    "sha256": "e9c83be4fcebc3863aac8f71f87f4306014eb7065b7bf3bf0bd321026f923ffc",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/sliding-number.json",
+    "sha256": "8d702d9bbe07e82e7267ed9843b93abd6e96e2a7ff6940c0ec37fd3f1cbe4dfd"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

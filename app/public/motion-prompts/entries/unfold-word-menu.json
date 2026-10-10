@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/unfold-word-menu",
+  "name": "Unfolding Words Menu",
+  "slug": "unfold-word-menu",
+  "titleZh": "展开文字菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "Overlay menu where each link unfolds letter by letter: a frosted veil blurs the hero behind it (the photo also scales and softens), the index and first letter rise out of a mask, a thin light divider grows from its centre and the remaining letters slide in from the right while their container widens. Hovering a link shifts it sideways and dims the others, and the toggle flickers between Menu and Close.",
+  "tags": [
+    "overlay",
+    "menu",
+    "splittext",
+    "backdrop-blur",
+    "glassmorphism",
+    "typography",
+    "hover",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/unfold-word-menu",
+  "docsUrl": "https://motionprompts.dev/component/unfold-word-menu/",
+  "demoUrl": "https://motionprompts.dev/components/unfold-word-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/unfold-word-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/unfold-word-menu.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/unfold-word-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/unfold-word-menu.md",
+    "sha256": "c4a704ba80eacc26905d2738f695d82dfe648c42c98640b85cee573235b25275",
+    "upstreamUrl": "https://motionprompts.dev/prompts/unfold-word-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/unfold-word-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "SplitText"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.05,
+      1
+    ],
+    "stagger": 0.14,
+    "assets_required": {
+      "count": 1,
+      "bytes": 403112,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "veil fade with hero blur, per-link masked rise, divider scaleY and width unfold with char stagger; hover shift and dim",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/unfold-word-menu/"
+}

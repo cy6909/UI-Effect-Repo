@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/card-13",
+  "slug": "card-13",
+  "name": "Card 13",
+  "titleZh": "卡片 card-13",
+  "description": "Testimonial card with user profile, star rating and highlighted text review",
+  "tags": [
+    "card",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--card-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/card-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/card",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/card-13.json",
+    "sha256": "a2e6aad87250d05a10bc355893bd8ab27c21c7829d6fbb281d7217e48f495816"
+  },
+  "registryDependencies": [
+    "avatar",
+    "card"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

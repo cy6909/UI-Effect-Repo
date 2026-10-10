@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/kpverse-menu",
+  "name": "KPVERSE Sliding Menu with Text-Shuffle Hover",
+  "slug": "kpverse-menu",
+  "titleZh": "KPVERSE 滑出菜单与乱序文字",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "A black rounded side-panel navigation menu that slides in from the left (CSS cubic-bezier transition) when the 'Menu' toggle is clicked, staggering each link into place. Menu labels are split into characters with SplitType and, on hover or open, run a random character-shuffle scramble effect while a clip-path 'bg-hover' block and per-character color sweep animate underneath.",
+  "tags": [
+    "menu",
+    "navigation",
+    "slide-in",
+    "text-shuffle",
+    "scramble",
+    "hover",
+    "split-type",
+    "clip-path",
+    "editorial",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/kpverse-menu",
+  "docsUrl": "https://motionprompts.dev/component/kpverse-menu/",
+  "demoUrl": "https://motionprompts.dev/components/kpverse-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/kpverse-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/kpverse-menu.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/kpverse-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/kpverse-menu.md",
+    "sha256": "17d72039da6014cf9358e1f74c01c6e3742c4741552648c7acd644ed846f289a",
+    "upstreamUrl": "https://motionprompts.dev/prompts/kpverse-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/kpverse-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "split-type",
+      "ionicons"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.3,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "css-transition",
+    "motion_signature": "CSS-transition slide-in panel with setTimeout char scramble",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "split-type"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/kpverse-menu/"
+}

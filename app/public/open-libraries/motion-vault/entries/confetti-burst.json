@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/confetti-burst",
+  "slug": "confetti-burst",
+  "name": "CONFETTI BURST",
+  "titleZh": "彩带爆发",
+  "description": "点击瞬间从指尖炸开一把彩带与纸屑，庆祝专用。",
+  "tags": [
+    "particle",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--confetti-burst",
+  "detailUrl": "/open-libraries/motion-vault/entries/confetti-burst.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=confetti-burst",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/confetti-burst.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/confetti-burst.md",
+    "sha256": "6ff5e0264221ebb816e5820fc5f46191e6a7196ee3cf99ce27b8b9eff55433ee",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/confetti-burst.json",
+    "sha256": "f220473891897145434326299e56c29275c414c0e95228ca696f00cb7a67e76e"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/direction-aware-hover-effect-javascript",
+  "name": "Direction-Aware Hover Effect (JavaScript)",
+  "slug": "direction-aware-hover-effect-javascript",
+  "titleZh": "Direction-Aware 悬停动效 (JavaScript)",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "A grid of labeled cells where a solid highlight block glides beneath the hovered cell, snapping to its exact bounds and swapping to a per-cell accent color. Driven by mousemove + elementFromPoint hit-testing and pure CSS transitions on transform/width/height/background (no GSAP).",
+  "tags": [
+    "hover",
+    "grid",
+    "highlight",
+    "cursor-follow",
+    "css-transition",
+    "vanilla-js",
+    "interactive",
+    "minimal",
+    "direction-aware",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/direction-aware-hover-effect-javascript",
+  "docsUrl": "https://motionprompts.dev/component/direction-aware-hover-effect-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/direction-aware-hover-effect-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/direction-aware-hover-effect-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/direction-aware-hover-effect-javascript.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/direction-aware-hover-effect-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/direction-aware-hover-effect-javascript.md",
+    "sha256": "7a2143e73eaa2614349228175519a3ce875f823771c3bb9bbcb780170336d76f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/direction-aware-hover-effect-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/direction-aware-hover-effect-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      0.25
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "css-transition",
+    "motion_signature": "CSS-transitioned highlight block snaps between hovered grid cells: transform/width/height/background-color all tween 0.25s ease from the previous cell's rect to the new one, so it reads as a single block gliding and resizing; on load it slides in from translate(0,0) at zero size to the first cell. Fully static under prefers-reduced-motion.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/direction-aware-hover-effect-javascript/"
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/nakedcityfilms-scroll-animation",
+  "name": "NakedCity Films Navbar Scroll Animation",
+  "slug": "nakedcityfilms-scroll-animation",
+  "titleZh": "NakedCity Films 导航栏滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A fixed, centered 16:9 navbar window (cream panel with nav links over a full-viewport fixed image) expands from 50% width to fullscreen as you scroll the first viewport, scrubbed via ScrollTrigger onUpdate with gsap.utils.interpolate while a paused Flip timeline flies the oversized logo from bottom-center to a pinned top position. Lenis drives the smooth scrolling.",
+  "tags": [
+    "navbar",
+    "scroll",
+    "scrub",
+    "flip",
+    "expand",
+    "lenis",
+    "fixed",
+    "logo",
+    "hero",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/nakedcityfilms-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/nakedcityfilms-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/nakedcityfilms-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/nakedcityfilms-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/nakedcityfilms-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/nakedcityfilms-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/nakedcityfilms-scroll-animation.md",
+    "sha256": "533be1660a7305fa5ab5cc8135c351951239e53fbf48bdcf8d83457344b30d12",
+    "upstreamUrl": "https://motionprompts.dev/prompts/nakedcityfilms-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/nakedcityfilms-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "Flip",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": 200,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 2,
+      "bytes": 609652,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "mata todos los ScrollTrigger"
+    ],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scrubbed fixed navbar window expanding to fullscreen",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/nakedcityfilms-scroll-animation/"
+}

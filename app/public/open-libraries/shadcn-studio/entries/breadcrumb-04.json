@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/breadcrumb-04",
+  "slug": "breadcrumb-04",
+  "name": "Breadcrumb 4",
+  "titleZh": "面包屑 breadcrumb-04",
+  "description": "Breadcrumb with dot icon separators for minimal visual hierarchy",
+  "tags": [
+    "breadcrumb",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--breadcrumb-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/breadcrumb-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/breadcrumb",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/breadcrumb-04.json",
+    "sha256": "7e92473f1317bf4ff58c3a8bc6ef96692c60028e8dde15f19c46a0f8818546a9"
+  },
+  "registryDependencies": [
+    "breadcrumb"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/konpo-lp-reveal",
+  "name": "Konpo Landing Page Reveal",
+  "slug": "konpo-lp-reveal",
+  "titleZh": "Konpo 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "Auto-playing landing page intro: three vertical rolling counters tick to 100 while a background wipe scales up and 15 rounded thumbnails pop in from scale 0. On load complete, GSAP Flip animates every image from the top-left corner to the bottom-right with a staggered scale-punch, then masked SplitText lines rise into place for the nav, heading, side info and footer. Triggered entirely on DOMContentLoaded.",
+  "tags": [
+    "reveal",
+    "preloader",
+    "flip",
+    "splittext",
+    "counter",
+    "landing",
+    "hero",
+    "stagger",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/konpo-lp-reveal",
+  "docsUrl": "https://motionprompts.dev/component/konpo-lp-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/konpo-lp-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/konpo-lp-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/konpo-lp-reveal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/konpo-lp-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/konpo-lp-reveal.md",
+    "sha256": "895ae5b6e07642144d2f83e4517faa05abd0036928a1eabb672a19cb8cb2108f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/konpo-lp-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/konpo-lp-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "Flip",
+      "SplitText"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.3,
+      3
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 16,
+      "bytes": 2845340,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "auto-play load reveal: 3s bottom-anchored bg wipe, three independent digit columns rolling on power2.inOut, then a Flip travel of 15 thumbnails from top-left to bottom-right with a 0.1s per-image stagger and a 2.5x scale punch, closing with power4.out line-mask text",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/konpo-lp-reveal/"
+}

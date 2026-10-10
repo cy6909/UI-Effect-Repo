@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/ironhill-scroll-animation",
+  "name": "IronHill Scroll Animation",
+  "slug": "ironhill-scroll-animation",
+  "titleZh": "IronHill 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Scroll-scrubbed WebGL dissolve over a tall 175svh hero: a Three.js fullscreen quad with an fbm-noise shader sweeps a solid near-black fill up over the hero image with an organic ragged edge, its uProgress driven by Lenis scroll position. As scrolling continues, GSAP SplitText splits the hero paragraph into words and a ScrollTrigger fades them in one by one over the freshly revealed background.",
+  "tags": [
+    "scroll",
+    "webgl",
+    "three-js",
+    "shader",
+    "dissolve",
+    "noise",
+    "reveal",
+    "lenis",
+    "split-text",
+    "hero",
+    "gsap",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/ironhill-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/ironhill-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/ironhill-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/ironhill-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/ironhill-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/ironhill-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/ironhill-scroll-animation.md",
+    "sha256": "907324602dd2c14728afea7b17ac750920d4aa4a428482e2d62807abd933a512",
+    "upstreamUrl": "https://motionprompts.dev/prompts/ironhill-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/ironhill-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "three",
+      "lenis"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": 175,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.1,
+      0.1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 806769,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "mixed",
+    "motion_signature": "scroll-driven fbm-noise WebGL dissolve plus word fade",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis",
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/ironhill-scroll-animation/"
+}

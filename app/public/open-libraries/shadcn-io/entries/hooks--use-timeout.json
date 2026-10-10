@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-io/hooks--use-timeout",
+  "slug": "hooks--use-timeout",
+  "name": "useTimeout",
+  "titleZh": "useTimeout · 组件参考",
+  "description": "React useTimeout hook for setTimeout management. Handle delayed actions with automatic cleanup, dynamic control, and cancellation support using TypeScript for Next.js.",
+  "tags": [
+    "shadcn.io",
+    "reference",
+    "原站参考"
+  ],
+  "source": "shadcn-io",
+  "category": "Components",
+  "path": "/open/shadcn-io--hooks--use-timeout",
+  "detailUrl": "/open-libraries/shadcn-io/entries/hooks--use-timeout.json",
+  "promptAccess": "external",
+  "promptKind": "installation",
+  "sourceAvailable": false,
+  "variants": [],
+  "docsUrl": "https://www.shadcn.io/hooks/use-timeout",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-io/LICENSE.txt",
+  "upstreamCommit": "2dc66e0e7b159fa92e761c84f3c5325c9700c415",
+  "prompt": null,
+  "bundle": null,
+  "notes": "Official MIT repository contains README links only. Component source and licensing must be checked at each linked page; Pro assets are not imported."
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-07",
+  "slug": "tabs-07",
+  "name": "Tabs 7",
+  "titleZh": "标签页 tabs-07",
+  "description": "Icon-only tabs with tooltip labels for compact navigation",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-07.json",
+    "sha256": "b7a69af6a97f90648aaf22203d9d3ca913a15a57d2d69269fae79d73d5de87a9"
+  },
+  "registryDependencies": [
+    "tabs",
+    "tooltip"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,28 +1,61 @@
 # UI-Effect-Repo
 
-个人 UI 动效与组件积累库：中文优先，提供中英双语、分类检索、动效演示，以及面向 AI 的原版 Prompt 和源码入口。
+一个中文优先、支持中英文的 UI 组件与动效收藏库。可以预览效果、按用途查找组件、查看源码，以及获取来源提供的原始 AI 提示词。
 
-- [项目总入口](https://app.notion.com/p/3f490f837c9581998619fc1bad80b228)
-- [需求与体验](https://app.notion.com/p/3f490f837c958129ab9fd36d308ff09d)
-- [工程约束](https://app.notion.com/p/3f490f837c9581c58309cd73a4c33d4e)
-- [React Bits 个人派生路线提案](https://app.notion.com/p/3f490f837c9581999382d56c6b7f6c41)
+本仓库包含完整应用源码，无需另行克隆其他项目。
 
-当前应用位于独立 fork：[cy6909/react-bits / codex/personal-library](https://github.com/cy6909/react-bits/tree/codex/personal-library)。本地 checkout 为 `.upstream/react-bits`，有独立 Git 历史；本仓库保留初始化入口。
+## 功能
 
-个人版演示：[http://10.89.2.12:18120](http://10.89.2.12:18120)。包含中文优先目录、分类搜索、收藏、双语导航、上游交互演示与源码，以及上游原版集成提示词（中英文）。
+- 1,384 条组件与参考条目，11 个主类、88 个有内容的子类。
+- 中英文搜索、用途描述匹配、特点标签、来源过滤与本地收藏。
+- 组件介绍、适用场景和选择理由，帮助判断如何使用。
+- 可交互预览、演示重播、源码查看与下载。
+- 原始提示词和机器可读目录，明确区分完整内容、公开预览与外部参考。
+- 16 个资源站入口。
 
-目录共1,384条：原有215个 React Bits 组件、248个 Motion Prompts 设计与7个个人 AI 实现，新增202个 MotionVault 效果、637份 Shadcn Studio 源码包、75条 shadcn.io 官方参考链接。另有16站资源导航，区分独立复现、源码集成、视觉意图和安装型提示词；参考链接不冒充本地可运行组件。各来源保留许可与原文，受限内容通过原站获取。
+部分条目仅提供原站参考或录像，不代表全部组件都能在站内运行。应用建议与原始提示词分开展示；缺失的生成记录不会补造。
 
-支持11个主类、88个有内容的子类、特点标签与中英应用指南；可用大致用途搜索并查看匹配理由，也可切换关键词模式。
+## 快速启动
 
-获取应用源码（在本仓库根目录执行；`.upstream/` 不纳入本仓库版本管理）：
+需要 Docker 与 Docker Compose。在本仓库根目录执行：
 
 ```sh
-git clone --branch codex/personal-library https://github.com/cy6909/react-bits.git .upstream/react-bits
+cd app
+docker compose -f compose.personal.yaml up -d --build
 ```
 
-若需要与已记录版本一致，可在应用 checkout 中检出 `upstream-reference.json` 的 `personalCommit`。该仓库的构建与容器配置也位于应用 checkout 中。
+访问 <http://localhost:18120>。构建会同时生成主站和独立的 MotionVault 预览。首次构建需要联网下载依赖，部分第三方预览媒体也需要网络。
 
-本机仅编辑源码、Git 和文档。安装、构建、测试、浏览器渲染、Docker 和模型调用统一在 `10.89.2.12` 执行。具体工作方式见 `AGENTS.md` 和 Notion 工程节点。
+可以通过 `UIE_PORT`、`UIE_BIND_ADDRESS` 和 `UIE_IMAGE_TAG` 环境变量调整端口、监听地址和镜像标签。停止服务：
 
-`upstream-reference.json` 记录上游与个人分支版本。现有 `LICENSE` 是本初始化仓库原始 Apache-2.0 许可证，不适用于独立 fork 内的 React Bits 代码；fork 保留上游 `LICENSE.md` 和署名。
+```sh
+docker compose -f compose.personal.yaml down
+```
+
+## 目录
+
+```text
+app/
+  src/                   应用页面与组件实现
+  src/personal/          双语目录、搜索、应用指南与详情页
+  public/                静态素材、原始源码包与提示词
+  vendor/motion-vault/    独立预览实现与依赖锁文件
+  scripts/               目录生成、导入和校验工具
+  infra/                 静态服务配置
+  Dockerfile.personal    多阶段容器构建
+  compose.personal.yaml  容器启动配置
+upstream-reference.json  固定来源版本
+```
+
+AI 读取入口：`/llms.txt`、`/personal-registry/index.json`、`/personal-registry/discovery.json`。条目会标明可用源码、提示词范围及来源许可。
+
+## 来源与许可
+
+基于 [React Bits](https://github.com/DavidHDev/react-bits) 扩展，保留原始实现及署名；这是独立派生项目。
+
+- React Bits：适用 [MIT + Commons Clause](app/LICENSE.md)，包含额外限制，不能视为纯 MIT。
+- [Motion Prompts](https://motionprompts.dev)：适用 [PolyForm Noncommercial 1.0.0](app/public/motion-prompts/LICENSE.txt) 与署名要求，仅收录可公开获取的内容。
+- [MotionVault](https://github.com/xiyu519/MotionVault)、Shadcn Studio、shadcn.io：各自许可证保留于 `app/public/open-libraries/`。
+- 归档 HTML 原型及其素材边界见 [来源说明](app/public/personal-ai/NOTICE.txt)。
+
+根目录原有 [LICENSE](LICENSE) 不覆盖第三方应用、组件及素材；各来源按随附许可证使用，不能将整库统一重新标为 Apache-2.0。

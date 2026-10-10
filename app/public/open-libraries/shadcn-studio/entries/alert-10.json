@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-10",
+  "slug": "alert-10",
+  "name": "Alert 10",
+  "titleZh": "提示条 alert-10",
+  "description": "Gradient background alert with email verification message and gradient styling.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-10.json",
+    "sha256": "6f3129990658c94f077f86529ac82077842d011950c0583ee7d0585453fa7ad4"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "progress"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

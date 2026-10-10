@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/asset-orb-js",
+  "name": "Asset ORB",
+  "slug": "asset-orb-js",
+  "titleZh": "素材球体",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A WebGL sphere built from 100 image planes distributed via a Fibonacci-sphere layout, each plane textured with a random editorial photo. Three.js OrbitControls let the user drag to rotate the orb and scroll to zoom, with damping/inertia for smooth momentum.",
+  "tags": [
+    "three.js",
+    "webgl",
+    "orbitcontrols",
+    "image-sphere",
+    "fibonacci-sphere",
+    "gallery",
+    "interactive",
+    "editorial",
+    "dark",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/asset-orb-js",
+  "docsUrl": "https://motionprompts.dev/component/asset-orb-js/",
+  "demoUrl": "https://motionprompts.dev/components/asset-orb-js/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/asset-orb-js.webp",
+  "videoUrl": null,
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/asset-orb-js.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/asset-orb-js.md",
+    "sha256": "bb070724758a885911ae3d698f061e0855151871bdaab0562b9ee0a0201365e1",
+    "upstreamUrl": "https://motionprompts.dev/prompts/asset-orb-js.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/asset-orb-js/prompt.md"
+  },
+  "motion": {
+    "trigger": null,
+    "libs": [
+      "three",
+      "OrbitControls"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 30,
+      "bytes": 3332946,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "webgl-raf",
+    "motion_signature": "damped orbit drag around textured photo sphere; OrbitControls inertia (dampingFactor 0.05, rotateSpeed 1.2, pan disabled, zoom clamped to distance 6–10) is the only physics, integrated inside one uncapped rAF loop",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/asset-orb-js/"
+}

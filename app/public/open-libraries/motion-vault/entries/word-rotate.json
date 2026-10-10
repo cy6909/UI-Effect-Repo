@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/word-rotate",
+  "slug": "word-rotate",
+  "name": "WORD ROTATE",
+  "titleZh": "垂直词轮换",
+  "description": "固定句式中的一个词垂直滚动切换，常用于 Hero 标语。点击预览窗立即切换下一个词。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--word-rotate",
+  "detailUrl": "/open-libraries/motion-vault/entries/word-rotate.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=word-rotate",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/word-rotate.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/word-rotate.md",
+    "sha256": "ee295e74e528289fc674f81205fd4e8d93e05b2565e9d7ef5e9a5ff48dde0391",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/word-rotate.json",
+    "sha256": "ff522d3bbe3f5b075217bd7a1cacd66b4722cc17cf30fb6acde2339e6fb9d59f"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

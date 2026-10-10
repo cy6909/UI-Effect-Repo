@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/pixel-trail",
+  "slug": "pixel-trail",
+  "name": "PIXEL TRAIL",
+  "titleZh": "像素轨迹",
+  "description": "鼠标经过的 8px 网格落下一枚枚像素方块，落格即定格、1.2 秒渐隐，连续移动画出一条虚线像素蛇。",
+  "tags": [
+    "particle",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--pixel-trail",
+  "detailUrl": "/open-libraries/motion-vault/entries/pixel-trail.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=pixel-trail",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/pixel-trail.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/pixel-trail.md",
+    "sha256": "78666a1c425daec715873b71f870ba5a6398df6a35e4882b0eb769b93edbe67e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/pixel-trail.json",
+    "sha256": "ecc1d8c24fea7ec7e3aaf8593c1a498aa4e3368b0bb9fd68d60bf363a6921d56"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/checkbox-09",
+  "slug": "checkbox-09",
+  "name": "Checkbox 9",
+  "titleZh": "复选框 checkbox-09",
+  "description": "Vertical group of checkboxes with icons for fruits selection",
+  "tags": [
+    "checkbox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--checkbox-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/checkbox-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/checkbox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/checkbox-09.json",
+    "sha256": "d5a424ef34916084f048e6edb6ba0b2ce26a0d6b2440f010828ec370e8e2293b"
+  },
+  "registryDependencies": [
+    "checkbox",
+    "label"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

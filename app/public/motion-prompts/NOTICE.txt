@@ -1,0 +1,3 @@
+Motion Prompts content © 2026 motionprompts.dev / Vanguardia.
+Official metadata and publicly distributed prompts are included under PolyForm Noncommercial 1.0.0 with mandatory visible attribution. See LICENSE.txt.
+218 paid prompts are previews only; no access controls were bypassed. Component source code is not distributed by this package. Media and interactive demos remain hosted upstream and are linked, not copied.

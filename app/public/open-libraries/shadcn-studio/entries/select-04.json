@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-04",
+  "slug": "select-04",
+  "name": "Select 4",
+  "titleZh": "选择器 select-04",
+  "description": "A native select dropdown with helper text",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-04.json",
+    "sha256": "6e0a9a8674adb6b762c3ca1bd722b373f63c7ca7a883eab73fb844646de1e8f1"
+  },
+  "registryDependencies": [
+    "label",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

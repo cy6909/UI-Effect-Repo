@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-21",
+  "slug": "calendar-21",
+  "name": "Calendar 21",
+  "titleZh": "日历 calendar-21",
+  "description": "Advanced calendar with collapsible year/month selection and custom navigation",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-21",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-21.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-21.json",
+    "sha256": "085cecf2a95841dbaaff2c60d15c8228b9555d694a22dcc8c07374726760c1b7"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "collapsible",
+    "scroll-area"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/aurora-text",
+  "slug": "aurora-text",
+  "name": "AURORA TEXT",
+  "titleZh": "极光渐变文字",
+  "description": "低饱和极光色渐变在字面缓缓流动，8 秒一循环，身后叠一层 20% 透明度的模糊辉光，梦幻而不刺眼。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--aurora-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/aurora-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=aurora-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/aurora-text.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/aurora-text.md",
+    "sha256": "2c2d530cde1366074e0a8b6107d337e52b9efa2d02abb2a470f6e94e0c19945c",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/aurora-text.json",
+    "sha256": "9c22cb679ac29c264f746cdd62da03288b8f2e65c6f3599ea80ac4bf0dce6254"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

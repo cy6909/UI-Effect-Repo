@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-17",
+  "slug": "tabs-17",
+  "name": "Tabs 17",
+  "titleZh": "标签页 tabs-17",
+  "description": "Soft vertical tabs with gentle styling and left navigation",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-17",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-17.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-17.json",
+    "sha256": "80bb6274716712cdb36f230905de273503375653f6f542ccde16bdec02f2c7f2"
+  },
+  "registryDependencies": [
+    "tabs"
+  ],
+  "dependencies": []
+}

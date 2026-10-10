@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-26",
+  "slug": "dialog-26",
+  "name": "Dialog 26",
+  "titleZh": "对话框 dialog-26",
+  "description": "Profile edit dialog with zoom in animation from center of the screen",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-26",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-26.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-26.json",
+    "sha256": "ca8d2a41152502c7f9b7c65721ea7b64d5090aaaa7bb4f129e735a04ce78a321"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog",
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

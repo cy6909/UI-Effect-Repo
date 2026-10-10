@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/orchestra-3d-scroll-animation",
+  "name": "Orchestra 3D Scroll Animation",
+  "slug": "orchestra-3d-scroll-animation",
+  "titleZh": "Orchestra 3D 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned hero where six image-mapped CSS 3D cubes fly in from deep translateZ(-30000px) and assemble into a spread as you scroll. A single Lenis-smoothed ScrollTrigger (pin + scrub over 4x viewport height) drives an onUpdate that interpolates each cube's top/left/rotateX/Y/Z and Z-depth, blurs and fades the block logo, scales and fades the intro headline, then reveals a second de-blurring headline; two cubes get an extra 180 flip in the second half.",
+  "tags": [
+    "scroll",
+    "3d",
+    "css-3d",
+    "cube",
+    "pin",
+    "scrub",
+    "perspective",
+    "lenis",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/orchestra-3d-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/orchestra-3d-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/orchestra-3d-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/orchestra-3d-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/orchestra-3d-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/orchestra-3d-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/orchestra-3d-scroll-animation.md",
+    "sha256": "92414c3641e7a9b0c0a005e013f9a84ad4aa438ae0d628f7bbfa80406eb47ddd",
+    "upstreamUrl": "https://motionprompts.dev/prompts/orchestra-3d-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/orchestra-3d-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 600,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 33,
+      "bytes": 2961700,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap+raf",
+    "motion_signature": "single scrub-pinned ScrollTrigger (scrub:1) driving hand-rolled LINEAR interpolation — no tweens, no ease curve: 6 CSS-3D cubes fly from z:-30000px / off-screen top and ±360° rotations to their assembled grid over the first half of the scrub, cube-2 and cube-4 add a further ±180° rotateY over the second half, while the logo blurs 0→20px and fades out, header-1 scales 1→1.5 + blurs 0→20px + fades out, and header-2 scales 0.75→1 + un-blurs 10→0px + fades in after 40% progress",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/orchestra-3d-scroll-animation/"
+}

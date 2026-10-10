@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/like-button",
+  "slug": "like-button",
+  "name": "LIKE BURST",
+  "titleZh": "点赞爆裂",
+  "description": "推特式点赞——爱心弹性填充、光环向外扩散、7 颗粒子四溅，旁边的计数器随数字上下滑动切换；再点一次则平静收回。",
+  "tags": [
+    "button",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--like-button",
+  "detailUrl": "/open-libraries/motion-vault/entries/like-button.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=like-button",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/like-button.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/like-button.md",
+    "sha256": "f807d6ee9651d94664572f226bc128e2434d1963f93271d8c6bf43c45ce67d6c",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/like-button.json",
+    "sha256": "e16e670a9db4fc9653a4b756a3b412715c5a75751228e3880adb9598bfb6380d"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

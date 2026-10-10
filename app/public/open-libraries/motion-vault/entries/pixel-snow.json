@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/pixel-snow",
+  "slug": "pixel-snow",
+  "name": "PIXEL SNOW",
+  "titleZh": "像素雪",
+  "description": "深蓝黑夜里方形像素雪花以不同速度飘落、水平轻摆，近地处淡出仿佛悄悄积起一层雪。",
+  "tags": [
+    "particle",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--pixel-snow",
+  "detailUrl": "/open-libraries/motion-vault/entries/pixel-snow.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=pixel-snow",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/pixel-snow.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/pixel-snow.md",
+    "sha256": "871530c332d52036d5ba8a2998f043616ceb79d70a6b6b6b15194d50805c30db",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/pixel-snow.json",
+    "sha256": "f08fac0c6f8e03e7cde2a5cca140fdb43032996afcbef203ce85085af4467bb4"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

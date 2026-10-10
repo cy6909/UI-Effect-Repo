@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/liquid-ripple",
+  "slug": "liquid-ripple",
+  "name": "LIQUID RIPPLE",
+  "titleZh": "液态波纹",
+  "description": "细密的点阵下藏着一片水面：划过泛起涟漪，点击激起大浪，随后慢慢归于平静。",
+  "tags": [
+    "background",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--liquid-ripple",
+  "detailUrl": "/open-libraries/motion-vault/entries/liquid-ripple.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=liquid-ripple",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/liquid-ripple.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/liquid-ripple.md",
+    "sha256": "eed7850f1a321480970aec5a6f428e6ecd1e5b6d46d99d7b7f80836b81b81120",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/liquid-ripple.json",
+    "sha256": "2fc1db7cbe42643e34e4b57247fd482bf60b69abbd18195fee88f5c87b70190b"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

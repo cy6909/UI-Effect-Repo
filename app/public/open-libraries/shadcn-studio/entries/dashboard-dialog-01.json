@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dashboard-dialog-01",
+  "slug": "dashboard-dialog-01",
+  "name": "Dashboard Dialog 1",
+  "titleZh": "界面组件 dashboard-dialog-01",
+  "description": "A subscription plan selection dialog with pricing options, features comparison, and radio button selection for choosing between different tiers.",
+  "tags": [
+    "dashboard-dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dashboard-dialog-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dashboard-dialog-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/dashboard-dialog-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dashboard-dialog-01.json",
+    "sha256": "a1b2b81af35d207ad4f2a6162e72cdc93f008f21256bb7df4564246df9a1f468"
+  },
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "dialog",
+    "label",
+    "radio-group",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

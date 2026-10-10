@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-05",
+  "slug": "badge-05",
+  "name": "Badge 5",
+  "titleZh": "徽标 badge-05",
+  "description": "Dot indicator badge with colored circle for compact status representation",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-05.json",
+    "sha256": "4acff905584841ed3d02fd6ee6cf58963cca2382cabe264406734559358893c8"
+  },
+  "registryDependencies": [],
+  "dependencies": []
+}

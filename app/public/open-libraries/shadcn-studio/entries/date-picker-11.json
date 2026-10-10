@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/date-picker-11",
+  "slug": "date-picker-11",
+  "name": "Date Picker 11",
+  "titleZh": "日期选择 date-picker-11",
+  "description": "Date picker with time range selection (from/to times) for event scheduling",
+  "tags": [
+    "date-picker",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--date-picker-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/date-picker-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/date-picker",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/date-picker-11.json",
+    "sha256": "b24704f6d733c45455b43c6d1e7a6a3744a9c16d338ff8e37e8bb81abc4b67da"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "input",
+    "label",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/404",
+  "name": "ScrollTrigger 404 Horizontal Scroll + Parallax",
+  "slug": "404",
+  "titleZh": "404 横向滚动与视差",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A 404 page where a pinned full-width headline section is driven by ScrollTrigger scrub: as you scroll, the .wrapper-404 translates horizontally (gsap.to x in vw, power3.out) while four absolutely-positioned image cards parallax sideways and rotate at different rates, revealing a closing outro message.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrolltrigger",
+    "horizontal-scroll",
+    "parallax",
+    "404",
+    "cards",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/404",
+  "docsUrl": "https://motionprompts.dev/component/404/",
+  "demoUrl": "https://motionprompts.dev/components/404/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/404.webp",
+  "videoUrl": "https://motionprompts.dev/previews/404.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/404.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/404.md",
+    "sha256": "0be70f402f2875775206a24ce8775df4ffc7a1dd2f6a9314493785e45235e0bb",
+    "upstreamUrl": "https://motionprompts.dev/prompts/404.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/404/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger"
+    ],
+    "complexity": 4,
+    "pinned": true,
+    "viewport_heights": 1200,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 849853,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scrubbed pinned horizontal track: ScrollTrigger scrub:1 drives an onUpdate handler that fires a fresh 0.5s power3.out catch-up tween per frame (wrapper x in vw; four cards x in px + rotate), so the smoothing comes from overlapping tweens rather than from the scrub tween itself",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/404/"
+}

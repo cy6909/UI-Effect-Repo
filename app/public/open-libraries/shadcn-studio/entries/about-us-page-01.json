@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/about-us-page-01",
+  "slug": "about-us-page-01",
+  "name": "About Us 1",
+  "titleZh": "界面组件 about-us-page-01",
+  "description": "Centered header with video/image section and overlapping stats grid card displaying icons, values, and descriptions",
+  "tags": [
+    "about-us-page",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--about-us-page-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/about-us-page-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/about-us-page-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/about-us-page-01.json",
+    "sha256": "a22e4d799aab600d4a12cdf4da779cd33861055d5c16f5a94569d4e37a39f72d"
+  },
+  "registryDependencies": [
+    "badge",
+    "button",
+    "card"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

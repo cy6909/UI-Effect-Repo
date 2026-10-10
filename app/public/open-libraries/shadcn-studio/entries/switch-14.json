@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/switch-14",
+  "slug": "switch-14",
+  "name": "Switch 14",
+  "titleZh": "开关 switch-14",
+  "description": "A square-styled switch with sliding Yes/No text indicators in the background",
+  "tags": [
+    "switch",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--switch-14",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/switch-14.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/switch",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/switch-14.json",
+    "sha256": "13e608d07652bc3bd420b27e4a843e3440dfac3c023389bc44b33dd7935fca70"
+  },
+  "registryDependencies": [
+    "switch"
+  ],
+  "dependencies": []
+}

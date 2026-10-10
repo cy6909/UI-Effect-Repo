@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/parallax-orbs",
+  "slug": "parallax-orbs",
+  "name": "PARALLAX ORBS",
+  "titleZh": "视差光斑",
+  "description": "五团低饱和的柔光色斑以不同深度随鼠标漂移，前后错落出细腻的多层空间感。",
+  "tags": [
+    "background",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--parallax-orbs",
+  "detailUrl": "/open-libraries/motion-vault/entries/parallax-orbs.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=parallax-orbs",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/parallax-orbs.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/parallax-orbs.md",
+    "sha256": "2c5ed7d26636cbc9163a81feff9b384dbbf37148fca0fdfb85237eb3b6037c86",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/parallax-orbs.json",
+    "sha256": "40f0de108a8834990b289da96cfe132566714f00b359041225b6beb3e9ea41b5"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

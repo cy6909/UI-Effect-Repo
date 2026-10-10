@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/border-trail",
+  "slug": "border-trail",
+  "name": "BORDER TRAIL",
+  "titleZh": "边框光点",
+  "description": "圆角卡片轮廓上，一小段亮弧沿边框匀速循环描边，身后半圈处还有一段更淡的伴弧——pathLength + dashoffset 的经典戏法。",
+  "tags": [
+    "svg",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--border-trail",
+  "detailUrl": "/open-libraries/motion-vault/entries/border-trail.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=border-trail",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/border-trail.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/border-trail.md",
+    "sha256": "62a99c32cdccf7a4d2f19c881af86d08339512fc6330f5487991a1dbf9b1cac6",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/border-trail.json",
+    "sha256": "5b1fc2277e884b9ab08307195459b17343346744da8a0d31724e62153d0f56eb"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

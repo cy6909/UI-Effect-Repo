@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-45",
+  "slug": "button-45",
+  "name": "Button 45",
+  "titleZh": "按钮 button-45",
+  "description": "Button with magnetic effect that follows mouse movement",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-45",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-45.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-45.json",
+    "sha256": "922fe7abacc20e7e176b1812e281242025f2e82c99f51c61419107572b25b659"
+  },
+  "registryDependencies": [
+    "button",
+    "utils"
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "motion"
+  ]
+}

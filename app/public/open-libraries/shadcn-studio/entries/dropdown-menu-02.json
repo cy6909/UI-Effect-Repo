@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dropdown-menu-02",
+  "slug": "dropdown-menu-02",
+  "name": "Dropdown Menu 2",
+  "titleZh": "下拉菜单 dropdown-menu-02",
+  "description": "User switcher dropdown with avatar display and task assignment selection",
+  "tags": [
+    "dropdown-menu",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--dropdown-menu-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dropdown-menu-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dropdown-menu",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dropdown-menu-02.json",
+    "sha256": "c716b4bab005f63d2e4ffa86d739dc00312ce61a192cb3a12038785da83f58a6"
+  },
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "dropdown-menu"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

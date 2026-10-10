@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/popover-13",
+  "slug": "popover-13",
+  "name": "Popover 13",
+  "titleZh": "浮层 popover-13",
+  "description": "A promotional popover with QR code and coupon code with copy functionality with slide in from left animation",
+  "tags": [
+    "popover",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--popover-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/popover-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/popover",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/popover-13.json",
+    "sha256": "1a52bc8c89d2ed2c21e47afd037cd5870b7a981a0f2359e555afb3b7c3ef3ba4"
+  },
+  "registryDependencies": [
+    "button",
+    "input",
+    "popover",
+    "separator",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

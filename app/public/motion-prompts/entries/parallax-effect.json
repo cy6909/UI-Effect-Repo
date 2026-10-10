@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/parallax-effect",
+  "name": "Smooth Scroll Parallax Images",
+  "slug": "parallax-effect",
+  "titleZh": "平滑滚动视差图片",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Musician landing page where every image inside an overflow-hidden container drifts on scroll: a Lenis smooth-scroll instance feeds a target translateY (0.2x the relative scroll) and a requestAnimationFrame loop lerps toward it (factor 0.1), applying translateY plus scale(1.5) for a soft parallax lag on each portrait.",
+  "tags": [
+    "parallax",
+    "scroll",
+    "lenis",
+    "lerp",
+    "raf",
+    "images",
+    "landing-page",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/parallax-effect",
+  "docsUrl": "https://motionprompts.dev/component/parallax-effect/",
+  "demoUrl": "https://motionprompts.dev/components/parallax-effect/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/parallax-effect.webp",
+  "videoUrl": "https://motionprompts.dev/previews/parallax-effect.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/parallax-effect.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/parallax-effect.md",
+    "sha256": "a7caf2a50f372b3a611d0878383391e1d7ec0a490dc657d6290714c1772302fb",
+    "upstreamUrl": "https://motionprompts.dev/prompts/parallax-effect.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/parallax-effect/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 125,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      0.25
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 1717039,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "raf-lerp",
+    "motion_signature": "rAF-lerped translateY parallax driven by Lenis scroll",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/parallax-effect/"
+}

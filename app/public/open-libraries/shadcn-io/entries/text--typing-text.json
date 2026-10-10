@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-io/text--typing-text",
+  "slug": "text--typing-text",
+  "name": "Typing Text",
+  "titleZh": "Typing Text · 组件参考",
+  "description": "React typewriter effect with realistic typing speeds and cursor behavior. Human-like character animations built with Motion, TypeScript, and shadcn/ui.",
+  "tags": [
+    "shadcn.io",
+    "reference",
+    "原站参考"
+  ],
+  "source": "shadcn-io",
+  "category": "Components",
+  "path": "/open/shadcn-io--text--typing-text",
+  "detailUrl": "/open-libraries/shadcn-io/entries/text--typing-text.json",
+  "promptAccess": "external",
+  "promptKind": "installation",
+  "sourceAvailable": false,
+  "variants": [],
+  "docsUrl": "https://www.shadcn.io/text/typing-text",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-io/LICENSE.txt",
+  "upstreamCommit": "2dc66e0e7b159fa92e761c84f3c5325c9700c415",
+  "prompt": null,
+  "bundle": null,
+  "notes": "Official MIT repository contains README links only. Component source and licensing must be checked at each linked page; Pro assets are not imported."
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/verify-email-01",
+  "slug": "verify-email-01",
+  "name": "Verify Email 1",
+  "titleZh": "界面组件 verify-email-01",
+  "description": "Centered card layout with logo header, email verification messaging, activation link instructions, skip option, and resend link for streamlined email confirmation",
+  "tags": [
+    "verify-email",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--verify-email-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/verify-email-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/verify-email-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/verify-email-01.json",
+    "sha256": "dbaa6550be28027189868c2c0f0b305e9adeed9ad62a54a934cbdbe690f02fea"
+  },
+  "registryDependencies": [
+    "button",
+    "card",
+    "utils"
+  ],
+  "dependencies": []
+}

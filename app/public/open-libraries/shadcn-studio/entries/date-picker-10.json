@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/date-picker-10",
+  "slug": "date-picker-10",
+  "name": "Date Picker 10",
+  "titleZh": "日期选择 date-picker-10",
+  "description": "Combined date picker and time input displayed side by side for datetime selection",
+  "tags": [
+    "date-picker",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--date-picker-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/date-picker-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/date-picker",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/date-picker-10.json",
+    "sha256": "02ffe497e56d0e539a3078260ef71a8f597f17e95873ca1a509659e2bfa8d132"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "input",
+    "label",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

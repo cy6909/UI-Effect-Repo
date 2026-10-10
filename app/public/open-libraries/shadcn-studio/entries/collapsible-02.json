@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/collapsible-02",
+  "slug": "collapsible-02",
+  "name": "Collapsible 2",
+  "titleZh": "折叠区域 collapsible-02",
+  "description": "File tree explorer with nested folders and expandable directory structure",
+  "tags": [
+    "collapsible",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--collapsible-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/collapsible-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/collapsible",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/collapsible-02.json",
+    "sha256": "30515d5cf61630de64d7d38707da9ccb972ca500ac3eaa16436990e1746127e3"
+  },
+  "registryDependencies": [
+    "collapsible"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

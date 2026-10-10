@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-mask-05",
+  "slug": "input-mask-05",
+  "name": "Input Mask 5",
+  "titleZh": "输入框 input-mask-05",
+  "description": "A credit card CVC input field with secure formatting and length validation",
+  "tags": [
+    "input-mask",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-mask-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-mask-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input-mask",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-mask-05.json",
+    "sha256": "66add5bd159f07ea5f19e605512ac434d371745a04f05c4869ab212cfcb38b8a"
+  },
+  "registryDependencies": [
+    "input",
+    "label"
+  ],
+  "dependencies": [
+    "react-payment-inputs"
+  ]
+}

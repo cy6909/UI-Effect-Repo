@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-14",
+  "slug": "select-14",
+  "name": "Select 14",
+  "titleZh": "选择器 select-14",
+  "description": "A custom select dropdown with error state and validation message",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-14",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-14.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-14.json",
+    "sha256": "497ac6e1be88548f0cc7f470929c73020451987799602a20c55eac08c9a9bc0d"
+  },
+  "registryDependencies": [
+    "select"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-02",
+  "slug": "button-02",
+  "name": "Button 2",
+  "titleZh": "按钮 button-02",
+  "description": "A button component in disabled state",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-02.json",
+    "sha256": "2776ad4af8c5d4b0c75f8f0d5463d5145df28d75333d737a7637a537ca119fa0"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tooltip-07",
+  "slug": "tooltip-07",
+  "name": "Tooltip 7",
+  "titleZh": "工具提示 tooltip-07",
+  "description": "A rich content tooltip with accessibility information, icon and formatted text",
+  "tags": [
+    "tooltip",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--tooltip-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tooltip-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tooltip",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tooltip-07.json",
+    "sha256": "51528ecf042f2fea2d148c5e4f8a03314d5eb106cc07d24040a1bde800363e38"
+  },
+  "registryDependencies": [
+    "button",
+    "tooltip"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

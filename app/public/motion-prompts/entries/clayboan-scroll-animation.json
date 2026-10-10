@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/clayboan-scroll-animation",
+  "name": "Clayboan Scroll Animation",
+  "slug": "clayboan-scroll-animation",
+  "titleZh": "Clayboan 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Full-page scroll gallery with Lenis smooth scroll where each work section is scrubbed by GSAP ScrollTrigger: the image's clip-path morphs from an angular slanted polygon to a full rectangle as the section enters and back to a bottom-slanted polygon as it exits, while SplitText masks each title character and slides them up one-by-one, staggered by scroll position.",
+  "tags": [
+    "scroll",
+    "scrub",
+    "clip-path",
+    "split-text",
+    "image-reveal",
+    "text-reveal",
+    "lenis",
+    "gallery",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/clayboan-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/clayboan-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/clayboan-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/clayboan-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/clayboan-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/clayboan-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/clayboan-scroll-animation.md",
+    "sha256": "f1108247fdbb913f1f0ad351f2cf68cbe9eac5a689a4137dad41239fe4e8b857",
+    "upstreamUrl": "https://motionprompts.dev/prompts/clayboan-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/clayboan-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": 150,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 995017,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scroll-scrubbed clip-path morph (jagged polygon opens to full-bleed on the way in, collapses back to a wedge on the way out) under a masked title whose characters slide up from y:125% one after another, the stagger produced by 25px scroll-offset increments rather than time",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/clayboan-scroll-animation/"
+}

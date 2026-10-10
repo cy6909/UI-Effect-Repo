@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-42",
+  "slug": "button-42",
+  "name": "Button 42",
+  "titleZh": "按钮 button-42",
+  "description": "Button with tap scale animation using Framer Motion",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-42",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-42.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-42.json",
+    "sha256": "8c1cf47b7b1d4e02551c74784b8646ac40aac68682146f24890a4e97bbf95d26"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "motion"
+  ]
+}

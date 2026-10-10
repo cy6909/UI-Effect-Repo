@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/gradual-blur-edge",
+  "name": "Kiln Seven — Gradual Blur Edges",
+  "slug": "gradual-blur-edge",
+  "titleZh": "Kiln Seven — 渐进模糊边缘",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A progressive blur band that softens the edge of a scrolling page instead of cutting it. Rather than one blurred layer behind a gradient mask — which still shows the line where blurring starts — the band is a stack of N backdrop-filter layers, each with its own blur radius and its own linear-gradient mask window, and the windows deliberately overlap so each layer fades out where the next has already faded in. A falloff curve distributes the radii (linear, smoothstep or exponential), the same builder serves top, bottom, left and right edges, and one scrubbed ScrollTrigger breathes the fixed bottom band from 3rem to 11rem as the index runs.",
+  "tags": [
+    "backdrop-filter",
+    "progressive-blur",
+    "css-mask",
+    "layered-blur",
+    "sticky-edge",
+    "scrolltrigger",
+    "scrub",
+    "lenis",
+    "editorial",
+    "ceramics",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/gradual-blur-edge",
+  "docsUrl": "https://motionprompts.dev/component/gradual-blur-edge/",
+  "demoUrl": "https://motionprompts.dev/components/gradual-blur-edge/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/gradual-blur-edge.webp",
+  "videoUrl": "https://motionprompts.dev/previews/gradual-blur-edge.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/gradual-blur-edge.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/gradual-blur-edge.md",
+    "sha256": "693ae4e8e5eaa02922dd9e8351d8af257aac6f44cef553c47dc537824217b087",
+    "upstreamUrl": "https://motionprompts.dev/prompts/gradual-blur-edge.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/gradual-blur-edge/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 14,
+      "bytes": 969323,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "Almost all of the effect is static CSS: three .edge containers are filled at load with N stacked <i> layers, each carrying its own backdrop-filter radius and its own overlapping linear-gradient mask window (5 layers top, 6 right, 6 bottom). Top and bottom bands are position: fixed at page level; the right band is absolute inside the rail wrapper. The only scroll-driven motion is the height of the fixed bottom band: two scrubbed (0.4) ScrollTriggers on .book animate the :root custom property --edge-height 8rem -> 11rem across the index's entry (top 80% -> top 20%) and 11rem -> 3rem across its exit (bottom 90% -> bottom 40%). Both are skipped entirely under prefers-reduced-motion, leaving the band at its CSS default of 8rem. Three dial buttons rebuild the bottom stack; that is a rebuild, not a transition.",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/gradual-blur-edge/"
+}

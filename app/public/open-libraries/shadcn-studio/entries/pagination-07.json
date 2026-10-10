@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/pagination-07",
+  "slug": "pagination-07",
+  "name": "Pagination 7",
+  "titleZh": "分页 pagination-07",
+  "description": "A pagination component with first and last page navigation buttons",
+  "tags": [
+    "pagination",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--pagination-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/pagination-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/pagination",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/pagination-07.json",
+    "sha256": "70c2a540bbc4acfb8384c9d54c11025d2b4dacd17d23c48c07b868db9b4e9a6e"
+  },
+  "registryDependencies": [
+    "pagination"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

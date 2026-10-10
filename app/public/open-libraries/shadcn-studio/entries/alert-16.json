@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-16",
+  "slug": "alert-16",
+  "name": "Alert 16",
+  "titleZh": "提示条 alert-16",
+  "description": "Minimal alert without icon displaying simple message text only.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-16",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-16.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-16.json",
+    "sha256": "15dc5f223f4f74db40699f786d367be0eed08cd2d7c94da2e5601cb05c3063bd"
+  },
+  "registryDependencies": [
+    "alert"
+  ],
+  "dependencies": []
+}

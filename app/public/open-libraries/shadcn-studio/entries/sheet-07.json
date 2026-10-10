@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sheet-07",
+  "slug": "sheet-07",
+  "name": "Sheet 7",
+  "titleZh": "侧边面板 sheet-07",
+  "description": "A sheet component with data table, pagination, and form integration for adding user data",
+  "tags": [
+    "sheet",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sheet-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sheet-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sheet",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sheet-07.json",
+    "sha256": "8b0fc1812373141d71921af6c2a735d4e54b33c1b8a8e49e2779ba7cff7f62e7"
+  },
+  "registryDependencies": [
+    "button",
+    "checkbox",
+    "input",
+    "label",
+    "select",
+    "sheet",
+    "table"
+  ],
+  "dependencies": [
+    "@tanstack/react-table",
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/advanced-infinite-scroll",
+  "name": "Advanced Infinite Scroll",
+  "slug": "advanced-infinite-scroll",
+  "titleZh": "无限滚动菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "A fullscreen vertical menu of category/title rows that loops endlessly: a requestAnimationFrame loop lerps the scroll position and calls gsap.set with a y modifier using gsap.utils.wrap to seamlessly recycle items, while gsap.to elastically scales down and rotates the rows proportional to scroll velocity. Driven by mouse wheel and click/touch drag.",
+  "tags": [
+    "infinite-scroll",
+    "loop",
+    "drag",
+    "wheel",
+    "velocity",
+    "gsap-utils-wrap",
+    "editorial",
+    "menu",
+    "raf",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/advanced-infinite-scroll",
+  "docsUrl": "https://motionprompts.dev/component/advanced-infinite-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/advanced-infinite-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/advanced-infinite-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/advanced-infinite-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/advanced-infinite-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/advanced-infinite-scroll.md",
+    "sha256": "96e9722570aefcce990c029695313aa9b0e237661cc5bf2fd4ecb90a531df6fa",
+    "upstreamUrl": "https://motionprompts.dev/prompts/advanced-infinite-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/advanced-infinite-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 307255,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "gsap+raf",
+    "motion_signature": "rAF-lerped infinite list wrapped by gsap.utils.wrap, with a per-frame velocity-driven scale/rotate skew",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/advanced-infinite-scroll/"
+}

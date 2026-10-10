@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/fluid-splash-cursor",
+  "name": "Nocturne Baths — Fluid Splash Cursor",
+  "slug": "fluid-splash-cursor",
+  "titleZh": "Nocturne Baths — 流体泼墨光标",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A GPU fluid simulation that lives on top of a whole page instead of behind a hero. Pointer movement injects a force and a puff of dye into double-buffered half-float render targets, and a Navier-Stokes solver — curl, vorticity confinement, divergence, 20 Jacobi pressure passes, semi-Lagrangian advection — makes the ink swirl and dissipate. The display pass derives alpha from the dye's own brightness and blends premultiplied, so unpainted water is fully transparent and the document underneath is untouched. No library: raw WebGL2 with a WebGL1 fallback and per-format probing. Hue cycles by default or holds one brand colour; the loop caps device pixel ratio, stops itself after four idle seconds and restarts on the next movement.",
+  "tags": [
+    "fluid-simulation",
+    "navier-stokes",
+    "webgl",
+    "shaders",
+    "cursor",
+    "pointer",
+    "overlay",
+    "canvas",
+    "no-dependencies",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/fluid-splash-cursor",
+  "docsUrl": "https://motionprompts.dev/component/fluid-splash-cursor/",
+  "demoUrl": "https://motionprompts.dev/components/fluid-splash-cursor/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/fluid-splash-cursor.webp",
+  "videoUrl": "https://motionprompts.dev/previews/fluid-splash-cursor.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/fluid-splash-cursor.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/fluid-splash-cursor.md",
+    "sha256": "08039e40e62ed67e0c747591cba816bc77dd45753ce7165d44ffa32779a33023",
+    "upstreamUrl": "https://motionprompts.dev/prompts/fluid-splash-cursor.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/fluid-splash-cursor/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "webgl-raf",
+    "motion_signature": "No timeline and no tween: a requestAnimationFrame loop steps a Navier-Stokes solver on the GPU and blits the dye field into a fixed, transparent, full-window canvas at z-index 50. Each pointermove converts the travel since the last event into a normalised delta, multiplies it by splatForce and writes one gaussian into the velocity field and one into the dye field at the same point; a pointerdown writes a single burst ten times brighter with a random kick. Per frame: curl, vorticity confinement, divergence, a pressure decay, 20 Jacobi pressure iterations, gradient subtraction, then semi-Lagrangian advection of velocity and of dye, each divided by 1 + dissipation*dt. Hue is re-rolled every 1/colorUpdateSpeed seconds while rainbow is on. The loop is not unconditional: it cancels itself four seconds after the last pointer input and on visibilitychange, and any movement or a splat() call restarts it.",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/fluid-splash-cursor/"
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/exoape-menu-javascript",
+  "name": "ExoApe-Inspired Overlay Menu",
+  "slug": "exoape-menu-javascript",
+  "titleZh": "ExoApe-Inspired 覆盖式菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "A fullscreen overlay navigation menu inspired by ExoApe. Clicking the Menu toggle drives a synchronized GSAP timeline: the page container rotates/scales/translates away (power4.inOut), the overlay's clip-path polygon skews open, the menu content settles from a rotated-scaled state, and the links stagger up from below (power3.out). Hovering a link swaps a stacked preview image in with a scale/rotate fade (power2.out).",
+  "tags": [
+    "menu",
+    "overlay",
+    "fullscreen",
+    "clip-path",
+    "stagger",
+    "hover-preview",
+    "gsap",
+    "exoape",
+    "elegant",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/exoape-menu-javascript",
+  "docsUrl": "https://motionprompts.dev/component/exoape-menu-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/exoape-menu-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/exoape-menu-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/exoape-menu-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/exoape-menu-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/exoape-menu-javascript.md",
+    "sha256": "548be5b15d919f46858a774bd7ec97dfd0c2fdc2b08b76ed2305341994c89818",
+    "upstreamUrl": "https://motionprompts.dev/prompts/exoape-menu-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/exoape-menu-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.3,
+      1.25
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 5,
+      "bytes": 959047,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "clip-path wipe overlay: the page container swings away larger (rotate 10°, x300 y450, scale 1.5, origin right top) while the menu content settles in from scale 1.5 / rotate -15° / opacity 0.25 — all three 1.25s power4.inOut — then links rise from translateY(120%) staggered 0.1s with power3.out; hover swaps a stacked preview image in from scale 1.25 / rotate 10° over 0.75s",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/exoape-menu-javascript/"
+}

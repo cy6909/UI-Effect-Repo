@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/landing-page-reveal",
+  "name": "Kudos Landing Page Reveal",
+  "slug": "landing-page-reveal",
+  "titleZh": "Kudos 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "A fullscreen preloader plays automatically on load: a randomized 0-to-100% counter runs while a stack of ten portrait images wipes across the frame via animated 'left' offsets, then GSAP power3.inOut tweens slide the counter out and a masked logo in, fade the overlay away, scale the hero image from 2 to 1, and slide the giant hero name and top nav into place. Triggered once on page load, roughly 8 seconds total.",
+  "tags": [
+    "preloader",
+    "reveal",
+    "counter",
+    "clip-path",
+    "gsap",
+    "landing",
+    "hero",
+    "stagger",
+    "intro",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/landing-page-reveal",
+  "docsUrl": "https://motionprompts.dev/component/landing-page-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/landing-page-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/landing-page-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/landing-page-reveal.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/landing-page-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/landing-page-reveal.md",
+    "sha256": "712049423b63b1fbaa043a0d61c59ddf10d0eb67f3eb7e3eb451289924100b38",
+    "upstreamUrl": "https://motionprompts.dev/prompts/landing-page-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/landing-page-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": -0.1,
+    "assets_required": {
+      "count": 2,
+      "bytes": 439410,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "timed preloader counter into staggered fullscreen reveal",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/landing-page-reveal/"
+}

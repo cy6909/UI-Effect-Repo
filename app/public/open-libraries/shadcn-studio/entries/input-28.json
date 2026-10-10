@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-28",
+  "slug": "input-28",
+  "name": "Input 28",
+  "titleZh": "输入框 input-28",
+  "description": "A URL input field with a protocol selector dropdown at the start",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-28",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-28.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-28.json",
+    "sha256": "93a23cdfc3e82829d5fe34848ede254cd5bdcfbe016b860b43a68596c328f807"
+  },
+  "registryDependencies": [
+    "input",
+    "label",
+    "select"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/electric-arc",
+  "slug": "electric-arc",
+  "name": "ELECTRIC ARC",
+  "titleZh": "电弧跳跃",
+  "description": "两支电极之间，分形闪电沿中点位移算法生长、闪烁、湮灭又重生；把鼠标移上去，电弧会追随指尖跳跃。",
+  "tags": [
+    "particle",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--electric-arc",
+  "detailUrl": "/open-libraries/motion-vault/entries/electric-arc.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=electric-arc",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/electric-arc.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/electric-arc.md",
+    "sha256": "c0773bf8f71ceeffd7116a6376403f1f910be263d1f2f6934776ae3469c1b0d2",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/electric-arc.json",
+    "sha256": "d122fc74d66cf7ca9ec1025239cce97e2f4960d01b03013683ab18a70bbfee3f"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

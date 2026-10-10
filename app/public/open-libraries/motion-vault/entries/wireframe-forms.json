@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/wireframe-forms",
+  "slug": "wireframe-forms",
+  "name": "WIREFRAME FORMS",
+  "titleZh": "线框几何雕塑",
+  "description": "二十面体、圆环、八面体三层嵌套线框以不同轴速缓慢旋转，整体轻轻呼吸缩放——极简雕塑感。",
+  "tags": [
+    "3d",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--wireframe-forms",
+  "detailUrl": "/open-libraries/motion-vault/entries/wireframe-forms.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=wireframe-forms",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/wireframe-forms.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/wireframe-forms.md",
+    "sha256": "33d1fbdd81c543ecd624912e50d1dae05ab232ab7adad5d4c20991aed466ab14",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/wireframe-forms.json",
+    "sha256": "e62850a85b9e3a97b4533d5f7d21987f29893b206378248b280875e45d2b060d"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

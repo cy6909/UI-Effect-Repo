@@ -1,0 +1,20 @@
+FROM node:22-bookworm-slim AS motionvault
+WORKDIR /motionvault
+COPY vendor/motion-vault/package.json vendor/motion-vault/package-lock.json ./
+RUN npm ci --no-audit --no-fund
+COPY vendor/motion-vault/ ./
+RUN npx vite build
+
+FROM node:22-bookworm-slim AS build
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci --no-audit --no-fund
+COPY . .
+RUN npm run build:personal
+
+FROM nginx:1.27-alpine
+COPY infra/personal.nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /app/dist /usr/share/nginx/html
+COPY --from=motionvault /motionvault/dist /usr/share/nginx/html/integrations/motion-vault
+EXPOSE 8080
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s CMD wget -q -O /dev/null http://127.0.0.1:8080/healthz || exit 1

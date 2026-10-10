@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/pulse-button",
+  "slug": "pulse-button",
+  "name": "PULSE RINGS",
+  "titleZh": "脉冲按钮",
+  "description": "按钮外圈两环脉冲波周期扩散，按钮本体纹丝不动——动静反差即是强调。",
+  "tags": [
+    "button",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--pulse-button",
+  "detailUrl": "/open-libraries/motion-vault/entries/pulse-button.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=pulse-button",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/pulse-button.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/pulse-button.md",
+    "sha256": "a386a4a5d7d56ab248816f2eb4ce7815d2755e3e7fad4c4c7de4ce538d13a25d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/pulse-button.json",
+    "sha256": "9e5139031d267e8a2ae0c1d4c84f4edfe408e9acc6d6e83296a3966f7f6c5fe2"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

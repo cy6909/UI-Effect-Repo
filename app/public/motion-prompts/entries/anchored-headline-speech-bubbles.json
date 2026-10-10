@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/anchored-headline-speech-bubbles",
+  "name": "Anchored Headline with Speech Bubbles",
+  "slug": "anchored-headline-speech-bubbles",
+  "titleZh": "固定标题与气泡",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A tall section whose headline is pinned with `position: sticky` at the vertical centre while testimonial speech bubbles arrive around it, one at a time, out of the left and right margins. Each bubble is positioned in percentages of the track with `--x`/`--y` and carries its own ScrollTrigger fired by its own position (`top 78%`), so the visual order and the temporal order are the same datum: move a bubble in the HTML and its arrival moves with it. Bubbles enter from the side they live on with a `back.out(1.9)` landing, and `toggleActions: play none none reverse` empties the field on the way back up. The headline fades to 0.55 opacity across the track via a scrubbed tween, ceding focus without leaving. Below 760px the bubbles stop floating and stack under the headline. Smoothed by Lenis.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "sticky",
+    "testimonial",
+    "reviews",
+    "social-proof",
+    "speech-bubble",
+    "stagger",
+    "reverse",
+    "lenis",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/anchored-headline-speech-bubbles",
+  "docsUrl": "https://motionprompts.dev/component/anchored-headline-speech-bubbles/",
+  "demoUrl": "https://motionprompts.dev/components/anchored-headline-speech-bubbles/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/anchored-headline-speech-bubbles.webp",
+  "videoUrl": "https://motionprompts.dev/previews/anchored-headline-speech-bubbles.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/anchored-headline-speech-bubbles.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/anchored-headline-speech-bubbles.md",
+    "sha256": "ec88815525164a566ca1f0f16c5e30bdf7ab4b8e3ef298be088375e7535e57eb",
+    "upstreamUrl": "https://motionprompts.dev/prompts/anchored-headline-speech-bubbles.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/anchored-headline-speech-bubbles/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "back",
+    "duration_range": [
+      0.55,
+      0.55
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 23220,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-THRESHOLD",
+    "engine": "gsap",
+    "motion_signature": "sticky-centred headline with scroll-staggered speech bubbles arriving from the margins: one ScrollTrigger per bubble fired by the bubble own position in a 130svh track, back.out landing, play/reverse so the field empties on the way up; a separate scrubbed tween fades the headline to 0.55 across the track",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "reveal-on-enter"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/anchored-headline-speech-bubbles/"
+}

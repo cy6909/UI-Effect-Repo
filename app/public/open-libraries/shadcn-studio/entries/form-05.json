@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-05",
+  "slug": "form-05",
+  "name": "Form 5",
+  "titleZh": "表单 form-05",
+  "description": "Form with OTP input component for secure verification codes",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-05.json",
+    "sha256": "b426d82b15db1f086bf0483e2d0a220b87ba3be0475529b2b42349ff37ee6ab7"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "form",
+    "input-otp"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

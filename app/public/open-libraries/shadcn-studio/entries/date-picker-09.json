@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/date-picker-09",
+  "slug": "date-picker-09",
+  "name": "Date Picker 9",
+  "titleZh": "日期选择 date-picker-09",
+  "description": "Time input field with clock icon for enhanced visual identification",
+  "tags": [
+    "date-picker",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--date-picker-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/date-picker-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/date-picker",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/date-picker-09.json",
+    "sha256": "9bc6e211fa7b0bc2635a3fc9b3d5a2988a7db9e3aee9c1f100839d50f13c4937"
+  },
+  "registryDependencies": [
+    "input",
+    "label"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

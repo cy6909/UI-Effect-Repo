@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-46",
+  "slug": "input-46",
+  "name": "Input 46",
+  "titleZh": "输入框 input-46",
+  "description": "Password input field with strength meter and requirements validation checker",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-46",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-46.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-46.json",
+    "sha256": "12f86241dfd8d94e3bc5cf1d91a189e154690d7190ccef3ab527df7ee789b3ab"
+  },
+  "registryDependencies": [
+    "button",
+    "input",
+    "label",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

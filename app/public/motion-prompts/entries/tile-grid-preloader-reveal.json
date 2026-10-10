@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/tile-grid-preloader-reveal",
+  "name": "Tile Grid Preloader Reveal",
+  "slug": "tile-grid-preloader-reveal",
+  "titleZh": "方格加载揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "Load sequence: an odd-numbered grid of frosted glass tiles fills in random order while a progress marker hops with GSAP Flip across four stops on the middle row (25, 50, 75, then the logo). The veil then drops away and every tile folds on its top edge in random order, briefly blurring the hero photo underneath, before the headline characters, subtitle lines and nav words rise from their masks.",
+  "tags": [
+    "preloader",
+    "grid",
+    "tiles",
+    "flip",
+    "splittext",
+    "glass",
+    "reveal",
+    "random-stagger",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/tile-grid-preloader-reveal",
+  "docsUrl": "https://motionprompts.dev/component/tile-grid-preloader-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/tile-grid-preloader-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/tile-grid-preloader-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/tile-grid-preloader-reveal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/tile-grid-preloader-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/tile-grid-preloader-reveal.md",
+    "sha256": "0a5ac804ef2bb8cc407ce67309cd359572b94ea08506b82e420ba85cd3badd08",
+    "upstreamUrl": "https://motionprompts.dev/prompts/tile-grid-preloader-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/tile-grid-preloader-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "Flip",
+      "SplitText"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.125,
+      2.2
+    ],
+    "stagger": 0.0035,
+    "assets_required": {
+      "count": 1,
+      "bytes": 292037,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "random-stagger tile fill, Flip marker hops between grid stops, random-stagger scaleY collapse over a blurred hero, masked text rise",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/tile-grid-preloader-reveal/"
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/infinite-parallax-scroll-with-minimap",
+  "name": "Infinite Parallax Scroll with Minimap",
+  "slug": "infinite-parallax-scroll-with-minimap",
+  "titleZh": "带缩略导航的无限视差滚动",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "Infinite vertical scroll through fullscreen project images with a synchronized centered minimap that mirrors the scroll at miniature scale. A hand-rolled rAF loop lerps a virtual scroll target driven by wheel and touch drag, recycles DOM slides around the current index for endless looping, applies per-image parallax (0.2x translateY on scale(1.5) images), and snaps to the nearest project with a 500ms cubic ease-out after 100ms of idle.",
+  "tags": [
+    "infinite",
+    "parallax",
+    "minimap",
+    "wheel",
+    "touch",
+    "lerp",
+    "snap",
+    "virtualized",
+    "vanilla-js",
+    "raf",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/infinite-parallax-scroll-with-minimap",
+  "docsUrl": "https://motionprompts.dev/component/infinite-parallax-scroll-with-minimap/",
+  "demoUrl": "https://motionprompts.dev/components/infinite-parallax-scroll-with-minimap/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/infinite-parallax-scroll-with-minimap.webp",
+  "videoUrl": "https://motionprompts.dev/previews/infinite-parallax-scroll-with-minimap.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/infinite-parallax-scroll-with-minimap.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/infinite-parallax-scroll-with-minimap.md",
+    "sha256": "96c55dab80867c8bc5a5f2a13055e1cc81ad2ec49c22207f541a6bc87c9088b4",
+    "upstreamUrl": "https://motionprompts.dev/prompts/infinite-parallax-scroll-with-minimap.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/infinite-parallax-scroll-with-minimap/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 473076,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "raf-lerp",
+    "motion_signature": "virtual wheel-driven infinite lerped slide track",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/infinite-parallax-scroll-with-minimap/"
+}

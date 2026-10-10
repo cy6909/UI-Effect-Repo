@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/ring-progress",
+  "slug": "ring-progress",
+  "name": "RING PROGRESS",
+  "titleZh": "环形进度",
+  "description": "环形进度条扫到 78%，中心 mono 数字弹性同步计数，外圈点缀细密的刻度线。",
+  "tags": [
+    "svg",
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--ring-progress",
+  "detailUrl": "/open-libraries/motion-vault/entries/ring-progress.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=ring-progress",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/ring-progress.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/ring-progress.md",
+    "sha256": "4b1a2bd45bc632da28e92b3c2baa6a078edefff43cfc751cf8502be266948d2b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/ring-progress.json",
+    "sha256": "430e390fec0d90c8542fa671bf2ac57a07af2249004df5a73be34ad5b490fb99"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

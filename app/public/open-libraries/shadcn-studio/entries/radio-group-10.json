@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/radio-group-10",
+  "slug": "radio-group-10",
+  "name": "Radio Group 10",
+  "titleZh": "单选 radio-group-10",
+  "description": "A split-list radio group with highlighted selected state and pricing",
+  "tags": [
+    "radio-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--radio-group-10",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/radio-group-10.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/radio-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/radio-group-10.json",
+    "sha256": "98a3ae1f54e57120685c673a464340d7ad0905004adfa20a9e00ab602af5393a"
+  },
+  "registryDependencies": [
+    "badge",
+    "label",
+    "radio-group"
+  ],
+  "dependencies": []
+}

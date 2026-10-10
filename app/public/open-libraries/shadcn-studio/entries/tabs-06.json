@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-06",
+  "slug": "tabs-06",
+  "name": "Tabs 6",
+  "titleZh": "标签页 tabs-06",
+  "description": "Tabs with badge count indicators showing numerical values for each tab",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-06.json",
+    "sha256": "18a8a2d005bbc2df124267240eae062e9983cf7ff8faa59dc0770d9ea44f278c"
+  },
+  "registryDependencies": [
+    "badge",
+    "tabs"
+  ],
+  "dependencies": []
+}

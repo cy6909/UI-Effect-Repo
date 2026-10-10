@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-io/ai--image",
+  "slug": "ai--image",
+  "name": "Image",
+  "titleZh": "Image · 组件参考",
+  "description": "Display AI-generated images with loading states and error handling. React component for DALL-E and Midjourney with TypeScript and shadcn/ui.",
+  "tags": [
+    "shadcn.io",
+    "reference",
+    "原站参考"
+  ],
+  "source": "shadcn-io",
+  "category": "Components",
+  "path": "/open/shadcn-io--ai--image",
+  "detailUrl": "/open-libraries/shadcn-io/entries/ai--image.json",
+  "promptAccess": "external",
+  "promptKind": "installation",
+  "sourceAvailable": false,
+  "variants": [],
+  "docsUrl": "https://www.shadcn.io/ai/image",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-io/LICENSE.txt",
+  "upstreamCommit": "2dc66e0e7b159fa92e761c84f3c5325c9700c415",
+  "prompt": null,
+  "bundle": null,
+  "notes": "Official MIT repository contains README links only. Component source and licensing must be checked at each linked page; Pro assets are not imported."
+}

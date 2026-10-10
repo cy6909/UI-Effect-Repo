@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/block-reveal-page-transition",
+  "name": "Block Reveal Page Transition",
+  "slug": "block-reveal-page-transition",
+  "titleZh": "块状揭示转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "Page transition where a fixed fullscreen grid of 60px black blocks flickers in with a random stagger to cover the viewport, the page content swaps behind it, then the blocks fade back out to reveal the new page. Triggered by clicking the bottom nav links that route between four full-viewport sci-fi sections.",
+  "tags": [
+    "page-transition",
+    "blocks",
+    "pixelated",
+    "stagger",
+    "random",
+    "fake-router",
+    "grid",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/block-reveal-page-transition",
+  "docsUrl": "https://motionprompts.dev/component/block-reveal-page-transition/",
+  "demoUrl": "https://motionprompts.dev/components/block-reveal-page-transition/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/block-reveal-page-transition.webp",
+  "videoUrl": "https://motionprompts.dev/previews/block-reveal-page-transition.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/block-reveal-page-transition.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/block-reveal-page-transition.md",
+    "sha256": "b765750337366cdf5e9a468e088130a861280f8221b59d884fbc616aa3d84141",
+    "upstreamUrl": "https://motionprompts.dev/prompts/block-reveal-page-transition.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/block-reveal-page-transition/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.05,
+      0.05
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 566672,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "random-stagger block curtain covers then reveals page: 60px grid blocks each flip opacity in 0.05s power2.inOut, randomized across a 0.5s window, 0.3s hold covered, then the same random 0.5s dissolve out",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/block-reveal-page-transition/"
+}

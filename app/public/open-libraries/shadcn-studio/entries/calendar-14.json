@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-14",
+  "slug": "calendar-14",
+  "name": "Calendar 14",
+  "titleZh": "日历 calendar-14",
+  "description": "Custom styled range calendar with sky blue theme for date range selection",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-14",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-14.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-14.json",
+    "sha256": "2051ba8042d5b3a701ec9a3b2d072dd22645c684e74238be4ecf363827a2c094"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": [
+    "react-day-picker"
+  ]
+}

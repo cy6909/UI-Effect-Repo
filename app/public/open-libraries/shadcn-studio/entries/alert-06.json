@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/alert-06",
+  "slug": "alert-06",
+  "name": "Alert 6",
+  "titleZh": "提示条 alert-06",
+  "description": "Focused icon alert with avatar-wrapped warning icon and destructive background styling.",
+  "tags": [
+    "alert",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--alert-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/alert-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/alert",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/alert-06.json",
+    "sha256": "14cdef4de696a792c70763289ba9697f658f556379c50b1a7a9e1e84e91537d1"
+  },
+  "registryDependencies": [
+    "alert",
+    "avatar"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

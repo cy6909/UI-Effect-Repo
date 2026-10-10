@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/download-button",
+  "slug": "download-button",
+  "name": "DOWNLOAD MORPH",
+  "titleZh": "下载变形",
+  "description": "点击后按钮原地变形成进度条——填充条先快后慢地爬满，百分比同步跳动；完成后翻转为绿色对勾，随后悄悄复位。",
+  "tags": [
+    "button",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--download-button",
+  "detailUrl": "/open-libraries/motion-vault/entries/download-button.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=download-button",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/download-button.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/download-button.md",
+    "sha256": "c9511ca1e4ef0fd4d8702f3764012836a1c5732c6b4ef858aabbd68678e47986",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/download-button.json",
+    "sha256": "515511cd703dd5d5bda7a8d0e56500467df79ec6d53d837eed5f10d2ff05b81f"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

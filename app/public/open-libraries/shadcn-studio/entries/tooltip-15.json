@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tooltip-15",
+  "slug": "tooltip-15",
+  "name": "Tooltip 15",
+  "titleZh": "工具提示 tooltip-15",
+  "description": "A hover card showing today's task completion with team member avatars and percentage progress",
+  "tags": [
+    "tooltip",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--tooltip-15",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tooltip-15.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tooltip",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tooltip-15.json",
+    "sha256": "31aa742026ecbf142a577535946d8d28c619091890e6f4f30d8337ef4eda8df0"
+  },
+  "registryDependencies": [
+    "avatar",
+    "button",
+    "hover-card"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-20",
+  "slug": "calendar-20",
+  "name": "Calendar 20",
+  "titleZh": "日历 calendar-20",
+  "description": "Calendar with integrated time input for complete datetime selection",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-20",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-20.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-20.json",
+    "sha256": "fed66c6000526c3cdd32d72529b4ce133ece3b6da2c0a6af7686c64b3e5d7307"
+  },
+  "registryDependencies": [
+    "calendar",
+    "card",
+    "input",
+    "label"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

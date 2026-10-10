@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/menu-root-food",
+  "name": "Ember & Rye Fullscreen Menu",
+  "slug": "menu-root-food",
+  "titleZh": "Ember & Rye 全屏菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "A minimal Menu button expands a right-docked panel to a fullscreen overlay of five vertical menu columns (Eat, Grill, Burgers, Visit, Order) for a wood-fired burger house, with per-letter staggered reveals of oversized serif labels and image clip-path reveals on hover. Triggered by clicking Menu/Close; GSAP tweens the panel width with a CustomEase 'hop' curve and staggers letter spans with power3.out.",
+  "tags": [
+    "fullscreen-menu",
+    "gsap",
+    "customease",
+    "stagger",
+    "clip-path",
+    "editorial",
+    "navigation",
+    "reveal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/menu-root-food",
+  "docsUrl": "https://motionprompts.dev/component/menu-root-food/",
+  "demoUrl": "https://motionprompts.dev/components/menu-root-food/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/menu-root-food.webp",
+  "videoUrl": "https://motionprompts.dev/previews/menu-root-food.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/menu-root-food.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/menu-root-food.md",
+    "sha256": "8c900b01ad894f1cb8462b72f2d3b787aeaf5939850242bb176a90dd8b748852",
+    "upstreamUrl": "https://motionprompts.dev/prompts/menu-root-food.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/menu-root-food/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "CustomEase"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.5,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 1419004,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "mixed",
+    "motion_signature": "click-toggled fullscreen panel with per-letter stagger",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aminezegmou-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "infinite-draggable-image-gallery-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "laserbysonymusic-landing-page-reveal-animation",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "maxmilkin-preloader",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "nite-riot-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "steelworks-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "truekindskincare-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-page-transitions",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/menu-root-food/"
+}

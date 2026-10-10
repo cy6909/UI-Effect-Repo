@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/login-page-01",
+  "slug": "login-page-01",
+  "name": "Login 1",
+  "titleZh": "界面组件 login-page-01",
+  "description": "Centered card layout with logo header, quick login buttons, and full authentication form featuring email/password inputs, social login options, and remember me functionality",
+  "tags": [
+    "login-page",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--login-page-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/login-page-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/login-page-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/login-page-01.json",
+    "sha256": "efbe83e6f558556ee73795db6bf96c0d05e9d8b7c0b2cdbefa49b6b8b3ad1961"
+  },
+  "registryDependencies": [
+    "button",
+    "card",
+    "checkbox",
+    "input",
+    "label",
+    "separator",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

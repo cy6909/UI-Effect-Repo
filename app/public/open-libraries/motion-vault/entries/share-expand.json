@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/share-expand",
+  "slug": "share-expand",
+  "name": "SHARE EXPAND",
+  "titleZh": "分享展开按钮",
+  "description": "点击后按钮弹性展开为一排分享图标，逐个弹出；再点即可收回。",
+  "tags": [
+    "button",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--share-expand",
+  "detailUrl": "/open-libraries/motion-vault/entries/share-expand.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=share-expand",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/share-expand.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/share-expand.md",
+    "sha256": "f16d55c34a6660d84f302ebd6289dd7a58a4ecae6ea975e1b73880f1390ad2a4",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/share-expand.json",
+    "sha256": "940db2cb1bab1c92499737d94623fd3082fd63e93dbe49cf96b54d6b4eb7ea39"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/landing-page-gravity",
+  "name": "Physics Gravity Landing Page",
+  "slug": "landing-page-gravity",
+  "titleZh": "重力物理页面",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "A full-viewport hero for a cinematic frame archive (Freefall) where twelve scattered film-still tiles toggle between a floating grid and a physics drop. A [ Release / Restore ] button switches Matter.js gravity on so the rectangles fall, tumble and pile on a floor with restitution and friction, then a manual eased requestAnimationFrame lerp glides them back to their start positions. GSAP simultaneously animates the overlay clip-path, the huge 'Freefall' headline font-size/left, button color and the reveal of the nav link columns.",
+  "tags": [
+    "physics",
+    "gravity",
+    "matter-js",
+    "image-grid",
+    "toggle",
+    "interactive",
+    "editorial",
+    "drop",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/landing-page-gravity",
+  "docsUrl": "https://motionprompts.dev/component/landing-page-gravity/",
+  "demoUrl": "https://motionprompts.dev/components/landing-page-gravity/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/landing-page-gravity.webp",
+  "videoUrl": "https://motionprompts.dev/previews/landing-page-gravity.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/landing-page-gravity.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/landing-page-gravity.md",
+    "sha256": "eea9cc32aac7f23df30f110be18bf84d36f914d3ebf11ef6681d6da2cac2ef1d",
+    "upstreamUrl": "https://motionprompts.dev/prompts/landing-page-gravity.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/landing-page-gravity/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "matter-js"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.75,
+      1.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 12,
+      "bytes": 374118,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "INTEGRATOR",
+    "engine": "mixed",
+    "motion_signature": "Matter.js gravity drop, eased rAF return",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "matter-js"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/landing-page-gravity/"
+}

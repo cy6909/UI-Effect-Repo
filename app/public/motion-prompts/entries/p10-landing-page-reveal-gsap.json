@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/p10-landing-page-reveal-gsap",
+  "name": "P10 Landing Page Reveal",
+  "slug": "p10-landing-page-reveal-gsap",
+  "titleZh": "P10 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "A preloader-driven landing reveal that plays automatically on load: SplitText masked characters slide the studio name and a large '10' into view, the intro character slides and scales into a logo mark while animated corner tags flip in and out, then two dark overlays split apart along a clip-path seam to unveil a full-bleed hero image, a center card and a masked per-character card heading. Driven by a single GSAP timeline using a custom 'hop' CustomEase and staggered clip-path/transform tweens.",
+  "tags": [
+    "preloader",
+    "reveal",
+    "clip-path",
+    "splittext",
+    "customease",
+    "landing",
+    "hero",
+    "minimal",
+    "stagger",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/p10-landing-page-reveal-gsap",
+  "docsUrl": "https://motionprompts.dev/component/p10-landing-page-reveal-gsap/",
+  "demoUrl": "https://motionprompts.dev/components/p10-landing-page-reveal-gsap/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/p10-landing-page-reveal-gsap.webp",
+  "videoUrl": "https://motionprompts.dev/previews/p10-landing-page-reveal-gsap.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/p10-landing-page-reveal-gsap.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/p10-landing-page-reveal-gsap.md",
+    "sha256": "e9a6b5102e7ae36045ea4d65155b5e8c255aa5a82a938a251270989b59362f60",
+    "upstreamUrl": "https://motionprompts.dev/prompts/p10-landing-page-reveal-gsap.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/p10-landing-page-reveal-gsap/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "CustomEase",
+      "SplitText"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "custom",
+    "duration_range": [
+      0.75,
+      1
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 1,
+      "bytes": 163241,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "Autoplay ~7.25s preloader takeover: masked char/word reveals on a custom 'hop' ease (.8,0,.3,1 — fast-out, long glide, hard settle), then two identical stacked full-viewport layers are clip-path-split at the 50% seam and driven apart with a function-based value (y:(i)=>i===0?'-50%':'50%') while the underlying .container clip-path expands from a 4%-tall horizontal seam to the full frame and the card wipes open",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aminezegmou-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "infinite-draggable-image-gallery-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "laserbysonymusic-landing-page-reveal-animation",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "maxmilkin-preloader",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "nite-riot-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "steelworks-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "truekindskincare-landing-page-reveal-javascript",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-page-transitions",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/p10-landing-page-reveal-gsap/"
+}

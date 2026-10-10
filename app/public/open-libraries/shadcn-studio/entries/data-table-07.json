@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-07",
+  "slug": "data-table-07",
+  "name": "Data Table 7",
+  "titleZh": "数据表格 data-table-07",
+  "description": "Data table with pinnable columns sticking to the left side or right side for easy access",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-07.json",
+    "sha256": "389503980cf75a20aae2038fc447e3768b1255e0230cfd3fe1eab356e225aa6e"
+  },
+  "registryDependencies": [
+    "button",
+    "dropdown-menu",
+    "table"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "@tanstack/react-table"
+  ]
+}

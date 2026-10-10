@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/curved-loop",
+  "slug": "curved-loop",
+  "name": "CURVED LOOP",
+  "titleZh": "曲线跑马灯",
+  "description": "FIND INSPIRATION · MOTION VAULT 沿一条下弯弧线无限滚动，18px mono，弧线两端以渐变遮罩淡出，安静而有仪式感。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--curved-loop",
+  "detailUrl": "/open-libraries/motion-vault/entries/curved-loop.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=curved-loop",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/curved-loop.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/curved-loop.md",
+    "sha256": "cc4707be7e27e664b92c3f66d51fe25d6e527385097957180b97a6417800779a",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/curved-loop.json",
+    "sha256": "25948e226a139429444f90046a476ab321a153f0dad458f35faec619872c2d69"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

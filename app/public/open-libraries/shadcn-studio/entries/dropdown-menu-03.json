@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dropdown-menu-03",
+  "slug": "dropdown-menu-03",
+  "name": "Dropdown Menu 3",
+  "titleZh": "下拉菜单 dropdown-menu-03",
+  "description": "Chat list dropdown with avatars, message previews, and notification badges",
+  "tags": [
+    "dropdown-menu",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--dropdown-menu-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dropdown-menu-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dropdown-menu",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dropdown-menu-03.json",
+    "sha256": "9493169353c0d83a92a282528422dc489e6b04c46cd1cb0d4473266657f50a72"
+  },
+  "registryDependencies": [
+    "avatar",
+    "badge",
+    "button",
+    "dropdown-menu"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/draw-signature",
+  "slug": "draw-signature",
+  "name": "DRAW SIGNATURE",
+  "titleZh": "签名描绘",
+  "description": "一段手写体的 “Motion” 签名逐笔描绘出自己，最后一条下划线潇洒收尾，每 4 秒自动重播。",
+  "tags": [
+    "svg",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--draw-signature",
+  "detailUrl": "/open-libraries/motion-vault/entries/draw-signature.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=draw-signature",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/draw-signature.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/draw-signature.md",
+    "sha256": "d2d2290847d3230c97e6b504e5f9d985df5fe7ded0fde2d55a647e76e6373e10",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/draw-signature.json",
+    "sha256": "13d836dbe7da863139ec9cb608b57cec6e07fb58e55e465ea5776e4666670b7a"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

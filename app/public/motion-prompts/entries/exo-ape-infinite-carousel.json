@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/exo-ape-infinite-carousel",
+  "name": "Exo Ape Infinite Carousel",
+  "slug": "exo-ape-infinite-carousel",
+  "titleZh": "Exo Ape 无限轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A full-screen infinite image carousel driven by wheel and touch input: each scroll builds a fresh slide and reveals it with a GSAP timeline that wipes a full-bleed background via animated clip-path polygons, scales the outgoing image to 1.5, and slides a centered portrait thumbnail plus masked title, description and counter text in the scroll direction. All tweens share a 1.25s duration and a custom '.87,0,.13,1' CustomEase, with a one-second cooldown between slides.",
+  "tags": [
+    "carousel",
+    "slider",
+    "clip-path",
+    "customease",
+    "wheel",
+    "infinite",
+    "fullscreen",
+    "cinematic",
+    "masked-text",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/exo-ape-infinite-carousel",
+  "docsUrl": "https://motionprompts.dev/component/exo-ape-infinite-carousel/",
+  "demoUrl": "https://motionprompts.dev/components/exo-ape-infinite-carousel/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/exo-ape-infinite-carousel.webp",
+  "videoUrl": "https://motionprompts.dev/previews/exo-ape-infinite-carousel.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/exo-ape-infinite-carousel.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/exo-ape-infinite-carousel.md",
+    "sha256": "b74623990351e6ae54d4d28009be14123d729f8b4506c2e3c0e1098c9ee20f13",
+    "upstreamUrl": "https://motionprompts.dev/prompts/exo-ape-infinite-carousel.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/exo-ape-infinite-carousel/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "gsap",
+      "CustomEase"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "cubic-bezier",
+    "duration_range": [
+      1.25,
+      1.25
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 7,
+      "bytes": 2305260,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 3,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel"
+    ],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "wheel/touch-driven slide swap: one 11-tween parallel GSAP timeline, all 1.25s at position 0 on an anonymous CustomEase(.87,0,.13,1) — a clip-path polygon wipe opens the incoming full-bleed background from the scroll direction while the outgoing background image scales to 1.5, the centered 25%x50% thumbnail wrapper wipes with an inverse clip-path and its image counter-parallaxes from y ±50% to 0%, and masked title/description/counter swap by y ±50/±20/±18px. No easing chain, no rAF, no scroll position — discrete, throttled state changes gated by a ~1s cooldown.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/exo-ape-infinite-carousel/"
+}

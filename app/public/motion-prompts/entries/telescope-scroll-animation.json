@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/telescope-scroll-animation",
+  "name": "Telescope Scroll Animation",
+  "slug": "telescope-scroll-animation",
+  "titleZh": "Telescope 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "'Afterimage', a pinned spotlight gallery of long-exposure photographs in colored light. Scrolling first splits the 'After / Image' intro text apart and scales a background image up from zero, then scrolls a vertical column of frame titles through a diamond-shaped (telescope) clip-path viewfinder while thumbnails fly along a quadratic bezier arc; the title nearest the viewport center highlights and swaps the full-bleed background image. Driven by a single ScrollTrigger (pin + scrub over 10x viewport height, Lenis-smoothed) whose onUpdate maps scroll progress across phased ranges with gsap.set.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "bezier-arc",
+    "clip-path",
+    "image-reveal",
+    "lenis",
+    "gallery",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/telescope-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/telescope-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/telescope-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/telescope-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/telescope-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/telescope-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/telescope-scroll-animation.md",
+    "sha256": "b739ec3acd5483689c27a5b238eaf6e6331a3b7e5ab5197902784ac0303cc34f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/telescope-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/telescope-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 1000,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.3,
+      0.3
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 1700654,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "pinned scrub gallery, titles column plus bezier-arc thumbnails",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/telescope-scroll-animation/"
+}

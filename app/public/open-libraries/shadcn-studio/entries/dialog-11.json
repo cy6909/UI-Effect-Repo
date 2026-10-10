@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-11",
+  "slug": "dialog-11",
+  "name": "Dialog 11",
+  "titleZh": "对话框 dialog-11",
+  "description": "Rating feedback dialog with emoji radio buttons and text area for comments",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-11.json",
+    "sha256": "1ad5c3f4667f043d758ae8d8981cd6036799a1550bc453a009ec06066d32d95f"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog",
+    "checkbox",
+    "label",
+    "radio-group",
+    "textarea"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/capsules-sticky-cards-javascript",
+  "name": "Capsules Animated Sticky Cards",
+  "slug": "capsules-sticky-cards-javascript",
+  "titleZh": "Capsules 动态吸附卡片",
+  "category": "Components",
+  "source": "motion-prompts",
+  "sourceCategory": "cards",
+  "description": "Scroll-driven deck of pinned full-screen cards where the first card grows from a small rounded capsule into a full-bleed image over 300vh (ScrollTrigger scrub via onUpdate, synced to Lenis), fading out a looping horizontal marquee as it expands. Each following card pins, scales/fades the previous one back, morphs its image border-radius and scale, and reveals SplitText title characters plus description with power4.out.",
+  "tags": [
+    "sticky",
+    "sticky-cards",
+    "scroll",
+    "pin",
+    "scrub",
+    "marquee",
+    "splittext",
+    "lenis",
+    "capsule",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/capsules-sticky-cards-javascript",
+  "docsUrl": "https://motionprompts.dev/component/capsules-sticky-cards-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/capsules-sticky-cards-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/capsules-sticky-cards-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/capsules-sticky-cards-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/capsules-sticky-cards-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/capsules-sticky-cards-javascript.md",
+    "sha256": "ebf367b8616263710312f6839f5e96147b0c059467b1082a7575489b6b14e8ed",
+    "upstreamUrl": "https://motionprompts.dev/prompts/capsules-sticky-cards-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/capsules-sticky-cards-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 5,
+    "pinned": true,
+    "viewport_heights": 300,
+    "needs_lenis": true,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      0.75
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 2948981,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "pinned stacking cards, capsule expands, marquee loops — the intro card's .card-img morphs from a 0.5-scale 400px-radius capsule to full-bleed 25px radius over 300vh (inner img counter-scales 1.5->1.0, stroke marquee cross-fades out between progress 0 and 0.5), then each later card scales its wrapper 1->0.75 and fades 1->0 as the next rises, while the incoming image scales 2->1 and its container radius goes 150->25px. All of it is imperative gsap.set inside ScrollTrigger onUpdate; there is no scrub anywhere.",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/capsules-sticky-cards-javascript/"
+}

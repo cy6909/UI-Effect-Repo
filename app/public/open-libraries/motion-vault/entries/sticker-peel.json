@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/sticker-peel",
+  "slug": "sticker-peel",
+  "name": "STICKER PEEL",
+  "titleZh": "贴纸撕角",
+  "description": "捏住卡片右上角向左下拖拽，贴纸箱角沿折线镜像翻卷，撕过一半自动整片剥离，露出藏在底下的优惠码。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--sticker-peel",
+  "detailUrl": "/open-libraries/motion-vault/entries/sticker-peel.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=sticker-peel",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/sticker-peel.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/sticker-peel.md",
+    "sha256": "927f5f97d63af443069ab789e6595ccca6854b2d6bc124513199882674808c90",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/sticker-peel.json",
+    "sha256": "8d8f84066a49345526504a954de8f0207e62079936d7b0333373aedd699f6d13"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

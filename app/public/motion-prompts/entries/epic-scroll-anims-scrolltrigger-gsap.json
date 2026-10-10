@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/epic-scroll-anims-scrolltrigger-gsap",
+  "name": "Epic Scroll Animations",
+  "slug": "epic-scroll-anims-scrolltrigger-gsap",
+  "titleZh": "Epic 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A long scroll story where two sections (a pinned 'revealer' shape and the header-info block) are pinned with ScrollTrigger while a white cross/plus shape rotates 360deg, expands its clip-path into a full cross, drifts horizontally, then scales up 13x to wipe the screen and reveal the final content. Driven entirely by multiple scrub/onUpdate ScrollTriggers over Lenis-smoothed scroll.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "clip-path",
+    "reveal",
+    "scrolltrigger",
+    "lenis",
+    "editorial",
+    "cinematic",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/epic-scroll-anims-scrolltrigger-gsap",
+  "docsUrl": "https://motionprompts.dev/component/epic-scroll-anims-scrolltrigger-gsap/",
+  "demoUrl": "https://motionprompts.dev/components/epic-scroll-anims-scrolltrigger-gsap/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/epic-scroll-anims-scrolltrigger-gsap.webp",
+  "videoUrl": "https://motionprompts.dev/previews/epic-scroll-anims-scrolltrigger-gsap.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/epic-scroll-anims-scrolltrigger-gsap.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/epic-scroll-anims-scrolltrigger-gsap.md",
+    "sha256": "4eddf6b58be1a583dc2acdba60a17ffef7064d88e273d22671a8fa400c6545c0",
+    "upstreamUrl": "https://motionprompts.dev/prompts/epic-scroll-anims-scrolltrigger-gsap.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/epic-scroll-anims-scrolltrigger-gsap/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": true,
+    "viewport_heights": 300,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": [
+      0.5,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 506987,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap+raf",
+    "motion_signature": "pinned clip-path cross rotates, drifts, scales to wipe",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/epic-scroll-anims-scrolltrigger-gsap/"
+}

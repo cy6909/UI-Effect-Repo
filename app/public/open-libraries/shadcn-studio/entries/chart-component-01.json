@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/chart-component-01",
+  "slug": "chart-component-01",
+  "name": "Chart 1",
+  "titleZh": "界面组件 chart-component-01",
+  "description": "Comprehensive sales metrics dashboard featuring company profile, key performance indicators (sales trend, discounts, profit, orders), pie chart for revenue goals, and bar chart for sales plan completion with cohort analysis tools.",
+  "tags": [
+    "chart-component",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--chart-component-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/chart-component-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/chart-component-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/chart-component-01.json",
+    "sha256": "aa8f0e70b72dbeddf80a22601369ed0ec7b639a6ec6aad47e2effec722aa2ec2"
+  },
+  "registryDependencies": [
+    "avatar",
+    "card",
+    "chart"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

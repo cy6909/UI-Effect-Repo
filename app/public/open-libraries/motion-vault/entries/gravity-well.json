@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/gravity-well",
+  "slug": "gravity-well",
+  "name": "GRAVITY WELL",
+  "titleZh": "引力井",
+  "description": "150 粒星尘缓缓漂移，鼠标化作引力井——靠近的粒子被捕获成环绕轨道；点击瞬间井变斥力场，粒子四散炸开。",
+  "tags": [
+    "particle",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--gravity-well",
+  "detailUrl": "/open-libraries/motion-vault/entries/gravity-well.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=gravity-well",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/gravity-well.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/gravity-well.md",
+    "sha256": "b3ef150c20298385ef523d51472d17bbf6ea764b2548b266203dd0f09ca193d9",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/gravity-well.json",
+    "sha256": "a8fbd90b4889051674aa4d02edd387af1c23374abc976ab6b780c7ca2dacd31b"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

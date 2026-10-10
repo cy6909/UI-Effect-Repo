@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-07",
+  "slug": "dialog-07",
+  "name": "Dialog 7",
+  "titleZh": "对话框 dialog-07",
+  "description": "Full-screen dialog taking up the entire viewport for immersive content",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-07.json",
+    "sha256": "aeed4a986f034db1430f9319d94c3b0d9d07d0b7e648cd05685bdb711b6f24e0"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog",
+    "scroll-area"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

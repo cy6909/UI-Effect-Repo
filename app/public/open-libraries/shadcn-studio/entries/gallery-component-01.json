@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/gallery-component-01",
+  "slug": "gallery-component-01",
+  "name": "Gallery 1",
+  "titleZh": "界面组件 gallery-component-01",
+  "description": "Gallery section with centered header featuring underlined text highlight, flexible grid layout supporting both single images and 2x2 grid sections for versatile image arrangement",
+  "tags": [
+    "gallery-component",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--gallery-component-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/gallery-component-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/gallery-component-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/gallery-component-01.json",
+    "sha256": "83e1e15bbd1b899d212a41250bea53a8a7debd215b5699ea53bcb950831ceb87"
+  },
+  "registryDependencies": [
+    "utils"
+  ],
+  "dependencies": []
+}

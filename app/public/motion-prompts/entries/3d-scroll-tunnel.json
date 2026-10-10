@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/3d-scroll-tunnel",
+  "name": "3D Scroll Tunnel",
+  "slug": "3d-scroll-tunnel",
+  "titleZh": "3D 滚动隧道",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "Infinite 3D image tunnel driven by the mouse wheel: six layers of four full-colour images each sit on an ellipse inside a perspective container, and a gsap.ticker loop lerps a virtual scroll value to push layers along the Z axis, wrapping depth modulo the tunnel length for endless looping. A per-item plum-black overlay driven by a --overlay CSS variable fades images in from the depths and darkens them out as they pass the camera. On top of that, a second damped read — the VELOCITY of the lerped scroll, not its position — stretches every plate along its own radial axis and pinches it across, so the frames smear like speed lines while the flight is moving and snap back to clean rectangles the moment it settles.",
+  "tags": [
+    "3d",
+    "tunnel",
+    "wheel",
+    "infinite-loop",
+    "css-3d",
+    "perspective",
+    "lerp",
+    "gallery",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/3d-scroll-tunnel",
+  "docsUrl": "https://motionprompts.dev/component/3d-scroll-tunnel/",
+  "demoUrl": "https://motionprompts.dev/components/3d-scroll-tunnel/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/3d-scroll-tunnel.webp",
+  "videoUrl": "https://motionprompts.dev/previews/3d-scroll-tunnel.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/3d-scroll-tunnel.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/3d-scroll-tunnel.md",
+    "sha256": "d14c4b3e2877dbfe6d98a6ac3671974e0a2b36c559cc2704f22f4505a68920c7",
+    "upstreamUrl": "https://motionprompts.dev/prompts/3d-scroll-tunnel.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/3d-scroll-tunnel/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      2.4
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 12,
+      "bytes": 1289972,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "gsap+raf",
+    "motion_signature": "wheel-driven lerped infinite CSS-3D depth tunnel",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/3d-scroll-tunnel/"
+}

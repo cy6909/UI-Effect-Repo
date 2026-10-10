@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-32",
+  "slug": "select-32",
+  "name": "Select 32",
+  "titleZh": "选择器 select-32",
+  "description": "A multi-select dropdown with search functionality for product categories",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-32",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-32.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-32.json",
+    "sha256": "4312b9433e4fc645c43ff64adf4fc6d28d00eef78e7a1d324053f45a784ca06b"
+  },
+  "registryDependencies": [
+    "command",
+    "label",
+    "utils"
+  ],
+  "dependencies": [
+    "cmdk",
+    "lucide-react"
+  ]
+}

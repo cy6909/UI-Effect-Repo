@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/table-04",
+  "slug": "table-04",
+  "name": "Table 4",
+  "titleZh": "表格 table-04",
+  "description": "A table with vertical lines between columns for clear data separation",
+  "tags": [
+    "table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--table-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/table-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/table-04.json",
+    "sha256": "21be1167eaae09fa772cca85fbb5e8281b25c356fec9d87a5edcf5473850fd55"
+  },
+  "registryDependencies": [
+    "table"
+  ],
+  "dependencies": []
+}

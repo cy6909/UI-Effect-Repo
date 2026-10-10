@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/breadcrumb-05",
+  "slug": "breadcrumb-05",
+  "name": "Breadcrumb 5",
+  "titleZh": "面包屑 breadcrumb-05",
+  "description": "Breadcrumb styled with outlined badge components for modern tab-like appearance",
+  "tags": [
+    "breadcrumb",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--breadcrumb-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/breadcrumb-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/breadcrumb",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/breadcrumb-05.json",
+    "sha256": "83840ee2c7ed4d07cf8140f245c88a0573b994a1cfa0732faf990ed0685dfab2"
+  },
+  "registryDependencies": [
+    "badge",
+    "breadcrumb"
+  ],
+  "dependencies": []
+}

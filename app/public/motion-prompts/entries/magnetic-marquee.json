@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/magnetic-marquee",
+  "name": "Magnetic Spotlight Marquee",
+  "slug": "magnetic-marquee",
+  "titleZh": "磁吸聚光跑马灯",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "Infinitely auto-scrolling image marquee strip (gsap.to with x-wrap modifiers) that magnetically follows the cursor's vertical position on mousemove, lerped in gsap.ticker (0.05 ease) and clamped 175px from the section edges. SplitText-split heading and copy lines rise out of the strip's way as it descends and receive a gaussian velocity 'wake' offset, while the content sits in mix-blend-mode: difference over the passing images.",
+  "tags": [
+    "marquee",
+    "infinite",
+    "mousemove",
+    "magnetic",
+    "cursor-follow",
+    "lerp",
+    "split-text",
+    "mix-blend-mode",
+    "wake",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/magnetic-marquee",
+  "docsUrl": "https://motionprompts.dev/component/magnetic-marquee/",
+  "demoUrl": "https://motionprompts.dev/components/magnetic-marquee/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/magnetic-marquee.webp",
+  "videoUrl": "https://motionprompts.dev/previews/magnetic-marquee.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/magnetic-marquee.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/magnetic-marquee.md",
+    "sha256": "40301bcc6749787cfc8d06c9c008b197d533329ef53e2a1518184d10f98db8d4",
+    "upstreamUrl": "https://motionprompts.dev/prompts/magnetic-marquee.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/magnetic-marquee/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "gsap",
+      "SplitText"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "none",
+    "duration_range": [
+      8,
+      17.28
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 660136,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "gsap+raf",
+    "motion_signature": "cursor-magnetic infinite marquee strip with text wake",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/magnetic-marquee/"
+}

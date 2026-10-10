@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-31",
+  "slug": "input-31",
+  "name": "Input 31",
+  "titleZh": "输入框 input-31",
+  "description": "An email input field with an inline send button positioned at the end",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-31",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-31.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-31.json",
+    "sha256": "c4d5c3e711103de200eeccd8f625f390cf1c85787788fa6403846063e1981051"
+  },
+  "registryDependencies": [
+    "button",
+    "input",
+    "label"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

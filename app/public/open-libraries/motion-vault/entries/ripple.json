@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/ripple",
+  "slug": "ripple",
+  "name": "RIPPLE",
+  "titleZh": "点击波纹",
+  "description": "Material 风格——点击处荡开一圈涟漪，最直接的触碰反馈。",
+  "tags": [
+    "button",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--ripple",
+  "detailUrl": "/open-libraries/motion-vault/entries/ripple.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=ripple",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/ripple.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/ripple.md",
+    "sha256": "66ad8606e1e95cba34450146ce6e0bd32f0c95feb0bd37cacb7fa031fd5c2a38",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/ripple.json",
+    "sha256": "7c4ee5e16c5b929093aff090357f772314f8b1c9462897649e48c269ff30d6d3"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

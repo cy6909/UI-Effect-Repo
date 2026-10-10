@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/rain-ripples",
+  "slug": "rain-ripples",
+  "name": "RAIN RIPPLES",
+  "titleZh": "雨落涟漪",
+  "description": "深夜雨幕：细雨斜落水面，砸出一圈圈扩散又淡去的椭圆涟漪；点击落下一滴大雨，溅起三层同心涟漪与水花。",
+  "tags": [
+    "particle",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--rain-ripples",
+  "detailUrl": "/open-libraries/motion-vault/entries/rain-ripples.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=rain-ripples",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/rain-ripples.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/rain-ripples.md",
+    "sha256": "57ef8566b8aa6832031c970ad49019dbe6f419ffdcb8648a6ac520bbacc03a86",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/rain-ripples.json",
+    "sha256": "a7713f36076c2e8a13c63ada5ca2e3c901a9af3ccb03f716234acf85788e5842"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

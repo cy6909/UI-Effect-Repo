@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/ascii-image-reveal-effect",
+  "name": "ASCII Image Reveal Effect",
+  "slug": "ascii-image-reveal-effect",
+  "titleZh": "ASCII 图片揭示 Effect",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "Editorial photo grid where each frame paints itself as live ASCII on a canvas as it scrolls into view: cells pop in in random order, the lit mid-tones flicker through dense glyphs before locking, and the settled ASCII holds a beat before cross-fading to the real photograph. The glyph grid is measured from the tile's own box, so it stays legible from a 250px desktop frame down to a 170px phone tile; tapping a frame scans it again.",
+  "tags": [
+    "ascii",
+    "canvas",
+    "reveal",
+    "scroll",
+    "scramble",
+    "grid",
+    "gallery",
+    "vanilla-js",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/ascii-image-reveal-effect",
+  "docsUrl": "https://motionprompts.dev/component/ascii-image-reveal-effect/",
+  "demoUrl": "https://motionprompts.dev/components/ascii-image-reveal-effect/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/ascii-image-reveal-effect.webp",
+  "videoUrl": "https://motionprompts.dev/previews/ascii-image-reveal-effect.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/ascii-image-reveal-effect.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/ascii-image-reveal-effect.md",
+    "sha256": "4c02a4cd32e0f1c17e067a4392599afe8d0c7cbce39ea005262509bab45e97b0",
+    "upstreamUrl": "https://motionprompts.dev/prompts/ascii-image-reveal-effect.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/ascii-image-reveal-effect/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      10
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 15,
+      "bytes": 2446148,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "canvas2d",
+    "motion_signature": "per-cell ASCII grid materializes in shuffled random order at a flat 2ms/cell; dark cells cycle 10 random dense glyphs at 100ms before locking to their final char; when all ~500 cells settle the canvas is hidden and the real photo appears with no crossfade. No easing curves at all — the physics is pure uniform timer spacing.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/ascii-image-reveal-effect/"
+}

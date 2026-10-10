@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/gooey-nav",
+  "slug": "gooey-nav",
+  "name": "GOOEY NAV",
+  "titleZh": "融合导航",
+  "description": "激活指示块在四个导航项之间黏糊糊地滑动——SVG gooey 滤镜让指示块拖着一条会融合的小尾巴，激活文字同步反白。",
+  "tags": [
+    "spring",
+    "svg",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--gooey-nav",
+  "detailUrl": "/open-libraries/motion-vault/entries/gooey-nav.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=gooey-nav",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/gooey-nav.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/gooey-nav.md",
+    "sha256": "51e9f8c9b42534d1f359bba1f0c7fcbfa84d3884924514f04bc7bd1fbad861cd",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/gooey-nav.json",
+    "sha256": "2ebd8db55e0a746f6313c843fd2f9d41dd9b68320e7003a77c85e05eeb1f28bb"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

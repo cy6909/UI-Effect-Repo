@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/combobox-13",
+  "slug": "combobox-13",
+  "name": "Combobox 13",
+  "titleZh": "组合选择 combobox-13",
+  "description": "Framework selector combobox with smooth animations and motion effects",
+  "tags": [
+    "combobox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--combobox-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/combobox-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/combobox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/combobox-13.json",
+    "sha256": "34dbdce290dd7f9a1fc1251130264878af33de3e743257d3c1d58a9d932a9da6"
+  },
+  "registryDependencies": [
+    "button",
+    "command",
+    "popover",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

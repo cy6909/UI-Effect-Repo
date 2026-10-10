@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/phive-sticky-cards",
+  "name": "Phive Sticky Cards",
+  "slug": "phive-sticky-cards",
+  "titleZh": "Phive 吸附卡片",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A vertical stack of full-height sticky cards that fold away on scroll: each card is pinned (pinSpacing false) while ScrollTrigger scrub-animates its inner panel translating up 50%, pushing back -250px in Z and tilting 45deg on rotationX in 3D perspective, with a black overlay fading in via an animated --after-opacity variable as the next card arrives. Driven by GSAP ScrollTrigger synced to Lenis smooth scrolling.",
+  "tags": [
+    "sticky",
+    "cards",
+    "scroll",
+    "pin",
+    "scrub",
+    "3d-fold",
+    "perspective",
+    "lenis",
+    "pop-art",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/phive-sticky-cards",
+  "docsUrl": "https://motionprompts.dev/component/phive-sticky-cards/",
+  "demoUrl": "https://motionprompts.dev/components/phive-sticky-cards/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/phive-sticky-cards.webp",
+  "videoUrl": "https://motionprompts.dev/previews/phive-sticky-cards.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/phive-sticky-cards.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/phive-sticky-cards.md",
+    "sha256": "71ea76b4fc0e6cc7349b4716ca59aff848cf7efe77e6371637e1d06625be4de5",
+    "upstreamUrl": "https://motionprompts.dev/prompts/phive-sticky-cards.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/phive-sticky-cards/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 125,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 1820857,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "scrub-pinned cards folding back and down in 3D (y -50%, z -250, rotationX 45 about a bottom-edge origin under 1000px perspective) while a black ::after overlay fades in; no explicit ease, so GSAP's default power1.out shapes the scrub non-linearly",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/phive-sticky-cards/"
+}

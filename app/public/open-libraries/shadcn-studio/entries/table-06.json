@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/table-06",
+  "slug": "table-06",
+  "name": "Table 6",
+  "titleZh": "表格 table-06",
+  "description": "A striped rows table with alternating row background colors for improved readability",
+  "tags": [
+    "table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--table-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/table-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/table-06.json",
+    "sha256": "009b2178089da4eb7a90d76e95fa58d4f79d1f3324631ee08c24e76c777326be"
+  },
+  "registryDependencies": [
+    "table"
+  ],
+  "dependencies": []
+}

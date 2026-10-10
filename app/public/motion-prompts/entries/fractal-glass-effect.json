@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/fractal-glass-effect",
+  "name": "Fractal Glass Parallax Effect",
+  "slug": "fractal-glass-effect",
+  "titleZh": "分形玻璃视差",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "Full-viewport Three.js hero where a custom fragment shader refracts a full-bleed portrait through vertical fractal-glass ribbons (mod-based stripe displacement averaged over 11 samples, smoothstep-faded at the edges), slicing the figure into overlapping shards. Moving the mouse feeds a lerped uMouse uniform that drives a horizontal parallax amplified inside the distorted stripes.",
+  "tags": [
+    "three",
+    "webgl",
+    "shader",
+    "fractal-glass",
+    "refraction",
+    "parallax",
+    "mousemove",
+    "hero",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/fractal-glass-effect",
+  "docsUrl": "https://motionprompts.dev/component/fractal-glass-effect/",
+  "demoUrl": "https://motionprompts.dev/components/fractal-glass-effect/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/fractal-glass-effect.webp",
+  "videoUrl": "https://motionprompts.dev/previews/fractal-glass-effect.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/fractal-glass-effect.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/fractal-glass-effect.md",
+    "sha256": "5c8e085a949432746ff5377e7172e87cb720ea9ee7ed3e620939acd0c85235b7",
+    "upstreamUrl": "https://motionprompts.dev/prompts/fractal-glass-effect.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/fractal-glass-effect/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "three"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      0.2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 668087,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 3,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "webgl-raf",
+    "motion_signature": "rAF-lerped mouse (factor 0.035, no GSAP) drives a uMouse uniform; fragment shader mod-stripes the UV (35 stripes, 11-tap smoothing) and adds a horizontal-only parallax offset scaled by |mouse.x-0.5| and edge-faded",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/fractal-glass-effect/"
+}

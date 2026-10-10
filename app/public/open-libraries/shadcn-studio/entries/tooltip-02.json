@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tooltip-02",
+  "slug": "tooltip-02",
+  "name": "Tooltip 2",
+  "titleZh": "工具提示 tooltip-02",
+  "description": "A light-themed tooltip with custom background and text colors",
+  "tags": [
+    "tooltip",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--tooltip-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tooltip-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tooltip",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tooltip-02.json",
+    "sha256": "94c0b28161d5a3d189039fa5d309437541a315d32a94ad1a1fdcda0094231dd0"
+  },
+  "registryDependencies": [
+    "button",
+    "tooltip"
+  ],
+  "dependencies": []
+}

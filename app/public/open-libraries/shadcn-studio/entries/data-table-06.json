@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-06",
+  "slug": "data-table-06",
+  "name": "Data Table 6",
+  "titleZh": "数据表格 data-table-06",
+  "description": "Data table with row expansion functionality for detailed content display",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-06.json",
+    "sha256": "53cb0f1c0c47035e8833d90102b46b6cc2941a1366ecf8dcf7c9b2635dcd61bc"
+  },
+  "registryDependencies": [
+    "table"
+  ],
+  "dependencies": [
+    "@tanstack/react-table"
+  ]
+}

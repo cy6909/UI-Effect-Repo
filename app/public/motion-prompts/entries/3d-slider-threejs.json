@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/3d-slider-threejs",
+  "name": "ThreeJS 3D Slider",
+  "slug": "3d-slider-threejs",
+  "titleZh": "ThreeJS 3D 轮播",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A Three.js curved plane displays an endless vertical slideshow of captioned images drawn onto a repeating 2D canvas texture. Lenis smooth-scroll progress feeds a scroll listener that shifts the texture offset and re-renders the WebGL scene, so scrolling the tall page pushes the image strip through the 3D wave.",
+  "tags": [
+    "three.js",
+    "webgl",
+    "scroll",
+    "slider",
+    "canvas-texture",
+    "lenis",
+    "curved-plane",
+    "editorial",
+    "gallery",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/3d-slider-threejs",
+  "docsUrl": "https://motionprompts.dev/component/3d-slider-threejs/",
+  "demoUrl": "https://motionprompts.dev/components/3d-slider-threejs/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/3d-slider-threejs.webp",
+  "videoUrl": "https://motionprompts.dev/previews/3d-slider-threejs.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/3d-slider-threejs.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/3d-slider-threejs.md",
+    "sha256": "d73fe1e3af44a46e4e32b9952f7054209087c243f23b5df77b40f3e35b6e17e6",
+    "upstreamUrl": "https://motionprompts.dev/prompts/3d-slider-threejs.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/3d-slider-threejs/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "three",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": 1000,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      0.25
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 7,
+      "bytes": 1880590,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh",
+      "reclama el primer canvas del documento"
+    ],
+    "cluster": "SCROLL-WELDED",
+    "engine": "webgl-raf",
+    "motion_signature": "scroll-driven looping texture strip on curved 3D plane (quadratic curl, pow(dist,2)*35), no easing of its own — only Lenis' default smoothing",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "document-height",
+    "first-canvas"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "three",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/3d-slider-threejs/"
+}

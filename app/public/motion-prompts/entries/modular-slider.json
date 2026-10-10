@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/modular-slider",
+  "name": "Modular Carousel",
+  "slug": "modular-slider",
+  "titleZh": "模块化轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A click-driven modular image carousel: each click advances a horizontal strip of slide titles via a 2s gsap.to power4.out tween, while two split image panels (top/bottom, shaped with CSS clip-path polygons) are freshly injected and revealed by animating their clip-path and scale from collapsed to full with a 0.15s stagger. Hovering the image widens the top/bottom clip-path windows; excess stacked images are trimmed on tween complete.",
+  "tags": [
+    "carousel",
+    "clip-path",
+    "gsap",
+    "image-reveal",
+    "split-panels",
+    "click-driven",
+    "architecture",
+    "editorial",
+    "dark",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/modular-slider",
+  "docsUrl": "https://motionprompts.dev/component/modular-slider/",
+  "demoUrl": "https://motionprompts.dev/components/modular-slider/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/modular-slider.webp",
+  "videoUrl": "https://motionprompts.dev/previews/modular-slider.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/modular-slider.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/modular-slider.md",
+    "sha256": "783c6acc91691d853710090828e436b3caa43b186578cac1908d6b351b8826a6",
+    "upstreamUrl": "https://motionprompts.dev/prompts/modular-slider.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/modular-slider/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": 0.15,
+    "assets_required": {
+      "count": 8,
+      "bytes": 1568841,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "click-advanced title strip, clip-path split image reveal",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/modular-slider/"
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/voku-image-slider",
+  "name": "Voku Image Slider",
+  "slug": "voku-image-slider",
+  "titleZh": "Voku 图片轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "Infinite horizontal image slider with 9 slides arranged along a cosine arc: each rAF frame computes a modular wrap position per slide and applies it with gsap.set, enlarging and lifting the center slide while side slides shrink to 0.25x and drop along the arc. Driven by mouse wheel and touch drag with a 0.05 lerp, and a caption at the bottom updates to the slide closest to center.",
+  "tags": [
+    "infinite",
+    "arc",
+    "wheel",
+    "touch",
+    "lerp",
+    "raf",
+    "gsap-set",
+    "coverflow",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/voku-image-slider",
+  "docsUrl": "https://motionprompts.dev/component/voku-image-slider/",
+  "demoUrl": "https://motionprompts.dev/components/voku-image-slider/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/voku-image-slider.webp",
+  "videoUrl": "https://motionprompts.dev/previews/voku-image-slider.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/voku-image-slider.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/voku-image-slider.md",
+    "sha256": "8cb81469f0e581d80da9bca9e770fd6eede228ef3ec312c06b1d9b75e20ae313",
+    "upstreamUrl": "https://motionprompts.dev/prompts/voku-image-slider.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/voku-image-slider/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 9,
+      "bytes": 1749427,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "raf-lerp",
+    "motion_signature": "rAF-lerped (0.05) infinite coverflow arc over a 900px virtual track: cosine arc drop (200px) + center lift (100px), scale 1→0.25 with distance, zIndex depth; wheel (deltaY*0.5) and touch-drag (delta*1.2) driven",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/voku-image-slider/"
+}

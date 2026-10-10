@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/spencergabor-magnetic-cards",
+  "name": "SpencerGabor Magnetic Cards",
+  "slug": "spencergabor-magnetic-cards",
+  "titleZh": "SpencerGabor 磁吸卡片",
+  "category": "Components",
+  "source": "motion-prompts",
+  "sourceCategory": "cards",
+  "description": "A fanned stack of four cards centered on screen reacts magnetically to the cursor: mouse velocity within a 500px proximity radius (cubic falloff) pushes and tilts the cards, with neighbor influence and an elastic spring-and-friction return to their resting fan layout. Custom physics driven per-frame by gsap.ticker and gsap.set, triggered by moving the mouse over the section.",
+  "tags": [
+    "magnetic",
+    "cursor",
+    "physics",
+    "spring",
+    "hover",
+    "cards",
+    "ticker",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/spencergabor-magnetic-cards",
+  "docsUrl": "https://motionprompts.dev/component/spencergabor-magnetic-cards/",
+  "demoUrl": "https://motionprompts.dev/components/spencergabor-magnetic-cards/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/spencergabor-magnetic-cards.webp",
+  "videoUrl": "https://motionprompts.dev/previews/spencergabor-magnetic-cards.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/spencergabor-magnetic-cards.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/spencergabor-magnetic-cards.md",
+    "sha256": "a61d20b33c1fcce1b05cdcb6312e5b3f12afeda10aca3e40af96dc9f00249c0c",
+    "upstreamUrl": "https://motionprompts.dev/prompts/spencergabor-magnetic-cards.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/spencergabor-magnetic-cards/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.18,
+      0.2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 608085,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "physics",
+    "motion_signature": "cursor-velocity spring push on fanned card deck",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/spencergabor-magnetic-cards/"
+}

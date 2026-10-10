@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/outline-text-over-media",
+  "name": "Outline Text Filled by Media",
+  "slug": "outline-text-over-media",
+  "titleZh": "媒体填充轮廓文字",
+  "category": "TextAnimations",
+  "source": "motion-prompts",
+  "sourceCategory": "text",
+  "description": "A pinned stage where a giant word sits hollow — stroked, transparent fill — over a photograph, and a scroll-driven wipe uncovers a second copy of the same word filled with that photograph via `background-clip: text`. Two pixel-aligned copies rather than one element that changes: `-webkit-text-stroke` with a transparent fill and a clipped background are different paint paths, and any crossfade between them flickers on the sub-pixel edge of every letter, while two stacked copies with a `clip-path` wipe are exact, cheap and reversible. Both copies share a single grid cell and identical typography — nothing may differ but colour, stroke and clip, because a one-pixel drift shows the outline as a ghost beside the fill and the effect is dead. The fill image is set from JS off the background's own `src`, so the letters are in register with what is behind them and read as a window cut into the photograph. The wipe completes at 78% of the track so the finished word lands while the section is still on screen. Dressed as a dance season: Young Serif + Geologica, deep teal and bone.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "sticky",
+    "text-stroke",
+    "background-clip",
+    "outline-text",
+    "image-in-text",
+    "wipe",
+    "typography",
+    "lenis",
+    "cinematic",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/outline-text-over-media",
+  "docsUrl": "https://motionprompts.dev/component/outline-text-over-media/",
+  "demoUrl": "https://motionprompts.dev/components/outline-text-over-media/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/outline-text-over-media.webp",
+  "videoUrl": "https://motionprompts.dev/previews/outline-text-over-media.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/outline-text-over-media.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/outline-text-over-media.md",
+    "sha256": "7a86a5a5bce8a517d8878f15acd278bc9ed4101a35f14e6b34f35c98b0a9075f",
+    "upstreamUrl": "https://motionprompts.dev/prompts/outline-text-over-media.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/outline-text-over-media/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 3,
+      "bytes": 290801,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "sticky stage over 280svh where a ScrollTrigger writes --wipe 0→100% into a clip-path inset on a background-clip:text copy of a word stacked pixel-aligned over a stroked hollow copy; the wipe saturates at 78% of the track so the finished word holds on screen, and the stage background opacity rises 0.42→0.72 in step; no tween, no scrub, smoothing from Lenis",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/outline-text-over-media/"
+}

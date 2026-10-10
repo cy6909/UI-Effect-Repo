@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/line-chart",
+  "slug": "line-chart",
+  "name": "LINE CHART GROW",
+  "titleZh": "折线图生长",
+  "description": "坐标轴先落笔，折线从左向右生长，数据点随着线条到达逐个弹出，最后一个点带柔和的脉冲圈，底部渐隐面积随后浮现。",
+  "tags": [
+    "svg",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--line-chart",
+  "detailUrl": "/open-libraries/motion-vault/entries/line-chart.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=line-chart",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/line-chart.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/line-chart.md",
+    "sha256": "c09a2804d4334ae9d5824d6fd7796136caa9995f08e4c4302f020ba9bd0b4e4e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/line-chart.json",
+    "sha256": "eda171c6d6dcf95a564c727f144fb22a26481facb54e111b109e603dbafa253c"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

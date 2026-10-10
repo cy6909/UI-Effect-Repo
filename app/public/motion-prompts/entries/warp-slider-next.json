@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/warp-slider-next",
+  "name": "Warp Lens Slider",
+  "slug": "warp-slider-next",
+  "titleZh": "透镜扭曲轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A full-screen WebGL image slider where clicking anywhere expands a circular lens/bubble mask from the center, warping the incoming photo with a magnifying-glass distortion driven by a custom Three.js fragment shader. GSAP tweens the shader's uProgress uniform (2.5s power2.inOut) while SplitText staggers the title characters and description lines out and back in.",
+  "tags": [
+    "three.js",
+    "webgl",
+    "shader",
+    "lens-distortion",
+    "gsap",
+    "splittext",
+    "click",
+    "editorial",
+    "cinematic",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/warp-slider-next",
+  "docsUrl": "https://motionprompts.dev/component/warp-slider-next/",
+  "demoUrl": "https://motionprompts.dev/components/warp-slider-next/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/warp-slider-next.webp",
+  "videoUrl": "https://motionprompts.dev/previews/warp-slider-next.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/warp-slider-next.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/warp-slider-next.md",
+    "sha256": "393ec2916c70593dd9100daafce42d828e44ac0be9b009488a009b7959667d78",
+    "upstreamUrl": "https://motionprompts.dev/prompts/warp-slider-next.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/warp-slider-next/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "SplitText",
+      "three"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.25,
+      2.5
+    ],
+    "stagger": 0.025,
+    "assets_required": {
+      "count": 4,
+      "bytes": 732671,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "STEP-MACHINE",
+    "engine": "mixed",
+    "motion_signature": "click-driven WebGL lens-bubble wipe with text stagger",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "three"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/warp-slider-next/"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-34",
+  "slug": "button-34",
+  "name": "Button 34",
+  "titleZh": "按钮 button-34",
+  "description": "Theme toggle button switching between sun and moon icons with colored styling",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-34",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-34.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-34.json",
+    "sha256": "4e50eb4606e9a5229d33fe07df1eb2857794f4c95a74a485fce2526a0912ffac"
+  },
+  "registryDependencies": [
+    "button",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

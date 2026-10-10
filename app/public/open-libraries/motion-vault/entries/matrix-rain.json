@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/matrix-rain",
+  "slug": "matrix-rain",
+  "name": "MATRIX RAIN",
+  "titleZh": "字符雨",
+  "description": "极细的片假名与数字缓缓落下，白色字头拖着渐渐隐去的灰色残影——只是矩阵的一声耳语。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--matrix-rain",
+  "detailUrl": "/open-libraries/motion-vault/entries/matrix-rain.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=matrix-rain",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/matrix-rain.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/matrix-rain.md",
+    "sha256": "c24dbee16c3a4272b1b056000daa5d818071009109100a463aed0f7d47fc5ed3",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/matrix-rain.json",
+    "sha256": "cbe42ac832ba21488f99b68f54e903379840a8ce371d8a38245f78849bdade6a"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

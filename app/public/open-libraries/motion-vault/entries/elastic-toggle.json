@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/elastic-toggle",
+  "slug": "elastic-toggle",
+  "name": "ELASTIC TOGGLE",
+  "titleZh": "弹性开关",
+  "description": "滑块在滑动途中被拉成椭圆再弹回圆形，像一颗有弹性的软糖；轨道颜色随之渐变。",
+  "tags": [
+    "spring",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--elastic-toggle",
+  "detailUrl": "/open-libraries/motion-vault/entries/elastic-toggle.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=elastic-toggle",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/elastic-toggle.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/elastic-toggle.md",
+    "sha256": "657fcac09fef659b65f314c193955d2ce8c4dd5d1fabfb0f01c93ba12f7ae2ca",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/elastic-toggle.json",
+    "sha256": "093c5f0a14e9ac986706ff3cd2d12b1f9e3104abf4197b13c370f5d6ea165e11"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

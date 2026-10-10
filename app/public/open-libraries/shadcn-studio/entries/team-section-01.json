@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/team-section-01",
+  "slug": "team-section-01",
+  "name": "Team 1",
+  "titleZh": "界面组件 team-section-01",
+  "description": "A clean team showcase featuring a responsive 4-column grid layout with member cards, social media links, and hover effects. Perfect for displaying team members with their photos, names, roles, and social connections.",
+  "tags": [
+    "team-section",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--team-section-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/team-section-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/team-section-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/team-section-01.json",
+    "sha256": "31dedb3014ca16d5cc91a5b2606de7bc7e0132855557c8338d1b87f9eba1ae6c"
+  },
+  "registryDependencies": [
+    "card",
+    "separator"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

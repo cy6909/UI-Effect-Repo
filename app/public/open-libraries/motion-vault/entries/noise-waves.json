@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/noise-waves",
+  "slug": "noise-waves",
+  "name": "NOISE WAVES",
+  "titleZh": "噪声波纹",
+  "description": "多层正弦波纹缓慢交叠流动，像平静的水面反光（浅色版，适配白底页面）。",
+  "tags": [
+    "background",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--noise-waves",
+  "detailUrl": "/open-libraries/motion-vault/entries/noise-waves.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=noise-waves",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/noise-waves.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/noise-waves.md",
+    "sha256": "2756d592ceeea22d84030199a078ce2eb7c9f1e9f063e324fe0845c426d25d36",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/noise-waves.json",
+    "sha256": "f7ac7b663785cbf3cb3c3d39cb5b98661b0d4b2457b4320fb5fd20f61fc845e7"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

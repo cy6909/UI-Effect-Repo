@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/stroke-hover",
+  "slug": "stroke-hover",
+  "name": "STROKE HOVER",
+  "titleZh": "描边文字点亮",
+  "description": "巨大的 STROKE 平时只是浅灰细描边，悬停时一条低饱和渐变高光沿字形扫过，填充被短暂点亮后又归于安静。",
+  "tags": [
+    "svg",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--stroke-hover",
+  "detailUrl": "/open-libraries/motion-vault/entries/stroke-hover.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=stroke-hover",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/stroke-hover.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/stroke-hover.md",
+    "sha256": "88154bd7345e6c04861825bb17251088bf4fd05a6d6ab149a5f38e2fa7c27f04",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/stroke-hover.json",
+    "sha256": "a34dbb35cf751b4e12a875555069463c8063d9618828f73a136c1a3be30e5963"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/morph-slider",
+  "slug": "morph-slider",
+  "name": "MORPH SLIDER",
+  "titleZh": "形变幻灯",
+  "description": "单卡内容切换时整卡形变过渡：旧内容收缩到 0.9、圆角 24px 并淡出，新内容从同一形变态展开。",
+  "tags": [
+    "card",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--morph-slider",
+  "detailUrl": "/open-libraries/motion-vault/entries/morph-slider.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=morph-slider",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/morph-slider.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/morph-slider.md",
+    "sha256": "fb51211aaefd0d6f5200d1f8d753b1c81be12b4280ddd2c5cbc7eb8b994c64b7",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/morph-slider.json",
+    "sha256": "fb206253882c2ed4aa5700523bab1cf78d314025c4205ab66db96079623a60ef"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/letter-hover",
+  "slug": "letter-hover",
+  "name": "LETTER HOVER BOUNCE",
+  "titleZh": "悬停字母弹跳",
+  "description": "悬停任意字母，它带着弹簧感跳起，相邻字母被轻微带起 15%，像橡皮筋一样牵连。离开后弹回原位。",
+  "tags": [
+    "text",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--letter-hover",
+  "detailUrl": "/open-libraries/motion-vault/entries/letter-hover.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=letter-hover",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/letter-hover.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/letter-hover.md",
+    "sha256": "693b2c4f6580a80bd6e7c0f0ed3c06696a610cd7652adff3931d41701d9ec8f7",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/letter-hover.json",
+    "sha256": "f1937508a7f49256638c71f9f2a893a67f120775558351e8fc166121f4bae8ca"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

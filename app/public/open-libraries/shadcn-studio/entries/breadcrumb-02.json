@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/breadcrumb-02",
+  "slug": "breadcrumb-02",
+  "name": "Breadcrumb 2",
+  "titleZh": "面包屑 breadcrumb-02",
+  "description": "Breadcrumb with home icon and slash separators for enhanced navigation",
+  "tags": [
+    "breadcrumb",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--breadcrumb-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/breadcrumb-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/breadcrumb",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/breadcrumb-02.json",
+    "sha256": "600cfe86f87b9fb1e36f020a0ed4ebac38096d8cd32285efc4cbdf909167a96a"
+  },
+  "registryDependencies": [
+    "breadcrumb"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

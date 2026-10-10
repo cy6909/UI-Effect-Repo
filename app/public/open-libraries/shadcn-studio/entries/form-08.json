@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-08",
+  "slug": "form-08",
+  "name": "Form 8",
+  "titleZh": "表单 form-08",
+  "description": "Form with command popover for searchable command selection",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-08.json",
+    "sha256": "94882fd30004f8f314afd902e8b72983a2e20ccf2f573fc542f23349bc1ba003"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "command",
+    "form",
+    "popover",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

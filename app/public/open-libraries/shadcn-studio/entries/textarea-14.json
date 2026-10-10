@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/textarea-14",
+  "slug": "textarea-14",
+  "name": "Textarea 14",
+  "titleZh": "多行输入 textarea-14",
+  "description": "A textarea with floating label that animates on focus",
+  "tags": [
+    "textarea",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--textarea-14",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/textarea-14.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/textarea",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/textarea-14.json",
+    "sha256": "3df28a046fd373a0286c7046ae7ed5f35754ef3993ee1b0129deda5e43f79b73"
+  },
+  "registryDependencies": [
+    "textarea"
+  ],
+  "dependencies": []
+}

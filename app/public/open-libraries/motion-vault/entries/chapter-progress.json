@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/chapter-progress",
+  "slug": "chapter-progress",
+  "name": "CHAPTER PROGRESS",
+  "titleZh": "章节进度",
+  "description": "左侧竖排 壹/贰/叁/肆 章节标记随滚动逐个点亮放大，一条 1px 竖线沿标记同步向下生长。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--chapter-progress",
+  "detailUrl": "/open-libraries/motion-vault/entries/chapter-progress.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=chapter-progress",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/chapter-progress.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/chapter-progress.md",
+    "sha256": "329ebc579b10d5e7543b0a654a6093d98103470d39d9e863417e1aa40d070a79",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/chapter-progress.json",
+    "sha256": "acc946fe588ed6b4c11426fb10ca5888006f484425db10004876926e2f1cdeca"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

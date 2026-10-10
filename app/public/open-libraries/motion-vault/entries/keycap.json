@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/keycap",
+  "slug": "keycap",
+  "name": "KEYCAP",
+  "titleZh": "立体按键卡",
+  "description": "一颗巨大的机械键盘键帽：按下时顶面真实下沉 8px、侧沿随之收短、投影变软，松手后 Q 弹回位，越按越上瘾。",
+  "tags": [
+    "card",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--keycap",
+  "detailUrl": "/open-libraries/motion-vault/entries/keycap.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=keycap",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/keycap.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/keycap.md",
+    "sha256": "78dbf8155fc25a43c571aed14f2396663f416231a68dfc971ddf4f97c54f92a8",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/keycap.json",
+    "sha256": "99ed29bdbf06931cae3e1eaba54c167da56d5587b2220d2a115df7e3583d236c"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

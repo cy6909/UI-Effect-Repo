@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/flicker-grid",
+  "slug": "flicker-grid",
+  "name": "FLICKER GRID",
+  "titleZh": "闪烁方格",
+  "description": "安静的方格矩阵中，随机的小方块缓缓亮起又暗下，像一场克制的数字雨。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--flicker-grid",
+  "detailUrl": "/open-libraries/motion-vault/entries/flicker-grid.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=flicker-grid",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/flicker-grid.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/flicker-grid.md",
+    "sha256": "0acc8a8438a359ff0433a4c0206dcb3aac0a109ae61d42a89d05475a454d341f",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/flicker-grid.json",
+    "sha256": "49e6e5eeaa928ce3cadf9efc5ebb419f597b40c2274ab6167eb86a2413b2b171"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

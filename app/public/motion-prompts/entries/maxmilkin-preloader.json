@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/maxmilkin-preloader",
+  "name": "Maxmilkin Orbit Text Preloader",
+  "slug": "maxmilkin-preloader",
+  "titleZh": "Maxmilkin 轨道文字加载",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "Portfolio preloader where eight words ride concentric SVG circular orbits, stretching and sliding around their rings via animated textPath textLength/startOffset while the whole SVG wobbles in random ±25° rotations and a central counter tweens 0 to 100. After ~6s the orbit words fade out ring by ring, the loader dissolves away and the hero reveals with a 1.25→1 background zoom-out and word-masked SplitText copy sliding up on a custom ease. Plays automatically on page load.",
+  "tags": [
+    "preloader",
+    "svg",
+    "textpath",
+    "orbit",
+    "counter",
+    "splittext",
+    "customease",
+    "reveal",
+    "intro",
+    "hero",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/maxmilkin-preloader",
+  "docsUrl": "https://motionprompts.dev/component/maxmilkin-preloader/",
+  "demoUrl": "https://motionprompts.dev/components/maxmilkin-preloader/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/maxmilkin-preloader.webp",
+  "videoUrl": "https://motionprompts.dev/previews/maxmilkin-preloader.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/maxmilkin-preloader.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/maxmilkin-preloader.md",
+    "sha256": "88f1078feb0bab102105a4412f6580d0736d0e07f4fdc537b8ef467888f25bef",
+    "upstreamUrl": "https://motionprompts.dev/prompts/maxmilkin-preloader.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/maxmilkin-preloader/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap",
+      "SplitText",
+      "CustomEase"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power1",
+    "duration_range": [
+      0.3,
+      4
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 1,
+      "bytes": 92808,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "autoplay page veil: 8 concentric SVG textPaths stretch/slide along their orbits on power2.inOut yoyo loops (index-staggered 0.7s, per-ring duration scaled 1.08-1.25s by radius) while the whole SVG creeps ±25° in endless 2s randomized turns and a 4s power1.out counter runs 0-100; at t=6s the rings fade out inner-first and the fixed overlay dissolves (1s) and deletes itself as the hero image un-scales 1.25->1 and masked words rise on the 'hop' ease (0.9,0,0.1,1)",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [
+    {
+      "slug": "aladesign-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "aristidebenoist-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "audemarspiguet-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "camille-mormal-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "hypnotic-gallery-gsap-flip",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "kin-landing-page",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "landing-page-reveal-no-webgl",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "meetings-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "menu-root-food",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "outfit-landing-page-reveal",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "p10-landing-page-reveal-gsap",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "push-over-overlay-menu",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "story-world-carousel-slider",
+      "kind": "ease-name"
+    },
+    {
+      "slug": "zajno-lp",
+      "kind": "ease-name"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/maxmilkin-preloader/"
+}

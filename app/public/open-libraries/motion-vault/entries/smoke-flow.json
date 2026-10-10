@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/smoke-flow",
+  "slug": "smoke-flow",
+  "name": "SMOKE FLOW",
+  "titleZh": "烟雾流动",
+  "description": "数百条短痕顺着缓慢演化的流场漂移，帧与帧之间用半透明暗纱覆盖——轨迹像烟一样化开；鼠标划过会搅起一小团涡旋。",
+  "tags": [
+    "particle",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--smoke-flow",
+  "detailUrl": "/open-libraries/motion-vault/entries/smoke-flow.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=smoke-flow",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/smoke-flow.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/smoke-flow.md",
+    "sha256": "c5f5eff28076bd6e8d5e05ceb57a19618aa1fe20e57a0281a489038b92211306",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/smoke-flow.json",
+    "sha256": "70e4147f5178c8dd2f1bc4cd717b2e9ce2874bf23c7bf863faff7c9a54572e22"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

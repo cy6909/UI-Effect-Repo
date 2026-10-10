@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/the-happy-few",
+  "name": "The Quiet Crowd Landing Reveal",
+  "slug": "the-happy-few",
+  "titleZh": "The Quiet Crowd 入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "On page load a GSAP timeline wipes a clip-path preloader and spins a loader, then reveals the hero: heading characters (manually split into spans) slide up with a staggered power4.out tween while a circular hero image scales in and rotates infinitely. Moving the cursor during the load spawns emoji particles that pop in with a back.out ease and drop off-screen.",
+  "tags": [
+    "preloader",
+    "hero-reveal",
+    "gsap",
+    "text-reveal",
+    "cursor-trail",
+    "emoji",
+    "clip-path",
+    "playful",
+    "landing-page",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/the-happy-few",
+  "docsUrl": "https://motionprompts.dev/component/the-happy-few/",
+  "demoUrl": "https://motionprompts.dev/components/the-happy-few/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/the-happy-few.webp",
+  "videoUrl": "https://motionprompts.dev/previews/the-happy-few.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/the-happy-few.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/the-happy-few.md",
+    "sha256": "bd63d2b863819bbd6da16ae29cc7f8ef8632bf3df85d0b8f55c2accab718da9c",
+    "upstreamUrl": "https://motionprompts.dev/prompts/the-happy-few.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/the-happy-few/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.35,
+      20
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 8,
+      "bytes": 3092436,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "Fixed-delay page-load choreography: a full-viewport clip-path preloader wipes upward on power4.inOut at t=5s while a square loader half-turns twice then shrinks to zero; on its completion the heading characters (manually split into spans, CSS-parked at translateY(200px)) slide up on power4.out with a 0.25s total-amount stagger per row while an inline SVG orbit mark scales 0->1 and enters a 20s linear infinite rotation. During the load window a >400px cursor jump spawns a sized emoji that pops in on back.out(1.75) and, after a ~0.5-0.7s hold, falls past window.innerHeight on power2.in and removes itself. No scroll, no rAF, no interpolation loop.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/the-happy-few/"
+}

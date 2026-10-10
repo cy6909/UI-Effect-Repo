@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-18",
+  "slug": "button-18",
+  "name": "Button 18",
+  "titleZh": "按钮 button-18",
+  "description": "Link button with animated underline effect on hover",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-18",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-18.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-18.json",
+    "sha256": "61f8abdaf8c79d43c488f80cfcb9549bea2ff74f3532b039cd4d7db744fd4c4e"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": []
+}

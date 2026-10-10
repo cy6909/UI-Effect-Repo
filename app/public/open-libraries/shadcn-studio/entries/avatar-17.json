@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/avatar-17",
+  "slug": "avatar-17",
+  "name": "Avatar 17",
+  "titleZh": "头像 avatar-17",
+  "description": "Avatar group with smooth spacing transition on hover interaction.",
+  "tags": [
+    "avatar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--avatar-17",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/avatar-17.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/avatar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/avatar-17.json",
+    "sha256": "7aea0f83ad5f22ff797fe235aa02e3898992d99abfac49d2e6efb1b25daed9db"
+  },
+  "registryDependencies": [
+    "avatar"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/inkfish-horizontal-scroll",
+  "name": "Inkfish Inspired Horizontal Scroll",
+  "slug": "inkfish-horizontal-scroll",
+  "titleZh": "Inkfish Inspired 横向滚动",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A full-screen editorial gallery where a 500vw horizontal track of text and image sections is panned by a draggable timeline scroller pinned to the bottom. GSAP Draggable (type x, bounded) drives the interaction: onDrag converts the scroller's position to a 0-1 progress and gsap.to tweens the track's x (duration 1, ease power3.out) for smooth momentum-style horizontal scrolling, over a bottom ruler of 50 generated tick markers.",
+  "tags": [
+    "horizontal-scroll",
+    "draggable",
+    "gsap",
+    "gallery",
+    "timeline",
+    "editorial",
+    "fashion",
+    "dark",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/inkfish-horizontal-scroll",
+  "docsUrl": "https://motionprompts.dev/component/inkfish-horizontal-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/inkfish-horizontal-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/inkfish-horizontal-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/inkfish-horizontal-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/inkfish-horizontal-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/inkfish-horizontal-scroll.md",
+    "sha256": "759173627a0806ee132511780b6e3635afd487a8aa5adea37d25c303fe656539",
+    "upstreamUrl": "https://motionprompts.dev/prompts/inkfish-horizontal-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/inkfish-horizontal-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "drag",
+    "libs": [
+      "gsap",
+      "Draggable"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 9,
+      "bytes": 1690801,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "asigna window.onload"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "gsap",
+    "motion_signature": "drag-scrubbed horizontal track with eased follow: a bounded Draggable handle maps to 0-1 progress, and a 1s power3.out tween chases the 500vw track's x toward -400vw, so the panel lags and settles behind the finger",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock",
+    "window-onload"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/inkfish-horizontal-scroll/"
+}

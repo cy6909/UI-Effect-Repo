@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/particle-sphere",
+  "slug": "particle-sphere",
+  "name": "PARTICLE SPHERE",
+  "titleZh": "粒子球体",
+  "description": "数千个粒子组成的球体缓缓自转，鼠标靠近时粒子被扰动推开。",
+  "tags": [
+    "3d",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--particle-sphere",
+  "detailUrl": "/open-libraries/motion-vault/entries/particle-sphere.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=particle-sphere",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/particle-sphere.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/particle-sphere.md",
+    "sha256": "d07f583c2f902d64b8a228a8373e9faa59724fc9a1cb51d3f15173a35d12559d",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/particle-sphere.json",
+    "sha256": "d44d34322d5f5807921485c2cefdec0f4db3bf600f45aba033cc1be064529ba2"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

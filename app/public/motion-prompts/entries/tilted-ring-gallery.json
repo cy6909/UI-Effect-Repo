@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/tilted-ring-gallery",
+  "name": "Tilted Ring Gallery",
+  "slug": "tilted-ring-gallery",
+  "titleZh": "倾斜环形画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "Twelve glass-framed photos orbit on a tilted oval: a rAF loop advances the ring at an idle speed, each wheel event adds to the speed (capped) and sets the direction, and the speed eases back to idle. The photo under the pointer, found with elementFromPoint because the items move under a still cursor, scales up while the others desaturate, darken and blur.",
+  "tags": [
+    "gallery",
+    "ring",
+    "orbit",
+    "wheel",
+    "raf",
+    "hover",
+    "blur",
+    "glass",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/tilted-ring-gallery",
+  "docsUrl": "https://motionprompts.dev/component/tilted-ring-gallery/",
+  "demoUrl": "https://motionprompts.dev/components/tilted-ring-gallery/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/tilted-ring-gallery.webp",
+  "videoUrl": "https://motionprompts.dev/previews/tilted-ring-gallery.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/tilted-ring-gallery.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/tilted-ring-gallery.md",
+    "sha256": "d7002beb9e0a24297cfaf9df5d552b0dde3270d29f7345ab4fa1a9f3f8ad79e3",
+    "upstreamUrl": "https://motionprompts.dev/prompts/tilted-ring-gallery.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/tilted-ring-gallery/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "expo",
+    "duration_range": [
+      1,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 12,
+      "bytes": 906211,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "gsap+raf",
+    "motion_signature": "rAF ring rotation with wheel-accelerated, eased-back speed; elementFromPoint hover with scale, desaturate and blur tweens",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/tilted-ring-gallery/"
+}

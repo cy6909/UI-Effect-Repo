@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/dot-globe",
+  "slug": "dot-globe",
+  "name": "DOT GLOBE",
+  "titleZh": "点阵地球",
+  "description": "约 600 个点按斐波那契球面分布成地球缓缓自转，两条发光弧线连接地表两点，光点沿弧线流动——精密仪表感。",
+  "tags": [
+    "3d",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--dot-globe",
+  "detailUrl": "/open-libraries/motion-vault/entries/dot-globe.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=dot-globe",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/dot-globe.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/dot-globe.md",
+    "sha256": "5a702364bb1b40fceb03083998bb76948248920106d267372c67a22f541dd7cc",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/dot-globe.json",
+    "sha256": "5c431f9043e73901163d04a8fe659742c098d047474a19189f2edb2b15f8322a"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

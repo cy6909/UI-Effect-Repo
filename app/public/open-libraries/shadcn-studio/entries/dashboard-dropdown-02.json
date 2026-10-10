@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dashboard-dropdown-02",
+  "slug": "dashboard-dropdown-02",
+  "name": "Dashboard Dropdown 2",
+  "titleZh": "界面组件 dashboard-dropdown-02",
+  "description": "A user profile dropdown with avatar display, user information, profile settings, and account actions for user management.",
+  "tags": [
+    "dashboard-dropdown",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dashboard-dropdown-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dashboard-dropdown-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/dashboard-dropdown-02.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dashboard-dropdown-02.json",
+    "sha256": "549d31a9802af932d2e6ee1a1d56b4cec737d514f121cd0c530e762e538dab8b"
+  },
+  "registryDependencies": [
+    "avatar",
+    "dropdown-menu"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

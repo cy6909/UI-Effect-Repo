@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/mouse-trail-animation-svg-js",
+  "name": "Mouse Trail with SVG and GSAP",
+  "slug": "mouse-trail-animation-svg-js",
+  "titleZh": "SVG 与 GSAP 鼠标轨迹",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "Seven layered SVG polyline paths in a rainbow palette follow the cursor as an interpolated, snake-like ribbon trail. A single mousemove listener eases a shared smooth pointer toward the cursor via gsap.to (duration 0.5, power2.out), and a requestAnimationFrame loop prepends that point to each path's history (40 to 10 points per layer) to redraw the M/L path data every frame, producing staggered trailing tails.",
+  "tags": [
+    "mouse-trail",
+    "cursor",
+    "svg",
+    "polyline",
+    "gsap",
+    "requestanimationframe",
+    "playful",
+    "rainbow",
+    "interactive",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/mouse-trail-animation-svg-js",
+  "docsUrl": "https://motionprompts.dev/component/mouse-trail-animation-svg-js/",
+  "demoUrl": "https://motionprompts.dev/components/mouse-trail-animation-svg-js/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/mouse-trail-animation-svg-js.webp",
+  "videoUrl": "https://motionprompts.dev/previews/mouse-trail-animation-svg-js.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/mouse-trail-animation-svg-js.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/mouse-trail-animation-svg-js.md",
+    "sha256": "4ea5e9c955bfd391388aa7786993c1ebfd83a66141aaf00d013fbc3994b60cee",
+    "upstreamUrl": "https://motionprompts.dev/prompts/mouse-trail-animation-svg-js.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/mouse-trail-animation-svg-js/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.2,
+      1.6
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "POINTER-LATCHED",
+    "engine": "gsap+raf",
+    "motion_signature": "GSAP-eased pointer feeds rAF SVG polyline trails",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/mouse-trail-animation-svg-js/"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/app-integration-01",
+  "slug": "app-integration-01",
+  "name": "App Integration 1",
+  "titleZh": "界面组件 app-integration-01",
+  "description": "Two-column layout with integration cards featuring tool logos, names, descriptions, and call-to-action for conversion-focused app showcases",
+  "tags": [
+    "app-integration",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--app-integration-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/app-integration-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/app-integration-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/app-integration-01.json",
+    "sha256": "63d349f61fdcf68bd9ff7af5b11c4d7edbd54e20588787c53ff4686f33f892a1"
+  },
+  "registryDependencies": [
+    "button",
+    "card"
+  ],
+  "dependencies": []
+}

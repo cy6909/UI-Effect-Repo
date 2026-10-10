@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/decrypt-text",
+  "slug": "decrypt-text",
+  "name": "DECRYPT TEXT",
+  "titleZh": "解密文字",
+  "description": "悬停时字符以 30ms 一帧高速随机置换，再从左到右逐位“解密”定格成原文——加密情报既视感，解完后保持。",
+  "tags": [
+    "text",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--decrypt-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/decrypt-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=decrypt-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/decrypt-text.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/decrypt-text.md",
+    "sha256": "f2d927edf1f6e96bbebdca57a5dd7a736b987127e73da30b6e92cd82c20f66b6",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/decrypt-text.json",
+    "sha256": "7e9e8128fda325006dab4cdbfcb3d2849caf3ed43e0925c1db56e4565afaf230"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

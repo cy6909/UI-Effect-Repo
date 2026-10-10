@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/zoom-through",
+  "slug": "zoom-through",
+  "name": "ZOOM THROUGH",
+  "titleZh": "滚动穿越卡片",
+  "description": "四张卡片排成纵深队列：最前一张放大掠过镜头淡出，后一张从 0.7 倍放大补位，直至抵达终点。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--zoom-through",
+  "detailUrl": "/open-libraries/motion-vault/entries/zoom-through.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=zoom-through",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/zoom-through.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/zoom-through.md",
+    "sha256": "93ea0a3546fc8ecccef061bb476c5074b58a14f6d0a344e9fa8269b2b13c64a9",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/zoom-through.json",
+    "sha256": "f658a9dcff8a676432daba66a8c52280a7f0b0c8e7e9aaf955727701bded8a52"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

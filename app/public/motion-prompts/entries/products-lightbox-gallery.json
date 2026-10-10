@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/products-lightbox-gallery",
+  "name": "Products Lightbox Gallery",
+  "slug": "products-lightbox-gallery",
+  "titleZh": "Products 灯箱画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A large draggable canvas holds a 12x12 grid of sneaker product tiles that the user pans by mouse-dragging, with movement GSAP-tweened (x/y, power1.out) for inertial smoothing. Clicking a tile (drag vs click is disambiguated via mousedown/mousemove flags) fades in a full-screen lightbox modal populated with that product's image, name and info via gsap.to opacity 0 to 1.",
+  "tags": [
+    "draggable",
+    "lightbox",
+    "modal",
+    "product-grid",
+    "gsap",
+    "canvas-pan",
+    "ecommerce",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/products-lightbox-gallery",
+  "docsUrl": "https://motionprompts.dev/component/products-lightbox-gallery/",
+  "demoUrl": "https://motionprompts.dev/components/products-lightbox-gallery/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/products-lightbox-gallery.webp",
+  "videoUrl": "https://motionprompts.dev/previews/products-lightbox-gallery.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/products-lightbox-gallery.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/products-lightbox-gallery.md",
+    "sha256": "13978114297f6024a821294a53856ce795ecea400d520435c2af486528ac5c79",
+    "upstreamUrl": "https://motionprompts.dev/prompts/products-lightbox-gallery.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/products-lightbox-gallery/prompt.md"
+  },
+  "motion": {
+    "trigger": "drag",
+    "libs": [
+      "gsap",
+      "ionicons"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power1",
+    "duration_range": [
+      0.2,
+      0.5
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 208771,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "CAPTURED-VIRTUAL-SCROLL",
+    "engine": "gsap",
+    "motion_signature": "drag-panned giant tile grid, fade lightbox",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/products-lightbox-gallery/"
+}

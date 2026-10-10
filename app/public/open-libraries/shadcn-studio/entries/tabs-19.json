@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-19",
+  "slug": "tabs-19",
+  "name": "Tabs 19",
+  "titleZh": "标签页 tabs-19",
+  "description": "Vertical tabs with sharp corners and rectangular styling",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-19",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-19.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-19.json",
+    "sha256": "77ffc9894a7e77cb41d62f38526658224b88e2247a8c0b87351cc649145b6bef"
+  },
+  "registryDependencies": [
+    "tabs"
+  ],
+  "dependencies": []
+}

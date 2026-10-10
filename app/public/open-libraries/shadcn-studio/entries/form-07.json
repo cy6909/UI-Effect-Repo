@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-07",
+  "slug": "form-07",
+  "name": "Form 7",
+  "titleZh": "表单 form-07",
+  "description": "Form with select dropdown components for option selection",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-07",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-07.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-07.json",
+    "sha256": "68d37ffc0fc2125705036b540e671563179f1c985c62e7d4cc171e5455e73f44"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "form",
+    "select"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

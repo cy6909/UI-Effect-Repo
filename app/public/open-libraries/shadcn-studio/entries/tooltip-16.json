@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tooltip-16",
+  "slug": "tooltip-16",
+  "name": "Tooltip 16",
+  "titleZh": "工具提示 tooltip-16",
+  "description": "An animated tooltip with stacked avatars and hover effects using motion-tooltip component",
+  "tags": [
+    "tooltip",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--tooltip-16",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tooltip-16.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tooltip",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tooltip-16.json",
+    "sha256": "3b253c51aeda2215e3bb08acd2f00a1cbc53eb2743fbdd59be0f468bc869d24b"
+  },
+  "registryDependencies": [
+    "avatar",
+    "utils"
+  ],
+  "dependencies": [
+    "motion"
+  ]
+}

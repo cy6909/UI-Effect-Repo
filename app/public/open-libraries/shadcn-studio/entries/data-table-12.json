@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/data-table-12",
+  "slug": "data-table-12",
+  "name": "Data Table 12",
+  "titleZh": "数据表格 data-table-12",
+  "description": "Data table with export functionality supporting CSV, Excel, and multiple formats",
+  "tags": [
+    "data-table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--data-table-12",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/data-table-12.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/data-table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/data-table-12.json",
+    "sha256": "4024800113f323769272b764c20f1877e940c8c87830a7814f00bb276ad93172"
+  },
+  "registryDependencies": [
+    "badge",
+    "button",
+    "checkbox",
+    "dropdown-menu",
+    "input",
+    "table",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "papaparse",
+    "@tanstack/react-table",
+    "xlsx"
+  ]
+}

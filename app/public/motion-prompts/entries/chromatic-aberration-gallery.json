@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/chromatic-aberration-gallery",
+  "name": "Halide — Chromatic Aberration Lens Archive",
+  "slug": "chromatic-aberration-gallery",
+  "titleZh": "Halide — 色差透镜影像档案",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "Halide, an editorial photo studio, presents its image archive as a full-screen grid that pans with the cursor while a WebGL/GLSL lens magnifies the plates beneath the pointer and splits their RGB channels into a chromatic-aberration fringe. Fixed HUD chips (wordmark, volume, caption, hint) frame the effect; the grid is rasterized to a canvas texture and sampled by the fragment shader every frame, eased via requestAnimationFrame (no GSAP).",
+  "tags": [
+    "webgl",
+    "glsl",
+    "shader",
+    "chromatic-aberration",
+    "lens-distortion",
+    "cursor",
+    "grid",
+    "magnifier",
+    "experimental",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/chromatic-aberration-gallery",
+  "docsUrl": "https://motionprompts.dev/component/chromatic-aberration-gallery/",
+  "demoUrl": "https://motionprompts.dev/components/chromatic-aberration-gallery/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/chromatic-aberration-gallery.webp",
+  "videoUrl": "https://motionprompts.dev/previews/chromatic-aberration-gallery.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/chromatic-aberration-gallery.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/chromatic-aberration-gallery.md",
+    "sha256": "7c26434385175f32d929d41dd036c38bc850cc44c990f8280384c1a80be1e0e1",
+    "upstreamUrl": "https://motionprompts.dev/prompts/chromatic-aberration-gallery.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/chromatic-aberration-gallery/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      2.2,
+      2.2
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 25,
+      "bytes": 4073838,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "reclama el primer canvas del documento"
+    ],
+    "cluster": "POINTER-CHASE",
+    "engine": "webgl-raf",
+    "motion_signature": "rAF lerp pan with WebGL chromatic lens: two independent frame-rate-dependent exponential lerps — 0.035 on the 200vw x 200vh grid's translate (very heavy, long settle) and 0.1 on the lens centre — with no easing curve, no time delta and no scroll involvement",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "first-canvas"
+  ],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/chromatic-aberration-gallery/"
+}

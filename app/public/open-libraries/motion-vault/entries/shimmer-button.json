@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/shimmer-button",
+  "slug": "shimmer-button",
+  "name": "SHIMMER BUTTON",
+  "titleZh": "微光按钮",
+  "description": "一条柔和的光带周期性掠过深色按钮表面，辅以细腻的 1px 内高光环——克制而高级。",
+  "tags": [
+    "button",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--shimmer-button",
+  "detailUrl": "/open-libraries/motion-vault/entries/shimmer-button.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=shimmer-button",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/shimmer-button.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/shimmer-button.md",
+    "sha256": "61a8e88d4312c70ff76a445d9239df17eed9fab5d4a5b00d0e00ec3012b1b38a",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/shimmer-button.json",
+    "sha256": "e8e778f7eb1ef706b1d5abfc360e74dfae6369fb2f2dbe1c917c8b64eb3b7efd"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

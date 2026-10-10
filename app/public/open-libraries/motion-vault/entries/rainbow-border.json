@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/rainbow-border",
+  "slug": "rainbow-border",
+  "name": "RAINBOW BORDER",
+  "titleZh": "彩虹边框",
+  "description": "白底按钮外圈是一环缓缓旋转的低饱和彩虹，模糊的副本晕开成柔光——克制而不艳俗。",
+  "tags": [
+    "button",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--rainbow-border",
+  "detailUrl": "/open-libraries/motion-vault/entries/rainbow-border.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=rainbow-border",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/rainbow-border.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/rainbow-border.md",
+    "sha256": "696865dd853bf8817697792985e7c8edc6025ebe962d1abba1007bddb3d8f4f8",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/rainbow-border.json",
+    "sha256": "c065c3fea3ec2d3d8c879129ee85ae35206631d919399241a9398eac018859c1"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

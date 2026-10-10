@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/application-shell-01",
+  "slug": "application-shell-01",
+  "name": "Application Shell 1",
+  "titleZh": "界面组件 application-shell-01",
+  "description": "Classic sidebar application shell with navigation menu, user profile, and language selector for traditional dashboard layouts.",
+  "tags": [
+    "application-shell",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--application-shell-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/application-shell-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/application-shell-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/application-shell-01.json",
+    "sha256": "d58f94026d4aaf5c31c0119fab08ac537bff546df67b0becbfa284f28f73af2d"
+  },
+  "registryDependencies": [
+    "avatar",
+    "breadcrumb",
+    "button",
+    "card",
+    "dropdown-menu",
+    "separator",
+    "sidebar"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

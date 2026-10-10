@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/lusion-lp-reveal",
+  "name": "Lusion Landing Page Reveal",
+  "slug": "lusion-lp-reveal",
+  "titleZh": "Lusion 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "Full-screen preloader-to-content reveal that plays once on load. Three digit columns spin upward with gsap.to (power2.inOut) to count toward 100 while a two-segment loader bar fills, then at ~6s the digits lift away and the loader rotates, scales 40x and flies off-screen (power2.inOut); the black loading screen fades out and the 'Website Content' heading slides up from behind a white revealer using a staggered gsap.to on the h1 elements.",
+  "tags": [
+    "preloader",
+    "loader",
+    "counter",
+    "reveal",
+    "gsap",
+    "stagger",
+    "clip-path",
+    "intro",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/lusion-lp-reveal",
+  "docsUrl": "https://motionprompts.dev/component/lusion-lp-reveal/",
+  "demoUrl": "https://motionprompts.dev/components/lusion-lp-reveal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/lusion-lp-reveal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/lusion-lp-reveal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/lusion-lp-reveal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/lusion-lp-reveal.md",
+    "sha256": "403eef9843de4e65f807eb77d7699f7dc9a66d7c075b9bb7ffecca741bf312ae",
+    "upstreamUrl": "https://motionprompts.dev/prompts/lusion-lp-reveal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/lusion-lp-reveal/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.1,
+      6
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "time-based preloader: odometer counters, bar, screen wipe",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/lusion-lp-reveal/"
+}

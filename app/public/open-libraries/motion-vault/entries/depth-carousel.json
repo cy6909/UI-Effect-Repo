@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/depth-carousel",
+  "slug": "depth-carousel",
+  "name": "DEPTH CAROUSEL",
+  "titleZh": "纵深轮播",
+  "description": "四张卡沿 z 轴纵深排队，点击「下一张」前卡向侧上方飞出淡出，后卡依次弹簧推进，循环不止。",
+  "tags": [
+    "card",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--depth-carousel",
+  "detailUrl": "/open-libraries/motion-vault/entries/depth-carousel.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=depth-carousel",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/depth-carousel.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/depth-carousel.md",
+    "sha256": "f5fab7c53316f0dd7a315b157ac5fc37776afb41318eb16276c03b1b7cd1bd29",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/depth-carousel.json",
+    "sha256": "9dfc8a9bbe79db2bd89cae13a03eea3e908d28ddc03950eea946e91c673cee67"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

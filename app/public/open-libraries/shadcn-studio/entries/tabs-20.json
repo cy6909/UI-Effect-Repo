@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-20",
+  "slug": "tabs-20",
+  "name": "Tabs 20",
+  "titleZh": "标签页 tabs-20",
+  "description": "Vertical tabs with lined separator styling for organized layout",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-20",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-20.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-20.json",
+    "sha256": "07eeef1dc65bc1e40fa26d5f1a6ad62b25f3753bbdc4eb82296d79db2253fabf"
+  },
+  "registryDependencies": [
+    "tabs"
+  ],
+  "dependencies": []
+}

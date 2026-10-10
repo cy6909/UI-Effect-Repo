@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/meteors",
+  "slug": "meteors",
+  "name": "METEORS",
+  "titleZh": "流星雨",
+  "description": "深邃夜空里流星斜向划过，拖着渐隐的光尾；偶尔有一颗更大更亮的火流星。",
+  "tags": [
+    "particle",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--meteors",
+  "detailUrl": "/open-libraries/motion-vault/entries/meteors.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=meteors",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/meteors.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/meteors.md",
+    "sha256": "f9eaae9c11155db5a04745fbe0b714898def60940a8582a3dcbf2964f4e9d0a3",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/meteors.json",
+    "sha256": "5972edde476f60ff911c70896b5953bcf6dbe6d64828619effa137e056a4937f"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

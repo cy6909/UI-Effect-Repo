@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/typewriter",
+  "slug": "typewriter",
+  "name": "TYPEWRITER",
+  "titleZh": "打字机",
+  "description": "字符逐个敲出，光标闪烁，打完停顿后删除并切换下一句话。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--typewriter",
+  "detailUrl": "/open-libraries/motion-vault/entries/typewriter.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=typewriter",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/typewriter.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/typewriter.md",
+    "sha256": "83b038869b97defa95e1739f808eb8605c3dfd38f8e8afa1cd7153a0d1d3f2d2",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/typewriter.json",
+    "sha256": "a01b2066ced2496a3972e80747b466ff8018478ce4021083d020f2b375ea73c4"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

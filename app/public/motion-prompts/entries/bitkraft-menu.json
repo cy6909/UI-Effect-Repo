@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/bitkraft-menu",
+  "name": "Circular Futuristic Navigation Menu",
+  "slug": "bitkraft-menu",
+  "titleZh": "未来感环形导航",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "A fullscreen overlay menu whose links are arranged as radial clip-path segments around a draggable center joystick. Clicking the bottom hamburger button toggles the overlay with GSAP opacity, scale (back.out/back.in) and randomized yoyo-flicker reveals; dragging the joystick with lerped follow motion highlights the segment it points toward via CSS flicker keyframes, with audio feedback on open/close/select.",
+  "tags": [
+    "menu",
+    "circular",
+    "radial",
+    "joystick",
+    "drag",
+    "glitch",
+    "flicker",
+    "gsap",
+    "futuristic",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/bitkraft-menu",
+  "docsUrl": "https://motionprompts.dev/component/bitkraft-menu/",
+  "demoUrl": "https://motionprompts.dev/components/bitkraft-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/bitkraft-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/bitkraft-menu.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/bitkraft-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/bitkraft-menu.md",
+    "sha256": "2adb1cef360b325fe5d629b3549571a6088cf2f35a821363a5d7dbf4ce7009ce",
+    "upstreamUrl": "https://motionprompts.dev/prompts/bitkraft-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/bitkraft-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "gsap",
+      "ionicons"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power2",
+    "duration_range": [
+      0.05,
+      0.4
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 4,
+      "bytes": 181486,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap+raf",
+    "motion_signature": "radial clip-path segments, random yoyo flicker, lerped joystick",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/bitkraft-menu/"
+}

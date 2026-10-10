@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/vortex-text",
+  "slug": "vortex-text",
+  "name": "VORTEX TEXT",
+  "titleZh": "文字漩涡",
+  "description": "Canvas 铺满 MOTION 字符网格，光标所在处形成漩涡——字符绕光标切向偏移并旋转、随距离衰减，离开后弹簧归位；近处字符由 zinc-400 转 zinc-950。",
+  "tags": [
+    "text",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--vortex-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/vortex-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=vortex-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/vortex-text.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/vortex-text.md",
+    "sha256": "6bd3af8ecb2de894f2d2ae869c295d88c0e9956e7cb3a3b53908929faeffc393",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/vortex-text.json",
+    "sha256": "c9498c12548ee72f8a242422307cce139c26c7adbf8394cf271139d8e335497f"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/ring-spin",
+  "slug": "ring-spin",
+  "name": "GRADIENT RING",
+  "titleZh": "渐变环",
+  "description": "一圈由深到透明的渐变环匀速旋转——最顺滑的 spinner，没有接缝与顿挫。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--ring-spin",
+  "detailUrl": "/open-libraries/motion-vault/entries/ring-spin.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=ring-spin",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/ring-spin.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/ring-spin.md",
+    "sha256": "18fbb5b067fdb4edae9e3ccb9e2b5e7f7bfd3778d291385823e2c1c27cc091bd",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/ring-spin.json",
+    "sha256": "cf2e8bcc75814c81786ecff684ecee442f7b0b3a9b3b6b65a51bbf4acb7356e7"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

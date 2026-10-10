@@ -1,0 +1,100 @@
+.rb-tools-page {
+  --tool-overlay-bg: rgba(13, 7, 22, 0.9);
+  --tool-overlay-hover: rgba(39, 30, 55, 0.94);
+  --tool-control-hover: rgba(255, 255, 255, 0.1);
+}
+
+:root {
+  --tool-popover-bg: var(--bg-elevated);
+  --tool-popover-border: var(--border-primary);
+  --tool-menu-shadow: var(--shadow-menu);
+}
+
+.tool-selector-wrapper {
+  position: relative;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.tool-selector-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 12px 12px 10px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: var(--surface-ghost);
+  box-shadow: var(--surface-ghost-highlight);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.tool-selector-button:hover {
+  background: var(--surface-ghost-hover);
+}
+
+/* Info Tooltip */
+.info-tooltip-trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: var(--bg-hover);
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.info-tooltip-trigger:hover {
+  background: var(--border-secondary);
+}
+
+:root[data-theme='light'] .tool-selector-button {
+  border-color: var(--shell-border);
+  background: #fff;
+  box-shadow: none;
+}
+
+:root[data-theme='light'] .tool-selector-button:hover {
+  background: #fafafa;
+}
+
+:root[data-theme='light'] {
+  --tool-popover-bg: #fff;
+  --tool-popover-border: var(--shell-border);
+  --tool-menu-shadow: 0 14px 34px rgba(24, 24, 27, 0.09);
+}
+
+:root[data-theme='light'] .rb-tools-page {
+  --bg-card: #fff;
+  --bg-elevated: #fff;
+  --bg-hover: #f8f8f9;
+  --border-primary: var(--shell-border);
+  --border-secondary: var(--shell-border-strong);
+  --surface-ghost: #fff;
+  --surface-ghost-hover: #f8f8f9;
+  --tool-overlay-bg: rgba(255, 255, 255, 0.92);
+  --tool-overlay-hover: rgba(248, 248, 249, 0.96);
+  --tool-control-hover: rgba(24, 24, 27, 0.055);
+}
+
+:root[data-theme='light'] .rb-tools-page .info-tooltip-trigger {
+  border: 1px solid var(--shell-border);
+  background: #fff;
+}
+
+:root[data-theme='light'] .rb-tools-page .info-tooltip-trigger:hover {
+  background: #f8f8f9;
+}
+
+:root[data-theme='light'] .rb-tools-page .scrubber-track {
+  background: #fff;
+  border-color: var(--shell-border);
+}
+
+:root[data-theme='light'] .rb-tools-page .scrubber-fill {
+  background: rgba(24, 24, 27, 0.045);
+}

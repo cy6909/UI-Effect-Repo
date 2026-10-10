@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/image-trail",
+  "slug": "image-trail",
+  "name": "IMAGE TRAIL",
+  "titleZh": "移动残影",
+  "description": "快速移动鼠标时轨迹上留下小圆点与小方块残影，各自弹出后缩放淡出 0.8 秒；速度低于阈值则一片安静。",
+  "tags": [
+    "particle",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--image-trail",
+  "detailUrl": "/open-libraries/motion-vault/entries/image-trail.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=image-trail",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/image-trail.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/image-trail.md",
+    "sha256": "4188a602c912bf9c9b8c1383a0df4fe895c0d23bb28803eaf3416182f3072b8b",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/image-trail.json",
+    "sha256": "135197121816a50be6663753f6e2fa55f6ed1522ba0b24807fa2a69e78c023ce"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

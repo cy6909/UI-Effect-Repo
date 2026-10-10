@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-39",
+  "slug": "button-39",
+  "name": "Button 39",
+  "titleZh": "按钮 button-39",
+  "description": "Animated button with ripple effect on click",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-39",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-39.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-39.json",
+    "sha256": "db7f80524753a44e7279e2a505acc5341fb4866e9f9569b04f2ae6669a0417b3"
+  },
+  "registryDependencies": [
+    "button",
+    "utils"
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "motion"
+  ]
+}

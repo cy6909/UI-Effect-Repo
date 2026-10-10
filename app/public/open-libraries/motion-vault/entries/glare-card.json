@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/glare-card",
+  "slug": "glare-card",
+  "name": "GLARE",
+  "titleZh": "金属眩光卡",
+  "description": "一道宽斜向的眩光带随鼠标扫过深色卡面，平移中带一点旋转，像光掠过拉丝金属。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--glare-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/glare-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=glare-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/glare-card.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/glare-card.md",
+    "sha256": "dc22e82ce0bc4d408e1d362bb9bfb352edf0b91a0baff17757b7fff9acd4d61e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/glare-card.json",
+    "sha256": "76ae12d3dac9779624878698d09b5ecf0fb399487a3f887c3500cef56d86be67"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/navbar-component-01",
+  "slug": "navbar-component-01",
+  "name": "Navbar 1",
+  "titleZh": "界面组件 navbar-component-01",
+  "description": "A sticky navigation header with centered logo and brand name flanked symmetrically by navigation links on both sides. Features a search icon button and responsive mobile dropdown menu, perfect for balanced logo-centric layouts.",
+  "tags": [
+    "navbar-component",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--navbar-component-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/navbar-component-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/navbar-component-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/navbar-component-01.json",
+    "sha256": "0c285423be81e8fd793eaa4122ce5dd4eea904a72459d33838db26e3d93d2508"
+  },
+  "registryDependencies": [
+    "button",
+    "dropdown-menu",
+    "utils"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

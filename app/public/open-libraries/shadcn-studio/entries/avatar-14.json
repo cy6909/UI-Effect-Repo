@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/avatar-14",
+  "slug": "avatar-14",
+  "name": "Avatar 14",
+  "titleZh": "头像 avatar-14",
+  "description": "Avatar group with count indicator showing additional users (+9) in overflow.",
+  "tags": [
+    "avatar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--avatar-14",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/avatar-14.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/avatar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/avatar-14.json",
+    "sha256": "17d4cd7a617ba463f18dbe58f224a9157bd648d1b0255dc19ceb9810acee2692"
+  },
+  "registryDependencies": [
+    "avatar"
+  ],
+  "dependencies": []
+}

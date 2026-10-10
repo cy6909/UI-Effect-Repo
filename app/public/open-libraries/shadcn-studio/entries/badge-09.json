@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-09",
+  "slug": "badge-09",
+  "name": "Badge 9",
+  "titleZh": "徽标 badge-09",
+  "description": "Small size badge with reduced padding for compact display areas",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-09.json",
+    "sha256": "56d3750e3e9d5d9c49d0932665f02aceda1c7cf0b32684253fc9bac23d5077b2"
+  },
+  "registryDependencies": [
+    "badge"
+  ],
+  "dependencies": []
+}

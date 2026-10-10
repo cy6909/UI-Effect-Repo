@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/notification-stack",
+  "slug": "notification-stack",
+  "name": "NOTIFICATION STACK",
+  "titleZh": "通知卡叠展开",
+  "description": "收起时只有一条通知和身后两层探出的边缘，悬停便像 iOS 通知中心一样纵向铺开。",
+  "tags": [
+    "card",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--notification-stack",
+  "detailUrl": "/open-libraries/motion-vault/entries/notification-stack.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=notification-stack",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/notification-stack.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/notification-stack.md",
+    "sha256": "210372ca3eac7069c17cb6f30331ee4925e86e2a2d6d40dc4be2a0cf8bd9dcbe",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/notification-stack.json",
+    "sha256": "c83b04f3d34a594e8173c17d0462dbbaa7bf873bc0b322ad01b41abaf50da59c"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

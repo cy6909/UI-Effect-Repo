@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/work-carousel-karim-saab",
+  "name": "Karim Saab Fashion Carousel",
+  "slug": "work-carousel-karim-saab",
+  "titleZh": "Karim Saab 时装轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A full-screen fashion carousel where a wheel or touch swipe triggers a GSAP transition: the current slide scales down, rotates and flies off while the incoming slide slides in from an animated clip-path polygon; SplitText then reveals the title words and the description, tags, index and link lines with staggered power4 masked upward moves.",
+  "tags": [
+    "carousel",
+    "fullscreen",
+    "gsap",
+    "splittext",
+    "clip-path",
+    "wheel",
+    "text-reveal",
+    "editorial",
+    "fashion",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/work-carousel-karim-saab",
+  "docsUrl": "https://motionprompts.dev/component/work-carousel-karim-saab/",
+  "demoUrl": "https://motionprompts.dev/components/work-carousel-karim-saab/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/work-carousel-karim-saab.webp",
+  "videoUrl": "https://motionprompts.dev/previews/work-carousel-karim-saab.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/work-carousel-karim-saab.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/work-carousel-karim-saab.md",
+    "sha256": "f6a9fa65f13ab7a7dbeb4b2851fbfef2a7bbaa86076d78476d6e712e8c948cdf",
+    "upstreamUrl": "https://motionprompts.dev/prompts/work-carousel-karim-saab.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/work-carousel-karim-saab/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "gsap",
+      "SplitText"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 200,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.35,
+      50
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 4,
+      "bytes": 395461,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "preventDefault en wheel"
+    ],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "wheel-gated slide swap, clip-path entry, staggered text",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/work-carousel-karim-saab/"
+}

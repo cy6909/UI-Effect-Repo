@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/strands",
+  "slug": "strands",
+  "name": "STRANDS",
+  "titleZh": "多股线浪",
+  "description": "六条水平贝塞尔细线的控制点随时间正弦起伏，相位错落编织成一条缓慢流动的缎带，中间一条 zinc-950 主线领航。",
+  "tags": [
+    "svg",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Animations",
+  "path": "/open/motion-vault--strands",
+  "detailUrl": "/open-libraries/motion-vault/entries/strands.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=strands",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/strands.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/strands.md",
+    "sha256": "c445c167d20f51232201125b531ede5aca62cb672bcff3c11750121ac8179b6c",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/strands.json",
+    "sha256": "5443913f33bed0991eda0232130d34fdca87d2c4187bb4a6a46ba49644d4f95a"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

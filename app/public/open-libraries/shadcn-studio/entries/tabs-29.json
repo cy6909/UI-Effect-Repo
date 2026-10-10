@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-29",
+  "slug": "tabs-29",
+  "name": "Tabs 29",
+  "titleZh": "标签页 tabs-29",
+  "description": "Animated underline tabs with dynamic underline position tracking using framer motion",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-29",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-29.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-29.json",
+    "sha256": "62c0bbefb45b6802d3bf3ba879937d2699c579329d3c97c4b1d241ac281be3f2"
+  },
+  "registryDependencies": [
+    "tabs"
+  ],
+  "dependencies": [
+    "motion"
+  ]
+}

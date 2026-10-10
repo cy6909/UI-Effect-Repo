@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/contact-form",
+  "name": "Contact Form Reveal",
+  "slug": "contact-form",
+  "titleZh": "Contact Form Reveal · 转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "A landing hero whose oversized display title reveals on load by splitting into per-character spans that GSAP tweens up from a clipped baseline with a staggered power4.out ease, while nav/tagline/CTA fade in. Clicking 'Apply now' plays a paused GSAP timeline that fades in a fullscreen dark contact-form overlay and staggers a giant 'Apply' wordmark upward; '[ back ]' reverses the same timeline.",
+  "tags": [
+    "contact-form",
+    "overlay",
+    "text-reveal",
+    "split-text",
+    "staggered",
+    "clip-path",
+    "timeline",
+    "gsap",
+    "editorial",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/contact-form",
+  "docsUrl": "https://motionprompts.dev/component/contact-form/",
+  "demoUrl": "https://motionprompts.dev/components/contact-form/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/contact-form.webp",
+  "videoUrl": "https://motionprompts.dev/previews/contact-form.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/contact-form.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/contact-form.md",
+    "sha256": "bfd9e863c8be1404afe6bb8d4222d04705deab1e143f838a86425ecc7abfca98",
+    "upstreamUrl": "https://motionprompts.dev/prompts/contact-form.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/contact-form/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.2,
+      1
+    ],
+    "stagger": 0.075,
+    "assets_required": {
+      "count": 0,
+      "bytes": 0,
+      "root_absolute_paths": false
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "staggered char reveal, click-toggled fullscreen overlay timeline",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/contact-form/"
+}

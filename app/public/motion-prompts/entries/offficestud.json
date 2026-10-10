@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/offficestud",
+  "name": "Three.js 3D Scroll Experience",
+  "slug": "offficestud",
+  "titleZh": "Three.js 3D 滚动体验",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A fixed Three.js chair model (GLB) scales in on load, floats with a sine bob, and tilts on its X axis proportionally to scroll progress driven by a Lenis + GSAP ticker loop; a SplitType-lined outro headline reveals via a staggered translateY masked by ScrollTrigger.",
+  "tags": [
+    "three-js",
+    "webgl",
+    "gltf",
+    "scroll",
+    "lenis",
+    "scrolltrigger",
+    "split-type",
+    "editorial",
+    "furniture",
+    "gsap",
+    "three",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/offficestud",
+  "docsUrl": "https://motionprompts.dev/component/offficestud/",
+  "demoUrl": "https://motionprompts.dev/components/offficestud/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/offficestud.webp",
+  "videoUrl": "https://motionprompts.dev/previews/offficestud.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/offficestud.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/offficestud.md",
+    "sha256": "c73b550798fc2ff5d4a3c528f6cdc3efe58a71b29e7a645fa79c4cb392c46219",
+    "upstreamUrl": "https://motionprompts.dev/prompts/offficestud.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/offficestud/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "three",
+      "GLTFLoader",
+      "lenis",
+      "SplitType"
+    ],
+    "complexity": 5,
+    "pinned": false,
+    "viewport_heights": 400,
+    "needs_lenis": true,
+    "ease_family": "power3",
+    "duration_range": [
+      0.3,
+      1
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 1,
+      "bytes": 1866416,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-THRESHOLD",
+    "engine": "mixed",
+    "motion_signature": "scroll-mapped 3D model tilt with floating sine bob",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "reveal-on-enter"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "three",
+    "lenis",
+    "split-type"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/offficestud/"
+}

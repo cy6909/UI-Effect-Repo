@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-otp-04",
+  "slug": "input-otp-04",
+  "name": "Input OTP 4",
+  "titleZh": "输入框 input-otp-04",
+  "description": "A 4-digit OTP input field with countdown timer and automatic resend functionality",
+  "tags": [
+    "input-otp",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-otp-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-otp-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input-otp",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-otp-04.json",
+    "sha256": "b332d66f2672561b2d56ffdd4a0fa13d1ddf77fae9870c311137a328bc92c054"
+  },
+  "registryDependencies": [
+    "input-otp",
+    "label"
+  ],
+  "dependencies": []
+}

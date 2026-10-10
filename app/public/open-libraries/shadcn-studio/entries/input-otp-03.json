@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-otp-03",
+  "slug": "input-otp-03",
+  "name": "Input OTP 3",
+  "titleZh": "输入框 input-otp-03",
+  "description": "A 4-digit OTP input field with resend functionality and helper text",
+  "tags": [
+    "input-otp",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-otp-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-otp-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input-otp",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-otp-03.json",
+    "sha256": "70db36381a8f4dd96e7f05f02341688f12502deea26755f43e31d615a69930ea"
+  },
+  "registryDependencies": [
+    "input-otp",
+    "label"
+  ],
+  "dependencies": []
+}

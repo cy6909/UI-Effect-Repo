@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/line-reveal-scroll",
+  "slug": "line-reveal-scroll",
+  "name": "LINE MASK REVEAL",
+  "titleZh": "逐行揭示",
+  "description": "六行文字各自藏在 overflow-hidden 遮罩里，随滚动逐行从 110% 下方揭面升起，行内的轻微模糊同步散去。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--line-reveal-scroll",
+  "detailUrl": "/open-libraries/motion-vault/entries/line-reveal-scroll.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=line-reveal-scroll",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/line-reveal-scroll.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/line-reveal-scroll.md",
+    "sha256": "e75dd13f9ae0b6c7fcce979182d982545c2f6de930b051db4334e805f5333fc9",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/line-reveal-scroll.json",
+    "sha256": "575110a51de3cdb868da75a25ee56542748652c0fb6976610bfd63b44b662ff6"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/savoirfaire-landing-page-reveal-animation",
+  "name": "SavoirFaire Landing Page Reveal Animation",
+  "slug": "savoirfaire-landing-page-reveal-animation",
+  "titleZh": "SavoirFaire 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "An automatic on-load preloader that runs a slot-machine style number counter (a masked .count strip and its .count-wrapper are stepped across the screen with chained gsap.timeline power4.inOut tweens), then three stacked star/sparkle SVGs scale from 0 to 45 in sequence to wipe the loader away, and the hero brand word tilts in from a 60deg rotateY into place (power3.out) while the toggle button pops and the masked info lines slide up.",
+  "tags": [
+    "preloader",
+    "landing-reveal",
+    "counter",
+    "gsap",
+    "clip-path",
+    "svg-scale",
+    "3d-rotate",
+    "editorial",
+    "luxury",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/savoirfaire-landing-page-reveal-animation",
+  "docsUrl": "https://motionprompts.dev/component/savoirfaire-landing-page-reveal-animation/",
+  "demoUrl": "https://motionprompts.dev/components/savoirfaire-landing-page-reveal-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/savoirfaire-landing-page-reveal-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/savoirfaire-landing-page-reveal-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/savoirfaire-landing-page-reveal-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/savoirfaire-landing-page-reveal-animation.md",
+    "sha256": "712f3b8450f64b13edd002361fad05e66f33b86630fbf600555b699a158212f1",
+    "upstreamUrl": "https://motionprompts.dev/prompts/savoirfaire-landing-page-reveal-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/savoirfaire-landing-page-reveal-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.85,
+      2
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 1,
+      "bytes": 193,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "time-based preloader counter, star wipes, 3D headline reveal",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/savoirfaire-landing-page-reveal-animation/"
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/gradient-shine",
+  "slug": "gradient-shine",
+  "name": "GRADIENT SHINE",
+  "titleZh": "流光文字",
+  "description": "一道柔和的光周期性扫过文字表面，低调的精致感。",
+  "tags": [
+    "text",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--gradient-shine",
+  "detailUrl": "/open-libraries/motion-vault/entries/gradient-shine.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=gradient-shine",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/gradient-shine.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/gradient-shine.md",
+    "sha256": "db3a7d1d6c791ac97ea6fa4ac72c0c2c88fc19816dd0878546038193fb7fea61",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/gradient-shine.json",
+    "sha256": "d0353079735dd945c7c31e30e7e7febe4f757732380d3c2b0abbb62337418dee"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

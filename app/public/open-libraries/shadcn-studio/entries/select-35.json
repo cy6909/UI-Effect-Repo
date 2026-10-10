@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-35",
+  "slug": "select-35",
+  "name": "Select 35",
+  "titleZh": "选择器 select-35",
+  "description": "A React Aria Components listbox with single selection for currency options",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-35",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-35.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-35.json",
+    "sha256": "ef5c8bf45c80f6e00c0f3d23fa79a6dd426deeb81d9904a99f546a03f0dfad0b"
+  },
+  "registryDependencies": [
+    "label"
+  ],
+  "dependencies": [
+    "react-aria-components"
+  ]
+}

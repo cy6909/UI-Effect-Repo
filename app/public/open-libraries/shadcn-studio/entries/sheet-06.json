@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sheet-06",
+  "slug": "sheet-06",
+  "name": "Sheet 6",
+  "titleZh": "侧边面板 sheet-06",
+  "description": "A navigation sheet component with collapsible menu structure",
+  "tags": [
+    "sheet",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sheet-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sheet-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sheet",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sheet-06.json",
+    "sha256": "cbf16b98d627580bf8091da4ec4b3fe01375fbef0c2dfd91a9081fc17f40f04c"
+  },
+  "registryDependencies": [
+    "button",
+    "collapsible",
+    "sheet"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/tilt-parallax",
+  "slug": "tilt-parallax",
+  "name": "TILT PARALLAX",
+  "titleZh": "多层视差卡",
+  "description": "卡片整体随指针轻倾，内部三层内容按 0.3× / 0.6× / 1.0× 的深度差速移动，扁平卡片里长出真实的纵深感。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--tilt-parallax",
+  "detailUrl": "/open-libraries/motion-vault/entries/tilt-parallax.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=tilt-parallax",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/tilt-parallax.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/tilt-parallax.md",
+    "sha256": "eeb648e2687c16ad1dace8591a27d06f51ec3072760ec240d5799d1a1e49891e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/tilt-parallax.json",
+    "sha256": "c4006473a364c1cd27f375c3e12d0e692496c3e7da9a57a17dca8737a07fa54c"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

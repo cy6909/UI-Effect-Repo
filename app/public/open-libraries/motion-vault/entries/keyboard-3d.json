@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/keyboard-3d",
+  "slug": "keyboard-3d",
+  "name": "KEYBOARD 3D",
+  "titleZh": "实体键盘按压",
+  "description": "一块迷你机械键盘悬浮在柔光里：敲击真实键盘的 A–Z 或直接点击键帽，对应键帽带弹簧物理下沉回弹。",
+  "tags": [
+    "3d",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--keyboard-3d",
+  "detailUrl": "/open-libraries/motion-vault/entries/keyboard-3d.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=keyboard-3d",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/keyboard-3d.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/keyboard-3d.md",
+    "sha256": "62dd4b7beee3e829e0399331a498899150b4cf3c160269c1adff184fcb5266a0",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/keyboard-3d.json",
+    "sha256": "c9443593ec41e2823fe7becedfca79a4785d14e086b03c5ee71e9e8b57975320"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

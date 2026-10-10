@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-21",
+  "slug": "tabs-21",
+  "name": "Tabs 21",
+  "titleZh": "标签页 tabs-21",
+  "description": "Vertical tabs with tooltip functionality for additional information",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-21",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-21.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-21.json",
+    "sha256": "506f664484153c8a6cb68d91ac6db115adc4d819235039f975864fc784d289f1"
+  },
+  "registryDependencies": [
+    "tabs",
+    "tooltip"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

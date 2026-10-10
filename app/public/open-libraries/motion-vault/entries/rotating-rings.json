@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/rotating-rings",
+  "slug": "rotating-rings",
+  "name": "ROTATING RINGS",
+  "titleZh": "旋转圆环组",
+  "description": "多个圆环以不同轴角和速度旋转，交错出陀螺仪般的秩序感。",
+  "tags": [
+    "3d",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--rotating-rings",
+  "detailUrl": "/open-libraries/motion-vault/entries/rotating-rings.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=rotating-rings",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/rotating-rings.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/rotating-rings.md",
+    "sha256": "2de6824b215a27c90438043625bc612c3b302a2455b9f8fe2958e53f391e77b5",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/rotating-rings.json",
+    "sha256": "04d9dd1142f369c3007fecb18aea7ba2a84e3dd2ad636394976e439318e7e3e2"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

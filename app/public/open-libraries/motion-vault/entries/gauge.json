@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/gauge",
+  "slug": "gauge",
+  "name": "GAUGE",
+  "titleZh": "仪表盘",
+  "description": "半圆仪表盘：指针弹簧摆动到 72% 并轻轻过冲回稳，弧轨与 12 根刻度随进度分段点亮，中心数字同步跳动。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--gauge",
+  "detailUrl": "/open-libraries/motion-vault/entries/gauge.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=gauge",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/gauge.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/gauge.md",
+    "sha256": "56d37e04592896fae7550e67c3036b93bf0cc8a94b116f45c4484b23a4ff0d21",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/gauge.json",
+    "sha256": "f910f01d0143b6f13c8aa348be1c9be5e83de36b4276cf08d0853f919615c4b2"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

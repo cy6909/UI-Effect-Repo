@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-21",
+  "slug": "button-21",
+  "name": "Button 21",
+  "titleZh": "按钮 button-21",
+  "description": "Button with badge indicator showing unread message count",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-21",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-21.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-21.json",
+    "sha256": "6c73d3d7197cebb5bd780f3840537cf08505ffa1dfb804f7f4d4c5f27f75398f"
+  },
+  "registryDependencies": [
+    "badge",
+    "button"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

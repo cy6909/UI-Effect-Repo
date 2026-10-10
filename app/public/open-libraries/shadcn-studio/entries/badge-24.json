@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-24",
+  "slug": "badge-24",
+  "name": "Badge 24",
+  "titleZh": "徽标 badge-24",
+  "description": "Online status indicator badge with green dot over avatar",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-24",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-24.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-24.json",
+    "sha256": "4fa9402d76d3043019cc8883a9c5dd4c0943d65119d464ed095530b25b820cf3"
+  },
+  "registryDependencies": [
+    "avatar"
+  ],
+  "dependencies": []
+}

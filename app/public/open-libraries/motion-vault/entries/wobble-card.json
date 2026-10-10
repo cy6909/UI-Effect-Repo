@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/wobble-card",
+  "slug": "wobble-card",
+  "name": "WOBBLE CARD",
+  "titleZh": "果冻晃动卡",
+  "description": "卡面内容像果冻一样追向鼠标，松手后带着弹簧般的晃动回稳；卡片本体悬停时轻微弹性放大。",
+  "tags": [
+    "card",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--wobble-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/wobble-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=wobble-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/wobble-card.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/wobble-card.md",
+    "sha256": "518696937ae4dd24f56f080f044102dff4954babafd9efa024fed110112a4188",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/wobble-card.json",
+    "sha256": "d905c39e230beac9597d87d377c489e3cc3eca024e2528e1fbebb708a8e1dcc1"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

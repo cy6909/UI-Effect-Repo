@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/karim-saab-scroll-animation",
+  "name": "Halide — Masked Portrait Reveal Scroll",
+  "slug": "karim-saab-scroll-animation",
+  "titleZh": "Halide — 遮罩人像滚动揭示",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned spotlight section where a tall grid of desaturated images scrolls vertically while an SVG-masked banner image is revealed and scaled up through a growing CSS mask-size, finishing with a word-by-word headline fade-in. A single ScrollTrigger (pin + scrub over 7x viewport height, Lenis-smoothed) drives everything from its onUpdate, mapping scroll progress to image translateY, mask-size, image scale and SplitText word opacity across staged progress ranges.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "css-mask",
+    "image-reveal",
+    "splittext",
+    "lenis",
+    "editorial",
+    "cinematic",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/karim-saab-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/karim-saab-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/karim-saab-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/karim-saab-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/karim-saab-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/karim-saab-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/karim-saab-scroll-animation.md",
+    "sha256": "838c9039acab0ac241934259715e03f4e4e3ebf9d25137f9fd26ebbc7a00aee5",
+    "upstreamUrl": "https://motionprompts.dev/prompts/karim-saab-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/karim-saab-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": true,
+    "viewport_heights": 700,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 12,
+      "bytes": 1187547,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "700vh scrubbed pin (scrub 1): image grid translateY 5% → -(H + 0.05H + innerHeight)/H*100% over progress 0–0.5; CSS mask-size 0% → 450% with the masked image scaling 1.5 → 1 over progress 0.25–0.75; then index-ordered per-word opacity snap (0 → 1) over 0.75–0.95. All state is set imperatively per frame — no tweens, no eases, no inertia beyond Lenis's own smoothing.",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/karim-saab-scroll-animation/"
+}

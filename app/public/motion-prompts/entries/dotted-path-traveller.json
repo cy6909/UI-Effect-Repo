@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/dotted-path-traveller",
+  "name": "Dotted Path Traveller",
+  "slug": "dotted-path-traveller",
+  "titleZh": "虚线路径行者",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A sticky scene where a dot travels along a drawn dashed SVG path as you scroll, the line revealing itself behind it and lettered milestones lighting up as it passes each one. The whole geometry lives in the path's `d` and nowhere else: the traveller and every milestone are placed by asking the path itself with `getPointAtLength()` (milestones carry a `data-t` fraction, not coordinates), so changing the curve moves all five things at once and the route can never drift from its labels. Reveal is done by putting the full length as a trailing gap in `stroke-dasharray` and retracting it, which preserves the dotted pattern instead of sliding it. A ResizeObserver re-places everything when the SVG box changes without a window resize. A flatter path swaps in below 760px so the labels stop colliding.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "sticky",
+    "svg",
+    "path",
+    "motion-path",
+    "getpointatlength",
+    "milestones",
+    "map",
+    "journey",
+    "stroke-dashoffset",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/dotted-path-traveller",
+  "docsUrl": "https://motionprompts.dev/component/dotted-path-traveller/",
+  "demoUrl": "https://motionprompts.dev/components/dotted-path-traveller/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/dotted-path-traveller.webp",
+  "videoUrl": "https://motionprompts.dev/previews/dotted-path-traveller.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/dotted-path-traveller.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/dotted-path-traveller.md",
+    "sha256": "22d8227a15a4535745cb54e34465eae10a198440dc387333ee8019dbd21fd7db",
+    "upstreamUrl": "https://motionprompts.dev/prompts/dotted-path-traveller.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/dotted-path-traveller/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": [
+      0.35,
+      0.35
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 119364,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "scroll-driven traveller along an SVG path: a single ScrollTrigger onUpdate reads progress, places a dot with getPointAtLength converted from viewBox space to painted-box pixels, retracts a trailing gap in stroke-dasharray to reveal the dotted line behind it, and toggles milestone classes by comparing progress against each milestone data-t; no tween on the traveller, smoothing from Lenis only. A ResizeObserver on the svg re-places milestones.",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/dotted-path-traveller/"
+}

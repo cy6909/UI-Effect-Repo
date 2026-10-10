@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/gabrielcontassot-scroll",
+  "name": "Scroll Image Reveal Sequence",
+  "slug": "gabrielcontassot-scroll",
+  "titleZh": "滚动图片序列",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A long vertical scroll photo essay ('Close Range — Essay No. 04: Skin') where seven big centered chapter-headers (Ornament, Repose, Surface, Gaze, Mouth, Rain, Close) pass over a fixed 500x700 image stack of close-up body photographs. GSAP ScrollTrigger drives two scrubbed animations per section: a clip-path polygon that wipes each preview up into view then off again as the next chapter arrives, plus a continuous scale-to-3 zoom on the active image, ease 'none', so images grow and cross-dissolve through clip-path masks as you scroll.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "clip-path",
+    "image-reveal",
+    "scrub",
+    "scale",
+    "editorial",
+    "gsap",
+    "fashion",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/gabrielcontassot-scroll",
+  "docsUrl": "https://motionprompts.dev/component/gabrielcontassot-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/gabrielcontassot-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/gabrielcontassot-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/gabrielcontassot-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/gabrielcontassot-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/gabrielcontassot-scroll.md",
+    "sha256": "7117ea358136e6d4b396881eb7e8510ae57d2b4e7bc1e2d7030355417718e7af",
+    "upstreamUrl": "https://motionprompts.dev/prompts/gabrielcontassot-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/gabrielcontassot-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 150,
+    "needs_lenis": false,
+    "ease_family": "none",
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 6,
+      "bytes": 742763,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "scrubbed clip-path wipes over scaling fixed image stack",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/gabrielcontassot-scroll/"
+}

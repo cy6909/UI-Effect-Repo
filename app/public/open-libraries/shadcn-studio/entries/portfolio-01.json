@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/portfolio-01",
+  "slug": "portfolio-01",
+  "name": "Portfolio 1",
+  "titleZh": "界面组件 portfolio-01",
+  "description": "Portfolio showcase with masonry grid layout featuring project details, client information, and social media links",
+  "tags": [
+    "portfolio",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--portfolio-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/portfolio-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/portfolio-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/portfolio-01.json",
+    "sha256": "9543514fb782082a977e595dc4817c459dfb71024281c930eb7d339c7bef0555"
+  },
+  "registryDependencies": [
+    "badge",
+    "separator"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/arock-menu",
+  "name": "Responsive Fullscreen Menu",
+  "slug": "arock-menu",
+  "titleZh": "响应式全屏菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "A fullscreen overlay menu that opens on clicking 'Menu': the panel sweeps up via an animated clip-path polygon on a power4.inOut ease while the hero slides away, then the logo, oversized nav links and footer lines reveal with staggered power3.out y-translations. A stack of four semi-transparent images parallaxes and tilts in 3D (rotate3d) following the mouse via GSAP tweens.",
+  "tags": [
+    "fullscreen-menu",
+    "overlay",
+    "clip-path",
+    "parallax",
+    "3d-tilt",
+    "staggered-reveal",
+    "gsap",
+    "editorial",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/arock-menu",
+  "docsUrl": "https://motionprompts.dev/component/arock-menu/",
+  "demoUrl": "https://motionprompts.dev/components/arock-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/arock-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/arock-menu.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/arock-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/arock-menu.md",
+    "sha256": "5a176c4ccc8d6ea0c768732bef85515bb921b99419f1e8d8f3ffb5cf8d718cbb",
+    "upstreamUrl": "https://motionprompts.dev/prompts/arock-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/arock-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      2
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 2,
+      "bytes": 482271,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "Click-driven fullscreen overlay: a 1.25s power4.inOut clip-path polygon sweep raises .menu from the bottom edge while .hero slides to top:-50% and fades out; content then reveals as delayed power3.out y-translations behind clip-path masks (logo 1s@0.75s, links 1s stagger 0.075@1s, sub-items 0.75s stagger 0.05@1s) and three stacked images rise top:150%→50% with stagger 0.1@0.25s. Independently, every mousemove retargets five 2s power3.out tweens — rotate3d(tiltx, tilty, 0, 15deg) on the image container plus per-image translate offsets scaled by index — giving long-tail inertial easing rather than a spring or lerp loop. No timelines, no scroll, no rAF loop.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/arock-menu/"
+}

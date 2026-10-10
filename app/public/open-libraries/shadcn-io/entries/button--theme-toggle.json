@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-io/button--theme-toggle",
+  "slug": "button--theme-toggle",
+  "name": "Theme Toggle",
+  "titleZh": "Theme Toggle · 组件参考",
+  "description": "React dark mode toggle with animated sun/moon icons and View Transitions API. Smooth theme switching with multiple animation effects, TypeScript, and shadcn/ui.",
+  "tags": [
+    "shadcn.io",
+    "reference",
+    "原站参考"
+  ],
+  "source": "shadcn-io",
+  "category": "Components",
+  "path": "/open/shadcn-io--button--theme-toggle",
+  "detailUrl": "/open-libraries/shadcn-io/entries/button--theme-toggle.json",
+  "promptAccess": "external",
+  "promptKind": "installation",
+  "sourceAvailable": false,
+  "variants": [],
+  "docsUrl": "https://www.shadcn.io/button/theme-toggle",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-io/LICENSE.txt",
+  "upstreamCommit": "2dc66e0e7b159fa92e761c84f3c5325c9700c415",
+  "prompt": null,
+  "bundle": null,
+  "notes": "Official MIT repository contains README links only. Component source and licensing must be checked at each linked page; Pro assets are not imported."
+}

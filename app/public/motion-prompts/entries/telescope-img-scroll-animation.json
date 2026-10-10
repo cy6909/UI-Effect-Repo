@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/telescope-img-scroll-animation",
+  "name": "Telescope Image Scroll Animation",
+  "slug": "telescope-img-scroll-animation",
+  "titleZh": "Telescope Image 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned banner scrubbed over four viewport heights with Lenis smooth scroll: the image container scales up from zero while seven stacked silhouette-masked copies of the same photo grow at staggered scales, creating a telescoping lens-in-lens depth effect. Two intro words slide apart horizontally and the centered headline reveals word-by-word, all driven by a single ScrollTrigger onUpdate reading self.progress.",
+  "tags": [
+    "scroll",
+    "pin",
+    "scrub",
+    "mask",
+    "scale",
+    "telescope",
+    "lenis",
+    "editorial",
+    "reveal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/telescope-img-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/telescope-img-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/telescope-img-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/telescope-img-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/telescope-img-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/telescope-img-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/telescope-img-scroll-animation.md",
+    "sha256": "81a430a1032e1c568c09d4496d49a03a319171f4a148f15a00e1b9db3c200461",
+    "upstreamUrl": "https://motionprompts.dev/prompts/telescope-img-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/telescope-img-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 4,
+    "pinned": true,
+    "viewport_heights": 400,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 2,
+      "bytes": 212614,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "gsap",
+    "motion_signature": "pinned 400vh scrub where a single onUpdate maps scroll progress linearly onto transforms: container scale 0→1, six silhouette-masked copies each lerping from initialScale 0.9−i*0.2 (layer 6 starts at −0.1, flipped) toward 1 over progress/0.9 — a telescoping lens-in-lens zoom; two intro words counter-slide horizontally ±progress*50vw; headline words fade in one by one across progress 0.7→0.9. No tweens, no eases: all smoothing comes from scrub:1 plus Lenis inertia",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/telescope-img-scroll-animation/"
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-13",
+  "slug": "dialog-13",
+  "name": "Dialog 13",
+  "titleZh": "对话框 dialog-13",
+  "description": "Sign up dialog with gradient background and terms acceptance checkbox",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-13.json",
+    "sha256": "9869fa7ff180cf7e58bd86f9e9eb48d6a56476e3b2033600d40858d9d0d3191c"
+  },
+  "registryDependencies": [
+    "button",
+    "checkbox",
+    "dialog",
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

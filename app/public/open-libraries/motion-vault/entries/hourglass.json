@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/hourglass",
+  "slug": "hourglass",
+  "name": "HOURGLASS",
+  "titleZh": "沙漏翻转",
+  "description": "两个三角对顶成的沙漏每 1.6 秒弹簧翻转 180°，内部沙面此消彼长——上面的流光，下面的堆满。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--hourglass",
+  "detailUrl": "/open-libraries/motion-vault/entries/hourglass.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=hourglass",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/hourglass.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/hourglass.md",
+    "sha256": "c3d9d9fb5b81ef568bb3b182e2576e68d361918ac15086dd1373fa045f008478",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/hourglass.json",
+    "sha256": "7a97555c76767a902b75c2ad05119dbdb505296c87b833be871c9504d988f6a5"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

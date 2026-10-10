@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/accordion-frames",
+  "name": "Accordion Frames Spotlight Row",
+  "slug": "accordion-frames",
+  "titleZh": "手风琴聚光画框",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "Centered accordion row of 20 vertical image slivers (10 on mobile) where hovering a panel (tapping on mobile) expands it to a 400px frame while the others collapse to 20px, eased by a slow decelerating CSS transition. A white focus frame with full-viewport vertical crosshair lines glides along to track the focused panel, and a ResizeObserver recomputes the pixel layout on resize.",
+  "tags": [
+    "accordion",
+    "spotlight",
+    "hover",
+    "gallery",
+    "panels",
+    "css-transition",
+    "resize-observer",
+    "responsive",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/accordion-frames",
+  "docsUrl": "https://motionprompts.dev/component/accordion-frames/",
+  "demoUrl": "https://motionprompts.dev/components/accordion-frames/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/accordion-frames.webp",
+  "videoUrl": "https://motionprompts.dev/previews/accordion-frames.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/accordion-frames.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/accordion-frames.md",
+    "sha256": "46bd3eb0651977ac80c75f777b97c87105ac3771df99301e3b00b3a78e9b91de",
+    "upstreamUrl": "https://motionprompts.dev/prompts/accordion-frames.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/accordion-frames/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 20,
+      "bytes": 2272254,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "css-transition",
+    "motion_signature": "hover/tap accordion strip: JS writes px left/width per panel (focused 400px desktop / 100px mobile, others 20px, 5px gap, strip re-centered in the track) and a 1s cubic-bezier(0.075,0.82,0.165,1) CSS transition does all the easing; a bordered focus indicator with full-viewport crosshair lines glides to the focused panel on the same curve",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/accordion-frames/"
+}

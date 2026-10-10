@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/madeinuxstudio-page-transition",
+  "name": "Silhouette Page Transition",
+  "slug": "madeinuxstudio-page-transition",
+  "titleZh": "剪影 页面转场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "transition",
+  "description": "Full-page route transition where clicking a nav link runs a GSAP timeline that wipes 20 vertical blocks across the screen (scaleX stagger), then draws an SVG logo via strokeDashoffset and fills it before the incoming page is revealed with a reverse block wipe. Page headings animate in with a SplitText masked-character stagger and the archive route uses Lenis smooth scroll.",
+  "tags": [
+    "page-transition",
+    "block-wipe",
+    "svg-draw",
+    "splittext",
+    "gsap-timeline",
+    "lenis",
+    "editorial",
+    "minimal",
+    "fake-router",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/madeinuxstudio-page-transition",
+  "docsUrl": "https://motionprompts.dev/component/madeinuxstudio-page-transition/",
+  "demoUrl": "https://motionprompts.dev/components/madeinuxstudio-page-transition/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/madeinuxstudio-page-transition.webp",
+  "videoUrl": "https://motionprompts.dev/previews/madeinuxstudio-page-transition.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/madeinuxstudio-page-transition.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/madeinuxstudio-page-transition.md",
+    "sha256": "72dd3139190b7ef556e761def724adbe325e1e30710fc991d90d0a2a243f8218",
+    "upstreamUrl": "https://motionprompts.dev/prompts/madeinuxstudio-page-transition.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/madeinuxstudio-page-transition/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "SplitText",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power2",
+    "duration_range": [
+      0.2,
+      2
+    ],
+    "stagger": 0.02,
+    "assets_required": {
+      "count": 4,
+      "bytes": 323400,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "mata todos los ScrollTrigger"
+    ],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap+raf",
+    "motion_signature": "20 full-height flex blocks scaleX 0->1 from the left in a 0.02s-staggered 0.4s power2.out curtain (reversed to scaleX 0 from the right on reveal), overlapped by a 2s power2.inOut strokeDashoffset draw of the SVG logo plus a 1s power2.out fill and 0.25s fade-out; incoming h1 arrives as masked SplitText chars sliding y 100%->0% over 1s power4.out, 0.03s stagger, 0.3s delay, gated by a once:true ScrollTrigger at 'top 75%'",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/madeinuxstudio-page-transition/"
+}

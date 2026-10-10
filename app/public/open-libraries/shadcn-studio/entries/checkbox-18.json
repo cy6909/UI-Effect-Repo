@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/checkbox-18",
+  "slug": "checkbox-18",
+  "name": "Checkbox 18",
+  "titleZh": "复选框 checkbox-18",
+  "description": "Animated todo checkbox with strikethrough effect and smooth transitions",
+  "tags": [
+    "checkbox",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--checkbox-18",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/checkbox-18.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/checkbox",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/checkbox-18.json",
+    "sha256": "222aae7db975565009db5feec829d5552b71d15d07eaae0fb20728e238f01709"
+  },
+  "registryDependencies": [
+    "label",
+    "utils"
+  ],
+  "dependencies": [
+    "@radix-ui/react-checkbox",
+    "motion"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/oshane-howard-lp-responsive",
+  "name": "O'Shane Howard Landing Page",
+  "slug": "oshane-howard-lp-responsive",
+  "titleZh": "O'Shane Howard 页面入场",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "On load, an animated numeric counter (three stacked digit reels tweened with gsap.to and power2.inOut) counts up to 100% behind a filling progress bar, then a stack of hero images each wipe in via a staggered clip-path polygon reveal while the hero scales up, the nav drops in, and the 'Howard' headline rises letter-by-letter with a staggered per-span reveal.",
+  "tags": [
+    "preloader",
+    "counter",
+    "clip-path",
+    "reveal",
+    "gsap",
+    "landing-page",
+    "stagger",
+    "editorial",
+    "loader",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/oshane-howard-lp-responsive",
+  "docsUrl": "https://motionprompts.dev/component/oshane-howard-lp-responsive/",
+  "demoUrl": "https://motionprompts.dev/components/oshane-howard-lp-responsive/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/oshane-howard-lp-responsive.webp",
+  "videoUrl": "https://motionprompts.dev/previews/oshane-howard-lp-responsive.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/oshane-howard-lp-responsive.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/oshane-howard-lp-responsive.md",
+    "sha256": "c71a8dfa755a5ce7f806a97940f1129983aad2478ea96b29282c7f754493e1e3",
+    "upstreamUrl": "https://motionprompts.dev/prompts/oshane-howard-lp-responsive.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/oshane-howard-lp-responsive/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      1,
+      6
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 7,
+      "bytes": 1135225,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "timeline-less delayed preloader counter then clip-path reveal",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "page-scroll-lock",
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/oshane-howard-lp-responsive/"
+}

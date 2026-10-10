@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/radio-group-13",
+  "slug": "radio-group-13",
+  "name": "Radio Group 13",
+  "titleZh": "单选 radio-group-13",
+  "description": "A vertical card radio group with icons and centered layout for plan selection",
+  "tags": [
+    "radio-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--radio-group-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/radio-group-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/radio-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/radio-group-13.json",
+    "sha256": "e943b70efe62e6ac5148f1112b2d5d41d8f16b0d4b34d77c16a6f6d050092cba"
+  },
+  "registryDependencies": [
+    "badge",
+    "label",
+    "radio-group"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

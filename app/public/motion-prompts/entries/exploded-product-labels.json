@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/exploded-product-labels",
+  "name": "Exploded Product with Leader Labels",
+  "slug": "exploded-product-labels",
+  "titleZh": "带引导标注的产品分解",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned stage where a six-layer product separates along Z as you scroll and each part names itself with a hairline leader. The label is bound to its layer by `data-for` → `data-i`, and BOTH its vertical position and the leader's width are computed from the layer's live bounding box every frame — hand-placed labels survive exactly until somebody adds a part or swaps two, and a wrong label is worse than none because it still looks authoritative. The separation is staggered per layer (each gets its own slice of the progress) rather than uniform: moving all six at the same rate keeps them evenly spaced the whole way, so the object never reads as coming apart, only as getting taller. The leader stops at the edge of the stack rather than chasing its own layer, so its length does not jitter with the separation. Layers are CSS ellipses in a shallow 58° rotation — a photograph of a product cannot come apart. Dressed as a refillable compact: Antonio + Bitter, ink, blush and brass.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "sticky",
+    "exploded-view",
+    "diagram",
+    "labels",
+    "leader-line",
+    "product",
+    "annotation",
+    "3d-transform",
+    "lenis",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/exploded-product-labels",
+  "docsUrl": "https://motionprompts.dev/component/exploded-product-labels/",
+  "demoUrl": "https://motionprompts.dev/components/exploded-product-labels/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/exploded-product-labels.webp",
+  "videoUrl": "https://motionprompts.dev/previews/exploded-product-labels.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/exploded-product-labels.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/exploded-product-labels.md",
+    "sha256": "d4612ba88dd020f5905f5ed65cfba8b86fb5266b4c45060c65f759129c86d166",
+    "upstreamUrl": "https://motionprompts.dev/prompts/exploded-product-labels.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/exploded-product-labels/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 1,
+      "bytes": 121151,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "sticky stage over 320svh where six CSS ellipses in a 58deg rotateX separate along Z with a per-layer staggered slice of progress (offset i/n*0.55, span 0.45, cubic ease-out) written by gsap.set on every ScrollTrigger update; labels bound by data-for fade and slide in on their own offset, with vertical position and leader width recomputed from each layer live bounding box; no tween, no scrub, smoothing from Lenis",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/exploded-product-labels/"
+}

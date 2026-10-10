@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/our-revolution-lp",
+  "name": "Our Revolution Landing Page Reveal",
+  "slug": "our-revolution-lp",
+  "titleZh": "Our Revolution 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "A preloader-to-hero landing reveal driven by a single GSAP timeline: a row of seven tall portrait images rises from below and staggers in, the whole strip slides horizontally, the side images and then the full black loader wipe away upward via clip-path, and finally the nav, hero headline and footer thumbnails slide up and fade in. Plays automatically once on page load using power3.inOut easing, about 6 seconds total.",
+  "tags": [
+    "preloader",
+    "reveal",
+    "clip-path",
+    "stagger",
+    "timeline",
+    "intro",
+    "landing",
+    "hero",
+    "editorial",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/our-revolution-lp",
+  "docsUrl": "https://motionprompts.dev/component/our-revolution-lp/",
+  "demoUrl": "https://motionprompts.dev/components/our-revolution-lp/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/our-revolution-lp.webp",
+  "videoUrl": "https://motionprompts.dev/previews/our-revolution-lp.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/our-revolution-lp.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/our-revolution-lp.md",
+    "sha256": "236d58331abdad46fc7d210fbff5d284bd1a58da14b274fac6ed8fac4338c3b2",
+    "upstreamUrl": "https://motionprompts.dev/prompts/our-revolution-lp.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/our-revolution-lp/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.3,
+      3
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 11,
+      "bytes": 1202310,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "one-shot 4s power3.inOut intro: staggered y-rise of a 7-image strip + a 3s horizontal x:500->0 slide of the strip, then upward clip-path wipes (polygon bottom edge collapsed to the top) on the images and on the fixed black loader, ending with a staggered y/opacity rise of nav, headline and footer thumbs. No scroll, no rAF, no easing curve other than power3.inOut.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "page-scroll-lock",
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/our-revolution-lp/"
+}

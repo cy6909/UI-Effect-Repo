@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/mormal",
+  "name": "Camille Mormal Grid Reveal",
+  "slug": "mormal",
+  "titleZh": "Camille Mormal 网格揭示",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "An on-load intro reveal built from a single GSAP timeline: five vertical columns of images slide in from off-screen top/bottom (alternating positive and negative staggers per column with a power4.inOut ease), then the whole image grid scales up 6x while the nav links, masked hero title, slide counter and footer preview thumbnails slide up into their clip-path frames and the two '+' icons scale from 0 to 1. Plays automatically once on page load.",
+  "tags": [
+    "reveal",
+    "intro",
+    "image-grid",
+    "gsap",
+    "stagger",
+    "scale",
+    "clip-path",
+    "editorial",
+    "portfolio",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/mormal",
+  "docsUrl": "https://motionprompts.dev/component/mormal/",
+  "demoUrl": "https://motionprompts.dev/components/mormal/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/mormal.webp",
+  "videoUrl": "https://motionprompts.dev/previews/mormal.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/mormal.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/mormal.md",
+    "sha256": "20f6bd381db1b8547cdc49550f64a04726914637060eca603483f1de1caaf88b",
+    "upstreamUrl": "https://motionprompts.dev/prompts/mormal.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/mormal/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "ionicons"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      4
+    ],
+    "stagger": -0.25,
+    "assets_required": {
+      "count": 15,
+      "bytes": 2278175,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden",
+      "html/body height fija en vh"
+    ],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "autoplay staggered column grid reveal then zoom",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "page-scroll-lock",
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/mormal/"
+}

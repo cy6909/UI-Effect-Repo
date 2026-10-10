@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/border-beam",
+  "slug": "border-beam",
+  "name": "BORDER BEAM",
+  "titleZh": "边框光束",
+  "description": "一道黑色光束沿按钮边框循环扫过——为克制的界面加一点克制的炫技。",
+  "tags": [
+    "button",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--border-beam",
+  "detailUrl": "/open-libraries/motion-vault/entries/border-beam.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=border-beam",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/border-beam.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/border-beam.md",
+    "sha256": "04b1100b3e02c1de6bac2de7b3c8a081dd0e7ac0a92b50fd8d6d055af3e85dae",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/border-beam.json",
+    "sha256": "9227c1ea2d71f39c6155986ab9375e74bff244e136443b8b0039ae36c3aa7b13"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

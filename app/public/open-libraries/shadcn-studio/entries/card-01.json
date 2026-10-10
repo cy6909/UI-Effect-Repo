@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/card-01",
+  "slug": "card-01",
+  "name": "Card 1",
+  "titleZh": "卡片 card-01",
+  "description": "Login form card with email and password inputs",
+  "tags": [
+    "card",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--card-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/card-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/card",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/card-01.json",
+    "sha256": "3d429cc6455ba94c508e651da3584cb33d0ebd5bdd4ffefc9d794fea80b9c421"
+  },
+  "registryDependencies": [
+    "button",
+    "card",
+    "input",
+    "label"
+  ],
+  "dependencies": []
+}

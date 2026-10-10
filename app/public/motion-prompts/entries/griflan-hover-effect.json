@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/griflan-hover-effect",
+  "name": "Griflan Hover Effect",
+  "slug": "griflan-hover-effect",
+  "titleZh": "Griflan 悬停动效",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "hover",
+  "description": "Three stacked service rows expand on hover with an elastic GSAP tween: a fanned stack of three images slides up behind the title, the title recolors from red to cream, and after 0.2s pill-shaped tags drop into the row under Matter.js gravity, bouncing and settling on an invisible floor. On mouseleave the tags fade out and the row springs back closed.",
+  "tags": [
+    "hover",
+    "physics",
+    "matter-js",
+    "elastic",
+    "expand",
+    "tags",
+    "image-stack",
+    "services-list",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/griflan-hover-effect",
+  "docsUrl": "https://motionprompts.dev/component/griflan-hover-effect/",
+  "demoUrl": "https://motionprompts.dev/components/griflan-hover-effect/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/griflan-hover-effect.webp",
+  "videoUrl": "https://motionprompts.dev/previews/griflan-hover-effect.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/griflan-hover-effect.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/griflan-hover-effect.md",
+    "sha256": "100279a9ed655ecdd7a880be90db719aa28cfe232aab8938eb6104b116f101b7",
+    "upstreamUrl": "https://motionprompts.dev/prompts/griflan-hover-effect.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/griflan-hover-effect/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap",
+      "matter-js"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "elastic",
+    "duration_range": [
+      0.2,
+      0.75
+    ],
+    "stagger": 0.075,
+    "assets_required": {
+      "count": 9,
+      "bytes": 966261,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "physics",
+    "motion_signature": "Hover rows that spring open on elastic.out(1,0.5) over 0.75s (collapse 0.5s, elastic.out(1,0.75)) while a 0.075s-staggered image stack slides through; 0.2s later Matter.js drops 5 chamfered pill tags per row under doubled gravity (y:2) with restitution 0.15, friction 0.6, density 0.002, onto a static floor 50px (25px under 1000px) above the row bottom, DOM-transformed each frame by a per-row rAF loop at a fixed 1000/60 timestep",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "matter-js"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/griflan-hover-effect/"
+}

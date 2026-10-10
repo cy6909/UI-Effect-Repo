@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-otp-01",
+  "slug": "input-otp-01",
+  "name": "Input OTP 1",
+  "titleZh": "输入框 input-otp-01",
+  "description": "A 4-digit numeric OTP input field with individual slots for each digit",
+  "tags": [
+    "input-otp",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-otp-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-otp-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input-otp",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-otp-01.json",
+    "sha256": "0267693193102e66365fc235f036008a91d7d165bb6e01ccef52a937b3939ad3"
+  },
+  "registryDependencies": [
+    "input-otp",
+    "label"
+  ],
+  "dependencies": [
+    "input-otp"
+  ]
+}

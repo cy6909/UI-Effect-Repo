@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/orbit-loader",
+  "slug": "orbit-loader",
+  "name": "ORBIT",
+  "titleZh": "双星环绕",
+  "description": "两颗小点绕中心反向公转，身后拖着渐隐的彗尾——像一对互相追逐的星。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--orbit-loader",
+  "detailUrl": "/open-libraries/motion-vault/entries/orbit-loader.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=orbit-loader",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/orbit-loader.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/orbit-loader.md",
+    "sha256": "8afab28a221e5f997f49282b2a8e3db4bd766e8d5978251f1472f450edcc1c0e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/orbit-loader.json",
+    "sha256": "a7b2fb749b00e758683c2114ac6bf0eddb3dd065ac8260e0dc894d811985e496"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

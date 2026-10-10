@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/select-36",
+  "slug": "select-36",
+  "name": "Select 36",
+  "titleZh": "选择器 select-36",
+  "description": "A React Aria Components listbox with multiple selection and grouped language options",
+  "tags": [
+    "select",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--select-36",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/select-36.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/select",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/select-36.json",
+    "sha256": "babb98ae023ab2a42997dc7ac0e9823372b0b50564d15cc048e4cd5dbec41c69"
+  },
+  "registryDependencies": [
+    "label"
+  ],
+  "dependencies": [
+    "react-aria-components"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/threejs-video-gallery",
+  "name": "ThreeJS 3D Video Gallery",
+  "slug": "threejs-video-gallery",
+  "titleZh": "ThreeJS 3D 视频画廊",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "A Three.js WebGL grid of video-textured planes curved into a parabolic wall, each plane mapped to a looping muted video texture. Mouse movement drives a per-frame requestAnimationFrame loop that applies parallax, oscillation and rotation to every plane, eases the camera lookAt target, and tilts the CSS-3D headline via a cubic-bezier transform.",
+  "tags": [
+    "three.js",
+    "webgl",
+    "video-texture",
+    "gallery",
+    "parallax",
+    "mouse-interaction",
+    "curved-grid",
+    "cinematic",
+    "experimental",
+    "three",
+    "lil-gui",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/threejs-video-gallery",
+  "docsUrl": "https://motionprompts.dev/component/threejs-video-gallery/",
+  "demoUrl": "https://motionprompts.dev/components/threejs-video-gallery/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/threejs-video-gallery.webp",
+  "videoUrl": null,
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/threejs-video-gallery.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/threejs-video-gallery.md",
+    "sha256": "0e8eed13c3120656626de4f163913815778c1b5d93cdcc323320ee36b29b5c3d",
+    "upstreamUrl": "https://motionprompts.dev/prompts/threejs-video-gallery.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/threejs-video-gallery/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "three"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.25,
+      1.8
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 10,
+      "bytes": 10852163,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "POINTER-CHASE",
+    "engine": "webgl-raf",
+    "motion_signature": "mouse-lerped (0.05) camera lookAt across a parabolic WebGL video wall; each of the 49 planes adds randomized parallax and a sin(time+phase)*mouseDistance*0.1 oscillation, while the CSS-3D headline tilts on a 0.5s easeOutCubic transition",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "three",
+    "lil-gui"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/threejs-video-gallery/"
+}

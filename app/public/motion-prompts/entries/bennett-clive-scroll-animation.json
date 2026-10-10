@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/bennett-clive-scroll-animation",
+  "name": "Barrett & Hale Scroll Animation",
+  "slug": "bennett-clive-scroll-animation",
+  "titleZh": "Barrett & Hale 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A wordmark ('Barrett & Hale'), centered on both axes of the viewport, rides its own fixed full-viewport layer painted with `mix-blend-mode: difference`, so it inverts against everything scrolling behind it — near-black over the paper client index, near-white over the dark stills. A second, un-blended copy of the same wordmark carries only the red ampersand so the accent never inverts. As each row of client names crosses the wordmark's band, two scrubbed ScrollTriggers animate the row's flex `gap` in px so the names spread apart around the title and close again. Reaching the tall footer section, further ScrollTriggers walk the wordmark's center line down the viewport and grow its type into a full-width title card over a sticky full-bleed photograph.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "scrub",
+    "flex-gap",
+    "mix-blend-mode",
+    "typography",
+    "editorial",
+    "minimal",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/bennett-clive-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/bennett-clive-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/bennett-clive-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/bennett-clive-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/bennett-clive-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/bennett-clive-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/bennett-clive-scroll-animation.md",
+    "sha256": "b2fa5c1d483fa8650edcdaa1790c56ff9deada4ddad3af494b99f1aa0f6c3d24",
+    "upstreamUrl": "https://motionprompts.dev/prompts/bennett-clive-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/bennett-clive-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": 300,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.3,
+      0.3
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 2,
+      "bytes": 354154,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "row gaps scrub open 1em→15em then closed 15em→1em as each row passes a fixed wordmark, which then descends 50%→92% and grows 1.25vw→9vw over a 300vh sticky footer",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/bennett-clive-scroll-animation/"
+}

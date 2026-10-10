@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-group-13",
+  "slug": "button-group-13",
+  "name": "Button Group 13",
+  "titleZh": "按钮 button-group-13",
+  "description": "Email action button group with ripple animation effects",
+  "tags": [
+    "button-group",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-group-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-group-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button-group",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-group-13.json",
+    "sha256": "59d1cfd20577edeccb0ad379593b700fa02c1abf1cbe4b2081d9d13acebd8811"
+  },
+  "registryDependencies": [
+    "button",
+    "utils"
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "lucide-react",
+    "motion"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/text-pressure",
+  "slug": "text-pressure",
+  "name": "TEXT PRESSURE",
+  "titleZh": "字重压感",
+  "description": "光标越近，字越粗越宽——可变字体的 wght 从 400 弹到 900，字宽同步膨胀，弹簧平滑跟随，全程零 setState。",
+  "tags": [
+    "text",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--text-pressure",
+  "detailUrl": "/open-libraries/motion-vault/entries/text-pressure.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=text-pressure",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/text-pressure.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/text-pressure.md",
+    "sha256": "a2d7a39e04e100f4b4b0fc306099d10acebeecc894ebacb0bb71147a2142d2ce",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/text-pressure.json",
+    "sha256": "10ac2f2ce939846a4305a3b105c438292f92186314001444a07cf37502b7f607"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

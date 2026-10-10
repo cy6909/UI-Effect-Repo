@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-06",
+  "slug": "button-06",
+  "name": "Button 6",
+  "titleZh": "按钮 button-06",
+  "description": "Grouped action buttons for Cancel and Save operations",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-06.json",
+    "sha256": "a59536c459c9d468cb8bb9ff2a6fabf89fe8c1d7952c9c5aa47f299056534151"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/qindustrial-scroll",
+  "name": "Lenis Smooth Scroll + ScrollTrigger",
+  "slug": "qindustrial-scroll",
+  "titleZh": "Lenis Smooth 滚动 + ScrollTrigger",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A services list where each row's thumbnail expands from 30% to 100% width while the row itself grows in height as it scrolls into view. Lenis drives smooth scrolling synced to gsap.ticker, and two per-row scrubbed ScrollTrigger instances (created lazily via IntersectionObserver) read self.progress to tween the image width and row height with ease 'none'.",
+  "tags": [
+    "scroll",
+    "scrolltrigger",
+    "lenis",
+    "smooth-scroll",
+    "image-reveal",
+    "scrub",
+    "intersection-observer",
+    "services",
+    "corporate",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/qindustrial-scroll",
+  "docsUrl": "https://motionprompts.dev/component/qindustrial-scroll/",
+  "demoUrl": "https://motionprompts.dev/components/qindustrial-scroll/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/qindustrial-scroll.webp",
+  "videoUrl": "https://motionprompts.dev/previews/qindustrial-scroll.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/qindustrial-scroll.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/qindustrial-scroll.md",
+    "sha256": "10db868e477bd6af45bf4d2d23acc408872c8aea6cc57bc8add8a60571325505",
+    "upstreamUrl": "https://motionprompts.dev/prompts/qindustrial-scroll.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/qindustrial-scroll/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": 500,
+    "needs_lenis": true,
+    "ease_family": "none",
+    "duration_range": [
+      0.1,
+      0.25
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 7,
+      "bytes": 714027,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "SCROLL-WELDED",
+    "engine": "gsap",
+    "motion_signature": "per-row scrubbed reveal: as each .service row crosses the viewport its thumbnail widens 30% -> 100% and the row itself grows 150px -> 450px, both linearly mapped from ScrollTrigger progress and then re-issued every frame as a 0.1s ease:'none' gsap.to(), so the geometry lags the scroll by a fixed ~100ms catch-up rather than tracking it rigidly",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-welded"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "document-height"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/qindustrial-scroll/"
+}

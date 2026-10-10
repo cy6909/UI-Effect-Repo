@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-02",
+  "slug": "badge-02",
+  "name": "Badge 2",
+  "titleZh": "徽标 badge-02",
+  "description": "Secondary variant badge with muted styling for less prominent labels",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-02",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-02.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-02.json",
+    "sha256": "05529db511c07ac472ff5cfe9652099d9df6bc60497a7fee0a93a5cbeb7c4c09"
+  },
+  "registryDependencies": [
+    "badge"
+  ],
+  "dependencies": []
+}

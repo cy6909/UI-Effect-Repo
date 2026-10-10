@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/popover-05",
+  "slug": "popover-05",
+  "name": "Popover 5",
+  "titleZh": "浮层 popover-05",
+  "description": "An informational popover about Shadcn Studio with description and learn more link",
+  "tags": [
+    "popover",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--popover-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/popover-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/popover",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/popover-05.json",
+    "sha256": "6d1c7af595bcb01fcd54d60dcbedb06bb21049f62ac7c95ae92b4fae8ff6a6f2"
+  },
+  "registryDependencies": [
+    "button",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

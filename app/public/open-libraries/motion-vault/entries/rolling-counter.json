@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/rolling-counter",
+  "slug": "rolling-counter",
+  "name": "ROLLING COUNTER",
+  "titleZh": "滚动数字",
+  "description": "里程表式数字滚动：进入视口时每位数字从 0 开始向上翻滚到目标值，弹簧缓动、位间错峰 100ms。点击卡片或 Replay 重播。",
+  "tags": [
+    "text",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--rolling-counter",
+  "detailUrl": "/open-libraries/motion-vault/entries/rolling-counter.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=rolling-counter",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/rolling-counter.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/rolling-counter.md",
+    "sha256": "363e0c960706cd5457bec11148eaa919ed399e078dd40d9eb75a6b970f7db4ff",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/rolling-counter.json",
+    "sha256": "34d5e9ca3efd712e6c0f964f69ce18f58d0c4626fe6b9f33c5758dfbd9900003"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

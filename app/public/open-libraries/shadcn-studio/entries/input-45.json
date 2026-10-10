@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-45",
+  "slug": "input-45",
+  "name": "Input 45",
+  "titleZh": "输入框 input-45",
+  "description": "Number field with vertically stacked chevron buttons for increment/decrement using React Aria",
+  "tags": [
+    "input",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-45",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-45.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-45.json",
+    "sha256": "14e4e252c90e1bc23ccda11f129b53e053135e932e30f94836d9bacc6463ca49"
+  },
+  "registryDependencies": [],
+  "dependencies": [
+    "lucide-react",
+    "react-aria-components"
+  ]
+}

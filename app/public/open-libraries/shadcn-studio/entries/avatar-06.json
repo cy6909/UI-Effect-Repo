@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/avatar-06",
+  "slug": "avatar-06",
+  "name": "Avatar 6",
+  "titleZh": "头像 avatar-06",
+  "description": "Icon avatar using Lucide icon with colored background.",
+  "tags": [
+    "avatar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--avatar-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/avatar-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/avatar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/avatar-06.json",
+    "sha256": "56ddc9e8b3f8df5046438a659baf25ae4c2153b7d8be493f65bd58a0027cde50"
+  },
+  "registryDependencies": [
+    "avatar"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

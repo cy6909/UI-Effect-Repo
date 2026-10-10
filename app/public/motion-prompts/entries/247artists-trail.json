@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/247artists-trail",
+  "name": "24/7 Artists Image Trail",
+  "slug": "247artists-trail",
+  "titleZh": "24/7 Artists 图片拖尾",
+  "category": "Animations",
+  "source": "motion-prompts",
+  "sourceCategory": "interactive",
+  "description": "A cursor-driven image trail across a full-viewport hero: as the mouse moves past a distance threshold, a new 175px image spawns at the cursor and slides toward it, revealed through 10 horizontal clip-path mask layers that open from the center outward with a staggered ease, then collapse and fade back to the center after a ~1s lifespan. Pure vanilla JS with CSS transitions and requestAnimationFrame (no GSAP); disabled below 1000px width.",
+  "tags": [
+    "image-trail",
+    "cursor",
+    "mouse-trail",
+    "clip-path",
+    "reveal",
+    "vanilla-js",
+    "css-transitions",
+    "editorial",
+    "hover",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/247artists-trail",
+  "docsUrl": "https://motionprompts.dev/component/247artists-trail/",
+  "demoUrl": "https://motionprompts.dev/components/247artists-trail/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/247artists-trail.webp",
+  "videoUrl": "https://motionprompts.dev/previews/247artists-trail.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/247artists-trail.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/247artists-trail.md",
+    "sha256": "6fd776fd34b2d39506bb506f5907f215618e77d401771972879e7f55dffb7f9d",
+    "upstreamUrl": "https://motionprompts.dev/prompts/247artists-trail.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/247artists-trail/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 21,
+      "bytes": 2243195,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "touch-branch",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-LATCHED",
+    "engine": "css-transition",
+    "motion_signature": "pointer-speed image trail: a tile spawns whenever the cursor travels >150px (60px on coarse pointers) inside the hero, born at a lerp-0.1 trailing position and CSS-eased to the live cursor over 1s, revealed as 10 horizontal clip-path bands opening centre-outward (50-450ms stagger, 750ms each) and closing edges-inward 1s later (0-100ms stagger)",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "pointer-latch"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/247artists-trail/"
+}

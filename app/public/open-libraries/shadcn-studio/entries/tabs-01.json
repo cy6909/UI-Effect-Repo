@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-01",
+  "slug": "tabs-01",
+  "name": "Tabs 1",
+  "titleZh": "标签页 tabs-01",
+  "description": "Basic tabs component with default styling for content organization and navigation",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-01.json",
+    "sha256": "85070fada912d1ffd1aba47185c55b7e35faadcb71bb9109bd5f5e9929c202e4"
+  },
+  "registryDependencies": [
+    "tabs"
+  ],
+  "dependencies": []
+}

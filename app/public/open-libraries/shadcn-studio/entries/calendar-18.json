@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-18",
+  "slug": "calendar-18",
+  "name": "Calendar 18",
+  "titleZh": "日历 calendar-18",
+  "description": "Calendar with \"Today\" quick action button for fast current date selection",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-18",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-18.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-18.json",
+    "sha256": "049110213966f05712e7095253eaef00c4a35ba88f18d715d13c45dbd17f09b8"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "card"
+  ],
+  "dependencies": []
+}

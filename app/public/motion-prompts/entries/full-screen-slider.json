@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/full-screen-slider",
+  "name": "Full Screen Slider",
+  "slug": "full-screen-slider",
+  "titleZh": "全屏轮播",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "slider",
+  "description": "A fullscreen vertical image slider driven by the mouse wheel: each wheel step reveals or hides a slide by tweening its clip-path polygon while gsap.to zooms the underlying image from scale 2 to 1, and three stacked text columns (number, name, year) slide by 30px each with staggered power4.inOut tweens. Triggered by the wheel event with an isAnimating lock.",
+  "tags": [
+    "fullscreen-slider",
+    "clip-path",
+    "wheel-scroll",
+    "gsap",
+    "image-reveal",
+    "vertical-slider",
+    "editorial",
+    "kinetic-typography",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/full-screen-slider",
+  "docsUrl": "https://motionprompts.dev/component/full-screen-slider/",
+  "demoUrl": "https://motionprompts.dev/components/full-screen-slider/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/full-screen-slider.webp",
+  "videoUrl": "https://motionprompts.dev/previews/full-screen-slider.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/full-screen-slider.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/full-screen-slider.md",
+    "sha256": "aa5720f5c21218b110e01c06261f0197b3f88174244880b50e7061239afbc002",
+    "upstreamUrl": "https://motionprompts.dev/prompts/full-screen-slider.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/full-screen-slider/prompt.md"
+  },
+  "motion": {
+    "trigger": "wheel",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 400,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      2,
+      2.6
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 5,
+      "bytes": 809079,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "wheel-stepped clip-path slide reveal (bottom edge sweeps up over 2s power4.inOut) with a counter-moving power3.inOut image zoom from scale 2 / top 4em to scale 1 / top 0, plus a three-band odometer: .prefix/.names/.years translate in fixed 30px steps behind a 30px clip-path window, staggered 0.15s apart. Discrete, non-scrubbed, gated by an isAnimating boolean — no rAF loop, no inertia, no ScrollTrigger.",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [
+    "page-scroll-lock"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/full-screen-slider/"
+}

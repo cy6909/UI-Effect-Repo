@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-16",
+  "slug": "tabs-16",
+  "name": "Tabs 16",
+  "titleZh": "标签页 tabs-16",
+  "description": "Vertical tabs with underline styling in left-side layout",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-16",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-16.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-16.json",
+    "sha256": "8072784a8861fcd2ea42f88b0cf3b950ef2595629ab574696fd391984893ee0e"
+  },
+  "registryDependencies": [
+    "tabs"
+  ],
+  "dependencies": []
+}

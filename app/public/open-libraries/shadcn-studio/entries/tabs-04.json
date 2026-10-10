@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-04",
+  "slug": "tabs-04",
+  "name": "Tabs 4",
+  "titleZh": "标签页 tabs-04",
+  "description": "Tabs with badge components for displaying notifications, counters, or status indicators",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-04.json",
+    "sha256": "727381d64b41458e9d13a7f268fe1547c5b7185220e9dfcdedc1d264e3cb1227"
+  },
+  "registryDependencies": [
+    "badge",
+    "tabs"
+  ],
+  "dependencies": []
+}

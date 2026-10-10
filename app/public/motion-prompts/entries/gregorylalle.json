@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/gregorylalle",
+  "name": "Gregory Lalle Awwwards Rebuild",
+  "slug": "gregorylalle",
+  "titleZh": "Gregory Lalle 获奖页面重构",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A scroll-driven vertical portfolio gallery where a fixed project index number reveals and pushes up via masked GSAP digit tweens as each section enters the viewport center. ScrollTrigger drives a side progress bar, a moving project-name indicator, and a bottom-right preview image that syncs to whichever gallery image is currently centered, with Lenis smooth scrolling.",
+  "tags": [
+    "scroll",
+    "gallery",
+    "gsap",
+    "scrolltrigger",
+    "lenis",
+    "portfolio",
+    "editorial",
+    "masked-text",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/gregorylalle",
+  "docsUrl": "https://motionprompts.dev/component/gregorylalle/",
+  "demoUrl": "https://motionprompts.dev/components/gregorylalle/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/gregorylalle.webp",
+  "videoUrl": "https://motionprompts.dev/previews/gregorylalle.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/gregorylalle.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/gregorylalle.md",
+    "sha256": "8fc61b7dfa610fa89d6968e4845018d505a3920274d1c11f594970913ff99d67",
+    "upstreamUrl": "https://motionprompts.dev/prompts/gregorylalle.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/gregorylalle/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": true,
+    "ease_family": "power2",
+    "duration_range": [
+      0.3,
+      0.75
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 50,
+      "bytes": 7861809,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "SCROLL-THRESHOLD",
+    "engine": "gsap+raf",
+    "motion_signature": "scroll-pinned index numerals swap over fixed preview",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "reveal-on-enter"
+  },
+  "capabilities": [
+    "page-scroll-owner"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/gregorylalle/"
+}

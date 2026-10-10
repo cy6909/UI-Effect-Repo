@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dialog-08",
+  "slug": "dialog-08",
+  "name": "Dialog 8",
+  "titleZh": "对话框 dialog-08",
+  "description": "Terms and conditions dialog with structured content and accept/decline actions",
+  "tags": [
+    "dialog",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dialog-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dialog-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/dialog",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dialog-08.json",
+    "sha256": "e0bb81058cf3dd7e86caeb140168264fff9e18680818b12983923a6d7af3d443"
+  },
+  "registryDependencies": [
+    "button",
+    "dialog"
+  ],
+  "dependencies": []
+}

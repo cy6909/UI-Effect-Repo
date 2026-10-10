@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/spotlight-text",
+  "slug": "spotlight-text",
+  "name": "SPOTLIGHT TEXT",
+  "titleZh": "聚光灯显字",
+  "description": "一句话以浅灰铺底，深色真身只在一圈 140px 的径向光斑内显形，光斑实时跟随指针——文字在你指向的地方被点亮。",
+  "tags": [
+    "text",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--spotlight-text",
+  "detailUrl": "/open-libraries/motion-vault/entries/spotlight-text.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=spotlight-text",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/spotlight-text.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/spotlight-text.md",
+    "sha256": "fd15672d154771203eae40f132891664b681aca022f94e340467b8d77b7313aa",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/spotlight-text.json",
+    "sha256": "c79418b147d19f2aaca4e06cabf9499db7030ec78d24bc8e8fb56211a6fca2f4"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

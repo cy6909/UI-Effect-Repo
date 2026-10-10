@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/tilt-3d",
+  "slug": "tilt-3d",
+  "name": "CONTAINER SCROLL",
+  "titleZh": "滚动摊平",
+  "description": "一张\"应用截图\"卡从 rotateX 24° 的俯瞰姿态随滚动缓缓摊平到正视，上方标题同时上移淡出——产品发布页的经典开场。",
+  "tags": [
+    "scroll",
+    "scroll",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ScrollEffects",
+  "path": "/open/motion-vault--tilt-3d",
+  "detailUrl": "/open-libraries/motion-vault/entries/tilt-3d.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=tilt-3d",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/tilt-3d.jpg",
+  "interaction": "scroll",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/tilt-3d.md",
+    "sha256": "a1f02be21e4cbc297af0a8c3289081da99a004925b038d663f601b6e21b12812",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/tilt-3d.json",
+    "sha256": "19efe063dceb0852b0dbf5e30ea80a3aaf8783fe3a056a4737c05c0c5869642e"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

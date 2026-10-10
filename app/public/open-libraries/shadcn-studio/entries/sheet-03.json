@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sheet-03",
+  "slug": "sheet-03",
+  "name": "Sheet 3",
+  "titleZh": "侧边面板 sheet-03",
+  "description": "A non-modal sheet component without overlay for profile editing",
+  "tags": [
+    "sheet",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sheet-03",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sheet-03.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sheet",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sheet-03.json",
+    "sha256": "276d33e42196876c2d178724888c10b66611b35d3aa4103d93c825922ba3d230"
+  },
+  "registryDependencies": [
+    "button",
+    "input",
+    "label",
+    "sheet"
+  ],
+  "dependencies": []
+}

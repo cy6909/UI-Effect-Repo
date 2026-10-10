@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-21",
+  "slug": "badge-21",
+  "name": "Badge 21",
+  "titleZh": "徽标 badge-21",
+  "description": "Successful status badge with green outline and check icon",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-21",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-21.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-21.json",
+    "sha256": "4c4e80464e61c4bb5cc916876cbb77af43a6a7fa3a61a647e6c5673873c29b13"
+  },
+  "registryDependencies": [
+    "badge"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/sonner-08",
+  "slug": "sonner-08",
+  "name": "Sonner 8",
+  "titleZh": "通知 sonner-08",
+  "description": "A toast notification with configurable positioning options for all screen corners and centers for e.g. (top-left, top-right, bottom-left, bottom-right, center)",
+  "tags": [
+    "sonner",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--sonner-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/sonner-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/sonner",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/sonner-08.json",
+    "sha256": "cef5e8096b6c9fb8abcc4d008fe8e1b9be9e8a89b8fe1899f8132dc2992eedef"
+  },
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "sonner"
+  ]
+}

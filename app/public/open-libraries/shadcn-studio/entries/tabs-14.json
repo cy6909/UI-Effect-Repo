@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/tabs-14",
+  "slug": "tabs-14",
+  "name": "Tabs 14",
+  "titleZh": "标签页 tabs-14",
+  "description": "Overflow tabs with scrollable area for handling many tab items",
+  "tags": [
+    "tabs",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--tabs-14",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/tabs-14.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/tabs",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/tabs-14.json",
+    "sha256": "98077374cad722e01f7915eb1a51cb1b5a52670fa6bd3990465079f68a046964"
+  },
+  "registryDependencies": [
+    "scroll-area",
+    "tabs"
+  ],
+  "dependencies": []
+}

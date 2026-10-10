@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/letter-stagger",
+  "slug": "letter-stagger",
+  "name": "LETTER STAGGER",
+  "titleZh": "逐字弹入",
+  "description": "每个字母从下方带弹性交错弹入，俏皮而有节奏感。悬停预览窗即可重播。",
+  "tags": [
+    "text",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "TextAnimations",
+  "path": "/open/motion-vault--letter-stagger",
+  "detailUrl": "/open-libraries/motion-vault/entries/letter-stagger.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=letter-stagger",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/letter-stagger.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/letter-stagger.md",
+    "sha256": "395b38c3367d1e8630cae681a9aeef0d5e7f2875fa42835f0e25ae3459997cde",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/letter-stagger.json",
+    "sha256": "340d4619a7b0bac8fe1b1e9995770c8649432dea8148b0f7375bc506b4eeb1ed"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

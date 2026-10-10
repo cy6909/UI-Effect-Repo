@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/warp-field",
+  "slug": "warp-field",
+  "name": "WARP FIELD",
+  "titleZh": "超空间穿越",
+  "description": "数百个星点从隧道深处拉成光线迎面冲来，速度周期性脉冲加速，配合轻微旋转营造跃迁感。",
+  "tags": [
+    "3d",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "ThreeD",
+  "path": "/open/motion-vault--warp-field",
+  "detailUrl": "/open-libraries/motion-vault/entries/warp-field.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=warp-field",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/warp-field.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/warp-field.md",
+    "sha256": "c3dc4754e7c9e5ea7d42acb0fda2eaa9eccab8737f4b487cb799b541a324731e",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/warp-field.json",
+    "sha256": "13ec7af87d7ee2223d86f4185a2eddfa92f1f5e3e8dfa33ead02ceb062cf3844"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

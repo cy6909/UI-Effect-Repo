@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/date-picker-13",
+  "slug": "date-picker-13",
+  "name": "Date Picker 13",
+  "titleZh": "日期选择 date-picker-13",
+  "description": "Analytics chart with date range filter showing visitor data and interactive filtering",
+  "tags": [
+    "date-picker",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--date-picker-13",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/date-picker-13.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/date-picker",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/date-picker-13.json",
+    "sha256": "2f28f76e5361f482e2f301bd355aaa51cc8ef3392aa01977b7cd1041b7c4c450"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "card",
+    "chart",
+    "popover"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "recharts"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/lamp",
+  "slug": "lamp",
+  "name": "LAMP",
+  "titleZh": "灯光展开",
+  "description": "顶部一条细线亮起，锥形光束向下展开，'LAMPLIGHT' 字样随后浮出——点击可开关。",
+  "tags": [
+    "background",
+    "click",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--lamp",
+  "detailUrl": "/open-libraries/motion-vault/entries/lamp.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=lamp",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/lamp.jpg",
+  "interaction": "click",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/lamp.md",
+    "sha256": "e943a955ac0c9255a6f53b2800d636b28d8de1b1c89fd8baef1b5db55acce3f8",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/lamp.json",
+    "sha256": "fa21ba7f3174fb7cc9c80676784a6c2ae68f35d9b33caf3a1049f94439e7e236"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

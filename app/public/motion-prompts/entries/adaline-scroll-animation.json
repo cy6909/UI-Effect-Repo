@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/adaline-scroll-animation",
+  "name": "Adaline Scroll Animation",
+  "slug": "adaline-scroll-animation",
+  "titleZh": "Adaline 滚动动效",
+  "category": "ScrollEffects",
+  "source": "motion-prompts",
+  "sourceCategory": "scroll",
+  "description": "A pinned hero where a 104-frame image sequence is played back frame-by-frame on a <canvas> driven by scroll. A single ScrollTrigger (pin + scrub over 7x viewport height, Lenis-smoothed) maps scroll progress to the frame index while its onUpdate also fades the nav out, pushes the headline back on the Z axis and fades it, then flies a framed photo in from translateZ(1000px) to 0 near the end.",
+  "tags": [
+    "scroll",
+    "canvas",
+    "image-sequence",
+    "frame-by-frame",
+    "pin",
+    "scrub",
+    "3d-perspective",
+    "lenis",
+    "cinematic",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/adaline-scroll-animation",
+  "docsUrl": "https://motionprompts.dev/component/adaline-scroll-animation/",
+  "demoUrl": "https://motionprompts.dev/components/adaline-scroll-animation/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/adaline-scroll-animation.webp",
+  "videoUrl": "https://motionprompts.dev/previews/adaline-scroll-animation.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/adaline-scroll-animation.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/adaline-scroll-animation.md",
+    "sha256": "dca302a45d49134afdb524203227487424482228256c1c933c9ffe2c10887b5d",
+    "upstreamUrl": "https://motionprompts.dev/prompts/adaline-scroll-animation.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/adaline-scroll-animation/prompt.md"
+  },
+  "motion": {
+    "trigger": "scroll",
+    "libs": [
+      "gsap",
+      "ScrollTrigger",
+      "lenis"
+    ],
+    "complexity": 3,
+    "pinned": true,
+    "viewport_heights": 700,
+    "needs_lenis": true,
+    "ease_family": null,
+    "duration_range": null,
+    "stagger": null,
+    "assets_required": {
+      "count": 106,
+      "bytes": 4600235,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "reclama el primer canvas del documento"
+    ],
+    "cluster": "SCROLL-LAGGED",
+    "engine": "mixed",
+    "motion_signature": "scrubbed pinned canvas image-sequence with Z-axis reveals",
+    "systems": [
+      "scrub-lagged",
+      "scrub-welded"
+    ],
+    "native_system": "scrub-lagged"
+  },
+  "capabilities": [
+    "page-scroll-owner",
+    "first-canvas"
+  ],
+  "conflicts": [
+    {
+      "slug": "kaitonote-3d-gallery-showcase-scroll-animation",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "madeinuxstudio-page-transition",
+      "kind": "kills-all"
+    },
+    {
+      "slug": "nakedcityfilms-scroll-animation",
+      "kind": "kills-all"
+    }
+  ],
+  "dependencies": [
+    "gsap",
+    "lenis"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/adaline-scroll-animation/"
+}

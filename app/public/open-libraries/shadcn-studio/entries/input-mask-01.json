@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/input-mask-01",
+  "slug": "input-mask-01",
+  "name": "Input Mask 1",
+  "titleZh": "输入框 input-mask-01",
+  "description": "An input field with custom alphanumeric mask pattern for structured data entry",
+  "tags": [
+    "input-mask",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--input-mask-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/input-mask-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/input-mask",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/input-mask-01.json",
+    "sha256": "e18243235950b01b7f045cde4eebd41c4f685d68af1059b271279b6e1bcc2e1e"
+  },
+  "registryDependencies": [
+    "input",
+    "label"
+  ],
+  "dependencies": [
+    "use-mask-input"
+  ]
+}

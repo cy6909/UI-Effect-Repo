@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/accordion-15",
+  "slug": "accordion-15",
+  "name": "Accordion 15",
+  "titleZh": "折叠面板 accordion-15",
+  "description": "Multi-level accordion with nested collapsible sections for hierarchical FAQ organization.",
+  "tags": [
+    "accordion",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--accordion-15",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/accordion-15.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/accordion",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/accordion-15.json",
+    "sha256": "905337a3dc18102c3085b9e25981c06ccd36f271f991278f3e6e41ad79f84bec"
+  },
+  "registryDependencies": [
+    "accordion",
+    "collapsible"
+  ],
+  "dependencies": [
+    "@radix-ui/react-accordion",
+    "lucide-react"
+  ]
+}

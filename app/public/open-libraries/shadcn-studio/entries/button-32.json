@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/button-32",
+  "slug": "button-32",
+  "name": "Button 32",
+  "titleZh": "按钮 button-32",
+  "description": "Circular icon button with plus icon and tooltip for enhanced UX",
+  "tags": [
+    "button",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--button-32",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/button-32.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/button",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/button-32.json",
+    "sha256": "1a82fc3e4c0bd7680f2445c3c69c66c7a726ac901cc3fb51f3a2f8770a90c0de"
+  },
+  "registryDependencies": [
+    "button",
+    "tooltip"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

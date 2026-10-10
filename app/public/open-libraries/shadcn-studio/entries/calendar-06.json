@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-06",
+  "slug": "calendar-06",
+  "name": "Calendar 6",
+  "titleZh": "日历 calendar-06",
+  "description": "Calendar with disabled dates before a specific date for restricted selection",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-06.json",
+    "sha256": "93a05360ef98685823a5e1ee451dbb954d0263770e41f7048de82a8e622b8dee"
+  },
+  "registryDependencies": [
+    "calendar"
+  ],
+  "dependencies": []
+}

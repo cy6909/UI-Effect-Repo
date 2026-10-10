@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/rain-glass",
+  "slug": "rain-glass",
+  "name": "RAIN GLASS",
+  "titleZh": "玻璃雨滴",
+  "description": "雨点落在起雾的玻璃上：水珠随机凝结、长大、彼此吞并，攒够了就蜿蜒滑落，拖出一条短暂的清亮水道。",
+  "tags": [
+    "background",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--rain-glass",
+  "detailUrl": "/open-libraries/motion-vault/entries/rain-glass.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=rain-glass",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/rain-glass.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/rain-glass.md",
+    "sha256": "fdaed55f000d88ccde561bf6669c78e48b271fdeed3b8f23ce4882c50975e7c0",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/rain-glass.json",
+    "sha256": "ea7d1803aa4e9b6a1c10fe90a0a2b2764e81c73cf8a705791c73a6c91d9036d6"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/comet-card",
+  "slug": "comet-card",
+  "name": "COMET CARD",
+  "titleZh": "彗星尾迹卡",
+  "description": "深色卡面上三颗小彗星错峰划过：亮头拖着渐隐的长尾，沿不同角度周期性掠过，周而复始。",
+  "tags": [
+    "card",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--comet-card",
+  "detailUrl": "/open-libraries/motion-vault/entries/comet-card.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=comet-card",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/comet-card.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/comet-card.md",
+    "sha256": "0f386ae0be15932243bfeed826889f3ccc071ba8b6affc2621232a8cafd1dec3",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/comet-card.json",
+    "sha256": "729a460c86877311a5b86583636f88c7d4caa3966e10159d3b169efbb16daab6"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

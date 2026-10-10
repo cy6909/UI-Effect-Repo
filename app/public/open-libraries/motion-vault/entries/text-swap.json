@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/text-swap",
+  "slug": "text-swap",
+  "name": "TEXT SWAP",
+  "titleZh": "文字滑换",
+  "description": "悬停时文字向上滑出、新文案从下方滑入——干脆利落的排版微交互。",
+  "tags": [
+    "button",
+    "hover",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--text-swap",
+  "detailUrl": "/open-libraries/motion-vault/entries/text-swap.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=text-swap",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/text-swap.jpg",
+  "interaction": "hover",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/text-swap.md",
+    "sha256": "b371ba956805fd3c1f2d0075c2945b6e7b0dba06fc930714150cf42272e856b1",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/text-swap.json",
+    "sha256": "c4b03481d67cb829574117d102323638d94a912b8d235f39e8e617a4deedb3e3"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

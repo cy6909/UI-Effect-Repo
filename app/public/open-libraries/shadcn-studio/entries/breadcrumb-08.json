@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/breadcrumb-08",
+  "slug": "breadcrumb-08",
+  "name": "Breadcrumb 8",
+  "titleZh": "面包屑 breadcrumb-08",
+  "description": "Outlined breadcrumb with bordered container styling for defined boundaries",
+  "tags": [
+    "breadcrumb",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Navigation",
+  "path": "/open/shadcn-studio--breadcrumb-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/breadcrumb-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/breadcrumb",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/breadcrumb-08.json",
+    "sha256": "d31fbd1e8af9887e6c52568d147ddc7418c0ba25d671d941cea8f3faed154a84"
+  },
+  "registryDependencies": [
+    "breadcrumb"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

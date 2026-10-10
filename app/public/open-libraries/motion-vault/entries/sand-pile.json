@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/sand-pile",
+  "slug": "sand-pile",
+  "name": "SAND PILE",
+  "titleZh": "流沙堆积",
+  "description": "顶部流沙倾泻而下，沙粒按元胞自动机规则下落、侧滑、堆成沙丘；按住鼠标从指间漏沙，点击沙丘会把它搅塌。",
+  "tags": [
+    "particle",
+    "move",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Backgrounds",
+  "path": "/open/motion-vault--sand-pile",
+  "detailUrl": "/open-libraries/motion-vault/entries/sand-pile.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=sand-pile",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/sand-pile.jpg",
+  "interaction": "move",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/sand-pile.md",
+    "sha256": "30100a51b3772c47c605fbc381c72a9fec59a4801bbb9c9502ce4ca192d97e63",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/sand-pile.json",
+    "sha256": "2a7bc47018ca72ff0f510fd500fc50d61aa7025beeba7cb8b6319a06c8970238"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

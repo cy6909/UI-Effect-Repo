@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/accordion-01",
+  "slug": "accordion-01",
+  "name": "Accordion 1",
+  "titleZh": "折叠面板 accordion-01",
+  "description": "Basic accordion with default styling and collapsible FAQ items.",
+  "tags": [
+    "accordion",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--accordion-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/accordion-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/accordion",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/accordion-01.json",
+    "sha256": "04bb7658244d48397e822e22c81650c75fe73b5731a890a16ad065d72e599173"
+  },
+  "registryDependencies": [
+    "accordion"
+  ],
+  "dependencies": []
+}

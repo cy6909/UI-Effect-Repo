@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/badge-11",
+  "slug": "badge-11",
+  "name": "Badge 11",
+  "titleZh": "徽标 badge-11",
+  "description": "Link badge that can be used as clickable navigation element",
+  "tags": [
+    "badge",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--badge-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/badge-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/badge",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/badge-11.json",
+    "sha256": "cdfcebdc1bb4be696b67aec902e0635169982889ea24742dd789542e7828e434"
+  },
+  "registryDependencies": [
+    "badge"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

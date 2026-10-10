@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/textarea-11",
+  "slug": "textarea-11",
+  "name": "Textarea 11",
+  "titleZh": "多行输入 textarea-11",
+  "description": "A textarea with start icon positioned on the left side",
+  "tags": [
+    "textarea",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--textarea-11",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/textarea-11.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/textarea",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/textarea-11.json",
+    "sha256": "551589f553b9712b330ee5fa3f79614579647988992df4bef38007a59c56f1c5"
+  },
+  "registryDependencies": [
+    "label",
+    "textarea"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

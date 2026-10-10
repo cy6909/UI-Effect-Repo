@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/form-04",
+  "slug": "form-04",
+  "name": "Form 4",
+  "titleZh": "表单 form-04",
+  "description": "Form with input fields and validation alerts for data entry",
+  "tags": [
+    "form",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--form-04",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/form-04.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/form",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/form-04.json",
+    "sha256": "cb8693774d28433ed5004432292f804ac5a5a028c74b35034f9e358b8e5b9898"
+  },
+  "registryDependencies": [
+    "alert",
+    "button",
+    "form",
+    "input"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "sonner"
+  ]
+}

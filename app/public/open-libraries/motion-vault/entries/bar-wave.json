@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/bar-wave",
+  "slug": "bar-wave",
+  "name": "BAR WAVE",
+  "titleZh": "音浪条",
+  "description": "五根圆角竖条像均衡器一样起伏，中间最高——把等待变成一小段律动。",
+  "tags": [
+    "loader",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--bar-wave",
+  "detailUrl": "/open-libraries/motion-vault/entries/bar-wave.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=bar-wave",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/bar-wave.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/bar-wave.md",
+    "sha256": "65baadfdd1622574f3d857a8d5b1a20ef7d3c8e0ac71e7a3ceaf4ee0de7a53b1",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/bar-wave.json",
+    "sha256": "78efd4ba718d859c65454a8509865608b833109177d671394f82703ba46dff28"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/switch-12",
+  "slug": "switch-12",
+  "name": "Switch 12",
+  "titleZh": "开关 switch-12",
+  "description": "A switch with check and X icon indicators that change visibility based on toggle state",
+  "tags": [
+    "switch",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Micro",
+  "path": "/open/shadcn-studio--switch-12",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/switch-12.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/switch",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/switch-12.json",
+    "sha256": "0b2f64865f0c225e712b891cc798345204c153a63594d338c527d1af54ca6500"
+  },
+  "registryDependencies": [
+    "switch"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/we-go-again",
+  "name": "We Go Again",
+  "slug": "we-go-again",
+  "titleZh": "We Go Again · 画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A three-column documentary-studio film selector where a vertical thumbnail gallery on the right lets you click any item to swap the featured project. On click, GSAP animates the current title/copy/credits lines out (y:-60, power4.in, staggered) while the featured image scales up and collapses away; on completion the details are rebuilt, SplitType re-splits the copy into lines, and the new text (y:40→0, power4.out, stagger) plus image (scale 0→1, power4.out) animate in, while the full-screen blurred background crossfades between the two images.",
+  "tags": [
+    "gallery",
+    "gsap",
+    "split-type",
+    "image-transition",
+    "stagger",
+    "text-reveal",
+    "backdrop-blur",
+    "editorial",
+    "showcase",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/we-go-again",
+  "docsUrl": "https://motionprompts.dev/component/we-go-again/",
+  "demoUrl": "https://motionprompts.dev/components/we-go-again/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/we-go-again.webp",
+  "videoUrl": "https://motionprompts.dev/previews/we-go-again.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/we-go-again.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/we-go-again.md",
+    "sha256": "30d8e97c5aa1600d111db56586b3fdf40913dec83b1686c70d3c90898679f74e",
+    "upstreamUrl": "https://motionprompts.dev/prompts/we-go-again.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/we-go-again/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "SplitType"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": 280,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 8,
+      "bytes": 1739231,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body height fija en vh"
+    ],
+    "cluster": "STEP-MACHINE",
+    "engine": "gsap",
+    "motion_signature": "click-swapped detail panel: staggered line exit/enter, image scale, blur crossfade",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "step-advance"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap",
+    "split-type"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/we-go-again/"
+}

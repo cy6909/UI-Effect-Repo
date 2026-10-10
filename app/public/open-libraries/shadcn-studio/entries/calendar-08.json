@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/calendar-08",
+  "slug": "calendar-08",
+  "name": "Calendar 8",
+  "titleZh": "日历 calendar-08",
+  "description": "Localized calendar with language switching between English and Hindi",
+  "tags": [
+    "calendar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--calendar-08",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/calendar-08.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/calendar",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/calendar-08.json",
+    "sha256": "6b99ab9b069885b0a7f8dd99f086256057a866cd23572fa490011eb369c07a1d"
+  },
+  "registryDependencies": [
+    "calendar",
+    "card",
+    "select"
+  ],
+  "dependencies": [
+    "react-day-picker"
+  ]
+}

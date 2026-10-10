@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/moving-border",
+  "slug": "moving-border",
+  "name": "MOVING BORDER",
+  "titleZh": "流动边框卡",
+  "description": "一段明亮的锌黑沿圆角矩形的边界匀速巡游，带着一层柔光残影，周而复始。",
+  "tags": [
+    "card",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Components",
+  "path": "/open/motion-vault--moving-border",
+  "detailUrl": "/open-libraries/motion-vault/entries/moving-border.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=moving-border",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/moving-border.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/moving-border.md",
+    "sha256": "a8518cb7c93716e4694432375353ad50869da5ddbaba57b6b5afef0954b9ad98",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/moving-border.json",
+    "sha256": "f2b4239f3c2430a353a746f5aec7c8e32c8164aeea7b2239b9f0615d4dfbe7c5"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

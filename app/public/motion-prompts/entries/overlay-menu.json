@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/overlay-menu",
+  "name": "Meristem Overlay Menu",
+  "slug": "overlay-menu",
+  "titleZh": "Meristem 覆盖式菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "Fullscreen overlay menu toggled by a hamburger button: a paused GSAP timeline scales four stacked green background layers in from the top (scaleY 0 to 1, 0.1s stagger, power3.inOut), then wipes the nav panel in with a clip-path polygon reveal while SplitText line-masked links slide up from y:100% with a 0.05s stagger (power3.out). Clicking again reverses the timeline and resets the link lines on close.",
+  "tags": [
+    "overlay",
+    "menu",
+    "hamburger",
+    "split-text",
+    "masked-lines",
+    "clip-path",
+    "stacked-layers",
+    "stagger",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/overlay-menu",
+  "docsUrl": "https://motionprompts.dev/component/overlay-menu/",
+  "demoUrl": "https://motionprompts.dev/components/overlay-menu/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/overlay-menu.webp",
+  "videoUrl": "https://motionprompts.dev/previews/overlay-menu.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/overlay-menu.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/overlay-menu.md",
+    "sha256": "0df0298b6d156c6eb13db6d729609604a8e63d9f6e861c58cf9a301ff23c36ac",
+    "upstreamUrl": "https://motionprompts.dev/prompts/overlay-menu.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/overlay-menu/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "SplitText"
+    ],
+    "complexity": 2,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      0.75
+    ],
+    "stagger": 0.05,
+    "assets_required": {
+      "count": 2,
+      "bytes": 2318800,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "click-toggled stack of 4 staggered scaleY curtains (0.1 stagger, power3.inOut, top-origin except a bottom-origin mint sliver) overlapped -=0.6 by a top-down clip-path reveal of .nav-items, then masked link lines rising y 100%→0% after a 0.85s delay with 0.05 stagger; reverse plays the whole thing backwards and resets lines to y:100%",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/overlay-menu/"
+}

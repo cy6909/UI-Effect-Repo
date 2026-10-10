@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-vault/shine-sweep",
+  "slug": "shine-sweep",
+  "name": "SHINE SWEEP",
+  "titleZh": "扫光按钮",
+  "description": "一道斜向高光周期性地扫过按钮表面，像被阳光掠过。",
+  "tags": [
+    "button",
+    "auto",
+    "MotionVault"
+  ],
+  "source": "motion-vault",
+  "category": "Micro",
+  "path": "/open/motion-vault--shine-sweep",
+  "detailUrl": "/open-libraries/motion-vault/entries/shine-sweep.json",
+  "promptAccess": "full",
+  "promptKind": "recreation",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "demoUrl": "/integrations/motion-vault/index.html?effect=shine-sweep",
+  "docsUrl": "https://github.com/xiyu519/MotionVault/tree/0d74e8b8948d2106c0726edfc8b179c03caec49d/src/components/effects",
+  "previewMode": "local",
+  "posterUrl": "/open-libraries/motion-vault/posters/shine-sweep.jpg",
+  "interaction": "auto",
+  "license": "/open-libraries/motion-vault/LICENSE.txt",
+  "upstreamCommit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+  "prompt": {
+    "url": "/open-libraries/motion-vault/prompts/shine-sweep.md",
+    "sha256": "fcc5ed8932dbf5aee62c53b7a003765d112906556e3a6cb61e2d041d437a11ab",
+    "language": "en",
+    "kind": "recreation"
+  },
+  "bundle": {
+    "url": "/open-libraries/motion-vault/bundles/shine-sweep.json",
+    "sha256": "695edba84552f31e434f8fc7e1edbc380b1422ce266d02a3a4f3d5b35f5e6d3c"
+  },
+  "provenance": {
+    "model": "unknown",
+    "reasoningEffort": "unknown",
+    "firstPassVerified": false
+  }
+}

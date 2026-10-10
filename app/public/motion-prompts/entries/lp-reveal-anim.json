@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/lp-reveal-anim",
+  "name": "Norrwood Landing Page Reveal",
+  "slug": "lp-reveal-anim",
+  "titleZh": "Norrwood 页面入场揭幕",
+  "category": "PageTransitions",
+  "source": "motion-prompts",
+  "sourceCategory": "preloader",
+  "description": "An on-load hero intro for the Norrwood furniture atelier where a single paused GSAP timeline orchestrates the whole reveal: two giant 'NORR / WOOD' word-marks slide up letter-by-letter with a staggered mask, spread apart and scale up, while the center product image un-clips from its center point and scales to full size; the surrounding side images then wipe open via clip-path stagger, the headline drops to the bottom, product captions slide up, and the nav drops in. Runs once on DOMContentLoaded after a 0.5s delay using power3.out.",
+  "tags": [
+    "reveal",
+    "intro",
+    "clip-path",
+    "gsap-timeline",
+    "stagger",
+    "landing-page",
+    "editorial",
+    "furniture",
+    "load-animation",
+    "gsap",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/lp-reveal-anim",
+  "docsUrl": "https://motionprompts.dev/component/lp-reveal-anim/",
+  "demoUrl": "https://motionprompts.dev/components/lp-reveal-anim/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/lp-reveal-anim.webp",
+  "videoUrl": "https://motionprompts.dev/previews/lp-reveal-anim.webm",
+  "promptAccess": "full",
+  "detailUrl": "/motion-prompts/entries/lp-reveal-anim.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "full",
+    "url": "/motion-prompts/prompts/lp-reveal-anim.md",
+    "sha256": "65522b0079d01014e7095192159eeb9edfa62f6bff8583ef99ed7a1b0e845576",
+    "upstreamUrl": "https://motionprompts.dev/prompts/lp-reveal-anim.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/lp-reveal-anim/prompt.md"
+  },
+  "motion": {
+    "trigger": "load",
+    "libs": [
+      "gsap"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power3",
+    "duration_range": [
+      0.25,
+      1
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 7,
+      "bytes": 713843,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": true,
+    "solo_reasons": [
+      "html/body overflow:hidden"
+    ],
+    "cluster": "LOAD-ONESHOT",
+    "engine": "gsap",
+    "motion_signature": "one-shot staggered clip-path and wordmark load reveal",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "entry-veil"
+  },
+  "capabilities": [
+    "page-scroll-lock",
+    "entry-veil"
+  ],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/lp-reveal-anim/"
+}

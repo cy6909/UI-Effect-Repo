@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/date-picker-05",
+  "slug": "date-picker-05",
+  "name": "Date Picker 5",
+  "titleZh": "日期选择 date-picker-05",
+  "description": "Natural language date picker supporting phrases like \"tomorrow\" or \"next week\"",
+  "tags": [
+    "date-picker",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--date-picker-05",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/date-picker-05.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/date-picker",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/date-picker-05.json",
+    "sha256": "38c7012f85ddfb88025b1b4ae261945a82271bcc0fb29b1bccf0638e8f325569"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "input",
+    "label",
+    "popover"
+  ],
+  "dependencies": [
+    "chrono-node",
+    "lucide-react"
+  ]
+}

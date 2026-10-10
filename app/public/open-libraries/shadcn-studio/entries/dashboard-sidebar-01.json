@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/dashboard-sidebar-01",
+  "slug": "dashboard-sidebar-01",
+  "name": "Dashboard Sidebar 1",
+  "titleZh": "界面组件 dashboard-sidebar-01",
+  "description": "Social media analytics dashboard sidebar featuring Content Performance, Audience Insights, Hashtag Performance, Competitor Analysis, Influencer tracking, Campaign Tracking, Sentiment Tracking, Real Time Monitoring, and Schedule Post & Calendar navigation",
+  "tags": [
+    "dashboard-sidebar",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--dashboard-sidebar-01",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/dashboard-sidebar-01.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://github.com/shadcnstudio/shadcn-studio/blob/72a20331970218848103184b61e1efa9d0e08dea/public/r/dashboard-sidebar-01.json",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/dashboard-sidebar-01.json",
+    "sha256": "da719fd003a7460e62949de4c2c54fc7402b723467b35d53b9ae1efa2ae66f5f"
+  },
+  "registryDependencies": [
+    "card",
+    "sidebar"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ]
+}

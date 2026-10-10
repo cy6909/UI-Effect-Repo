@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/3d-material-finish-switcher",
+  "name": "3D Material Finish Switcher",
+  "slug": "3d-material-finish-switcher",
+  "titleZh": "3D 材质切换",
+  "category": "ThreeD",
+  "source": "motion-prompts",
+  "sourceCategory": "3d-webgl",
+  "description": "Full-viewport Three.js hero with a GLB pocket watch whose finish is swapped at runtime from a JSON of PBR presets: three MeshPhysicalMaterial recipes plus a real MeshTransmissionMaterial for the crystal, lit by nothing but a generated studio HDRI whose bright panel is aimed at the exact cone a flat case reflects. The dial stays towards the camera — the case sways instead of turning, and a drag eases back — so the highlight travels across the finish in every frame. A static poster is the LCP, the canvas is only built when the section enters the viewport, and a capability gate plus a runtime frame-time ladder decide whether the visitor gets transmission, plain physical, or the still.",
+  "tags": [
+    "three",
+    "webgl",
+    "glb",
+    "pbr",
+    "transmission",
+    "material",
+    "hdri",
+    "product-showcase",
+    "hero",
+    "poster",
+    "@pmndrs/vanilla",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/3d-material-finish-switcher",
+  "docsUrl": "https://motionprompts.dev/component/3d-material-finish-switcher/",
+  "demoUrl": "https://motionprompts.dev/components/3d-material-finish-switcher/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/3d-material-finish-switcher.webp",
+  "videoUrl": "https://motionprompts.dev/previews/3d-material-finish-switcher.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/3d-material-finish-switcher.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/3d-material-finish-switcher.md",
+    "sha256": "66850d248119475ffce2faf5cad056e34f06a2fcce49b7ae006a8d015b776a68",
+    "upstreamUrl": "https://motionprompts.dev/prompts/3d-material-finish-switcher.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/3d-material-finish-switcher/prompt.md"
+  },
+  "motion": {
+    "trigger": "pointer",
+    "libs": [
+      "three",
+      "GLTFLoader",
+      "MeshoptDecoder",
+      "HDRLoader",
+      "@pmndrs/vanilla"
+    ],
+    "complexity": 4,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": null,
+    "duration_range": [
+      0.2,
+      2.4
+    ],
+    "stagger": null,
+    "assets_required": {
+      "count": 9,
+      "bytes": 1253745,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "touch-branch",
+      "media_queries": 1,
+      "reduced_motion": true
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "INTEGRATOR",
+    "engine": "webgl-raf",
+    "motion_signature": "rAF angular integrator with pointer impulse; runtime PBR/transmission material swap",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "three",
+    "@pmndrs/vanilla"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/3d-material-finish-switcher/"
+}

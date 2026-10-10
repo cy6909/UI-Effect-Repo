@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/date-picker-06",
+  "slug": "date-picker-06",
+  "name": "Date Picker 6",
+  "titleZh": "日期选择 date-picker-06",
+  "description": "Date range picker with compact date formatting using little-date library",
+  "tags": [
+    "date-picker",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--date-picker-06",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/date-picker-06.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/date-picker",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/date-picker-06.json",
+    "sha256": "6c5af1387ee87710344df5b710ee6644794aad22cfe240bdcce1cf4ba44a381e"
+  },
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "label",
+    "popover"
+  ],
+  "dependencies": [
+    "little-date",
+    "lucide-react"
+  ]
+}

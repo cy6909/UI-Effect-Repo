@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/inkwell-image-gallery-javascript",
+  "name": "Inkwell-Inspired Image Gallery",
+  "slug": "inkwell-image-gallery-javascript",
+  "titleZh": "Inkwell-Inspired 图片画廊",
+  "category": "Galleries",
+  "source": "motion-prompts",
+  "sourceCategory": "gallery",
+  "description": "A ring of 25 small cards arranged in a circle that reacts to cursor proximity: nearby cards flip 180deg on rotationY, scale up and push outward via per-frame lerp, while the whole ring parallax-tilts (rotateX/Y) toward the mouse. Clicking a card runs a GSAP power4 timeline that spins and scales the gallery 5x downward into a full preview and reveals the card title with a SplitText word stagger; clicking anywhere or pressing Escape reverses it.",
+  "tags": [
+    "gallery",
+    "circular",
+    "gsap",
+    "split-text",
+    "hover",
+    "parallax",
+    "3d-flip",
+    "lerp",
+    "interactive",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/inkwell-image-gallery-javascript",
+  "docsUrl": "https://motionprompts.dev/component/inkwell-image-gallery-javascript/",
+  "demoUrl": "https://motionprompts.dev/components/inkwell-image-gallery-javascript/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/inkwell-image-gallery-javascript.webp",
+  "videoUrl": "https://motionprompts.dev/previews/inkwell-image-gallery-javascript.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/inkwell-image-gallery-javascript.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/inkwell-image-gallery-javascript.md",
+    "sha256": "9fca03bd0672d4d78dd9d2cc844452da3ca96fe819a609d4609dc081c44bcefd",
+    "upstreamUrl": "https://motionprompts.dev/prompts/inkwell-image-gallery-javascript.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/inkwell-image-gallery-javascript/prompt.md"
+  },
+  "motion": {
+    "trigger": "hover",
+    "libs": [
+      "gsap",
+      "SplitText"
+    ],
+    "complexity": 3,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.3,
+      2.5
+    ],
+    "stagger": 0.1,
+    "assets_required": {
+      "count": 20,
+      "bytes": 782705,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "width-branch",
+      "media_queries": 2,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "POINTER-CHASE",
+    "engine": "gsap+raf",
+    "motion_signature": "rAF-lerped 3D card ring with zoom-to-preview",
+    "systems": [
+      "continuous-follow"
+    ],
+    "native_system": "continuous-follow"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/inkwell-image-gallery-javascript/"
+}

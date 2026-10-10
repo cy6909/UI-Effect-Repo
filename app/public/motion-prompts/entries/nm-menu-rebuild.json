@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "motion-prompts/nm-menu-rebuild",
+  "name": "Fullscreen Portfolio Menu",
+  "slug": "nm-menu-rebuild",
+  "titleZh": "作品集全屏菜单",
+  "category": "Navigation",
+  "source": "motion-prompts",
+  "sourceCategory": "menu",
+  "description": "A fullscreen overlay navigation that toggles open on clicking the burger button: a GSAP timeline sweeps a clip-path polygon over the whole viewport on a power4.inOut ease, then staggers the oversized menu items up from a y offset with power4.out, grows a CSSRulePlugin-animated underline on the active item, and fades the social sub-nav up into place. Clicking again reverses the same timeline.",
+  "tags": [
+    "fullscreen-menu",
+    "overlay",
+    "clip-path",
+    "burger-toggle",
+    "staggered-reveal",
+    "cssruleplugin",
+    "gsap",
+    "editorial",
+    "minimal",
+    "Motion Prompts"
+  ],
+  "path": "/motion-prompts/nm-menu-rebuild",
+  "docsUrl": "https://motionprompts.dev/component/nm-menu-rebuild/",
+  "demoUrl": "https://motionprompts.dev/components/nm-menu-rebuild/index.html",
+  "posterUrl": "https://motionprompts.dev/thumbs/nm-menu-rebuild.webp",
+  "videoUrl": "https://motionprompts.dev/previews/nm-menu-rebuild.webm",
+  "promptAccess": "preview",
+  "detailUrl": "/motion-prompts/entries/nm-menu-rebuild.json",
+  "variants": [],
+  "upstreamCommit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+  "license": "/motion-prompts/LICENSE.txt",
+  "attribution": "motionprompts.dev · Vanguardia",
+  "sourceAvailable": false,
+  "previewMode": "remote-video",
+  "prompt": {
+    "language": "en",
+    "access": "preview",
+    "url": "/motion-prompts/prompts/nm-menu-rebuild.md",
+    "sha256": "a8f6ada1cb974686021e92ccc64dd8f1faaf93739e269ea66623cff984a3f500",
+    "upstreamUrl": "https://motionprompts.dev/prompts/nm-menu-rebuild.md",
+    "distributionUrl": "https://github.com/VanguardiaAI/motionprompts-mcp/blob/8b10277d8d886c3e576bbd65de2aded6a50070cf/components/nm-menu-rebuild/prompt.md"
+  },
+  "motion": {
+    "trigger": "click",
+    "libs": [
+      "gsap",
+      "CSSRulePlugin"
+    ],
+    "complexity": 1,
+    "pinned": false,
+    "viewport_heights": null,
+    "needs_lenis": false,
+    "ease_family": "power4",
+    "duration_range": [
+      0.25,
+      1.5
+    ],
+    "stagger": 0.2,
+    "assets_required": {
+      "count": 1,
+      "bytes": 639250,
+      "root_absolute_paths": true
+    },
+    "mobile_behavior": {
+      "kind": "css-responsive-only",
+      "media_queries": 1,
+      "reduced_motion": false
+    },
+    "solo_on_page": false,
+    "solo_reasons": [],
+    "cluster": "CLICK-CURTAIN",
+    "engine": "gsap",
+    "motion_signature": "clip-path overlay sweep (top edge expanding downward, power4.inOut, 1.5s) with a 0.2s-staggered masked y:225->0 menu rise overlapping 1s early, then an underline width grow and sub-nav fade",
+    "systems": [
+      "curtain-toggle",
+      "entry-veil",
+      "pointer-latch",
+      "reveal-on-enter",
+      "step-advance"
+    ],
+    "native_system": "curtain-toggle"
+  },
+  "capabilities": [],
+  "conflicts": [],
+  "dependencies": [
+    "gsap"
+  ],
+  "integration": {
+    "standaloneDemo": true,
+    "sourceDistributed": false,
+    "previewUsesUpstreamMedia": true,
+    "requiresBundler": true
+  },
+  "accountUrl": "https://motionprompts.dev/account/",
+  "sourcePage": "https://motionprompts.dev/component/nm-menu-rebuild/"
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/accordion-09",
+  "slug": "accordion-09",
+  "name": "Accordion 9",
+  "titleZh": "折叠面板 accordion-09",
+  "description": "Outline-style accordion with bordered items and spacing between each accordion item.",
+  "tags": [
+    "accordion",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--accordion-09",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/accordion-09.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/accordion",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/accordion-09.json",
+    "sha256": "4f4fb9df9e484ed07bbee2f2567d42a84740aab4d84d9abacb06afe821ecef2f"
+  },
+  "registryDependencies": [
+    "accordion"
+  ],
+  "dependencies": []
+}

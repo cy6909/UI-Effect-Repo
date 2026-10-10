@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shadcn-studio/table-14",
+  "slug": "table-14",
+  "name": "Table 14",
+  "titleZh": "表格 table-14",
+  "description": "A table with integrated pagination controls for navigating through large datasets",
+  "tags": [
+    "table",
+    "Shadcn Studio",
+    "源码",
+    "source"
+  ],
+  "source": "shadcn-studio",
+  "category": "Components",
+  "path": "/open/shadcn-studio--table-14",
+  "detailUrl": "/open-libraries/shadcn-studio/entries/table-14.json",
+  "promptAccess": "unavailable",
+  "promptKind": "none",
+  "sourceAvailable": true,
+  "variants": [
+    "TSX"
+  ],
+  "docsUrl": "https://shadcnstudio.com/docs/components/table",
+  "previewMode": "external",
+  "license": "/open-libraries/shadcn-studio/LICENSE.txt",
+  "upstreamCommit": "72a20331970218848103184b61e1efa9d0e08dea",
+  "prompt": null,
+  "bundle": {
+    "url": "/open-libraries/shadcn-studio/bundles/table-14.json",
+    "sha256": "21923a8961e556ad584236aa27474f662963d61ffe6ceb43885c8e3ebfef2804"
+  },
+  "registryDependencies": [
+    "pagination",
+    "table"
+  ],
+  "dependencies": []
+}
