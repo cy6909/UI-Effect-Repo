@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/DavidHDev/react-bits",
+  "commit": "7b69ba117ca7876dc9ca5ff3c09cf514de4b2d62",
+  "reviewedOn": "2026-10-09",
+  "licensePath": "LICENSE.md",
+  "licenseLabel": "MIT + Commons Clause License Condition v1.0",
+  "adoptionStatus": "adopted-in-fork",
+  "codeImported": true,
+  "forkRepository": "https://github.com/cy6909/react-bits",
+  "branch": "codex/personal-library",
+  "personalCommit": "a934c4f8c2743c73751ef3f38e95722112eafbfe",
+  "checkout": ".upstream/react-bits",
+  "decisionUrl": "https://app.notion.com/p/3f490f837c9581999382d56c6b7f6c41",
+  "motionPrompts": {
+    "repository": "https://github.com/VanguardiaAI/motionprompts-mcp",
+    "commit": "8b10277d8d886c3e576bbd65de2aded6a50070cf",
+    "entries": 248,
+    "fullPublicPrompts": 30,
+    "officialExcerpts": 218,
+    "componentSourceImported": false,
+    "mediaCopied": false
+  },
+  "personalAi": {
+    "entries": 7,
+    "archive": "https://app.notion.com/p/3f490f837c95815a9cfafa2b6591b307",
+    "originalHtmlFiles": 3,
+    "originalPromptFiles": 1,
+    "generationProvenance": "unknown"
+  },
+  "openLibraries": {
+    "motionVault": {
+      "commit": "0d74e8b8948d2106c0726edfc8b179c03caec49d",
+      "entries": 202
+    },
+    "shadcnStudio": {
+      "commit": "72a20331970218848103184b61e1efa9d0e08dea",
+      "sourceBundles": 637
+    },
+    "shadcnIo": {
+      "commit": "2dc66e0e7b159fa92e761c84f3c5325c9700c415",
+      "referenceLinks": 75
+    },
+    "websiteReferences": 16,
+    "totalCatalogEntries": 1384
+  }
+}
